@@ -280,6 +280,43 @@ a.tag-link:hover {
   margin: 1rem 0;
 }
 
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.post-content thead {
+  border-bottom: 2px solid var(--accent);
+}
+
+.post-content th {
+  text-align: left;
+  font-weight: 600;
+  padding: 0.625rem 0.75rem;
+  color: var(--text);
+  background: var(--surface);
+  white-space: nowrap;
+}
+
+.post-content td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.post-content tr:hover td {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.post-content tbody tr:last-child td {
+  border-bottom: none;
+}
+
 /* Giscus */
 .comments {
   margin-top: 3rem;
