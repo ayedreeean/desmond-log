@@ -71,22 +71,98 @@ function formatDateShort(dateStr) {
   });
 }
 
-function renderTags(tags) {
-  return (tags || []).map(t => `<span class="tag">${t}</span>`).join(' ');
+function renderTags(tags, linkable = false) {
+  return (tags || []).map(t => {
+    if (linkable) return `<a href="index.html?tag=${encodeURIComponent(t)}" class="tag tag-link">${t}</a>`;
+    return `<span class="tag">${t}</span>`;
+  }).join(' ');
 }
 
 // --- Index page ---
+let allPosts = [];
+let activeTag = null;
+
+function getTagFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('tag');
+}
+
+function getAllTags(posts) {
+  const tagCount = {};
+  posts.forEach(p => (p.tags || []).forEach(t => {
+    tagCount[t] = (tagCount[t] || 0) + 1;
+  }));
+  return Object.entries(tagCount).sort((a, b) => b[1] - a[1]);
+}
+
+function renderTagFilter(posts) {
+  const bar = document.getElementById('tag-filter');
+  if (!bar) return;
+
+  const tags = getAllTags(posts);
+  if (tags.length === 0) { bar.style.display = 'none'; return; }
+
+  const allClass = !activeTag ? 'tag tag-filter-btn active' : 'tag tag-filter-btn';
+  let html = `<button class="${allClass}" data-tag="">All</button>`;
+  tags.forEach(([tag, count]) => {
+    const cls = activeTag === tag ? 'tag tag-filter-btn active' : 'tag tag-filter-btn';
+    html += `<button class="${cls}" data-tag="${tag}">${tag} <span class="tag-count">${count}</span></button>`;
+  });
+  bar.innerHTML = html;
+
+  bar.querySelectorAll('.tag-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag || null;
+      activeTag = tag;
+      const url = tag ? `?tag=${encodeURIComponent(tag)}` : window.location.pathname;
+      history.replaceState(null, '', url);
+      renderTagFilter(allPosts);
+      renderPostList(allPosts);
+    });
+  });
+}
+
+function renderPostList(posts) {
+  const container = document.getElementById('post-list');
+  if (!container) return;
+
+  const filtered = activeTag
+    ? posts.filter(p => (p.tags || []).includes(activeTag))
+    : posts;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">🔍</div>
+        <p>No posts with tag "${activeTag}".</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(post => `
+    <a href="post.html?id=${post.id}" class="post-card">
+      <h2>${post.title}</h2>
+      <div class="meta">
+        <span>${formatDateShort(post.date)}</span>
+        ${renderTags(post.tags)}
+      </div>
+      <div class="excerpt">${post.excerpt}</div>
+    </a>
+  `).join('');
+}
+
 async function loadIndex() {
   const container = document.getElementById('post-list');
   if (!container) return;
 
   container.innerHTML = '<div class="loading"></div>';
+  activeTag = getTagFromURL();
 
   try {
     const res = await fetch(POSTS_INDEX);
-    const posts = await res.json();
+    allPosts = await res.json();
 
-    if (posts.length === 0) {
+    if (allPosts.length === 0) {
       container.innerHTML = `
         <div class="empty-state">
           <div class="icon">🔷</div>
@@ -96,18 +172,9 @@ async function loadIndex() {
     }
 
     // Sort newest first
-    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    container.innerHTML = posts.map(post => `
-      <a href="post.html?id=${post.id}" class="post-card">
-        <h2>${post.title}</h2>
-        <div class="meta">
-          <span>${formatDateShort(post.date)}</span>
-          ${renderTags(post.tags)}
-        </div>
-        <div class="excerpt">${post.excerpt}</div>
-      </a>
-    `).join('');
+    allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    renderTagFilter(allPosts);
+    renderPostList(allPosts);
   } catch (e) {
     container.innerHTML = `
       <div class="empty-state">
@@ -154,7 +221,7 @@ async function loadPost() {
         <h1>${meta.title}</h1>
         <div class="meta">
           <span>${formatDate(meta.date)}</span>
-          ${renderTags(meta.tags)}
+          ${renderTags(meta.tags, true)}
         </div>
       `;
     }
