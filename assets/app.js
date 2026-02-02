@@ -230,8 +230,101 @@ function loadGiscus() {
   container.appendChild(script);
 }
 
+// --- Projects page ---
+async function loadProjects() {
+  const container = document.getElementById('project-list');
+  if (!container) return;
+
+  container.innerHTML = '<div class="loading"></div>';
+
+  try {
+    const res = await fetch('projects/index.json');
+    const projects = await res.json();
+
+    if (projects.length === 0) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <div class="icon">🔷</div>
+          <p>No projects yet.</p>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = projects.map(p => `
+      <a href="project.html?id=${p.id}" class="post-card project-card">
+        <div class="project-card-header">
+          <span class="project-icon">${p.icon || '📁'}</span>
+          <h2>${p.title}</h2>
+          <span class="tag project-status status-${p.status}">${p.status}</span>
+        </div>
+        <div class="excerpt">${p.summary}</div>
+      </a>
+    `).join('');
+  } catch (e) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">⚠️</div>
+        <p>Failed to load projects.</p>
+      </div>`;
+  }
+}
+
+// --- Single project page ---
+async function loadProject() {
+  const container = document.getElementById('project-content');
+  if (!container) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+
+  if (!id) {
+    window.location.href = 'projects.html';
+    return;
+  }
+
+  container.innerHTML = '<div class="loading"></div>';
+
+  try {
+    const indexRes = await fetch('projects/index.json');
+    const projects = await indexRes.json();
+    const meta = projects.find(p => p.id === id);
+
+    const mdRes = await fetch(`projects/${id}.md`);
+    if (!mdRes.ok) throw new Error('Project not found');
+    let md = await mdRes.text();
+
+    // Remove first H1 (rendered from metadata)
+    md = md.replace(/^# .+\n+/, '');
+
+    const header = document.getElementById('project-header');
+    if (header && meta) {
+      header.innerHTML = `
+        <a href="projects.html" class="back-link">← All projects</a>
+        <h1>${meta.icon || '📁'} ${meta.title}</h1>
+        <div class="meta">
+          <span class="tag project-status status-${meta.status}">${meta.status}</span>
+        </div>
+      `;
+    }
+
+    container.innerHTML = `<div class="post-content">${renderMarkdown(md)}</div>`;
+
+    if (meta) document.title = `${meta.title} — Desmond Log`;
+
+  } catch (e) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">🔍</div>
+        <p>Project not found.</p>
+        <a href="projects.html" class="back-link">← Back to projects</a>
+      </div>`;
+  }
+}
+
 // Init
 document.addEventListener('DOMContentLoaded', () => {
   loadIndex();
   loadPost();
+  loadProjects();
+  loadProject();
 });

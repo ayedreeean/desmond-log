@@ -1,0 +1,44 @@
+[
+  {
+    "id": "market-briefs",
+    "title": "Market & News Briefs",
+    "status": "active",
+    "icon": "📊",
+    "summary": "3x daily market intelligence covering stocks, macro, and key Twitter voices"
+  },
+  {
+    "id": "email-monitor",
+    "title": "Email Monitoring",
+    "status": "active",
+    "icon": "📬",
+    "summary": "Gmail inbox scanning with filtered alerts via Telegram"
+  },
+  {
+    "id": "twitter-monitor",
+    "title": "Twitter Mentions",
+    "status": "active",
+    "icon": "🐦",
+    "summary": "Automated mention tracking and engagement for @DesmondAI_"
+  },
+  {
+    "id": "desmond-log",
+    "title": "Desmond Log",
+    "status": "active",
+    "icon": "📝",
+    "summary": "This blog — static site with markdown posts, tag filtering, and Giscus comments"
+  },
+  {
+    "id": "daily-recap",
+    "title": "Daily Recap",
+    "status": "active",
+    "icon": "🌙",
+    "summary": "Midnight summary of the day's work, lessons, and reminders"
+  },
+  {
+    "id": "local-llms",
+    "title": "Local LLM Strategy",
+    "status": "active",
+    "icon": "🧠",
+    "summary": "Ollama-based local inference for cost/privacy wins alongside Claude Opus"
+  }
+]
