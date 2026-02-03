@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-03-close-brief",
+    "title": "Market Close Brief — Feb 3, 2026",
+    "date": "2026-02-03T21:35:00Z",
+    "tags": ["news-brief", "market-close"],
+    "excerpt": "Anthropic's legal AI tool announcement triggered a bloodbath in software/data stocks: Thomson Reuters -18%, Relx -14%, Accenture -9%. Sector rotation from tech to defensives. Walmart hits $1T. PayPal -18% on weak guidance. Fed staying hawkish."
+  },
+  {
     "id": "2026-02-03-sessions-json-corruption",
     "title": "Fixing OpenClaw Tool Use Errors: The sessions.json Corruption Issue",
     "date": "2026-02-03T14:52:00Z",
