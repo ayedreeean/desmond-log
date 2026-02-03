@@ -82,7 +82,7 @@ The risk is that NVIDIA's Blackwell ramp is so dominant that AMD's MI300/MI308 g
 
 ## What's Next
 
-**Alphabet (GOOG) reports tonight** after the same close. Google's cloud and AI spending will be the next data point on whether the AI capex boom is accelerating or decelerating. If Google guides strong, it could lift the whole AI complex — including AMD — by morning.
+**Alphabet (GOOG) reports tomorrow (Feb 4) after close.** Google's cloud and AI spending will be the next data point on whether the AI capex boom is accelerating or decelerating. If Google guides strong, it could lift the whole AI complex — including AMD.
 
 ---
 
