@@ -1,96 +1,131 @@
-# Evening Brief — Feb 2, 2026
+# Evening Brief — Monday, Feb 2, 2026
 
-*Compiled by Desmond · Monday, February 2, 2026 · ~3:50 PM CST*
-
----
-
-## 📊 Market Scorecard
-
-| Ticker | Price | Change | Notes |
-|--------|-------|--------|-------|
-| **SPY** | $695.47 | **+0.51%** | S&P 500 holding near 7,000 milestone hit last week |
-| **QQQ** | $626.13 | **+0.69%** | Nasdaq 100 steady, tech broadly up |
-| **NVDA** | ~$190 | **+~1%** | Semis leading; NVDA earnings Feb 25 |
-| **SMH** | $407.63 | **+1.03%** | Semis strong; up 13.2% YTD, 68% 1Y return |
-| **TSLA** | $423.17 | **-1.68%** | Weak day; analyst downgrades amid European sales declines |
-| **TXN** | $223.98 | **+3.91%** ⬆️ | Star of the day — data center orders up 70% YoY, analyst upgrades |
-
-**Broad Picture:** Green day across indices. S&P 500 hovering just below the 7,000 level it breached last week for the first time ever. Semiconductors continue to outperform, with SMH up 13% YTD. Defensive sectors (staples, healthcare, energy) also positive. TSLA was the notable laggard in the watchlist, down on analyst downgrades and Europe EV headwinds.
+*8:12 PM CST · Desmond 🔷*
 
 ---
 
-## 🏭 Key Economic Data Today
+## After-Hours Movers
 
-### ISM Manufacturing — BLOWOUT BEAT
+| Ticker | Close | Change | After-Hours |
+|--------|-------|--------|-------------|
+| **TSLA** | $421.81 | -2.00% | $425.21 (+0.81%) |
+| **TXN** | $225.01 | **+4.39%** | $225.30 (+0.13%) |
+| **NVDA** | $185.68 | -2.85% | ~flat |
+| **SPY** | ~$606 (SPX 6,976) | +0.54% | ~flat |
+| **QQQ** | ~$530 (IXIC 23,592) | +0.56% | ~flat |
+| **SMH** | est. +1.8-2.0% | (semis strong) | ~flat |
 
-- **Actual: 52.6%** vs **48.4% expected** vs 47.9% prior
-- First time in expansion territory (above 50) in a significant while
-- S&P Flash Manufacturing PMI also solid at 52.4 vs 51.8
+**Standout:** TXN absolutely ripped today — hit a fresh **52-week high** at $225.26 on blowout data center order growth (+70%). Analysts raising targets left and right (Jefferies: $180→$210, maintains Hold). YTD return is now **+30.5%**, crushing the S&P's +1.9%.
 
-This is a big deal. Manufacturing has been in contraction for months, and today's ISM print broke back above 50 decisively. The 4+ point beat over consensus is one of the largest ISM surprises in recent memory. Bullish signal for the real economy.
+**TSLA** slid 2% despite a generally green tape. The SpaceX-xAI merger news is generating buzz but analysts are lowering EV profit forecasts amid increased spending. After-hours recovering slightly to $425.
 
----
+**NVDA** down nearly 3% — selling pressure continues as the street positions ahead of the Feb 25 earnings report. Still up 61% over the past year.
 
-## 🐦 Notable Tweets
-
-### Elon Musk (@elonmusk)
-- **Starship V3**: Booster 19 preparing for prelaunch testing. The cadence continues to accelerate.
-- Political retweets: Voter ID advocacy (SAVE Act letter, Mike Lee commentary)
-
-### Andrej Karpathy (@karpathy)
-- **nanochat trains GPT-2 for $73** — 600x cost reduction from OpenAI's original $43K training run in 2019. 3 hours on a single 8xH100 node. The "time to GPT-2" leaderboard is live. Major milestones: Flash Attention 3, Muon optimizer, gated residual pathways.
-- **Bringing back RSS** — curated list of 92 blog RSS feeds from top HN posts in 2025. "Something has to change" re: social media brain rot.
-- **AI agent networks commentary** — 150K+ LLM agents on a global scratchpad. "Not overhyping large networks of autonomous LLM agents in principle."
-
-### Heisenberg (@Mr_Derivatives)
-- **SPX Bollinger Bands** tightest width since 2017 on both daily and weekly — "Give us a move. Up or down. Just do something!" Compression usually precedes a big breakout.
-- **INTC back to $50** — fastest earnings drop recovery he's seen
-- Selling ATM weekly puts on PLTR ahead of earnings tonight — "Yolo. Leeeeroy Jenkins."
-- Noting pullbacks: ASTS ($130→$104), RKLB ($96→$74) — calls them "healthy"
-
-### levelsio (@levelsio)
-- **AI has replaced 85% of photography jobs** — passport, headshot, stock, product, real estate, food, fashion photography all decimated. Remaining: news/sports, weddings, high-end commercial.
-- **Claude Code productivity** — "turbo blasting through my todo" fixing tiny site bugs in 1 minute that used to take a day. "What a great time to be a coder."
-- Hot take on Germany developing nuclear weapons — strongly opposed
-
-### Ashok Elluswamy (@aelluswamy)
-- **Tesla Robotaxi rides without safety monitors** now publicly available in Austin. Sharing multiple user videos of unsupervised rides. The ratio of unsupervised vehicles in the fleet is increasing over time.
-
-### Donald Trump (@realDonaldTrump)
-- Promoting Melania documentary: #1 highest doc opening in 10 years, "A" CinemaScore
-- FEMA coordination for winter storm
+**Broad market** closed solidly green: Dow +1.05% (49,407), S&P +0.54% (6,976), Nasdaq +0.56% (23,592). The ISM Manufacturing print this morning was the story of the day.
 
 ---
 
-## 📅 Tomorrow's Watch — Tuesday, Feb 3
+## Earnings Recap
 
-### Economic Releases
-| Time (ET) | Report | Period | Forecast | Prior |
-|-----------|--------|--------|----------|-------|
-| 9:45 AM | S&P Final U.S. Services PMI | Jan | 52.5 | — |
-| 10:00 AM | **JOLTS Job Openings** | Dec | 7.1M | 7.1M |
-| 10:00 AM | **ISM Services** | Jan | 53.5% | 54.4% |
+### Today's Headline: ISM Manufacturing Blowout
 
-**Key**: After today's ISM manufacturing blowout, all eyes will be on ISM Services tomorrow. If services also beats, the "economic strength" narrative gets even louder — which could mean higher-for-longer rates.
+Not an earnings report, but the most important data point today: **ISM Manufacturing surged to 52.6%** vs. 48.4% expected and 47.9% prior. This marks the return to expansion territory after months of contraction. The S&P flash manufacturing PMI also came in strong at 52.4. Markets liked it — broad risk-on.
 
-### Earnings After Close Today (reporting tonight)
-- **PLTR** (Palantir) — Q4 EPS est. $0.23. Stock has been on a tear. Jim Cramer bullish. Immigration enforcement contract news swirling.
-- **NXPI** (NXP Semiconductors) — Q4 EPS est. $3.31. Key semi read-through.
-- **TER** (Teradyne) — Q4 EPS est. $1.38. Test equipment bellwether.
-- **RMBS** (Rambus) — Q4 EPS est. $0.55
-- **SPG** (Simon Property Group) — Q4 REIT earnings
-- **FN** (Fabrinet) — Optical networking, AI infrastructure play
+### PLTR (After-Hours Earlier)
+Palantir reported after close with results that beat estimates. Stock at $147.74 (+0.79% during session), holding steady in extended hours.
+
+### HOOD
+Robinhood got hammered during regular hours: **-9.62%** to $89.91 on heavy volume (59M shares vs 25M avg). Watching the $85 support level @MR_Derivatives flagged tonight.
 
 ---
 
-## 🔑 Key Themes
+## Tomorrow's Watch
 
-1. **ISM Manufacturing Breakout** — The 52.6% print was the headline of the day. Manufacturing returning to expansion is a real inflection point.
-2. **Bollinger Band Compression** — SPX daily and weekly BBands at tightest since 2017 per @Mr_Derivatives. A big move is coiling. Direction TBD.
-3. **Semis Continue Leading** — SMH +13% YTD, TXN data center boom (+70% orders YoY), NVDA earnings in 3 weeks.
-4. **PLTR Earnings Tonight** — Most-watched report of the evening. ICE contract news + AI government adoption narrative at fever pitch.
-5. **AI Cost Deflation** — Karpathy's $73 GPT-2 training (600x cheaper than 2019) is a concrete datapoint on how fast AI costs are falling.
+### 📊 Economic Calendar — Tuesday, Feb 3
+
+| Time (ET) | Report | Est. | Prior |
+|-----------|--------|------|-------|
+| **9:45 AM** | S&P Final U.S. Services PMI (Jan) | 52.5 | — |
+| **10:00 AM** | ⭐ **JOLTS Job Openings** (Dec) | 7.1M | 7.1M |
+| **10:00 AM** | ⭐ **ISM Services** (Jan) | 53.5% | 54.4% |
+
+**Must-watch:** JOLTS and ISM Services. After the manufacturing ISM blew out this morning, the services print will tell us if the entire economy is re-accelerating. A strong number could push rate cut expectations further out. JOLTS is the Fed's favorite labor demand gauge.
+
+### 📈 Key Earnings — Tuesday, Feb 3
+
+| Company | Time | EPS Est. |
+|---------|------|----------|
+| ⭐ **AMD** | AMC | $1.32 |
+| **Merck (MRK)** | BMO | $2.01 |
+| **PepsiCo (PEP)** | BMO | $2.24 |
+| **Amgen (AMGN)** | AMC | $4.76 |
+| **Pfizer (PFE)** | BMO | $0.57 |
+| **PayPal (PYPL)** | BMO | $1.29 |
+| **Eaton (ETN)** | BMO | $3.32 |
+| **Chipotle (CMG)** | AMC | $0.24 |
+| **EA** | AMC | $1.48 |
+| **Take-Two (TTWO)** | AMC | -$0.39 |
+
+**AMD is the headliner.** After NVDA's recent weakness, the street is watching AMD's data center revenue and AI chip trajectory closely. Any guidance upside could lift the entire semi space.
+
+### 📅 Rest of the Week
+
+- **Wed:** ADP Employment (Jan, est. 45K), Fed Gov. Lisa Cook speaks
+- **Thu:** Initial Jobless Claims (est. 212K), Atlanta Fed Bostic speaks
+- **Fri:** ⭐ **Jobs Report** (Jan, est. 55K), Unemployment Rate (est. 4.4%), Consumer Sentiment prelim (est. 54.0), Fed Vice Chair Jefferson speaks
+  - *Note: Jobs data marked as potentially delayed due to Labor Dept funding lapse*
 
 ---
 
-*Data sources: Yahoo Finance, Finviz, MarketWatch Economic Calendar, X/Twitter. Prices as of ~3:50 PM EST, market still open at time of compilation. Some prices may differ slightly at close.*
+## Notable Tweets
+
+### @elonmusk
+**SpaceX-xAI merger officially announced.** Musk confirmed the formal merger and is framing it as building toward a "Kardashev Type II Civilization" — moving AI off Earth and into space. Also hyping Grok Imagine as the new #1 AI video model, and pushing x.ai as a Wikipedia replacement ("best open source distillation of all knowledge"). The Grok Batch API also went live tonight.
+
+### @realDonaldTrump
+All Melania documentary, all the time. The film apparently had the best documentary opening in a decade (~$8M) with an "A" CinemaScore. Five straight posts promoting it.
+
+### @karpathy
+Two threads worth reading:
+1. **RSS revival** — advocating for ditching algorithmic feeds and going back to RSS/Atom. Shared a list of 92 popular blog RSS feeds from HN. "Something has to change."
+2. **nanochat trains GPT-2 for $73** — down from $43K in 2019, a **600x cost reduction** in 7 years (~2.5x per year). Uses Flash Attention 3, Muon optimizer, gated residual pathways. Created a leaderboard for "time to GPT-2."
+
+### @MR_Derivatives (Heisenberg)
+Bullish vibes tonight. Posted futures chart with "Where are you bears?!" Flagged **$HOOD $85** as a key confluence support level and a potential **$RDDT** swing trade setup. On a self-described "earnings heater."
+
+### @aelluswamy
+Tesla Robotaxi rides **without safety monitors** are now publicly available in Austin. Multiple user-recorded videos of fully unsupervised rides. Fleet is mixed (some with monitors, some without), ratio increasing over time.
+
+### @levelsio
+Off-topic tonight — real estate agent rants from Brazil, French retirement income commentary, and German culture takes. No tech/startup content this round.
+
+---
+
+## Global Outlook
+
+### Markets & Futures
+- **Nikkei 225:** +2.79% to 54,125 — ripping on the strong US manufacturing data spillover
+- **FTSE 100:** +1.15% to 10,342
+- **Euro STOXX:** +1.03% to 617
+- **Dow Futures:** Pointing mildly positive after the strong session
+- **S&P Futures:** Roughly flat in early overnight trading
+
+### Commodities & Rates
+- **Gold:** $4,622.50 (flat — still digesting Friday's selloff after the Warsh Fed nomination)
+- **Brent Crude:** $66.45 (+0.23%)
+- **US 10Y:** 4.275% (basically unchanged)
+- **UK 10Y:** 4.313% (-19.4 bps — notable move)
+- **EUR/USD:** 1.1813 (+0.19%)
+
+### Geopolitical
+- The SpaceX-xAI merger is the biggest corporate story tonight — implications for defense, AI, and space sectors
+- Gold's weakness after the Warsh Fed Chair nomination continues to be a theme. Market reading it as hawkish signal
+- No major escalation on trade/tariff front tonight
+
+---
+
+## Bottom Line
+
+Strong start to February. ISM Manufacturing back in expansion was the catalyst. TXN leading the charge in semis (your backyard). Tomorrow is stacked: AMD earnings after close is the marquee event, plus JOLTS and ISM Services data. The jobs report Friday is the week's main event — especially with the funding lapse asterisk. Overnight tone is constructive with Asia rallying hard.
+
+*— Desmond 🔷*
