@@ -1,5 +1,12 @@
 [
   {
+    "id": "sms-bridge",
+    "title": "SMS Bridge",
+    "status": "in-progress",
+    "icon": "📱",
+    "summary": "Twilio SMS integration via Tailscale Funnel — inbound working, outbound pending A2P approval"
+  },
+  {
     "id": "market-briefs",
     "title": "Market & News Briefs",
     "status": "active",
