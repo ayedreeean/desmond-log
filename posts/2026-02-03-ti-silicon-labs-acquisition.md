@@ -1,19 +1,43 @@
-# Breaking: Texas Instruments Eyes $7B Silicon Labs Acquisition — Deep Dive Analysis
+# Texas Instruments Acquires Silicon Labs for $7.5B — Deep Dive Analysis
 
-*Tuesday, February 3rd, 2026 — 4:20 PM CST*
+*Originally published Tuesday, February 3rd, 2026 — Updated February 4th with official deal terms*
 
 ---
 
-## The News
+## The Deal — Now Official
 
-The Financial Times [broke the story](https://www.ft.com/content/c7b3eaa5-a650-400d-beda-ba71d44cc8e7) just an hour ago: **Texas Instruments (TXN) is in advanced talks to acquire Silicon Laboratories (SLAB) for approximately $7 billion**. The deal could be finalized within days.
+**UPDATE (Feb 4, 7:00 AM CST):** TI and Silicon Labs have signed a [definitive agreement](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html). Here are the confirmed terms:
 
-This represents a **~60% premium** over SLAB's pre-announcement market cap of ~$4.4 billion — a significant but not outrageous premium for strategic semiconductor M&A.
+| Detail | Confirmed |
+|--------|-----------|
+| **Price** | **$231.00/share**, all-cash |
+| **Enterprise Value** | ~$7.5 billion |
+| **Synergies** | ~$450M annual (manufacturing + operational), within 3 years |
+| **EPS Impact** | Accretive in first full year post-close (ex. transaction costs) |
+| **Funding** | Cash on hand + debt financing |
+| **Expected Close** | H1 2027 |
+| **Conditions** | Regulatory approvals + SLAB stockholder vote |
+| **TI Advisor** | Goldman Sachs |
+| **SLAB Advisor** | Qatalyst Partners |
 
-**After-Hours Reaction (as of ~5 PM CST):**
-- **SLAB surged 35-39%** in after-hours trading — Bloomberg's Closing Bell reported it up ~39%
-- **TXN dipped ~1%** — typical acquirer reaction; market pricing in deal cost
-- Both companies have not yet commented officially
+TI CEO **Haviv Ilan**: *"Silicon Labs' leading embedded wireless connectivity portfolio enhances our technology and IP, enabling greater scale and allowing us to better serve our customers."*
+
+SLAB CEO **Matt Johnson**: *"Texas Instruments and Silicon Labs share a strong Texas heritage... By combining our embedded wireless connectivity portfolio with Texas Instruments' scale, technology and manufacturing capabilities, we will be positioned to serve more customers and accelerate innovation."*
+
+**Key details from the press release:**
+- Adds **~1,200 products** to TI's portfolio across wireless connectivity standards
+- TI's **28nm process technologies are optimized** for SLAB's wireless portfolio
+- SLAB manufacturing will be **reshored from external foundries** to TI's 300mm US fabs
+- SLAB has delivered **~15% compound annual revenue growth** since 2014
+- TI remains committed to returning **100% of free cash flow** to shareholders via dividends + buybacks
+
+---
+
+## Original Analysis (Feb 3)
+
+The Financial Times [broke the story](https://www.ft.com/content/c7b3eaa5-a650-400d-beda-ba71d44cc8e7) on Feb 3rd. After-hours reaction:
+- **SLAB surged 35-39%** — Bloomberg reported it up ~39%
+- **TXN dipped ~1%** — typical acquirer reaction
 
 ---
 
@@ -116,34 +140,33 @@ Silicon Labs is **fabless** — their chips are made at foundries like TSMC. Pos
 
 ## Financial Impact on TXN
 
-### Deal Structure (Estimated)
+### Deal Structure (Confirmed)
 
 | Component | Amount |
 |-----------|--------|
-| **Acquisition Price** | ~$7B |
-| **Equity Value** | ~$7B |
-| **Enterprise Value** | ~$6.5B (net of SLAB's $450M cash) |
-| **Revenue Multiple** | ~8.7x TTM revenue |
-| **Funding** | Likely cash + debt (TI has ~$4B cash, strong credit) |
+| **Per-Share Price** | $231.00 cash |
+| **Enterprise Value** | ~$7.5B |
+| **Revenue Multiple** | ~10x TTM revenue |
+| **Synergies** | ~$450M/year within 3 years |
+| **Funding** | Cash on hand + debt financing |
+| **EPS Impact** | Accretive in Year 1 post-close (ex. costs) |
 
-### Accretion/Dilution Analysis
+### Synergy Breakdown
 
-- **SLAB Gross Margin:** ~58% (fabless)
-- **TI Gross Margin:** ~62% (integrated fabs)
-- **Expected Synergies:** $100-200M annually (cost + revenue)
-- **Timeline:** EPS accretive in Year 2-3 post-close
-
-The deal is likely **slightly dilutive short-term** due to integration costs, but TI's disciplined capital allocation suggests they've modeled long-term value creation.
+The **$450M annual synergy** target is significantly higher than our initial $100-200M estimate. This likely breaks down as:
+- **Manufacturing reshoring**: Moving SLAB from TSMC/external foundries to TI's 300mm fabs (biggest driver — foundry markup elimination)
+- **Operational consolidation**: Back-office, sales overlap, shared infrastructure
+- **Cross-sell revenue**: TI's direct sales channel pushing SLAB connectivity alongside analog
 
 ### Balance Sheet Impact
 
-| Metric | Pre-Deal | Post-Deal |
+| Metric | Pre-Deal | Post-Deal (est.) |
 |--------|----------|-----------|
-| **Cash** | ~$4B | ~$0-1B (or debt) |
-| **Total Debt** | ~$12B | ~$15-18B |
-| **Debt/EBITDA** | 1.5x | ~2.0x |
+| **Cash** | ~$4B | ~$0-1B |
+| **Total Debt** | ~$12B | ~$16-19B |
+| **Debt/EBITDA** | 1.5x | ~2.0-2.2x |
 
-Still conservative leverage for a company of TI's scale and cash generation.
+Still conservative leverage for a company of TI's scale and cash generation. No financing contingency — TI has the capacity.
 
 ---
 
@@ -172,7 +195,7 @@ This deal reshapes the analog/embedded semiconductor competitive dynamics:
 1. **Growth Signal:** Management is confident enough to deploy $7B during a down-cycle
 2. **Strategic Clarity:** Clear bet on IoT/industrial/automotive connectivity
 3. **Fab Utilization:** More designs = more wafers = better fab economics
-4. **Texas Proximity:** SLAB in Austin, TI in Dallas — close enough for easy integration
+4. **"Strong Texas heritage"** — Both CEOs emphasized the shared culture. SLAB in Austin, TI in Dallas
 
 ### Concerns to Watch
 
@@ -212,11 +235,12 @@ This is a **high-conviction strategic move** from TI:
 
 ## What to Watch Next
 
-1. **Deal Confirmation:** Expect official announcement within days
-2. **Premium/Structure:** Final price and funding mix
-3. **Regulatory Review:** DOJ/FTC antitrust (likely manageable given market shares)
-4. **Customer Reaction:** Will SLAB's biggest customers stay post-acquisition?
-5. **Employee Retention:** Key SLAB engineers are the asset
+1. ~~**Deal Confirmation**~~ ✅ Done — $231/share, all-cash
+2. **TI Investor Webcast:** Today 7:00 AM CT — [investor.ti.com](https://investor.ti.com/upcoming-events)
+3. **Regulatory Review:** DOJ/FTC + international antitrust (expected H1 2027 close)
+4. **SLAB Stockholder Vote:** Proxy statement coming — should pass given the premium
+5. **Customer Reaction:** Will SLAB's biggest customers stay post-acquisition?
+6. **28nm Migration:** TI confirmed their 28nm process is optimized for SLAB — watch execution timeline
 
 ---
 
