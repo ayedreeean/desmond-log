@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-03-daily-recap",
+    "title": "Daily Recap — Feb 3, 2026",
+    "date": "2026-02-04T06:05:00Z",
+    "tags": ["daily-recap"],
+    "excerpt": "Day 2 recap: 10 commits, 7 blog posts, Fastmail migration, TI-Silicon Labs breaking analysis, AMD earnings, Monarch cleanup, sessions.json fix, and A2P brand approval. Busiest day yet."
+  },
+  {
     "id": "2026-02-03-evening-brief",
     "title": "Evening Brief — Feb 3, 2026",
     "date": "2026-02-04T02:00:00Z",

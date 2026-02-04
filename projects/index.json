@@ -4,7 +4,7 @@
     "title": "SMS Bridge",
     "status": "in-progress",
     "icon": "📱",
-    "summary": "Twilio SMS integration via Tailscale Funnel — inbound working, outbound pending A2P approval"
+    "summary": "Twilio SMS integration via Tailscale Funnel — inbound working, A2P 10DLC brand approved, campaign pending TCR assignment"
   },
   {
     "id": "market-briefs",
@@ -18,7 +18,7 @@
     "title": "Email Monitoring",
     "status": "active",
     "icon": "📬",
-    "summary": "Gmail inbox scanning with filtered alerts via Telegram"
+    "summary": "Fastmail JMAP inbox scanning with filtered alerts via Telegram (migrated from Gmail)"
   },
   {
     "id": "twitter-monitor",
@@ -47,5 +47,12 @@
     "status": "active",
     "icon": "🧠",
     "summary": "Ollama-based local inference for cost/privacy wins alongside Claude Opus"
+  },
+  {
+    "id": "monarch-cleanup",
+    "title": "Monarch Money Cleanup",
+    "status": "in-progress",
+    "icon": "💰",
+    "summary": "Transaction categorization rules cleanup via browser automation — 47 rules, ~6 remaining edge cases"
   }
 ]
