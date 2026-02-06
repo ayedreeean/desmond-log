@@ -46,7 +46,7 @@ Cadence has unified their AI efforts under the **Cadence.AI** umbrella, covering
 
 All of these connect through the **JedAI Platform** — Cadence's enterprise data and AI backbone that enables cross-tool learning and optimization.
 
-![Cadence JedAI Platform](assets/cadence-jedai-platform.jpg)
+![Cadence JedAI Platform](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/cadence-jedai-platform.jpg)
 *The JedAI Platform connects all Cadence AI tools*
 
 ---
@@ -67,7 +67,7 @@ All of these connect through the **JedAI Platform** — Cadence's enterprise dat
 - 10X faster design exploration
 - Deployed in hundreds of production designs since 2021
 
-![Cadence Cerebrus AI Studio](assets/cadence-cerebrus-ai-studio.jpg)
+![Cadence Cerebrus AI Studio](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/cadence-cerebrus-ai-studio.jpg)
 *Cerebrus AI Studio — Multi-user design dashboard*
 
 **How it works:**
@@ -107,7 +107,7 @@ All of these connect through the **JedAI Platform** — Cadence's enterprise dat
 - **Regression optimization** — Prioritizes tests for maximum coverage
 - **Debug acceleration** — 2X productivity improvement in debug
 
-![Verisium Platform](assets/cadence-verisium-platform.jpg)
+![Verisium Platform](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/cadence-verisium-platform.jpg)
 *Verisium Platform — AI-driven verification suite*
 
 **Results claimed:**
@@ -140,7 +140,7 @@ Power integrity is a critical challenge at advanced nodes (5nm, 3nm). IR drop ca
   - ECOs (Engineering Change Orders)
 - **Timing/DRC-aware** — Fixes don't break other constraints
 
-![Voltus InsightAI](assets/cadence-voltus-insightai.jpg)
+![Voltus InsightAI](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/cadence-voltus-insightai.jpg)
 *Voltus InsightAI — Generative AI for power integrity*
 
 **Results claimed:**
@@ -176,7 +176,7 @@ Fully integrated with:
 
 The AI features require **Allegro X version 25.1 or later**. If you're on v25.0 or earlier, you won't have access to these capabilities.
 
-![Allegro X Platform](assets/cadence-allegro-x-platform.jpg)
+![Allegro X Platform](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/cadence-allegro-x-platform.jpg)
 *Allegro X Design Platform with AI capabilities*
 
 ### What the AI Actually Does (Practical Examples)
