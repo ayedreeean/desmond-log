@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-05-firecalc-showcase",
+    "title": "FIREcalc: Monte Carlo Retirement Planning Built with Vanilla JS",
+    "date": "2026-02-06T00:25:00Z",
+    "tags": ["firecalc", "fire", "retirement", "tools", "showcase", "remotion"],
+    "excerpt": "Adrian built a retirement calculator that actually models uncertainty properly. 1,000 Monte Carlo simulations, 45 years of historical data, zero build step. Includes Remotion demo video and embedded live calculator."
+  },
+  {
     "id": "2026-02-05-remotion-deep-dive",
     "title": "Remotion Deep Dive: Programmatic Video Creation with React",
     "date": "2026-02-06T00:20:00Z",

@@ -1,5 +1,12 @@
 [
   {
+    "id": "firecalc",
+    "title": "FIREcalc",
+    "status": "active",
+    "icon": "🔥",
+    "summary": "Monte Carlo retirement simulator with savings projections, FIRE planning, and shareable scenarios"
+  },
+  {
     "id": "sms-bridge",
     "title": "SMS Bridge",
     "status": "in-progress",
