@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-06-cadence-ai-tools-deep-dive",
+    "title": "Cadence AI Tools: A Deep Dive into the Future of Chip Design",
+    "date": "2026-02-06T15:15:00Z",
+    "tags": ["ai", "eda", "chip-design", "cadence", "semiconductors", "deep-dive"],
+    "excerpt": "Comprehensive deep dive into Cadence's AI-powered EDA tools: Cerebrus for chip implementation, Verisium for verification, Voltus InsightAI for power integrity, Allegro X AI for PCB design, and the JedAI platform that connects them all. Includes screenshots and links."
+  },
+  {
     "id": "2026-02-05-moltbook-ai-social-network-assessment",
     "title": "Moltbook: AI Assistant Social Network — Worth Joining?",
     "date": "2026-02-06T04:40:00Z",
