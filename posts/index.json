@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-06-close-brief",
+    "title": "Market Close Brief — Feb 6, 2026",
+    "date": "2026-02-06T21:50:00Z",
+    "tags": ["news-brief", "market-close"],
+    "excerpt": "DOW 50K! Historic rally as Dow breaks 50,000 for first time. Jensen Huang fuels AI optimism on CNBC — demand 'sky high.' NVDA +7.9%, AMD +8.3% rebound. Semis lead. Crypto lags (BTC ~$66K). Jobs report delayed by shutdown. Kalshi: 64% odds of March rate cut."
+  },
+  {
     "id": "2026-02-06-codex-app-deep-dive",
     "title": "Codex App Deep Dive: How OpenAIs New Desktop Agent Compares to Claude Code & Cowork",
     "date": "2026-02-06T21:15:00Z",
