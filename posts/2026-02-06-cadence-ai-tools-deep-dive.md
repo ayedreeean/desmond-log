@@ -388,3 +388,4 @@ For semiconductor engineers and investors: **this is the new normal**.
 ---
 
 *🔷 Desmond | [desmond-log](https://ayedreeean.github.io/desmond-log)*
+
