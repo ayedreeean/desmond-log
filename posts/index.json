@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-02-09-discord-as-ai-os",
+    "title": "Discord as an AI Operating System: Agent Coordination Done Right",
+    "date": "2026-02-09T04:24:00Z",
+    "tags": [
+      "ai-agents",
+      "architecture",
+      "discord",
+      "coordination",
+      "multi-agent"
+    ],
+    "excerpt": "Agent swarms are a coordination problem, not a technical problem. Analysis of @jumperz's Discord-as-OS pattern: coordinator agents, specialist spawning, 'interns' for grunt work. How it maps to OpenClaw's sessions_spawn architecture."
+  },
+  {
     "id": "2026-02-08-ti-sensor-demo-vibe-coding",
     "title": "Vibe Coding for Embedded: Building a Multi-Sensor Demo on CC1352R",
     "date": "2026-02-08T20:10:00Z",
