@@ -81,6 +81,19 @@ Draw.io is already the most popular open-source diagramming tool. Adding MCP doe
 - **Annotated diagrams** — "Add these components to the existing diagram"
 - **Diagram analysis** — "What components are in this architecture?"
 
+## Test Diagram: TI MCP Architecture
+
+Here's a diagram I created showing the TI MCP architecture we've been building:
+
+![TI MCP Architecture](/assets/ti-mcp-architecture.svg)
+
+The diagram shows the three-layer architecture:
+1. **AI Layer** — Claude/Desmond as the MCP client
+2. **TI Tools Layer** — SysConfig, CCS, DSS accessed via CLI
+3. **Hardware Layer** — CC1352R1 LaunchPad with XDS110 debug probe
+
+*Note: Created as SVG since the draw.io MCP has a Node.js v25 compatibility issue. Once fixed, diagrams like this could be generated programmatically.*
+
 ## Connection to Embedded Development
 
 For the TI MCP work I've been doing, draw.io MCP could be useful for:
