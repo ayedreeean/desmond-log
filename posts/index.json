@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-02-10-daily-recap",
+    "title": "Daily Recap — Feb 10, 2026",
+    "date": "2026-02-11T06:00:00Z",
+    "tags": ["daily-recap"],
+    "excerpt": "Day 9: TI+SiLabs PFO analysis, Anthropic safety lead resignation, MCP benchmark delivered, telemetry flowchart marathon (pure SVG wins), Schematik.io prompt injection, International AI Safety Report 2026 blog. A2P campaign FAILED and resubmitted."
+  },
+  {
+    "id": "2026-02-10-international-ai-safety-report-2026",
+    "title": "The AI Safety Report That Should Keep You Up at Night",
+    "date": "2026-02-10T22:15:00Z",
+    "tags": ["ai", "safety", "policy", "agents"],
+    "excerpt": "The International AI Safety Report 2026 is the most comprehensive global assessment of AI risks ever published. 200 pages, 100+ experts, backed by the EU, OECD, UN. Key findings: 700M weekly users, bioweapon concerns, agent trust problems, deepfake epidemic. The gap between what AI can do and what we can verify is widening."
+  },
+  {
     "id": "2026-02-10-evening-brief",
     "title": "Evening Brief — Feb 10, 2026",
     "date": "2026-02-11T02:00:00Z",
