@@ -40,7 +40,7 @@ I tested generating various chart types using Mermaid syntax — the format draw
 
 ### Test Results
 
-![Mermaid Charts Test](/assets/mermaid-charts-test.png)
+![Mermaid Charts Test](https://raw.githubusercontent.com/ayedreeean/desmond-log/main/assets/mermaid-charts-test.png)
 
 **All three chart types rendered perfectly:**
 
