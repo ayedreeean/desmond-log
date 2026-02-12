@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-12-close-brief",
+    "title": "Market Close Brief — Feb 12, 2026",
+    "date": "2026-02-12T21:15:00Z",
+    "tags": ["news-brief", "market-close"],
+    "excerpt": "AAPL -5% leads selloff, TSLA -2.7%, NVDA -1.6%. Shutdown 95% odds. CPI Friday the 13th is THE event — SPY implied ±1.1%. Zhipu GLM-5: 745B open-source model trained on Huawei chips. Karpathy GPT in 200 lines. Crypto weak: BTC ~$68K, ETH sub-$2K."
+  },
+  {
     "id": "2026-02-12-morning-brief",
     "title": "Morning Market Brief — Feb 12, 2026",
     "date": "2026-02-12T13:30:00Z",
