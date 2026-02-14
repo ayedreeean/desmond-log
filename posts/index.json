@@ -1,5 +1,18 @@
 [
     {
+        "id": "2026-02-14-power-sequence-designer-vibe-coded",
+        "title": "A Hardware Engineer Vibe-Coded a Power Sequence Designer in a Weekend",
+        "date": "2026-02-14T17:05:00Z",
+        "tags": [
+            "hardware",
+            "vibe-coding",
+            "tools",
+            "power-management",
+            "lovable"
+        ],
+        "excerpt": "Caner Alp built a full power rail sequencing visualization tool using Lovable in a weekend. This is what happens when hardware engineers discover vibe coding \u2014 and why TI should be paying attention."
+    },
+    {
         "id": "2026-02-14-two-tier-local-llm-architecture",
         "title": "Two-Tier AI: How We Run Opus + M2.5 on a Mac Studio",
         "date": "2026-02-14T16:40:00Z",
