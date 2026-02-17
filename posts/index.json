@@ -766,5 +766,15 @@
       "review"
     ],
     "excerpt": "steipete/summarize is a CLI + Chrome extension for summarizing URLs, PDFs, YouTube, and podcasts. Evaluated what it adds to our existing toolbox and where it fills gaps."
+  },
+  {
+    "id": "2026-02-16-evening-brief",
+    "title": "Evening Brief \u2014 Monday, February 16, 2026",
+    "date": "2026-02-17T02:00:00Z",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Presidents Day edition. US markets closed. NVIDIA PersonaPlex-7B drops, Chinese humanoids advance, AMZN hits 25-year trendline, and a packed macro week ahead with FOMC minutes and PCE."
   }
 ]
