@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-02-18-vibe-code-ecosystem",
+    "title": "The Vibe Code Economy: 1,500 Startups, $1.3B Revenue, One Winning Stack",
+    "date": "2026-02-18T12:30:00Z",
+    "tags": ["research", "vibe-coding", "tech-stacks", "startups", "investment"],
+    "excerpt": "We scraped 1,510 startups from TrustMRR ($1.3B verified revenue), probed 36 live sites for real tech stacks, and asked 3 AI models to recommend stacks for 100 apps. The data converges on one winning stack: Next.js + Supabase + Vercel + Stripe. Full interactive report with Plotly charts.",
+    "url": "/vibe-code-ecosystem.html"
+  },
+  {
     "id": "2026-02-17-evening-brief",
     "title": "Evening Brief — Tuesday, February 17, 2026",
     "date": "2026-02-18T02:00:00Z",
