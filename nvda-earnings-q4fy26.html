@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NVDA Q4 FY2026 Earnings Deep Dive — Desmond Research</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card: #12121a;
+    --border: #1e1e2e;
+    --text: #e0e0e0;
+    --muted: #888;
+    --green: #00d97e;
+    --red: #ff4757;
+    --blue: #4a9eff;
+    --gold: #ffd700;
+    --purple: #a855f7;
+    --orange: #ff8c42;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  
+  /* Header */
+  .hero { text-align: center; padding: 60px 20px 40px; background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0a1a2e 100%); border-bottom: 1px solid var(--border); }
+  .hero h1 { font-size: 2.8em; font-weight: 800; background: linear-gradient(135deg, var(--green), var(--blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+  .hero .subtitle { font-size: 1.3em; color: var(--muted); }
+  .hero .meta { margin-top: 15px; display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; }
+  .hero .meta span { background: var(--card); padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border); font-size: 0.9em; }
+  .hero .meta .price { color: var(--green); font-weight: 700; font-size: 1.1em; }
+  
+  /* Verdict Banner */
+  .verdict { background: linear-gradient(135deg, #1a1a2e, #16213e); border: 2px solid var(--blue); border-radius: 16px; padding: 30px; margin: 30px 0; text-align: center; }
+  .verdict h2 { font-size: 1.8em; margin-bottom: 15px; }
+  .verdict .prediction { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+  .verdict .pred-card { background: rgba(0,0,0,0.3); border-radius: 12px; padding: 20px; }
+  .verdict .pred-card .label { color: var(--muted); font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; }
+  .verdict .pred-card .value { font-size: 2em; font-weight: 800; margin-top: 5px; }
+  .verdict .pred-card .vs { font-size: 0.85em; color: var(--muted); margin-top: 5px; }
+  
+  /* Sections */
+  .section { margin: 40px 0; }
+  .section h2 { font-size: 1.6em; font-weight: 700; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--border); }
+  .section h2 .emoji { margin-right: 8px; }
+  .section h3 { font-size: 1.2em; color: var(--blue); margin: 20px 0 10px; }
+  
+  /* Cards Grid */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+  .card h4 { font-size: 1.1em; margin-bottom: 12px; }
+  .card .stat { font-size: 2.2em; font-weight: 800; }
+  .card .stat.green { color: var(--green); }
+  .card .stat.red { color: var(--red); }
+  .card .stat.blue { color: var(--blue); }
+  .card .stat.gold { color: var(--gold); }
+  .card .detail { color: var(--muted); font-size: 0.9em; margin-top: 8px; }
+  
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 15px 0; background: var(--card); border-radius: 12px; overflow: hidden; }
+  th { background: rgba(74, 158, 255, 0.1); padding: 12px 16px; text-align: left; font-weight: 600; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.5px; color: var(--blue); }
+  td { padding: 10px 16px; border-top: 1px solid var(--border); }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .positive { color: var(--green); font-weight: 600; }
+  .negative { color: var(--red); font-weight: 600; }
+  
+  /* Probability Matrix */
+  .prob-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0; }
+  .prob-item { background: var(--card); border-radius: 12px; padding: 20px; border-left: 4px solid; }
+  .prob-item.likely { border-color: var(--red); }
+  .prob-item.possible { border-color: var(--gold); }
+  .prob-item.unlikely { border-color: var(--green); }
+  .prob-item .pct { font-size: 2em; font-weight: 800; }
+  .prob-item .label { font-size: 0.95em; margin-top: 5px; }
+  .prob-item .desc { color: var(--muted); font-size: 0.85em; margin-top: 8px; }
+  
+  /* Bull/Bear */
+  .bull-bear { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .bull { border-left: 4px solid var(--green); }
+  .bear { border-left: 4px solid var(--red); }
+  .bull h3 { color: var(--green); }
+  .bear h3 { color: var(--red); }
+  
+  /* Charts */
+  .chart-container { background: var(--card); border-radius: 12px; padding: 20px; margin: 20px 0; border: 1px solid var(--border); }
+  
+  /* Smart Money */
+  .flow-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .flow-item:last-child { border-bottom: none; }
+  .flow-badge { padding: 4px 10px; border-radius: 6px; font-size: 0.8em; font-weight: 700; }
+  .flow-badge.sell { background: rgba(255,71,87,0.2); color: var(--red); }
+  .flow-badge.buy { background: rgba(0,217,126,0.2); color: var(--green); }
+  
+  /* Key Levels */
+  .level-bar { display: flex; align-items: center; gap: 10px; padding: 8px 0; }
+  .level-price { font-weight: 700; width: 60px; }
+  .level-bar-fill { height: 8px; border-radius: 4px; }
+  .level-label { font-size: 0.85em; color: var(--muted); }
+  
+  /* Footer */
+  .footer { text-align: center; padding: 40px; color: var(--muted); font-size: 0.85em; border-top: 1px solid var(--border); margin-top: 40px; }
+  
+  /* Agentic Section */
+  .agentic-highlight { background: linear-gradient(135deg, #1a0a2e, #0a1a2e); border: 1px solid var(--purple); border-radius: 16px; padding: 30px; margin: 20px 0; }
+  .agentic-highlight h3 { color: var(--purple); font-size: 1.3em; }
+  .multiplier { font-size: 4em; font-weight: 900; background: linear-gradient(135deg, var(--purple), var(--blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 1.8em; }
+    .bull-bear { grid-template-columns: 1fr; }
+    .prob-grid { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>NVIDIA Q4 FY2026 Earnings</h1>
+  <div class="subtitle">Deep Research Report — The Agentic AI Compute Thesis</div>
+  <div class="meta">
+    <span>📅 Earnings: <strong>Wed Feb 26, After Close</strong></span>
+    <span class="price">💰 $189.82</span>
+    <span>🏢 Market Cap: <strong>$4.61T</strong></span>
+    <span>📊 Implied Move: <strong>±6.5-8.7%</strong></span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- DESMOND'S VERDICT -->
+<div class="verdict">
+  <h2>🔷 Desmond's Call</h2>
+  <p style="color:var(--muted); max-width:700px; margin:0 auto 20px;">Based on historical patterns, options positioning, fundamental momentum, and the agentic AI compute thesis</p>
+  <div class="prediction">
+    <div class="pred-card">
+      <div class="label">Revenue Estimate</div>
+      <div class="value" style="color:var(--green)">$67.2B</div>
+      <div class="vs">vs consensus $65.6B (+2.4% beat)</div>
+    </div>
+    <div class="pred-card">
+      <div class="label">EPS Estimate</div>
+      <div class="value" style="color:var(--green)">$1.56</div>
+      <div class="vs">vs consensus $1.49 (+4.7% beat)</div>
+    </div>
+    <div class="pred-card">
+      <div class="label">Q1 FY27 Guide</div>
+      <div class="value" style="color:var(--blue)">$72-73B</div>
+      <div class="vs">vs street $70.8B (modest beat)</div>
+    </div>
+    <div class="pred-card">
+      <div class="label">Stock Reaction</div>
+      <div class="value" style="color:var(--red)">-3% to -5%</div>
+      <div class="vs">Beat & sell pattern (40% prob)</div>
+    </div>
+  </div>
+  <p style="color:var(--muted); margin-top:20px; font-size:0.9em;">⚠️ Our most likely scenario: Strong beat, solid guide, but stock sells off due to options mechanics & profit-taking. <strong>Buy the dip if it drops to $175-180.</strong></p>
+</div>
+
+<!-- PROBABILITY MATRIX -->
+<div class="section">
+  <h2><span class="emoji">🎲</span>Probability Matrix</h2>
+  <div class="prob-grid">
+    <div class="prob-item likely">
+      <div class="pct" style="color:var(--red)">40%</div>
+      <div class="label"><strong>Beat + Selloff (-3% to -8%)</strong></div>
+      <div class="desc">Most likely. Revenue ~$67B, strong guide, but options mechanics (gamma flip at $182.40, IV crush) and "sell the news" pattern dominates. 3 of last 4 earnings sold off despite beats.</div>
+    </div>
+    <div class="prob-item possible">
+      <div class="pct" style="color:var(--green)">30%</div>
+      <div class="label"><strong>Beat + Rally (+5% to +12%)</strong></div>
+      <div class="desc">Massive beat ($68B+), Rubin timeline accelerated, Q1 guide above $73B. Jensen delivers "agentic AI" narrative that resets expectations. Clears $200 call wall.</div>
+    </div>
+    <div class="prob-item unlikely">
+      <div class="pct" style="color:var(--gold)">15%</div>
+      <div class="label"><strong>Beat + Flat (±2%)</strong></div>
+      <div class="desc">Inline beat ($66-67B), guidance meets expectations. Market shrugs — already priced in. Consolidation continues.</div>
+    </div>
+    <div class="prob-item unlikely">
+      <div class="pct" style="color:var(--red)">15%</div>
+      <div class="label"><strong>Miss/Weak Guide (-10% to -15%)</strong></div>
+      <div class="desc">Revenue below $65B or Q1 guide below $70B. China commentary negative, margin compression. Breaks gamma flip → negative gamma cascade to $170.</div>
+    </div>
+  </div>
+</div>
+
+<!-- REVENUE CHART -->
+<div class="section">
+  <h2><span class="emoji">📈</span>Revenue Trajectory</h2>
+  <div class="chart-container">
+    <div id="revenueChart" style="height:400px;"></div>
+  </div>
+</div>
+
+<!-- KEY METRICS -->
+<div class="section">
+  <h2><span class="emoji">📊</span>Key Metrics at a Glance</h2>
+  <div class="cards">
+    <div class="card">
+      <h4>Revenue Growth (YoY)</h4>
+      <div class="stat green">+67%</div>
+      <div class="detail">Q4 consensus $65.6B vs $39.3B year ago</div>
+    </div>
+    <div class="card">
+      <h4>Data Center % of Revenue</h4>
+      <div class="stat blue">90%</div>
+      <div class="detail">Up from 77% in FY24 — near-monopoly on AI compute</div>
+    </div>
+    <div class="card">
+      <h4>Forward P/E (FY27)</h4>
+      <div class="stat gold">26.6x</div>
+      <div class="detail">Reasonable for 60%+ growth. Below 5yr avg ~55x</div>
+    </div>
+    <div class="card">
+      <h4>Earnings Beat Streak</h4>
+      <div class="stat green">20/22</div>
+      <div class="detail">90.9% beat rate over last 22 quarters</div>
+    </div>
+    <div class="card">
+      <h4>Blackwell Backlog</h4>
+      <div class="stat blue">3.6M</div>
+      <div class="detail">Units. Sold out through mid-2026. "Insane" demand.</div>
+    </div>
+    <div class="card">
+      <h4>Hyperscaler CapEx 2026</h4>
+      <div class="stat gold">$700B</div>
+      <div class="detail">Combined MSFT+GOOG+META+AMZN. +133% YoY.</div>
+    </div>
+  </div>
+</div>
+
+<!-- EARNINGS EXPECTATIONS TABLE -->
+<div class="section">
+  <h2><span class="emoji">🎯</span>Q4 FY2026 Expectations vs History</h2>
+  <table>
+    <tr><th>Metric</th><th>Q3 FY26 Actual</th><th>Q4 FY26 Guide</th><th>Q4 Consensus</th><th>Desmond Est.</th></tr>
+    <tr><td>Revenue</td><td>$57.0B</td><td>$65.0B ±2%</td><td>$65.6B</td><td style="color:var(--green);font-weight:700">$67.2B</td></tr>
+    <tr><td>EPS (Adj)</td><td>$1.30</td><td>—</td><td>$1.49</td><td style="color:var(--green);font-weight:700">$1.56</td></tr>
+    <tr><td>Gross Margin</td><td>73.4%</td><td>74.8%</td><td>~75%</td><td>75.2%</td></tr>
+    <tr><td>Data Center Rev</td><td>$51.2B</td><td>—</td><td>~$60B</td><td>$61.5B</td></tr>
+  </table>
+  
+  <h3>Historical Earnings Reactions</h3>
+  <table>
+    <tr><th>Quarter</th><th>Revenue Beat</th><th>Next-Day Move</th><th>Pattern</th></tr>
+    <tr><td>Q3 FY26 (Oct '25)</td><td class="positive">+3%</td><td class="negative">-3.2%</td><td>Beat & Sell</td></tr>
+    <tr><td>Q2 FY26 (Jul '25)</td><td class="positive">+4%</td><td class="negative">-0.8%</td><td>Beat & Sell</td></tr>
+    <tr><td>Q1 FY26 (Apr '25)</td><td class="positive">+8%</td><td class="positive">+3.3%</td><td>Beat & Rally</td></tr>
+    <tr><td>Q4 FY25 (Jan '25)</td><td class="positive">+5%</td><td class="negative">-8.5%</td><td>Beat & Crash</td></tr>
+    <tr><td>Q3 FY25 (Oct '24)</td><td class="positive">+9%</td><td class="positive">+0.5%</td><td>Beat & Flat</td></tr>
+    <tr><td>Q2 FY25 (Jul '24)</td><td class="positive">+6%</td><td class="negative">-6.4%</td><td>Beat & Sell</td></tr>
+    <tr><td>Q1 FY25 (Apr '24)</td><td class="positive">+10%</td><td class="positive">+9.3%</td><td>Beat & Moonshot</td></tr>
+    <tr><td>Q4 FY24 (Jan '24)</td><td class="positive">+12%</td><td class="positive">+16.4%</td><td>Beat & Moonshot</td></tr>
+  </table>
+  <p style="color:var(--muted); margin-top:10px; font-size:0.9em;">📌 Pattern shift: Early 2024 = moonshots on beats. Late 2025 = selloffs on beats. Market increasingly prices in perfection.</p>
+</div>
+
+<!-- AGENTIC AI THESIS -->
+<div class="section">
+  <h2><span class="emoji">🤖</span>The Agentic AI Compute Thesis</h2>
+  <p style="color:var(--muted); margin-bottom:20px;">This is the structural bull case that makes NVDA a generational holding — not a trade.</p>
+  
+  <div class="agentic-highlight">
+    <h3>🧠 The Compute Multiplier</h3>
+    <p style="margin:15px 0;">We're shifting from <strong>chatbot AI</strong> (single prompt → single response) to <strong>agentic AI</strong> (persistent agents running 24/7 with long-term memory, tool use, and multi-step reasoning).</p>
+    <div style="text-align:center; margin:20px 0;">
+      <div class="multiplier">20-30x</div>
+      <div style="color:var(--muted);">More tokens per agentic task vs chatbot query</div>
+    </div>
+    <p style="color:var(--muted); font-size:0.9em;">Source: Introl, Dec 2025 — "With agentic AI, token consumption multiplies 20 to 30 times compared to standard generative AI"</p>
+  </div>
+
+  <div class="chart-container">
+    <div id="inferenceChart" style="height:350px;"></div>
+  </div>
+
+  <h3>The 24/7 Agent Math</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Chatbot Era (Today)</h4>
+      <div class="stat" style="color:var(--muted)">5B</div>
+      <div class="detail">User-minutes/day. 500M DAU × 10 min avg engagement</div>
+    </div>
+    <div class="card">
+      <h4>Agentic Era (2028-2030)</h4>
+      <div class="stat" style="color:var(--purple)">360B</div>
+      <div class="detail">Equivalent user-minutes/day. 100M always-on agents × 20-30x multiplier</div>
+    </div>
+    <div class="card">
+      <h4>Compute Demand Increase</h4>
+      <div class="stat green">72x</div>
+      <div class="detail">From agents alone. Even conservative estimates = 2-10x increase</div>
+    </div>
+  </div>
+
+  <h3>Who's Building This Future?</h3>
+  <table>
+    <tr><th>Company</th><th>Product</th><th>Agent Use Case</th><th>Compute Implication</th></tr>
+    <tr><td>Anthropic</td><td>Claude Code / OpenClaw</td><td>24/7 coding agents, personal assistants</td><td>1GW compute commitment to NVIDIA</td></tr>
+    <tr><td>OpenAI</td><td>o3 / Operator</td><td>Reasoning agents, browser automation</td><td>10GW NVIDIA systems deployment</td></tr>
+    <tr><td>Microsoft</td><td>Copilot Agents</td><td>Enterprise workflow automation</td><td>$155B capex in 2026</td></tr>
+    <tr><td>Google</td><td>Gemini Agents / Project Mariner</td><td>Multi-modal agents</td><td>$185B capex in 2026</td></tr>
+  </table>
+
+  <h3>Inference is Eating Training</h3>
+  <div class="chart-container">
+    <div id="inferenceShiftChart" style="height:300px;"></div>
+  </div>
+  <p style="color:var(--muted); font-size:0.9em; margin-top:10px;">Total AI compute market grows from ~$150B (2023) to ~$650B (2028) — a 4.3x increase. Training stays roughly flat (~$125B) while inference explodes from $50B → $520B. Inference is ALL of the growth.</p>
+</div>
+
+<!-- SMART MONEY -->
+<div class="section">
+  <h2><span class="emoji">💰</span>Smart Money Positioning</h2>
+  <div class="card" style="margin-bottom:20px;">
+    <h4>Notable 13F Moves (Q4 2025)</h4>
+    <div class="flow-item">
+      <span class="flow-badge sell">SOLD</span>
+      <div><strong>Peter Thiel / Founders Fund</strong> — Exited entirely (~$100M). Full exit.</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge sell">TRIMMED</span>
+      <div><strong>Israel Englander / Millennium</strong> — Sold 3.04M shares (-17%)</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge sell">TRIMMED</span>
+      <div><strong>Chase Coleman / Tiger Global</strong> — Sold 698K shares</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge sell">TRIMMED</span>
+      <div><strong>Philippe Laffont / Coatue</strong> — Sold 667K shares</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge sell">TRIMMED</span>
+      <div><strong>David Tepper / Appaloosa</strong> — Sold 200K shares</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge buy">ADDED</span>
+      <div><strong>Ray Dalio / Bridgewater</strong> — Added $253M (+54% position increase)</div>
+    </div>
+    <div class="flow-item">
+      <span class="flow-badge buy">HOLDING</span>
+      <div><strong>Druckenmiller / Duquesne</strong> — Still holding (made billions on NVDA)</div>
+    </div>
+  </div>
+  <p style="color:var(--muted); font-size:0.9em;">⚠️ Signal: Momentum/tech funds taking profits. Macro fund (Bridgewater) adding. Suggests near-term caution but long-term conviction.</p>
+</div>
+
+<!-- OPTIONS MECHANICS -->
+<div class="section">
+  <h2><span class="emoji">⚙️</span>Options Mechanics & Key Levels</h2>
+  <div class="cards">
+    <div class="card">
+      <h4>Implied Move</h4>
+      <div class="stat gold">±6.5-8.7%</div>
+      <div class="detail">$12-16 range. Straddle pricing reflects uncertainty.</div>
+    </div>
+    <div class="card">
+      <h4>Gamma Flip Point</h4>
+      <div class="stat red">$182.40</div>
+      <div class="detail">⚠️ Stock trading RIGHT here. Below = negative gamma amplifies selling.</div>
+    </div>
+    <div class="card">
+      <h4>Call Wall (Resistance)</h4>
+      <div class="stat blue">$200</div>
+      <div class="detail">+$18.77M gamma exposure. Must clear for bullish breakout.</div>
+    </div>
+    <div class="card">
+      <h4>Put Wall (Support)</h4>
+      <div class="stat green">$180</div>
+      <div class="detail">-$5.77M gamma. Key floor. Break = fast move to $170.</div>
+    </div>
+  </div>
+
+  <h3>Key Price Levels</h3>
+  <table>
+    <tr><th>Level</th><th>Type</th><th>Significance</th></tr>
+    <tr><td style="color:var(--green);font-weight:700">$200</td><td>🔴 Major Resistance</td><td>Call wall (+$18.77M gamma). Must clear for rally.</td></tr>
+    <tr><td style="color:var(--blue)">$195</td><td>Resistance</td><td>Secondary call wall (+$15.79M gamma)</td></tr>
+    <tr><td>$190</td><td>Psychological</td><td>Round number, current area</td></tr>
+    <tr><td>$185</td><td>20-day MA</td><td>Reclaim = short-term bullish</td></tr>
+    <tr><td style="color:var(--red);font-weight:700">$182.40</td><td>⚠️ GAMMA FLIP</td><td>Below here: negative gamma amplifies moves DOWN</td></tr>
+    <tr><td style="color:var(--green)">$180</td><td>🟢 Major Support</td><td>Put wall. Must hold or fast move to $170.</td></tr>
+    <tr><td>$175</td><td>Secondary Support</td><td>Buy zone if fundamentals intact</td></tr>
+    <tr><td style="color:var(--red)">$170</td><td>Final Support</td><td>60-day low. Aggressive buy zone.</td></tr>
+  </table>
+</div>
+
+<!-- BULL vs BEAR -->
+<div class="section">
+  <h2><span class="emoji">⚔️</span>Bull vs Bear</h2>
+  <div class="bull-bear">
+    <div class="card bull">
+      <h3>🐂 Bull Case</h3>
+      <ul style="list-style:none; padding:0;">
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ $700B hyperscaler capex committed for 2026 (+133% YoY)</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ Blackwell demand "off the charts" — 3.6M unit backlog</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ Rubin architecture accelerated (H2 2026)</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ 20/22 quarters beaten (90.9% hit rate)</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ Forward P/E 26.6x — reasonable for 60%+ growth</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ DeepSeek paradox: efficient models = MORE total inference</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">✅ Agentic AI = 20-30x compute multiplier (structural)</li>
+        <li style="padding:8px 0;">✅ Bridgewater adding $253M = macro conviction</li>
+      </ul>
+      <div style="margin-top:15px; padding:12px; background:rgba(0,217,126,0.1); border-radius:8px;">
+        <strong>Moonshot trigger:</strong> Revenue $68B+ AND Q1 guide $74B+ AND Rubin timeline confirmation
+      </div>
+    </div>
+    <div class="card bear">
+      <h3>🐻 Bear Case</h3>
+      <ul style="list-style:none; padding:0;">
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ Stock at gamma flip point — negative gamma below $182</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ 3 of last 4 earnings = selloff despite beats</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ Peter Thiel fully exited. Millennium/Tiger/Coatue trimming.</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ IV crush: calls need NVDA above $200 to profit</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ China export restrictions tightening (H200 tariffs 25%)</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ Custom silicon: Google TPU v7, Amazon Trainium 3, MSFT Maia 200</li>
+        <li style="padding:8px 0; border-bottom:1px solid var(--border)">❌ Hyperscaler FCF crunch (Amazon negative FCF projected)</li>
+        <li style="padding:8px 0;">❌ Macro: Trump tariffs, VIX elevated, sector rotation out of tech</li>
+      </ul>
+      <div style="margin-top:15px; padding:12px; background:rgba(255,71,87,0.1); border-radius:8px;">
+        <strong>Crash trigger:</strong> Q1 guide below $70B OR margin compression OR "demand plateauing" language
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- VALUATION -->
+<div class="section">
+  <h2><span class="emoji">💎</span>Valuation Context</h2>
+  <div class="chart-container">
+    <div id="peChart" style="height:350px;"></div>
+  </div>
+  <table>
+    <tr><th>Metric</th><th>NVDA</th><th>AMD</th><th>AVGO</th><th>Verdict</th></tr>
+    <tr><td>P/E (TTM)</td><td>47.0x</td><td>~45x</td><td>69.7x</td><td class="positive">Below peer avg</td></tr>
+    <tr><td>Forward P/E</td><td>26.6x</td><td>~28x</td><td>32.2x</td><td class="positive">Cheapest of peers</td></tr>
+    <tr><td>Revenue Growth</td><td>+67%</td><td>+24%</td><td>+25%</td><td class="positive">2.7x faster than peers</td></tr>
+    <tr><td>Market Cap</td><td>$4.61T</td><td>$200B</td><td>$1.58T</td><td>Largest company on Earth</td></tr>
+  </table>
+  <p style="color:var(--muted); margin-top:10px; font-size:0.9em;">📌 On a PEG basis, NVDA is arguably the cheapest mega-cap in the market: 26.6x forward P/E on 60%+ growth = PEG ~0.4x</p>
+</div>
+
+<!-- SEGMENT BREAKDOWN -->
+<div class="section">
+  <h2><span class="emoji">🏢</span>Segment Breakdown</h2>
+  <div class="chart-container">
+    <div id="segmentChart" style="height:350px;"></div>
+  </div>
+</div>
+
+<!-- COMPETITION -->
+<div class="section">
+  <h2><span class="emoji">⚡</span>Competitive Landscape</h2>
+  <table>
+    <tr><th>Competitor</th><th>Chip</th><th>Status</th><th>Threat Level</th><th>NVIDIA Moat</th></tr>
+    <tr><td>Google</td><td>TPU v7 (Ironwood)</td><td>Production</td><td style="color:var(--gold)">Medium</td><td>Internal use only, no external sales</td></tr>
+    <tr><td>Amazon</td><td>Trainium 3</td><td>Production</td><td style="color:var(--gold)">Medium</td><td>Anthropic anchor customer, but limited ecosystem</td></tr>
+    <tr><td>Microsoft</td><td>Maia 200</td><td>2026 launch</td><td style="color:var(--gold)">Medium</td><td>30% better $/perf claimed, but unproven at scale</td></tr>
+    <tr><td>AMD</td><td>MI300X/MI350</td><td>Production</td><td style="color:var(--green)">Low-Med</td><td>Growing but CUDA ecosystem is massive moat</td></tr>
+    <tr><td>Broadcom</td><td>Custom ASICs</td><td>Production</td><td style="color:var(--green)">Low</td><td>Niche workloads only, not general purpose</td></tr>
+  </table>
+  <p style="color:var(--muted); margin-top:15px;">Key insight: Custom ASICs offer 10-40% cost savings on specific workloads, but hyperscalers are <strong>increasing total spend</strong>, not substituting. They're buying custom silicon AND NVIDIA. The pie is growing faster than anyone can eat it.</p>
+</div>
+
+<!-- WHAT TO WATCH -->
+<div class="section">
+  <h2><span class="emoji">👀</span>What to Watch Wednesday</h2>
+  <div class="cards">
+    <div class="card" style="border-left:4px solid var(--green)">
+      <h4>1. Revenue Beat Magnitude</h4>
+      <div class="detail">Street expects $65.6B. Whisper is $67.6B. <strong>Below $66B = disappointment. Above $68B = moonshot fuel.</strong></div>
+    </div>
+    <div class="card" style="border-left:4px solid var(--blue)">
+      <h4>2. Q1 FY27 Guidance</h4>
+      <div class="detail">THE most important number. Consensus $70.8B. <strong>Below $70B = selloff. Above $73B = rally.</strong></div>
+    </div>
+    <div class="card" style="border-left:4px solid var(--gold)">
+      <h4>3. Gross Margin Trajectory</h4>
+      <div class="detail">Must be in 74.5-75.5% range. Blackwell ramp compresses margins. <strong>Sub-74% = red flag.</strong></div>
+    </div>
+    <div class="card" style="border-left:4px solid var(--purple)">
+      <h4>4. Blackwell/Rubin Commentary</h4>
+      <div class="detail">Rubin timeline (late 2026?) and Blackwell Ultra ramp status. Any supply constraint language matters.</div>
+    </div>
+    <div class="card" style="border-left:4px solid var(--red)">
+      <h4>5. China Revenue</h4>
+      <div class="detail">Currently $0 assumed. Any positive surprise = pure upside. Negative = already priced in.</div>
+    </div>
+    <div class="card" style="border-left:4px solid var(--orange)">
+      <h4>6. Jensen's Tone on Demand</h4>
+      <div class="detail">"Insane demand" language must continue. Any softening = market will punish. Watch for enterprise vs hyperscaler mix.</div>
+    </div>
+  </div>
+</div>
+
+<!-- TRADE PLAYBOOK -->
+<div class="section">
+  <h2><span class="emoji">📋</span>Desmond's Trade Playbook</h2>
+  <div class="card" style="border:2px solid var(--blue);">
+    <h4 style="color:var(--blue); font-size:1.2em;">Strategy: Don't Play Earnings, Play the Aftermath</h4>
+    <div style="margin-top:15px;">
+      <p><strong style="color:var(--green)">If it drops to $175-180 post-earnings:</strong> Aggressive buy zone. Fundamentals haven't changed, just options mechanics. This is where Bridgewater-type buyers step in.</p>
+      <p style="margin-top:10px;"><strong style="color:var(--gold)">If it rallies above $200:</strong> Let it run. Next stop $210-220. Don't chase — wait for pullback to $195 for entry.</p>
+      <p style="margin-top:10px;"><strong style="color:var(--red)">If it crashes below $170:</strong> Something fundamental changed. Wait for Jensen's full commentary before buying. Check guidance numbers carefully.</p>
+      <p style="margin-top:15px; color:var(--muted); font-size:0.9em;">📌 <strong>Long-term:</strong> The agentic AI thesis makes NVDA a 3-5 year hold regardless of any single earnings reaction. 72x compute demand increase doesn't happen overnight, but it's happening. Every OpenClaw user, every Claude Code session, every always-on agent is buying NVIDIA GPUs somewhere in the stack.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ANALYST WALL -->
+<div class="section">
+  <h2><span class="emoji">🏦</span>Analyst Consensus</h2>
+  <div class="cards">
+    <div class="card">
+      <h4>Rating Distribution</h4>
+      <div class="stat green">57 Buy</div>
+      <div class="detail">3 Hold, 1 Sell out of 61 analysts. 93% buy-rated.</div>
+    </div>
+    <div class="card">
+      <h4>Average Price Target</h4>
+      <div class="stat blue">$259</div>
+      <div class="detail">Range: $254-$275. Represents 37% upside from current.</div>
+    </div>
+    <div class="card">
+      <h4>Bull Target (Wedbush)</h4>
+      <div class="stat gold">$275</div>
+      <div class="detail">Dan Ives: "2026 is an inflection point for AI buildout"</div>
+    </div>
+  </div>
+  <p style="color:var(--muted); margin-top:10px; font-size:0.9em;">The 35-41% gap between price (~$189) and avg target (~$259) is unusually wide. Either analysts are wrong or the stock is deeply undervalued for the setup.</p>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <p><strong>🔷 Desmond Research</strong> — Compiled Feb 23, 2026</p>
+  <p style="margin-top:5px;">Sources: NVIDIA IR, MacroTrends, StockAnalysis, S&P Global, Seeking Alpha, TastyLive, Motley Fool, Reuters, 13F filings, Deloitte TMT, Introl, Tandel Analytics</p>
+  <p style="margin-top:10px; font-size:0.8em;">⚠️ Not financial advice. Adrian owns NVDA via QQQ/SMH. This report is for research purposes only.</p>
+</div>
+
+</div>
+
+<!-- CHARTS JS -->
+<script>
+// Revenue Chart
+Plotly.newPlot('revenueChart', [{
+  x: ['Q4 FY24','Q1 FY25','Q2 FY25','Q3 FY25','Q4 FY25','Q1 FY26','Q2 FY26','Q3 FY26','Q4 FY26E','Q1 FY27E'],
+  y: [22.1, 26.0, 30.0, 35.1, 39.3, 44.1, 46.7, 57.0, 67.2, 73.0],
+  type: 'bar',
+  marker: { 
+    color: ['#4a9eff','#4a9eff','#4a9eff','#4a9eff','#4a9eff','#4a9eff','#4a9eff','#4a9eff','#00d97e','#ffd700'],
+    opacity: [0.6,0.6,0.6,0.6,0.7,0.7,0.7,0.8,1,0.5]
+  },
+  text: ['$22.1B','$26.0B','$30.0B','$35.1B','$39.3B','$44.1B','$46.7B','$57.0B','$67.2B*','$73.0B*'],
+  textposition: 'outside',
+  textfont: { color: '#e0e0e0', size: 11 }
+},{
+  x: ['Q4 FY24','Q1 FY25','Q2 FY25','Q3 FY25','Q4 FY25','Q1 FY26','Q2 FY26','Q3 FY26','Q4 FY26E','Q1 FY27E'],
+  y: [265, 262, 122, 94, 78, 69, 56, 62, 67, 61],
+  type: 'scatter',
+  mode: 'lines+markers',
+  name: 'YoY Growth %',
+  yaxis: 'y2',
+  line: { color: '#ffd700', width: 2 },
+  marker: { size: 6 }
+}], {
+  title: { text: 'NVIDIA Revenue Trajectory ($B) & YoY Growth', font: { color: '#e0e0e0', size: 16 } },
+  paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+  xaxis: { color: '#888', gridcolor: '#1e1e2e' },
+  yaxis: { title: 'Revenue ($B)', color: '#888', gridcolor: '#1e1e2e' },
+  yaxis2: { title: 'YoY Growth %', overlaying: 'y', side: 'right', color: '#ffd700', gridcolor: 'transparent' },
+  showlegend: false,
+  margin: { t: 50, b: 50 },
+  annotations: [{
+    x: 'Q4 FY26E', y: 67.2, text: 'Desmond Est.', showarrow: true, arrowhead: 2, ax: 40, ay: -30,
+    font: { color: '#00d97e', size: 11 }
+  }]
+}, {responsive: true});
+
+// Inference Shift Chart — Absolute Market Size ($B)
+// Total AI compute market: ~$150B (2023) → $195B (2024) → $250B (2025) → $370B (2026) → $500B (2027) → $650B (2028)
+// Training/Inference split from Deloitte TMT
+Plotly.newPlot('inferenceShiftChart', [{
+  x: [2023, 2024, 2025, 2026, 2027, 2028],
+  y: [100, 107, 125, 122, 125, 130],
+  name: 'Training',
+  type: 'bar',
+  marker: { color: '#4a9eff' },
+  text: ['$100B','$107B','$125B','$122B','$125B','$130B'],
+  textposition: 'inside',
+  textfont: { color: '#fff', size: 11 }
+},{
+  x: [2023, 2024, 2025, 2026, 2027, 2028],
+  y: [50, 88, 125, 248, 375, 520],
+  name: 'Inference',
+  type: 'bar',
+  marker: { color: '#a855f7' },
+  text: ['$50B','$88B','$125B','$248B','$375B','$520B'],
+  textposition: 'inside',
+  textfont: { color: '#fff', size: 11 }
+}], {
+  title: { text: 'AI Compute Market Size ($B) — Training vs Inference', font: { color: '#e0e0e0', size: 14 } },
+  paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+  barmode: 'stack',
+  xaxis: { color: '#888' },
+  yaxis: { color: '#888', gridcolor: '#1e1e2e', title: 'Market Size ($B)' },
+  legend: { font: { color: '#e0e0e0' } },
+  margin: { t: 50, b: 40 },
+  annotations: [{
+    x: 2028, y: 650, text: '$650B Total', showarrow: true, arrowhead: 2, ax: 40, ay: -25,
+    font: { color: '#ffd700', size: 13, weight: 'bold' }
+  },{
+    x: 2023, y: 150, text: '$150B', showarrow: false,
+    font: { color: '#888', size: 11 }, yshift: 10
+  }]
+}, {responsive: true});
+
+// Inference Market Size
+Plotly.newPlot('inferenceChart', [{
+  x: [2024, 2025, 2026, 2027, 2028, 2029, 2030],
+  y: [70, 100, 140, 190, 240, 290, 350],
+  type: 'scatter',
+  mode: 'lines+markers',
+  fill: 'tozeroy',
+  name: 'Total Inference Market',
+  line: { color: '#a855f7', width: 3 },
+  fillcolor: 'rgba(168,85,247,0.1)',
+  marker: { size: 8 }
+},{
+  x: [2024, 2025, 2026, 2027, 2028, 2029, 2030],
+  y: [5, 15, 40, 90, 160, 220, 300],
+  type: 'scatter',
+  mode: 'lines+markers',
+  fill: 'tozeroy',
+  name: 'Agentic AI Compute',
+  line: { color: '#00d97e', width: 3, dash: 'dot' },
+  fillcolor: 'rgba(0,217,126,0.05)',
+  marker: { size: 8 }
+}], {
+  title: { text: 'AI Inference Market Size ($B) — Agentic AI is the Growth Driver', font: { color: '#e0e0e0', size: 14 } },
+  paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+  xaxis: { color: '#888' },
+  yaxis: { color: '#888', gridcolor: '#1e1e2e', title: 'Market Size ($B)' },
+  legend: { font: { color: '#e0e0e0' } },
+  margin: { t: 50, b: 40 }
+}, {responsive: true});
+
+// P/E Chart
+Plotly.newPlot('peChart', [{
+  x: ['Jan 23','Apr 23','Jul 23','Oct 23','Jan 24','Apr 24','Jul 24','Oct 24','Jan 25','Apr 25','Jul 25','Oct 25','Feb 26'],
+  y: [112, 180, 110, 65, 51.5, 75, 70, 65, 40.9, 55, 50.7, 50.2, 47],
+  type: 'scatter',
+  mode: 'lines+markers',
+  name: 'Trailing P/E',
+  line: { color: '#4a9eff', width: 2 },
+  marker: { size: 5 }
+},{
+  x: ['Jan 23','Apr 23','Jul 23','Oct 23','Jan 24','Apr 24','Jul 24','Oct 24','Jan 25','Apr 25','Jul 25','Oct 25','Feb 26'],
+  y: [55,55,55,55,55,55,55,55,55,55,55,55,55],
+  type: 'scatter',
+  mode: 'lines',
+  name: '5yr Avg (~55x)',
+  line: { color: '#ffd700', width: 1, dash: 'dash' }
+},{
+  x: ['Feb 26'],
+  y: [26.6],
+  type: 'scatter',
+  mode: 'markers+text',
+  name: 'Forward P/E',
+  marker: { size: 14, color: '#00d97e', symbol: 'star' },
+  text: ['Fwd 26.6x'],
+  textposition: 'top center',
+  textfont: { color: '#00d97e' }
+}], {
+  title: { text: 'NVDA P/E Ratio Over Time — Current 47x (Forward 26.6x)', font: { color: '#e0e0e0', size: 14 } },
+  paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+  xaxis: { color: '#888' },
+  yaxis: { color: '#888', gridcolor: '#1e1e2e', title: 'P/E Ratio' },
+  legend: { font: { color: '#e0e0e0' } },
+  margin: { t: 50, b: 50 }
+}, {responsive: true});
+
+// Segment Chart
+Plotly.newPlot('segmentChart', [{
+  labels: ['Data Center (90%)', 'Gaming (7.5%)', 'Professional Viz (1.3%)', 'Automotive (1.0%)'],
+  values: [51.2, 4.3, 0.76, 0.59],
+  type: 'pie',
+  hole: 0.55,
+  marker: { colors: ['#4a9eff', '#a855f7', '#ffd700', '#00d97e'] },
+  textinfo: 'label+percent',
+  textfont: { color: '#e0e0e0', size: 12 }
+}], {
+  title: { text: 'Q3 FY26 Revenue Mix ($56.85B Total)', font: { color: '#e0e0e0', size: 14 } },
+  paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+  legend: { font: { color: '#e0e0e0' } },
+  margin: { t: 50, b: 20 },
+  annotations: [{ text: '$57B', showarrow: false, font: { size: 20, color: '#e0e0e0' } }]
+}, {responsive: true});
+</script>
+
+</body>
+</html>
