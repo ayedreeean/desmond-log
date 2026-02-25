@@ -7,469 +7,248 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; padding: 16px; max-width: 600px; margin: 0 auto; }
-  
   h1 { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
   .subtitle { font-size: 0.8rem; color: #94a3b8; margin-bottom: 20px; }
-  
-  /* Info cards */
+  .section-header { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; margin: 20px 0 8px; padding-left: 4px; }
   .info-card { background: #1e293b; border-radius: 12px; padding: 14px; margin-bottom: 12px; }
   .info-card h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 8px; }
-  .info-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; }
-  .info-row:not(:last-child) { border-bottom: 1px solid rgba(255,255,255,0.05); }
-  .info-label { font-size: 0.8rem; color: #94a3b8; }
-  .info-value { font-size: 0.85rem; font-weight: 600; color: #f1f5f9; text-align: right; }
-  .info-value a { color: #60a5fa; text-decoration: none; }
-  .info-value small { font-size: 0.7rem; color: #94a3b8; font-weight: 400; }
-  
-  /* Directions */
-  .directions { background: linear-gradient(135deg, #1e3a5f, #1e293b); border-radius: 12px; padding: 14px; margin-bottom: 12px; border: 1px solid #2563eb33; }
-  .directions h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #60a5fa; margin-bottom: 8px; }
-  .dir-time { font-size: 1.8rem; font-weight: 800; color: #60a5fa; }
-  .dir-time small { font-size: 0.8rem; color: #94a3b8; font-weight: 400; }
-  .dir-note { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
-  .dir-options { display: flex; gap: 8px; margin-top: 10px; }
-  .dir-opt { flex: 1; background: rgba(255,255,255,0.05); border-radius: 8px; padding: 8px; text-align: center; }
-  .dir-opt .emoji { font-size: 1.2rem; }
-  .dir-opt .label { font-size: 0.65rem; color: #94a3b8; margin-top: 2px; }
-  .dir-opt .time { font-size: 0.8rem; font-weight: 700; }
-  
-  /* Map link button */
-  .map-btn { display: block; background: #2563eb; color: white; text-align: center; padding: 12px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 0.9rem; margin-bottom: 12px; }
-  .map-btn:active { background: #1d4ed8; }
-  
-  /* Section headers */
-  .section-header { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; margin: 20px 0 8px; padding-left: 4px; }
-  
-  /* Schedule */
   .sched-item { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 8px; border-left: 3px solid #22c55e; }
+  .sched-item.session { border-left-color: #ef4444; }
   .sched-item.break { border-left-color: #f59e0b; }
-  .sched-item.meeting { border-left-color: #a855f7; }
+  .sched-item.booth { border-left-color: #3b82f6; }
   .sched-time { font-size: 0.7rem; color: #94a3b8; font-weight: 600; }
   .sched-title { font-size: 0.85rem; font-weight: 700; margin-top: 2px; }
   .sched-desc { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
-  
-  /* Booth list */
+  .sched-loc { font-size: 0.7rem; color: #60a5fa; margin-top: 2px; }
   .booth-card { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
   .booth-card.must { border-left: 3px solid #ef4444; }
   .booth-card.high { border-left: 3px solid #f59e0b; }
-  .booth-card.scheduled { border-left: 3px solid #a855f7; }
-  .booth-num { background: rgba(255,255,255,0.08); border-radius: 6px; padding: 4px 8px; font-size: 0.75rem; font-weight: 700; min-width: 50px; text-align: center; flex-shrink: 0; }
-  .booth-num.tbd { color: #64748b; }
+  .booth-num { background: rgba(96,165,250,0.2); border-radius: 6px; padding: 4px 8px; font-size: 0.85rem; font-weight: 700; min-width: 50px; text-align: center; flex-shrink: 0; color: #60a5fa; }
   .booth-info { flex: 1; min-width: 0; }
   .booth-name { font-size: 0.85rem; font-weight: 700; }
-  .booth-tag { display: inline-block; font-size: 0.6rem; padding: 1px 6px; border-radius: 4px; margin-left: 4px; font-weight: 600; vertical-align: middle; }
-  .booth-tag.contact { background: #7c3aed33; color: #a78bfa; }
-  .booth-tag.must-tag { background: #dc262633; color: #f87171; }
-  .booth-tag.high-tag { background: #d9770633; color: #fbbf24; }
-  .booth-desc { font-size: 0.7rem; color: #94a3b8; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .booth-topics { font-size: 0.65rem; color: #64748b; margin-top: 4px; font-style: italic; }
-  
-  /* Contact card */
-  .contact-card { background: linear-gradient(135deg, #2e1065, #1e293b); border: 1px solid #7c3aed44; border-radius: 10px; padding: 12px; margin-bottom: 8px; }
-  .contact-card h3 { font-size: 0.85rem; font-weight: 700; }
-  .contact-card .company { font-size: 0.7rem; color: #a78bfa; }
-  .contact-card .note { font-size: 0.75rem; color: #cbd5e1; margin-top: 6px; }
-  
-  /* Checklist */
-  .checklist { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 8px; }
-  .check-item { display: flex; align-items: center; gap: 8px; padding: 6px 0; font-size: 0.8rem; }
-  .check-item:not(:last-child) { border-bottom: 1px solid rgba(255,255,255,0.05); }
-  .check-item input { width: 18px; height: 18px; accent-color: #22c55e; }
-  
-  /* Notes area */
-  .notes-area { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 12px; }
-  .notes-area textarea { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 8px; color: #e2e8f0; font-family: inherit; font-size: 0.8rem; min-height: 80px; resize: vertical; }
-  .notes-area h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 8px; }
-  
-  /* Talking points */
-  .tp-card { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 8px; }
-  .tp-card h3 { font-size: 0.8rem; font-weight: 700; margin-bottom: 6px; color: #60a5fa; }
-  .tp-card ul { padding-left: 16px; }
-  .tp-card li { font-size: 0.75rem; color: #cbd5e1; margin-bottom: 4px; }
-  
-  /* Footer */
-  .footer { text-align: center; font-size: 0.65rem; color: #475569; padding: 20px 0; }
-  
-  /* Toggle sections */
-  details { margin-bottom: 8px; }
-  details summary { cursor: pointer; font-size: 0.8rem; font-weight: 700; padding: 8px 0; color: #94a3b8; }
-  details summary:hover { color: #e2e8f0; }
-  
-  /* NVDA badge */
-  .nvda-badge { background: linear-gradient(135deg, #065f46, #1e293b); border: 1px solid #10b98133; border-radius: 10px; padding: 12px; margin-bottom: 12px; }
-  .nvda-badge h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #34d399; margin-bottom: 4px; }
-  .nvda-badge .note { font-size: 0.8rem; color: #a7f3d0; }
+  .booth-desc { font-size: 0.7rem; color: #94a3b8; margin-top: 2px; }
+  .tag { display: inline-block; font-size: 0.6rem; padding: 2px 6px; border-radius: 4px; margin-left: 6px; font-weight: 600; }
+  .tag.must { background: #dc262633; color: #f87171; }
+  .tag.high { background: #d9770633; color: #fbbf24; }
+  .tag.session { background: #7c3aed33; color: #a78bfa; }
+  .map-btn { display: block; background: #2563eb; color: white; text-align: center; padding: 12px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 0.9rem; margin-bottom: 12px; }
+  .alert { background: linear-gradient(135deg, #7f1d1d, #1e293b); border: 1px solid #dc262655; border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+  .alert h2 { font-size: 0.8rem; color: #fca5a5; margin-bottom: 4px; }
+  .alert p { font-size: 0.75rem; color: #fecaca; }
 </style>
 </head>
 <body>
 
 <h1>🔧 DesignCon 2026</h1>
-<p class="subtitle">Adrian's Field Guide · Feb 25-26 · Santa Clara Convention Center</p>
+<p class="subtitle">Adrian's Field Guide · Wed-Thu Feb 25-26 · Santa Clara</p>
 
-<!-- Directions -->
-<div class="directions">
-  <h2>📍 Getting There</h2>
-  <div style="display:flex; justify-content:space-between; align-items:baseline;">
-    <div>
-      <div class="dir-time">~15 min <small>by car</small></div>
-      <div class="dir-note">Hotel De Anza → 5001 Great America Pkwy, Santa Clara</div>
-    </div>
-  </div>
-  <div class="dir-options">
-    <div class="dir-opt">
-      <div class="emoji">🚗</div>
-      <div class="time">12-18 min</div>
-      <div class="label">Drive / FSD</div>
-    </div>
-    <div class="dir-opt">
-      <div class="emoji">🚕</div>
-      <div class="time">15-20 min</div>
-      <div class="label">Uber/Waymo</div>
-    </div>
-    <div class="dir-opt">
-      <div class="emoji">🚆</div>
-      <div class="time">~35 min</div>
-      <div class="label">Caltrain+walk</div>
-    </div>
-  </div>
-</div>
-
-<a class="map-btn" href="https://www.google.com/maps/dir/Hotel+De+Anza,+233+W+Santa+Clara+St,+San+Jose,+CA+95113/Santa+Clara+Convention+Center,+5001+Great+America+Pkwy,+Santa+Clara,+CA+95054" target="_blank">
-  🗺️ Open Directions in Google Maps
+<a class="map-btn" href="https://www.google.com/maps/dir/Hotel+De+Anza,+San+Jose/Santa+Clara+Convention+Center" target="_blank">
+  🗺️ Directions (~15 min drive)
 </a>
 
-<!-- Key Info -->
-<div class="info-card">
-  <h2>📋 Key Info</h2>
-  <div class="info-row">
-    <span class="info-label">Expo Hours</span>
-    <span class="info-value">11:00 AM – 6:00 PM<br><small>Wed & Thu</small></span>
-  </div>
-  <div class="info-row">
-    <span class="info-label">Conference Hours</span>
-    <span class="info-value">8:00 AM – 5:15 PM<br><small>Wed & Thu</small></span>
-  </div>
-  <div class="info-row">
-    <span class="info-label">Venue</span>
-    <span class="info-value">Santa Clara Convention Ctr</span>
-  </div>
-  <div class="info-row">
-    <span class="info-label">Expo Admission</span>
-    <span class="info-value">$199 onsite</span>
-  </div>
-  <div class="info-row">
-    <span class="info-label">WiFi</span>
-    <span class="info-value">Check at registration</span>
-  </div>
-  <div class="info-row">
-    <span class="info-label">Parking</span>
-    <span class="info-value"><a href="https://www.google.com/maps/search/parking+near+Santa+Clara+Convention+Center" target="_blank">Garage on-site</a></span>
-  </div>
+<div class="alert">
+  <h2>📈 NVDA Earnings Wed After Close</h2>
+  <p>Q4 FY2026 — great conversation starter. Everyone here cares about AI compute.</p>
 </div>
 
-<!-- NVDA Reminder -->
-<div class="nvda-badge">
-  <h2>📈 NVDA Earnings Tomorrow</h2>
-  <div class="note">Q4 FY2026 reports after close Wed Feb 26. Great conversation starter at booths — everyone in this room cares about AI compute demand.</div>
+<!-- WEDNESDAY SCHEDULE -->
+<div class="section-header">📅 Wednesday Feb 25 — Sessions</div>
+
+<div class="sched-item session">
+  <div class="sched-time">11:15 AM - 12:00 PM</div>
+  <div class="sched-title">GenAI & Agents for Production</div>
+  <div class="sched-loc">📍 Great America 2</div>
+  <div class="sched-desc">GenAI for manufacturing inspection, multi-model systems, explainability</div>
 </div>
 
-<!-- Scheduled Contacts -->
-<div class="section-header">👤 Scheduled Contacts</div>
-
-<div class="contact-card">
-  <h3>Circuit Mind</h3>
-  <div class="company">AI-powered automation for electronic design</div>
-  <div class="note">📌 Exchanged info — plan to meet at their booth. Booth # TBD (check floor map at registration).<br><br>
-  <strong>Ask about:</strong> Integration with existing EDA tools, AI model approach for schematic analysis, MCP integration potential, collaboration opportunities with TI.</div>
+<div class="sched-item session" style="border-left-color: #ef4444; background: linear-gradient(135deg, #1e293b, #2d1f1f);">
+  <div class="sched-time">🔴 1:15 PM - 2:00 PM — MUST ATTEND</div>
+  <div class="sched-title">High-impact AI in Hardware Development</div>
+  <div class="sched-loc">📍 Chiphead Theater</div>
+  <div class="sched-desc"><strong>AllSpice CEO Valentina Ratner</strong> — 8 key AI opportunity domains, enterprise case studies. Visit booth 607 after!</div>
 </div>
 
-<div class="contact-card">
-  <h3>JITX</h3>
-  <div class="company">AI-driven code-based PCB design</div>
-  <div class="note">📌 Exchanged info — plan to meet at their booth. Booth # TBD (check floor map at registration).<br><br>
-  <strong>Ask about:</strong> Programmatic design API, design reuse automation, scripting capabilities, how code-driven design integrates with TI's component ecosystem.</div>
+<div class="sched-item session">
+  <div class="sched-time">2:00 PM - 3:00 PM</div>
+  <div class="sched-title">Open Networking: AI & Machine Learning</div>
+  <div class="sched-loc">📍 Great America 3</div>
+  <div class="sched-desc">AI applications, ML workflows, model validation, deployment</div>
 </div>
 
-<!-- Suggested Schedule -->
-<div class="section-header">📅 Suggested Flow — Wednesday</div>
+<!-- WEDNESDAY BOOTH PLAN -->
+<div class="section-header">🎯 Wednesday Booth Plan</div>
 
-<div class="sched-item">
-  <div class="sched-time">10:15 AM</div>
-  <div class="sched-title">🚗 Depart Hotel De Anza</div>
-  <div class="sched-desc">15 min drive. Arrive before expo opens.</div>
-</div>
-
-<div class="sched-item">
-  <div class="sched-time">10:30 AM</div>
-  <div class="sched-title">📝 Registration + Floor Map</div>
-  <div class="sched-desc">Grab badge, pick up floor plan, locate Circuit Mind & JITX booths.</div>
-</div>
-
-<div class="sched-item meeting">
-  <div class="sched-time">11:00 AM</div>
-  <div class="sched-title">🤝 Circuit Mind (scheduled)</div>
-  <div class="sched-desc">First priority — meet your contact, discuss AI schematic analysis & MCP integration.</div>
-</div>
-
-<div class="sched-item meeting">
-  <div class="sched-time">11:45 AM</div>
-  <div class="sched-title">🤝 JITX (scheduled)</div>
-  <div class="sched-desc">Code-driven PCB design, API capabilities, TI component integration.</div>
+<div class="sched-item booth">
+  <div class="sched-time">11:00 AM - 11:15 AM</div>
+  <div class="sched-title">Quick Hits Near Sessions</div>
+  <div class="sched-desc">CELUS (202) → DigiKey (203) — both near entrance</div>
 </div>
 
 <div class="sched-item break">
-  <div class="sched-time">12:30 PM</div>
-  <div class="sched-title">🍽️ Lunch break</div>
-  <div class="sched-desc">Convention center food court or nearby Great America Pkwy options.</div>
+  <div class="sched-time">12:00 PM - 1:15 PM</div>
+  <div class="sched-title">Lunch + AI Booth Sprint</div>
+  <div class="sched-desc">CADY (526) → Altium (519) → AllSpice (607) → Kipo AI (807) → Cadence (827)</div>
 </div>
 
-<div class="sched-item">
-  <div class="sched-time">1:15 PM</div>
-  <div class="sched-title">🔴 Must-Visit Booths Sprint</div>
-  <div class="sched-desc">CADY → CELUS → Kipo AI → AllSpice → KiCad → Huwin (organic meets)</div>
+<div class="sched-item booth">
+  <div class="sched-time">3:00 PM - 5:00 PM</div>
+  <div class="sched-title">Afternoon Deep Dives</div>
+  <div class="sched-desc">Keysight (1039) → Huwin (1059) → KiCad (1264) → Circuit Mind (1466) → JITX (1464) → Cadstrom (1549)</div>
 </div>
 
-<div class="sched-item">
-  <div class="sched-time">3:00 PM</div>
-  <div class="sched-title">🟡 Confirmed Booth Visits</div>
-  <div class="sched-desc">Cadstrom (1549) → Keysight (1039) → Cadence (827) → EMA (1243) → Astera (855)</div>
-</div>
+<!-- MUST VISIT BOOTHS -->
+<div class="section-header">🔴 Must-Visit Booths (AI EDA Partners)</div>
 
-<div class="sched-item break">
-  <div class="sched-time">4:30 PM</div>
-  <div class="sched-title">☕ Coffee + Debrief</div>
-  <div class="sched-desc">Review notes, capture key takeaways while fresh.</div>
-</div>
-
-<div class="sched-item">
-  <div class="sched-time">5:00 PM</div>
-  <div class="sched-title">🔄 Follow-up Passes</div>
-  <div class="sched-desc">Revisit top booths for deeper conversations. Expo closes at 6 PM.</div>
-</div>
-
-<!-- Booth Directory -->
-<div class="section-header">🔴 Must-Visit Booths</div>
-
-<div class="booth-card scheduled">
-  <div class="booth-num tbd">TBD</div>
+<div class="booth-card must">
+  <div class="booth-num">202</div>
   <div class="booth-info">
-    <div class="booth-name">Circuit Mind <span class="booth-tag contact">📞 CONTACT</span></div>
-    <div class="booth-desc">AI-powered automation for electronic design</div>
-    <div class="booth-topics">Ask: AI model approach, EDA integration, MCP potential</div>
-  </div>
-</div>
-
-<div class="booth-card scheduled">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">JITX <span class="booth-tag contact">📞 CONTACT</span></div>
-    <div class="booth-desc">AI-driven code-based PCB design (Sequoia-backed)</div>
-    <div class="booth-topics">Ask: Programmatic design API, scripting, TI component ecosystem</div>
+    <div class="booth-name">CELUS <span class="tag must">MUST</span></div>
+    <div class="booth-desc">AI platform: drag-drop blocks → auto schematics + BOM</div>
   </div>
 </div>
 
 <div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
+  <div class="booth-num">526</div>
   <div class="booth-info">
-    <div class="booth-name">CADY Solutions <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">First AI-based engine for electronic circuit design</div>
-    <div class="booth-topics">Ask: MCP integration, API access, automated design rule checking</div>
+    <div class="booth-name">CADY Solutions <span class="tag must">MUST</span></div>
+    <div class="booth-desc">AI schematic analysis & design verification</div>
   </div>
 </div>
 
 <div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
+  <div class="booth-num">607</div>
   <div class="booth-info">
-    <div class="booth-name">CELUS <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">AI-driven automation for electronics engineering</div>
-    <div class="booth-topics">Ask: Component selection automation, design rule engines, API/plugin arch</div>
+    <div class="booth-name">AllSpice.io <span class="tag must">MUST</span> <span class="tag session">SESSION</span></div>
+    <div class="booth-desc">Git-based HW version control + AI design reviews</div>
   </div>
 </div>
 
 <div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
+  <div class="booth-num">807</div>
   <div class="booth-info">
-    <div class="booth-name">Kipo AI <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">AI that understands hardware component datasheets</div>
-    <div class="booth-topics">Ask: API for component spec retrieval, EDA workflow integration</div>
-  </div>
-</div>
-
-<div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">AllSpice.io <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">Git-based hardware collaboration + AI</div>
-    <div class="booth-topics">Ask: MCP server for Git-based HW design, CI/CD pipeline integration</div>
-  </div>
-</div>
-
-<div class="booth-card must">
-  <div class="booth-num">1549</div>
-  <div class="booth-info">
-    <div class="booth-name">Cadstrom <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">Design validation, reducing respins</div>
-    <div class="booth-topics">Ask: Automated DRC, datasheet footnote parsing, voltage/bus mismatch detection</div>
-  </div>
-</div>
-
-<div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">KiCad Services <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">Open-source EDA support — KiCad MCP is part of the vision</div>
-    <div class="booth-topics">Ask: KiCad 9+ scripting roadmap, plugin architecture, commercial support</div>
-  </div>
-</div>
-
-<div class="booth-card must">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">Huwin <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">Automated Circuit Simulation (ACVS) — SI/PI, HBM3/DDR5/PCIe</div>
-    <div class="booth-topics">Ask: Automation API, batch simulation, EDA tool integration</div>
+    <div class="booth-name">Kipo AI <span class="tag must">MUST</span></div>
+    <div class="booth-desc">AI that understands hardware datasheets</div>
   </div>
 </div>
 
 <div class="booth-card must">
   <div class="booth-num">1039</div>
   <div class="booth-info">
-    <div class="booth-name">Keysight <span class="booth-tag must-tag">MUST</span></div>
-    <div class="booth-desc">PathWave, ADS, PCIe 7.0 demos, 1.6T interconnect</div>
-    <div class="booth-topics">Ask: PathWave automation, ADS scripting, instrument MCP integration</div>
+    <div class="booth-name">Keysight <span class="tag must">MUST</span></div>
+    <div class="booth-desc">PathWave + ADS automation, T&M APIs</div>
   </div>
 </div>
 
+<div class="booth-card must">
+  <div class="booth-num">1059</div>
+  <div class="booth-info">
+    <div class="booth-name">Huwin <span class="tag must">MUST</span></div>
+    <div class="booth-desc">Automated SI/PI verification (HBM3, DDR5, PCIe6)</div>
+  </div>
+</div>
+
+<div class="booth-card must">
+  <div class="booth-num">1264</div>
+  <div class="booth-info">
+    <div class="booth-name">KiCad Services <span class="tag must">MUST</span></div>
+    <div class="booth-desc">KiCad commercial support, MCP collaboration</div>
+  </div>
+</div>
+
+<div class="booth-card must">
+  <div class="booth-num">1464</div>
+  <div class="booth-info">
+    <div class="booth-name">JITX <span class="tag must">MUST</span></div>
+    <div class="booth-desc">Code-driven PCB design — most MCP-compatible</div>
+  </div>
+</div>
+
+<div class="booth-card must">
+  <div class="booth-num">1466</div>
+  <div class="booth-info">
+    <div class="booth-name">Circuit Mind <span class="tag must">MUST</span></div>
+    <div class="booth-desc">AI schematic + BOM generation in 60 seconds</div>
+  </div>
+</div>
+
+<div class="booth-card must">
+  <div class="booth-num">1549</div>
+  <div class="booth-info">
+    <div class="booth-name">Cadstrom <span class="tag must">MUST</span></div>
+    <div class="booth-desc">AI design verification — catches datasheet violations</div>
+  </div>
+</div>
+
+<!-- HIGH PRIORITY -->
 <div class="section-header">🟡 High Priority Booths</div>
+
+<div class="booth-card high">
+  <div class="booth-num">203</div>
+  <div class="booth-info">
+    <div class="booth-name">DigiKey <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">Component API for sourcing automation</div>
+  </div>
+</div>
+
+<div class="booth-card high">
+  <div class="booth-num">311</div>
+  <div class="booth-info">
+    <div class="booth-name">Dassault SIMULIA <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">EM/thermal simulation automation</div>
+  </div>
+</div>
+
+<div class="booth-card high">
+  <div class="booth-num">512</div>
+  <div class="booth-info">
+    <div class="booth-name">EMA Design <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">Cadence partner, PLM integration</div>
+  </div>
+</div>
+
+<div class="booth-card high">
+  <div class="booth-num">519</div>
+  <div class="booth-info">
+    <div class="booth-name">Altium <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">Altium 365 API, cloud PCB platform</div>
+  </div>
+</div>
 
 <div class="booth-card high">
   <div class="booth-num">827</div>
   <div class="booth-info">
-    <div class="booth-name">Cadence <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">Major EDA — Sigrity SI/PI, advanced IC packaging</div>
-    <div class="booth-topics">Ask: AI/ML roadmap, plugin/MCP integration, Sigrity automation</div>
-  </div>
-</div>
-
-<div class="booth-card high">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">Altium (Renesas) <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">Global PCB design leader — Altium 365</div>
-    <div class="booth-topics">Ask: Altium 365 API, AI features roadmap, 3rd party integration</div>
-  </div>
-</div>
-
-<div class="booth-card high">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">Dassault SIMULIA <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">EM simulation, thermal/SI/PI</div>
-    <div class="booth-topics">Ask: Simulation API, automation workflows, CST integration</div>
-  </div>
-</div>
-
-<div class="booth-card high">
-  <div class="booth-num">1243</div>
-  <div class="booth-info">
-    <div class="booth-name">EMA Design Automation <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">Cadence channel partner + PLM systems</div>
-    <div class="booth-topics">Ask: OrCAD/Allegro automation APIs, Cadence tool integration</div>
+    <div class="booth-name">Cadence <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">Sigrity SI/PI, OrCAD, AI roadmap</div>
   </div>
 </div>
 
 <div class="booth-card high">
   <div class="booth-num">855</div>
   <div class="booth-info">
-    <div class="booth-name">Astera Labs <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">PCIe/CXL/Ethernet for AI infrastructure — COSMOS platform</div>
-    <div class="booth-topics">Ask: Reference designs, signal integrity, AI rack-scale connectivity</div>
+    <div class="booth-name">Astera Labs <span class="tag high">HIGH</span></div>
+    <div class="booth-desc">PCIe/CXL connectivity for AI infrastructure</div>
   </div>
 </div>
 
-<div class="booth-card high">
-  <div class="booth-num tbd">TBD</div>
-  <div class="booth-info">
-    <div class="booth-name">DigiKey Electronics <span class="booth-tag high-tag">HIGH</span></div>
-    <div class="booth-desc">Major distributor — potential MCP data partner</div>
-    <div class="booth-topics">Ask: Component API, parametric search integration, data partnerships</div>
-  </div>
+<!-- QUICK REF -->
+<div class="section-header">📋 Quick Reference — All Booths by Number</div>
+
+<div class="info-card" style="font-size: 0.75rem; line-height: 1.8;">
+<strong>200s:</strong> CELUS 202, DigiKey 203, Dassault 311<br>
+<strong>500s:</strong> EMA 512, Altium 519, CADY 526, AllSpice 607<br>
+<strong>800s:</strong> Kipo AI 807, Cadence 827, Astera 855<br>
+<strong>1000s:</strong> Keysight 1039, Huwin 1059, KiCad 1264<br>
+<strong>1400s:</strong> JITX 1464, Circuit Mind 1466, Cadstrom 1549
 </div>
 
-<!-- TI Pitch -->
-<div class="section-header">💡 TI Agentic EDA Talking Points</div>
-
-<div class="tp-card">
-  <h3>🎯 The Vision (Your Elevator Pitch)</h3>
-  <ul>
-    <li>"We're exploring how AI agents can automate and accelerate the hardware design workflow — from component selection through schematic capture to design verification."</li>
-    <li>"Think of MCP (Model Context Protocol) as the USB standard for AI tools — we want EDA tools to plug into agentic workflows."</li>
-    <li>"Our interest is in understanding what APIs and automation hooks your tools expose, and where the friction points are for programmatic access."</li>
-  </ul>
+<div class="info-card">
+  <h2>🕐 Expo Hours</h2>
+  <p style="font-size: 0.85rem;">Wed & Thu: 11:00 AM – 6:00 PM</p>
 </div>
 
-<div class="tp-card">
-  <h3>🔧 For AI/EDA Startups (CADY, CELUS, Circuit Mind, JITX)</h3>
-  <ul>
-    <li>"Do you expose an API? What's the integration story for third-party tools?"</li>
-    <li>"Have you looked at MCP (Anthropic's Model Context Protocol) for tool integration?"</li>
-    <li>"How does your AI handle TI-specific components and design rules?"</li>
-    <li>"What does your automation pipeline look like? Where are humans still in the loop?"</li>
-  </ul>
-</div>
-
-<div class="tp-card">
-  <h3>🔬 For Simulation/SI Tools (Huwin, Keysight)</h3>
-  <ul>
-    <li>"Can simulations be triggered programmatically? Batch mode?"</li>
-    <li>"What scripting interfaces exist for automated test and measurement?"</li>
-    <li>"How do you see AI changing SI/PI workflows in the next 2-3 years?"</li>
-  </ul>
-</div>
-
-<div class="tp-card">
-  <h3>📦 For KiCad Services</h3>
-  <ul>
-    <li>"We're building an MCP server for KiCad. What's the roadmap for scripting/automation in KiCad 9+?"</li>
-    <li>"How can we collaborate on improving KiCad's programmatic interfaces?"</li>
-  </ul>
-</div>
-
-<!-- Checklist -->
-<div class="section-header">✅ Pre-Expo Checklist</div>
-<div class="checklist">
-  <label class="check-item"><input type="checkbox"> Business cards / phone ready for contact exchange</label>
-  <label class="check-item"><input type="checkbox"> Phone charged + portable charger</label>
-  <label class="check-item"><input type="checkbox"> DesignCon badge / registration confirmation</label>
-  <label class="check-item"><input type="checkbox"> Comfortable walking shoes (big expo floor)</label>
-  <label class="check-item"><input type="checkbox"> Grab floor map at registration — find Circuit Mind & JITX</label>
-  <label class="check-item"><input type="checkbox"> Text Circuit Mind contact — confirm meetup time</label>
-  <label class="check-item"><input type="checkbox"> Text JITX contact — confirm meetup time</label>
-</div>
-
-<!-- Notes -->
-<div class="notes-area">
-  <h2>📝 Field Notes</h2>
-  <textarea id="notes" placeholder="Capture key takeaways, contacts, follow-ups here..." oninput="localStorage.setItem('dc-notes', this.value)"></textarea>
-</div>
-
-<div class="notes-area">
-  <h2>📇 New Contacts</h2>
-  <textarea id="contacts" placeholder="Name — Company — Email/Phone — Notes..." oninput="localStorage.setItem('dc-contacts', this.value)"></textarea>
-</div>
-
-<script>
-  // Restore saved notes
-  const notes = document.getElementById('notes');
-  const contacts = document.getElementById('contacts');
-  if (localStorage.getItem('dc-notes')) notes.value = localStorage.getItem('dc-notes');
-  if (localStorage.getItem('dc-contacts')) contacts.value = localStorage.getItem('dc-contacts');
-</script>
-
-<div class="footer">
-  Built by Desmond 🔷 for Adrian · DesignCon 2026<br>
-  Notes auto-save to your browser's local storage
-</div>
+<p style="text-align:center; font-size:0.65rem; color:#475569; padding:20px 0;">
+  Generated by Desmond 🔷 · Updated Feb 25, 2026
+</p>
 
 </body>
 </html>

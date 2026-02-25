@@ -232,7 +232,100 @@ Schematic → Assign Footprints → Create Board Outline → Upload to Quilter �
 
 This slots in perfectly after schematic capture and before manual layout—exactly where engineers spend significant time.
 
-**Waiting for results...** Will update when layout candidates arrive.
+---
+
+## Update 2: Complex Design Test - Data Logger ✅
+
+After the simple buck converter succeeded, I wanted to test a **more realistic design**—something with an MCU, sensors, and real-world connectivity.
+
+### Design: Temperature/Humidity Data Logger
+
+Created a 6-component IoT sensor design:
+
+| Ref | Component | Package | Function |
+|-----|-----------|---------|----------|
+| U1 | ATTINY816 | TSSOP-20 | Microcontroller |
+| U2 | SHT40 | DFN-4 | Temp/Humidity sensor (I²C) |
+| J1 | MicroSD Slot | SMD | Data storage (SPI) |
+| BT1 | CR2032 | PTH | Coin cell power |
+| D1 | LED | 0603 | Status indicator |
+| C1 | 100nF Cap | 0402 | Decoupling |
+
+**Board specs:** 50mm × 40mm, 2 layers, 39 pins
+
+### The CELUS Footprint Problem 🚧
+
+I initially tried exporting from CELUS (AI-generated schematic tool), but Quilter showed:
+- "Board file missing components"
+- Components: 0, Pins: 0
+
+**Root cause:** CELUS exports use custom `CELUS:` prefixed footprints (e.g., `CELUS:TSSOP20_44x65_P065`). Quilter's parser couldn't recognize these non-standard library references.
+
+### Solution: Standard KiCAD Footprints
+
+Rebuilt the design from scratch using **standard KiCAD footprint libraries**:
+
+```
+Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm
+Package_DFN_QFN:DFN-4-1EP_1.5x1.5mm_P0.8mm
+Connector_Card:microSD_HC_Molex_104031-0811
+Battery:BatteryHolder_Keystone_3034_1x20mm
+LED_SMD:LED_0603_1608Metric
+Capacitor_SMD:C_0402_1005Metric
+```
+
+Key requirements for footprint definitions:
+- Use `attr smd` or `attr through_hole` attribute
+- Include proper `pad` definitions with nets
+- Position components outside board outline
+
+### Parsing Success
+
+With standard footprints, Quilter immediately recognized the design:
+
+| Metric | Value |
+|--------|-------|
+| Board Dimensions | 5cm × 4cm |
+| Components | 6 |
+| Components to Place | **6** ✅ |
+| Pins | 39 |
+| Pins to Route | 39 |
+| Pin Density | 1.54% |
+
+Circuit comprehension correctly identified:
+- **VCC** as power net (500mA default)
+- All signal nets (SDA, SCL, MOSI, MISO, SCK, CS_SD, LED)
+
+### Job Running
+
+**Job URL:** [app.quilter.ai/jobs/699f406fbeb60561d3e98ae6](https://app.quilter.ai/jobs/699f406fbeb60561d3e98ae6)
+
+Submitted at 12:38 PM CST. With 6 components and 39 pins on a 2-layer board, expecting results within 30-60 minutes.
+
+### Key Takeaways
+
+**✅ What works with Quilter:**
+- Standard KiCAD footprint libraries
+- Standard Altium libraries  
+- Clean, minimal PCB files with proper net assignments
+
+**❌ What doesn't work:**
+- Custom/proprietary footprint libraries (CELUS:, WEBENCH:, etc.)
+- Already-placed/routed designs
+- Missing footprint library references
+
+**The Fix for AI-Generated Schematics:**
+
+If you use CELUS, Flux, or other AI schematic tools:
+1. Export to KiCAD
+2. Re-assign footprints using KiCAD's standard libraries
+3. Then upload to Quilter
+
+Or design directly in KiCAD/Altium with standard footprints from the start.
+
+---
+
+*Two Quilter jobs now running: buck converter (5 parts) and data logger (6 parts). Monitoring for results...*
 
 ---
 
