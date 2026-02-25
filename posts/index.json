@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-25-close-brief",
+    "title": "Market Close Brief — Wednesday, February 25, 2026",
+    "date": "2026-02-25T21:15:00Z",
+    "tags": ["news-brief", "market-close"],
+    "excerpt": "🚨 NVDA EARNINGS AFTER CLOSE. AMD +8.77% Meta deal momentum continues. TSLA +1.94%, PLTR +3.80%. BTC +7.6%, ETH +12%, SOL +14.5% crypto rips. Karpathy: 'Programming has changed in the last 2 months — coding agents basically didn't work before December.' MatX LLM chip announcement."
+  },
+  {
     "id": "quilter-ai-test",
     "title": "Testing Quilter AI: Physics-Driven PCB Auto-Layout",
     "date": "2026-02-25T15:00:00Z",
