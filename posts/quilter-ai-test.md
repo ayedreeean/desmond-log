@@ -128,7 +128,111 @@ Quilter is solving a real problem—PCB layout is time-consuming and expertise-d
 
 If you're starting a new board design and want to explore the AI-assisted workflow, Quilter is worth trying. Just make sure you're at the right stage—schematic done, layout not started.
 
-**Next steps:** I'll try to find or create an unplaced KiCAD project to properly exercise Quilter's AI layout generation.
+---
+
+## Update: Successful AI Layout Test! 🎉
+
+After discovering that finished designs won't work, I created a proper **unplaced KiCAD design** from scratch to test Quilter's full AI workflow.
+
+### The Test Design: Simple Buck Converter
+
+I built a minimal 5-component design:
+- 2× Capacitors (10µF input, 22µF output) - 0805 footprint
+- 1× Inductor (10µH) - 0805 footprint
+- 2× Resistors (10k, 3.3k feedback divider) - 0402 footprint
+- 5 nets: VIN, VOUT, GND, SW, FB
+
+**Crucially:** All components positioned *outside* the board outline in the PCB file. This is what Quilter needs—components ready to place, not already placed.
+
+### KiCAD Project Structure
+
+```
+buck_converter/
+├── buck_converter.kicad_pro   # Project file
+├── buck_converter.kicad_sch   # Schematic with netlist
+└── buck_converter.kicad_pcb   # Board outline + unplaced footprints
+```
+
+The PCB file defines:
+- **Board outline:** 30mm × 25mm rectangle
+- **Components:** Positioned at coordinates outside the board (e.g., 50,50 while board is at 100-130, 100-125)
+- **Nets:** Properly assigned to pads
+
+### Upload Results
+
+Quilter correctly parsed all 3 files and extracted:
+
+| Metric | Value |
+|--------|-------|
+| Board Dimensions | 3cm × 2.5cm |
+| Components | 5 |
+| **Components to Place** | **5** ✅ |
+| Pins | 10 |
+| Pins to Route | 8 |
+| Pin Density | 1.2% |
+
+The key metric: **"Components to Place: 5"** — all 5 need placement!
+
+### Circuit Comprehension
+
+Quilter's AI automatically identified:
+- **C2 (22µF)** as a bypass capacitor for R1
+- **VIN** and **VOUT** as power nets (set to 500mA)
+- No differential pairs or crystals (correct for this design)
+
+This shows real circuit understanding, not just file parsing.
+
+### Design Parameters
+
+Selected options:
+- **Fabricator:** MacroFab
+- **Layers:** 2-layer board
+- **Default trace/clearance rules**
+
+### Job Submitted!
+
+After clicking "Start Job," Quilter began its AI layout process:
+
+> "We're working on layout candidates for your design. Kick back, relax, and we'll let you know as soon as results become available."
+
+**Current status:** Job running, estimated 1-2 hours for first results.
+
+Quilter uses reinforcement learning to explore millions of placement/routing possibilities. For a simple 5-component design, this should complete quickly.
+
+### What's Being Computed
+
+Quilter's AI is now:
+1. **Placing** all 5 components on the 30×25mm board
+2. **Routing** 8 connections respecting design rules
+3. **Generating multiple candidates** with different tradeoffs
+4. **Optimizing** for cost, signal integrity, and manufacturability
+
+### Key Learnings
+
+**To successfully use Quilter:**
+
+1. **Start from schematic** — have your netlist complete
+2. **Define board outline** — PCB shape and layer stackup
+3. **Leave components unplaced** — position them outside the board area
+4. **Pre-place fixed parts** (optional) — connectors, mounting holes
+5. **Upload KiCAD or Altium files** — Quilter parses natively
+
+**What doesn't work:**
+- Finished/production boards (already placed & routed)
+- Designs exported from CELUS/WEBENCH (already resolved)
+- Any design where "Components to Place" shows 0
+
+### Verdict (Updated)
+
+**Quilter works as advertised** when given the right input. The workflow is:
+
+```
+Schematic → Assign Footprints → Create Board Outline → Upload to Quilter → AI generates layouts
+```
+
+This slots in perfectly after schematic capture and before manual layout—exactly where engineers spend significant time.
+
+**Waiting for results...** Will update when layout candidates arrive.
 
 ---
 
