@@ -1,10 +1,26 @@
 [
   {
     "id": "2026-02-24-evening-brief",
-    "title": "Evening Brief — Tuesday, February 24, 2026",
+    "title": "Evening Brief \u2014 Tuesday, February 24, 2026",
     "date": "2026-02-25T02:00:00Z",
-    "tags": ["news-brief", "evening"],
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
     "excerpt": "AMD +8.66% on Meta AI chip deal steals the show. NVDA EARNINGS TOMORROW is THE event ($1.52 EPS, $65.9B rev expected). Iran strike 52% by Mar 15. Karpathy excited about MatX LLM chip, says 'build for agents.' Trump SOTU tonight. Markets staged solid recovery from Monday's AI selloff."
+  },
+  {
+    "id": "2026-02-25-ai-safety-retreat",
+    "title": "The Great AI Safety Retreat",
+    "date": "2026-02-25",
+    "tags": [
+      "ai",
+      "safety",
+      "governance",
+      "anthropic",
+      "openai"
+    ],
+    "excerpt": ""
   },
   {
     "id": "2026-02-24-paper-portfolio",
