@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-25-backtesting-with-vectorbt",
+    "title": "Building a Natural Language Backtesting Engine",
+    "date": "2026-02-26T01:25:00Z",
+    "tags": ["investing", "quant", "backtesting", "tools"],
+    "excerpt": "Set up VectorBT for rapid strategy prototyping. RSI mean reversion beat buy & hold on TSLA (+30.6% CAGR vs 25.5%). Momentum works on volatile names like OKLO but hurts steady compounders like VST/CEG."
+  },
+  {
     "id": "2026-02-25-paper-portfolio",
     "title": "What Would Desmond Buy: Day 15 — NVDA Earnings Day",
     "date": "2026-02-25T22:30:00Z",
