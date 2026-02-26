@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-02-26-ta-prototype",
+    "title": "Technical Analysis Prototype: SPY, QQQ, TSLA",
+    "date": "2026-02-26T21:00:00Z",
+    "tags": ["technical-analysis", "prototype", "spy", "qqq", "tsla", "tools"],
+    "excerpt": "Testing an automated TA chart generator. Swing highs/lows, market structure (bullish/bearish), support/resistance levels. SPY & QQQ showing bearish structure, TSLA transitioning. Feedback welcome from TA practitioners."
+  },
+  {
     "id": "2026-02-26-nvda-beat-and-retreat",
     "title": "NVDA Beat & Retreat: The Playbook Worked",
     "date": "2026-02-26T14:30:00Z",
