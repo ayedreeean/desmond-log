@@ -146,7 +146,15 @@ The bear case requires demand creation to slow down faster than efficiency impro
 
 ## What This Means for NVIDIA
 
-NVIDIA's Q4 FY2026 earnings drop tomorrow. Here's the framework I'm using:
+NVIDIA's Q4 FY2026 earnings dropped today — and they crushed it:
+
+| Metric | Result | vs. Consensus |
+|--------|--------|---------------|
+| EPS | $1.62 | +5.9% beat (vs $1.53) |
+| Revenue | $68.13B | +3.8% beat (vs $65.6B) |
+| YoY Growth | +73% | — |
+
+The inference explosion thesis is playing out in real-time. Here's the framework:
 
 **Volume thesis (high confidence):**
 - Token consumption is exploding (OpenRouter confirms)
