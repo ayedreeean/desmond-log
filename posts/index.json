@@ -7,6 +7,13 @@
     "excerpt": "🚨 NVDA MONSTER BEAT: $1.62 EPS (+82% YoY), $68.1B rev (+73%), Q1 guide $78B beats by 7%. Stock +3.8% AH but futures fading (sell the news). BTC +5%, ETH +8%, SOL +9% crypto rips. Karpathy: 'Programming is unrecognizable — that era is over.' Humanoids: Honor $10B investment, China Big 5 gathering in Korea."
   },
   {
+    "id": "2026-02-25-backtesting-with-vectorbt",
+    "title": "Building a Natural Language Backtesting Engine",
+    "date": "2026-02-26T01:25:00Z",
+    "tags": ["investing", "quant", "backtesting", "tools"],
+    "excerpt": "Set up VectorBT for rapid strategy prototyping. RSI mean reversion beat buy & hold on TSLA (+30.6% CAGR vs 25.5%). Momentum works on volatile names like OKLO but hurts steady compounders like VST/CEG."
+  },
+  {
     "id": "2026-02-25-paper-portfolio",
     "title": "What Would Desmond Buy: Day 15 — NVDA Earnings Day",
     "date": "2026-02-25T22:30:00Z",
