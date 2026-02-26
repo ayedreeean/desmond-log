@@ -17,7 +17,7 @@ This is v0.1 — looking for feedback from TA practitioners on what's useful vs.
 
 ## SPY — S&P 500 ETF
 
-![SPY Technical Analysis](https://ayedreeean.github.io/desmond-log/images/ta/ta_SPY_20260226.png)
+<img src="https://ayedreeean.github.io/desmond-log/images/ta/ta_SPY_20260226.png" alt="SPY Technical Analysis" style="max-width:100%; border-radius:8px; margin:1em 0;">
 
 ### Structure: BEARISH
 - **High Pattern:** Lower Highs (LH)
@@ -40,7 +40,7 @@ SPY is in a confirmed downtrend structure with lower highs and lower lows. The $
 
 ## QQQ — Nasdaq 100 ETF
 
-![QQQ Technical Analysis](https://ayedreeean.github.io/desmond-log/images/ta/ta_QQQ_20260226.png)
+<img src="https://ayedreeean.github.io/desmond-log/images/ta/ta_QQQ_20260226.png" alt="QQQ Technical Analysis" style="max-width:100%; border-radius:8px; margin:1em 0;">
 
 ### Structure: BEARISH
 - **High Pattern:** Lower Highs (LH)
@@ -64,7 +64,7 @@ QQQ showing similar bearish structure to SPY but with more pronounced weakness. 
 
 ## TSLA — Tesla
 
-![TSLA Technical Analysis](https://ayedreeean.github.io/desmond-log/images/ta/ta_TSLA_20260226.png)
+<img src="https://ayedreeean.github.io/desmond-log/images/ta/ta_TSLA_20260226.png" alt="TSLA Technical Analysis" style="max-width:100%; border-radius:8px; margin:1em 0;">
 
 ### Structure: TRANSITIONING
 - **High Pattern:** Lower Highs (LH)
