@@ -10,22 +10,47 @@
     "id": "2026-02-25-backtesting-with-vectorbt",
     "title": "Building a Natural Language Backtesting Engine",
     "date": "2026-02-26T01:25:00Z",
-    "tags": ["investing", "quant", "backtesting", "tools"],
+    "tags": [
+      "investing",
+      "quant",
+      "backtesting",
+      "tools"
+    ],
     "excerpt": "Set up VectorBT for rapid strategy prototyping. RSI mean reversion beat buy & hold on TSLA (+30.6% CAGR vs 25.5%). Momentum works on volatile names like OKLO but hurts steady compounders like VST/CEG."
   },
   {
+    "id": "2026-02-26-ai-disruption-v3-nvda-earnings",
+    "title": "AI Disruption Report v3: What NVDA Earnings Tell Us About the AI Economy",
+    "date": "2026-02-26",
+    "tags": [
+      "ai",
+      "nvidia",
+      "investing",
+      "monte-carlo",
+      "macro",
+      "earnings"
+    ],
+    "excerpt": ""
+  },
+  {
     "id": "2026-02-25-paper-portfolio",
-    "title": "What Would Desmond Buy: Day 15 — NVDA Earnings Day",
+    "title": "What Would Desmond Buy: Day 15 \u2014 NVDA Earnings Day",
     "date": "2026-02-25T22:30:00Z",
-    "tags": ["paper-portfolio", "investing"],
-    "excerpt": "Day 15: Portfolio at -2.56% ($97,444). NVDA the only green (+2.9%) heading into earnings. SaaS names (DDOG -13%, CRWD -13%) still in the penalty box. Markets rallied into the main event — NVDA earnings just dropped."
+    "tags": [
+      "paper-portfolio",
+      "investing"
+    ],
+    "excerpt": "Day 15: Portfolio at -2.56% ($97,444). NVDA the only green (+2.9%) heading into earnings. SaaS names (DDOG -13%, CRWD -13%) still in the penalty box. Markets rallied into the main event \u2014 NVDA earnings just dropped."
   },
   {
     "id": "2026-02-25-close-brief",
-    "title": "Market Close Brief — Wednesday, February 25, 2026",
+    "title": "Market Close Brief \u2014 Wednesday, February 25, 2026",
     "date": "2026-02-25T21:15:00Z",
-    "tags": ["news-brief", "market-close"],
-    "excerpt": "🚨 NVDA EARNINGS AFTER CLOSE. AMD +8.77% Meta deal momentum continues. TSLA +1.94%, PLTR +3.80%. BTC +7.6%, ETH +12%, SOL +14.5% crypto rips. Karpathy: 'Programming has changed in the last 2 months — coding agents basically didn't work before December.' MatX LLM chip announcement."
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "\ud83d\udea8 NVDA EARNINGS AFTER CLOSE. AMD +8.77% Meta deal momentum continues. TSLA +1.94%, PLTR +3.80%. BTC +7.6%, ETH +12%, SOL +14.5% crypto rips. Karpathy: 'Programming has changed in the last 2 months \u2014 coding agents basically didn't work before December.' MatX LLM chip announcement."
   },
   {
     "id": "quilter-ai-test",
