@@ -84,14 +84,31 @@
       color: #856404;
       margin-top: 12px;
     }
+    .note.green {
+      background: #d4edda;
+      color: #155724;
+    }
     .highlight { color: #11998e; font-weight: 600; }
+    .rating { color: #ff385c; }
+    .link {
+      display: block;
+      margin-top: 12px;
+      padding: 12px;
+      background: #667eea;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    .link:hover { background: #5a6fd6; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1>🎿 Vegas Ski Trip</h1>
-      <div class="dates">March 15–19, 2026</div>
+      <div class="dates">March 14–18, 2026</div>
     </div>
 
     <div class="card">
@@ -100,40 +117,72 @@
       </div>
       <div class="flight-leg">
         <div class="flight-route">Dallas → Las Vegas</div>
-        <div class="flight-time">Sun 3/15 · 10:10 AM → 11:15 AM</div>
-        <div class="flight-time">Southwest WN 3395 · Nonstop</div>
+        <div class="flight-time">Sat 3/14 · 6:55 PM → 8:00 PM</div>
+        <div class="flight-time">Southwest WN 1197 · Nonstop</div>
       </div>
       <div class="flight-leg">
         <div class="flight-route">Las Vegas → Dallas</div>
-        <div class="flight-time">Thu 3/19 · 7:45 AM → 12:25 PM</div>
-        <div class="flight-time">Southwest WN 2531 · Nonstop</div>
+        <div class="flight-time">Wed 3/18 · 8:20 AM → 1:00 PM</div>
+        <div class="flight-time">Southwest WN 3112 · Nonstop</div>
       </div>
       <div class="detail-row" style="margin-top: 12px;">
         <span class="detail-label">4 passengers</span>
-        <span class="detail-value">$2,803</span>
+        <span class="detail-value">$2,411</span>
       </div>
-      <div class="note">✅ 2 free checked bags per person!</div>
+      <div class="note green">✅ 2 free checked bags per person!</div>
     </div>
 
     <div class="card">
       <div class="card-header">
-        <span class="icon">🏨</span> Hotel
+        <span class="icon">🏠</span> Airbnb
       </div>
       <div class="detail-row">
-        <span class="detail-label">Hilton Elara</span>
-        <span class="detail-value">4 nights</span>
+        <span class="detail-label">Type</span>
+        <span class="detail-value">Serviced Studio Apartment</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Location</span>
-        <span class="detail-value">Center Strip</span>
+        <span class="detail-label">Beds / Bath</span>
+        <span class="detail-value">2 beds · 1 bath</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Host</span>
+        <span class="detail-value">Alex (Superhost, 11 yrs)</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Rating</span>
-        <span class="detail-value">⭐ 4.0</span>
+        <span class="detail-value"><span class="rating">★ 5.0</span> (22 reviews)</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Total</span>
-        <span class="detail-value">$1,253</span>
+        <span class="detail-label">Perks</span>
+        <span class="detail-value">Pool · Gym · No Resort Fee</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">4 nights</span>
+        <span class="detail-value">$558</span>
+      </div>
+      <div class="note green">💚 "These dates are priced lower than usual"</div>
+      <a class="link" href="https://www.airbnb.com/rooms/1293904957264473015?adults=2&check_in=2026-03-14&check_out=2026-03-18&children=2&guests=4" target="_blank">View Listing →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="icon">🚗</span> Rental Car
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Vehicle</span>
+        <span class="detail-value">Nissan Versa (Compact)</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Pickup</span>
+        <span class="detail-value">LAS Airport (Shuttle)</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Provider</span>
+        <span class="detail-value">Easi Rent</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">4 days</span>
+        <span class="detail-value">$251</span>
       </div>
     </div>
 
@@ -143,7 +192,11 @@
       </div>
       <div class="detail-row">
         <span class="detail-label">Ski Days</span>
-        <span class="detail-value">Mon 3/16 & Tue 3/17</span>
+        <span class="detail-value">Sun 3/15 & Mon 3/16</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Drive from Strip</span>
+        <span class="detail-value">~50 minutes</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Luke & Maddy</span>
@@ -153,26 +206,7 @@
         <span class="detail-label">Adults (2 days each)</span>
         <span class="detail-value">~$320</span>
       </div>
-      <div class="note">Kids 12 & under ski free at Lee Canyon!</div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="icon">🚗</span> Transportation
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">Rental Car (4 days)</span>
-        <span class="detail-value">~$200</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">Hotel Parking</span>
-        <span class="detail-value">~$100</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">Gas</span>
-        <span class="detail-value">~$50</span>
-      </div>
-      <div class="note">Lee Canyon is ~50 min drive from Strip</div>
+      <div class="note green">🎿 Kids 12 & under ski free at Lee Canyon!</div>
     </div>
 
     <div class="card total-card">
@@ -181,21 +215,21 @@
       </div>
       <div class="detail-row">
         <span class="detail-label">Flights</span>
-        <span class="detail-value">$2,803</span>
+        <span class="detail-value">$2,411</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Hotel</span>
-        <span class="detail-value">$1,253</span>
+        <span class="detail-label">Airbnb</span>
+        <span class="detail-value">$558</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Lift Tickets</span>
+        <span class="detail-label">Rental Car</span>
+        <span class="detail-value">$251</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Lift Tickets (est.)</span>
         <span class="detail-value">~$320</span>
       </div>
-      <div class="detail-row">
-        <span class="detail-label">Car + Parking + Gas</span>
-        <span class="detail-value">~$350</span>
-      </div>
-      <div class="total-amount">~$4,726</div>
+      <div class="total-amount">~$3,540</div>
       <div style="text-align: center; font-size: 14px; opacity: 0.9; margin-top: 4px;">
         (before food & activities)
       </div>
@@ -213,7 +247,7 @@
         <span class="detail-label">Kids</span>
         <span class="detail-value">Luke (8) & Maddy (5)</span>
       </div>
-      <div class="note">Coordinating with Fan Family (they arrive 3/14)</div>
+      <div class="note">📍 Coordinating with Fan Family!</div>
     </div>
 
   </div>
