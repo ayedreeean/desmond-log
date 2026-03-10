@@ -8,61 +8,140 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
       min-height: 100vh;
-      padding: 20px;
+      padding: 16px;
       color: #333;
     }
-    .container {
-      max-width: 420px;
-      margin: 0 auto;
-    }
+    .container { max-width: 440px; margin: 0 auto; }
     .header {
       text-align: center;
       color: white;
       margin-bottom: 20px;
+      padding: 20px 0;
     }
-    .header h1 { font-size: 28px; margin-bottom: 4px; }
-    .header .dates { font-size: 18px; opacity: 0.9; }
+    .header h1 { font-size: 32px; margin-bottom: 6px; }
+    .header .dates { font-size: 18px; opacity: 0.85; }
+    .header .crew { font-size: 14px; opacity: 0.7; margin-top: 8px; }
     .card {
       background: white;
       border-radius: 16px;
       padding: 20px;
-      margin-bottom: 16px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      margin-bottom: 14px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
     }
     .card-header {
       display: flex;
       align-items: center;
       gap: 10px;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       font-size: 18px;
-      font-weight: 600;
-      color: #667eea;
+      font-weight: 700;
     }
     .card-header .icon { font-size: 24px; }
+    .card-header.blue { color: #0f3460; }
+    .card-header.green { color: #11998e; }
+    .card-header.purple { color: #6c5ce7; }
+    .card-header.orange { color: #e17055; }
+    .card-header.red { color: #d63031; }
+    .card-header.pink { color: #e84393; }
     .detail-row {
       display: flex;
       justify-content: space-between;
-      padding: 8px 0;
-      border-bottom: 1px solid #eee;
+      padding: 7px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 14px;
     }
     .detail-row:last-child { border-bottom: none; }
     .detail-label { color: #666; }
-    .detail-value { font-weight: 500; text-align: right; }
+    .detail-value { font-weight: 600; text-align: right; max-width: 60%; }
     .flight-leg {
       background: #f8f9fa;
-      border-radius: 10px;
-      padding: 12px;
+      border-radius: 12px;
+      padding: 14px;
       margin-bottom: 10px;
     }
-    .flight-leg:last-child { margin-bottom: 0; }
-    .flight-route {
+    .flight-leg:last-of-type { margin-bottom: 0; }
+    .flight-route { font-weight: 700; font-size: 16px; margin-bottom: 4px; }
+    .flight-time { color: #666; font-size: 13px; line-height: 1.5; }
+    .conf-num {
+      display: inline-block;
+      background: #f0f0f0;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-family: 'SF Mono', 'Courier New', monospace;
+      font-size: 13px;
       font-weight: 600;
-      font-size: 16px;
-      margin-bottom: 4px;
+      color: #333;
+      letter-spacing: 0.5px;
     }
-    .flight-time { color: #666; font-size: 14px; }
+    .note {
+      background: #fff3cd;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 13px;
+      color: #856404;
+      margin-top: 12px;
+      line-height: 1.4;
+    }
+    .note.green { background: #d4edda; color: #155724; }
+    .note.blue { background: #d1ecf1; color: #0c5460; }
+    .note.red { background: #f8d7da; color: #721c24; }
+    .link-btn {
+      display: block;
+      margin-top: 12px;
+      padding: 12px;
+      background: #0f3460;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .link-btn:hover { background: #0a2647; }
+    .link-btn.green { background: #11998e; }
+    .link-btn.purple { background: #6c5ce7; }
+    .link-btn.orange { background: #e17055; }
+    .qr-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    .qr-item {
+      flex: 1;
+      min-width: 100px;
+      text-align: center;
+    }
+    .qr-item img { width: 100%; max-width: 120px; border-radius: 8px; }
+    .qr-item .qr-label { font-size: 11px; color: #666; margin-top: 4px; }
+    .day-tag {
+      display: inline-block;
+      background: #0f3460;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .day-tag.green { background: #11998e; }
+    .day-tag.purple { background: #6c5ce7; }
+    .day-tag.orange { background: #e17055; }
+    .divider {
+      border: none;
+      border-top: 2px dashed rgba(255,255,255,0.2);
+      margin: 20px 0;
+    }
+    .section-label {
+      color: rgba(255,255,255,0.6);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
     .total-card {
       background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
       color: white;
@@ -70,79 +149,129 @@
     .total-card .card-header { color: white; }
     .total-card .detail-row { border-color: rgba(255,255,255,0.2); }
     .total-card .detail-label { color: rgba(255,255,255,0.8); }
+    .total-card .detail-value { color: white; }
     .total-amount {
-      font-size: 32px;
-      font-weight: 700;
+      font-size: 36px;
+      font-weight: 800;
       text-align: center;
       margin-top: 10px;
     }
-    .note {
-      background: #fff3cd;
-      border-radius: 10px;
-      padding: 12px;
+    .timeline {
+      position: relative;
+      padding-left: 20px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #e0e0e0;
+    }
+    .timeline-item {
+      position: relative;
+      padding-bottom: 14px;
       font-size: 14px;
-      color: #856404;
-      margin-top: 12px;
     }
-    .note.green {
-      background: #d4edda;
-      color: #155724;
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -18px;
+      top: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #0f3460;
     }
-    .highlight { color: #11998e; font-weight: 600; }
-    .rating { color: #ff385c; }
-    .link {
-      display: block;
-      margin-top: 12px;
-      padding: 12px;
-      background: #667eea;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: 600;
+    .timeline-item .time { font-weight: 700; color: #0f3460; }
+    .timeline-item .event { color: #555; }
+    .checklist { list-style: none; padding: 0; }
+    .checklist li {
+      padding: 6px 0;
+      font-size: 14px;
+      border-bottom: 1px solid #f0f0f0;
     }
-    .link:hover { background: #5a6fd6; }
+    .checklist li:last-child { border-bottom: none; }
   </style>
 </head>
 <body>
   <div class="container">
+
+    <!-- HEADER -->
     <div class="header">
       <h1>🎿 Vegas Ski Trip</h1>
       <div class="dates">March 14–18, 2026</div>
+      <div class="crew">Adrian · Ellen · Luke · Maddy · PohPoh · GongGong</div>
+    </div>
+
+    <!-- ═══════════ TRAVEL ═══════════ -->
+    <div class="section-label">✈️ Travel</div>
+
+    <div class="card">
+      <div class="card-header blue">
+        <span class="icon">✈️</span> Flights — Southwest
+      </div>
+      <div class="flight-leg">
+        <div class="flight-route">✈️ Dallas → Las Vegas</div>
+        <div class="flight-time">
+          <strong>Sat March 14</strong> · WN 1197<br>
+          Depart DAL <strong>6:55 PM</strong> → Arrive LAS <strong>8:00 PM</strong><br>
+          Nonstop · 3h 5min
+        </div>
+      </div>
+      <div class="flight-leg">
+        <div class="flight-route">✈️ Las Vegas → Dallas</div>
+        <div class="flight-time">
+          <strong>Wed March 18</strong> · WN 3112<br>
+          Depart LAS <strong>8:20 AM</strong> → Arrive DAL <strong>1:00 PM</strong><br>
+          Nonstop · 2h 40min
+        </div>
+      </div>
+      <div class="detail-row" style="margin-top:12px">
+        <span class="detail-label">Passengers</span>
+        <span class="detail-value">6 (all)</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Total</span>
+        <span class="detail-value">$2,411.20</span>
+      </div>
+      <div class="note green">✅ 2 free checked bags per person · No change fees</div>
     </div>
 
     <div class="card">
-      <div class="card-header">
-        <span class="icon">✈️</span> Flights
+      <div class="card-header blue">
+        <span class="icon">🚐</span> Turo — Chrysler Pacifica 2022
       </div>
-      <div class="flight-leg">
-        <div class="flight-route">Dallas → Las Vegas</div>
-        <div class="flight-time">Sat 3/14 · 6:55 PM → 8:00 PM</div>
-        <div class="flight-time">Southwest WN 1197 · Nonstop</div>
+      <div class="detail-row">
+        <span class="detail-label">Host</span>
+        <span class="detail-value">Mario ⭐ 5.0 (76 trips)</span>
       </div>
-      <div class="flight-leg">
-        <div class="flight-route">Las Vegas → Dallas</div>
-        <div class="flight-time">Wed 3/18 · 8:20 AM → 1:00 PM</div>
-        <div class="flight-time">Southwest WN 3112 · Nonstop</div>
+      <div class="detail-row">
+        <span class="detail-label">Pickup</span>
+        <span class="detail-value">Sat 3/14 ~9:00 PM · LAS</span>
       </div>
-      <div class="detail-row" style="margin-top: 12px;">
-        <span class="detail-label">4 passengers</span>
-        <span class="detail-value">$2,411</span>
+      <div class="detail-row">
+        <span class="detail-label">Dropoff</span>
+        <span class="detail-value">Wed 3/18 ~6:00 AM · LAS</span>
       </div>
-      <div class="note green">✅ 2 free checked bags per person!</div>
+      <div class="detail-row">
+        <span class="detail-label">Seats</span>
+        <span class="detail-value">7-8 passengers</span>
+      </div>
+      <div class="note blue">📸 Take walk-around photos at pickup! Return with same gas level.</div>
     </div>
 
+    <!-- ═══════════ STAY ═══════════ -->
+    <div class="section-label">🏠 Stay</div>
+
     <div class="card">
-      <div class="card-header">
-        <span class="icon">🏠</span> Airbnb
+      <div class="card-header green">
+        <span class="icon">🏠</span> Airbnb — Serviced Apartment
       </div>
       <div class="detail-row">
         <span class="detail-label">Type</span>
-        <span class="detail-value">Serviced Studio Apartment</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">Beds / Bath</span>
-        <span class="detail-value">2 beds · 1 bath</span>
+        <span class="detail-value">Studio · 2 beds · 1 bath</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Host</span>
@@ -150,104 +279,341 @@
       </div>
       <div class="detail-row">
         <span class="detail-label">Rating</span>
-        <span class="detail-value"><span class="rating">★ 5.0</span> (22 reviews)</span>
+        <span class="detail-value">★ 5.0 (22 reviews)</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Perks</span>
-        <span class="detail-value">Pool · Gym · No Resort Fee</span>
+        <span class="detail-label">Check-in</span>
+        <span class="detail-value">Sat 3/14</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Checkout</span>
+        <span class="detail-value">Wed 3/18</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">4 nights</span>
         <span class="detail-value">$558</span>
       </div>
-      <div class="note green">💚 "These dates are priced lower than usual"</div>
-      <a class="link" href="https://www.airbnb.com/rooms/1293904957264473015?adults=2&check_in=2026-03-14&check_out=2026-03-18&children=2&guests=4" target="_blank">View Listing →</a>
+      <a class="link-btn green" href="https://www.airbnb.com/rooms/1293904957264473015?adults=2&check_in=2026-03-14&check_out=2026-03-18&children=2&guests=4" target="_blank">View Airbnb Listing →</a>
+    </div>
+
+    <!-- ═══════════ DAY BY DAY ═══════════ -->
+    <div class="section-label">📅 Day-by-Day</div>
+
+    <!-- SATURDAY -->
+    <div class="card">
+      <span class="day-tag">SAT 3/14 — TRAVEL DAY</span>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">6:55 PM</span> <span class="event">— Depart DAL (WN 1197)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">8:00 PM</span> <span class="event">— Land at LAS</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~9:00 PM</span> <span class="event">— Turo pickup (Chrysler Pacifica)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~9:30 PM</span> <span class="event">— Check into Airbnb</span>
+        </div>
+      </div>
+      <div class="note">🎉 Happy 11th Anniversary, Adrian & Ellen! (March 14, 2015)</div>
+    </div>
+
+    <!-- SUNDAY -->
+    <div class="card">
+      <span class="day-tag purple">SUN 3/15 — SPHERE DAY 🌈</span>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">10:15 AM</span> <span class="event">— Arrive at Sphere (no late entry!)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">11:00 AM</span> <span class="event">— Wizard of Oz at Sphere 🎬</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~12:15 PM</span> <span class="event">— Show ends (~75 min)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">Afternoon</span> <span class="event">— Explore the Strip! 🎰</span>
+        </div>
+      </div>
+      <div class="note green">🍎 Section 307 gets falling apples, snow, wind & fire effects! Keep the apples!</div>
+    </div>
+
+    <!-- MONDAY -->
+    <div class="card">
+      <span class="day-tag green">MON 3/16 — SKI DAY 1 ⛷️</span>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">8:30 AM</span> <span class="event">— Leave for Lee Canyon (~50 min)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~9:30 AM</span> <span class="event">— Arrive, park at Ponderosa (lower lot)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">10:00 AM</span> <span class="event">— Pickup ski rentals (bring photo ID!)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">10:30 AM</span> <span class="event">— Free ski time on Rabbit Peak 🐰</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">1:00 PM</span> <span class="event">— Private ski lesson (4 kids, 3 hrs)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">4:00 PM</span> <span class="event">— Lesson ends at Kid's Yurt</span>
+        </div>
+      </div>
+      <div class="note red">⚠️ NO cell service at Lee Canyon! Make meetup plans BEFORE going up.</div>
+    </div>
+
+    <!-- TUESDAY -->
+    <div class="card">
+      <span class="day-tag green">TUE 3/17 — SKI DAY 2 ⛷️</span>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">8:30 AM</span> <span class="event">— Leave for Lee Canyon</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">10:00 AM</span> <span class="event">— Ski! Rabbit Peak magic carpet + bunny slope</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~2-3 PM</span> <span class="event">— Head back to Vegas</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">Evening</span> <span class="event">— Last night in Vegas! 🎰</span>
+        </div>
+      </div>
+      <div class="note green">🎿 Kids practiced yesterday — parents can guide them on bunny slope today. No lesson needed!</div>
+    </div>
+
+    <!-- WEDNESDAY -->
+    <div class="card">
+      <span class="day-tag orange">WED 3/18 — HOME DAY</span>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">~5:30 AM</span> <span class="event">— Wake up & pack</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">~6:00 AM</span> <span class="event">— Turo dropoff at LAS</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">8:20 AM</span> <span class="event">— Depart LAS (WN 3112)</span>
+        </div>
+        <div class="timeline-item">
+          <span class="time">1:00 PM</span> <span class="event">— Arrive DAL — Home! 🏠</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ CONFIRMATIONS ═══════════ -->
+    <div class="section-label">🎫 Confirmations & Tickets</div>
+
+    <div class="card">
+      <div class="card-header purple">
+        <span class="icon">🎬</span> Wizard of Oz — Sphere
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Date</span>
+        <span class="detail-value">Sun 3/15 · 11:00 AM</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Section</span>
+        <span class="detail-value">307 · Row 17 · Seats 7-12</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Tickets</span>
+        <span class="detail-value">6</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Total</span>
+        <span class="detail-value">$804.00</span>
+      </div>
+      <div class="note blue">⏰ NO late entry! Arrive by 10:15 AM. Haptic seats, wind, scents, falling apples 🍎</div>
     </div>
 
     <div class="card">
-      <div class="card-header">
-        <span class="icon">🚗</span> Rental Car
+      <div class="card-header green">
+        <span class="icon">🎿</span> Ski Lesson — Lee Canyon
       </div>
       <div class="detail-row">
-        <span class="detail-label">Vehicle</span>
-        <span class="detail-value">Nissan Versa (Compact)</span>
+        <span class="detail-label">Confirmation</span>
+        <span class="detail-value"><span class="conf-num">#408653000007</span></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Date</span>
+        <span class="detail-value">Mon 3/16 · 1:00 PM</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Type</span>
+        <span class="detail-value">3-Hr Private Group</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Kids</span>
+        <span class="detail-value">Luke, Maddy, Asher, Hannah</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Our cost (½)</span>
+        <span class="detail-value">$100.00</span>
+      </div>
+      <div class="note">🅿️ Park at <strong>lower Ponderosa lot</strong> · Check-in at Ski School · Arrive by <strong>11:30 AM</strong></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header green">
+        <span class="icon">🎿</span> Ski Rentals + Lift Tickets
+      </div>
+
+      <div style="font-weight:700; font-size:14px; margin-bottom:8px; color:#11998e;">Luke & Maddy</div>
+      <div class="detail-row">
+        <span class="detail-label">Confirmation</span>
+        <span class="detail-value"><span class="conf-num">#409057000007</span></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Package</span>
+        <span class="detail-value">2-Day Child Rental + Lift</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Pickup</span>
-        <span class="detail-value">LAS Airport (Shuttle)</span>
+        <span class="detail-value">10:00 AM · Ponderosa Base</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Provider</span>
-        <span class="detail-value">Easi Rent</span>
+        <span class="detail-label">Total</span>
+        <span class="detail-value">$82.36</span>
+      </div>
+
+      <hr style="border:none;border-top:1px dashed #ddd;margin:14px 0;">
+
+      <div style="font-weight:700; font-size:14px; margin-bottom:8px; color:#11998e;">Adrian</div>
+      <div class="detail-row">
+        <span class="detail-label">Confirmation</span>
+        <span class="detail-value"><span class="conf-num">#409060000007</span></span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">4 days</span>
-        <span class="detail-value">$251</span>
+        <span class="detail-label">Package</span>
+        <span class="detail-value">2-Day Adult Rental + Lift</span>
       </div>
+      <div class="detail-row">
+        <span class="detail-label">Pickup</span>
+        <span class="detail-value">10:00 AM · Ponderosa Base</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Total</span>
+        <span class="detail-value">$126.86</span>
+      </div>
+
+      <div class="note">🪪 Bring photo ID · Arrive 15 min early · First-timers get <strong>Lee Canyon Card</strong> at Pass Pick-Up boxes</div>
     </div>
 
+    <!-- ═══════════ KEY LOCATIONS ═══════════ -->
+    <div class="section-label">📍 Key Locations</div>
+
     <div class="card">
-      <div class="card-header">
-        <span class="icon">⛷️</span> Lee Canyon Skiing
+      <div class="card-header orange">
+        <span class="icon">📍</span> Lee Canyon Ski Resort
       </div>
       <div class="detail-row">
-        <span class="detail-label">Ski Days</span>
-        <span class="detail-value">Sun 3/15 & Mon 3/16</span>
+        <span class="detail-label">Address</span>
+        <span class="detail-value">6725 Lee Canyon Rd, Las Vegas 89124</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Drive from Strip</span>
         <span class="detail-value">~50 minutes</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Luke & Maddy</span>
-        <span class="detail-value highlight">FREE! 🎉</span>
+        <span class="detail-label">Elevation</span>
+        <span class="detail-value">8,500 ft</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Adults (2 days each)</span>
-        <span class="detail-value">~$320</span>
+        <span class="detail-label">Beginner Area</span>
+        <span class="detail-value">Rabbit Peak (magic carpet!)</span>
       </div>
-      <div class="note green">🎿 Kids 12 & under ski free at Lee Canyon!</div>
+      <a class="link-btn orange" href="https://maps.google.com/?q=6725+Lee+Canyon+Rd+Las+Vegas+NV+89124" target="_blank">Open in Maps →</a>
+      <div class="note red">⚠️ NO cell service! · Fill gas before going up · Winter driving conditions possible</div>
     </div>
+
+    <div class="card">
+      <div class="card-header purple">
+        <span class="icon">📍</span> Sphere
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Address</span>
+        <span class="detail-value">255 Sands Ave, Las Vegas 89169</span>
+      </div>
+      <a class="link-btn purple" href="https://maps.google.com/?q=Sphere+Las+Vegas" target="_blank">Open in Maps →</a>
+    </div>
+
+    <!-- ═══════════ PACKING ═══════════ -->
+    <div class="section-label">🎒 Packing Checklist</div>
+
+    <div class="card">
+      <div class="card-header red">
+        <span class="icon">🎒</span> Don't Forget!
+      </div>
+      <ul class="checklist">
+        <li>🥽 <strong>Goggles</strong> — NOT available to rent at Lee Canyon</li>
+        <li>🧤 <strong>Gloves</strong> — NOT available to rent</li>
+        <li>🪖 <strong>Helmets</strong> — rent at resort ($12/each) or bring</li>
+        <li>🧥 Warm layers / ski jacket</li>
+        <li>🧣 Neck gaiter / face cover</li>
+        <li>☀️ Sunscreen (8,500 ft elevation!)</li>
+        <li>🪪 Photo ID for rental pickup</li>
+        <li>🔋 Portable charger (no cell service on mountain)</li>
+        <li>🍎 Something to carry your Sphere apple home in!</li>
+      </ul>
+    </div>
+
+    <!-- ═══════════ BUDGET ═══════════ -->
+    <div class="section-label">💰 Budget</div>
 
     <div class="card total-card">
       <div class="card-header">
         <span class="icon">💰</span> Trip Total
       </div>
       <div class="detail-row">
-        <span class="detail-label">Flights</span>
+        <span class="detail-label">Flights (6 pax)</span>
         <span class="detail-value">$2,411</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Airbnb</span>
+        <span class="detail-label">Airbnb (4 nights)</span>
         <span class="detail-value">$558</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Rental Car</span>
-        <span class="detail-value">$251</span>
+        <span class="detail-label">Turo Pacifica</span>
+        <span class="detail-value">~$250</span>
       </div>
       <div class="detail-row">
-        <span class="detail-label">Lift Tickets (est.)</span>
-        <span class="detail-value">~$320</span>
+        <span class="detail-label">Wizard of Oz (6 tix)</span>
+        <span class="detail-value">$804</span>
       </div>
-      <div class="total-amount">~$3,540</div>
-      <div style="text-align: center; font-size: 14px; opacity: 0.9; margin-top: 4px;">
-        (before food & activities)
+      <div class="detail-row">
+        <span class="detail-label">Ski lesson (our half)</span>
+        <span class="detail-value">$100</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Ski rentals + lift</span>
+        <span class="detail-value">$209</span>
+      </div>
+      <div class="total-amount">~$4,332</div>
+      <div style="text-align:center;font-size:13px;opacity:0.9;margin-top:4px;">
+        before food, gas & helmets
       </div>
     </div>
 
+    <!-- ═══════════ QUICK LINKS ═══════════ -->
+    <div class="section-label">🔗 Quick Links</div>
+
     <div class="card">
-      <div class="card-header">
-        <span class="icon">👨‍👩‍👧‍👦</span> Travelers
+      <div class="card-header blue">
+        <span class="icon">🔗</span> Quick Links
       </div>
-      <div class="detail-row">
-        <span class="detail-label">Adults</span>
-        <span class="detail-value">Adrian & Ellen</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">Kids</span>
-        <span class="detail-value">Luke (8) & Maddy (5)</span>
-      </div>
-      <div class="note">📍 Coordinating with Fan Family!</div>
+      <a class="link-btn" href="https://www.airbnb.com/rooms/1293904957264473015?adults=2&check_in=2026-03-14&check_out=2026-03-18&children=2&guests=4" target="_blank" style="margin-bottom:8px;">🏠 Airbnb Listing</a>
+      <a class="link-btn green" href="https://www.leecanyonlv.com/" target="_blank" style="margin-bottom:8px;">🎿 Lee Canyon Website</a>
+      <a class="link-btn purple" href="https://www.thesphere.com/shows/wizard-of-oz-experience" target="_blank" style="margin-bottom:8px;">🎬 Sphere — Wizard of Oz</a>
+      <a class="link-btn orange" href="https://maps.google.com/?q=6725+Lee+Canyon+Rd+Las+Vegas+NV+89124" target="_blank" style="margin-bottom:8px;">📍 Lee Canyon Directions</a>
+      <a class="link-btn" href="https://www.leecanyonlv.com/maps/" target="_blank" style="background:#555;">🗺️ Lee Canyon Trail Map</a>
+    </div>
+
+    <div style="text-align:center;color:rgba(255,255,255,0.4);font-size:12px;padding:20px 0;">
+      Built by Desmond 🔷 · Last updated March 10, 2026
     </div>
 
   </div>
