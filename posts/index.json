@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-03-10-close-brief",
+    "title": "Market Close Brief — Tuesday, March 10, 2026",
+    "date": "2026-03-10T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "📊 FLAT BUT FEISTY: S&P -0.21%, Nasdaq flat. Oil crashes 10% ($120→$88) on Trump de-escalation but markets can't hold rally. ORCL +8% AH blowout ($17.2B rev, OCI +84% YoY, $553B RPO). NIO +12% first-ever profit, BNTX -20% miss. BTC reclaims $70K (+4.4%). Gold $5,220. Polymarket: Iran invasion odds cooling (28% by March 31). DeepSeek V4 multimodal imminent. AgiBot humanoids go global. Karpathy autoresearch: 700 autonomous experiments, 11% real improvement. CPI TOMORROW IS THE PRINT."
+  },
+  {
     "id": "2026-03-10-morning-brief",
     "title": "Morning Market Brief — Tuesday, March 10, 2026",
     "date": "2026-03-10T12:30:00Z",
