@@ -15,7 +15,7 @@
       padding: 16px;
       color: #333;
     }
-    .container { max-width: 440px; margin: 0 auto; }
+    .container { max-width: 900px; margin: 0 auto; }
     .header {
       text-align: center;
       color: white;
@@ -26,7 +26,7 @@
     .header .sub { font-size: 14px; opacity: 0.8; }
     #map {
       width: 100%;
-      height: 300px;
+      height: 450px;
       border-radius: 16px;
       margin-bottom: 16px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.3);
@@ -157,6 +157,28 @@
       font-size: 12px;
       padding: 20px 0;
     }
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 600px) {
+      .card-grid { grid-template-columns: 1fr 1fr; }
+      #map { height: 500px; }
+      .card { margin-bottom: 0; }
+    }
+    @media (min-width: 900px) {
+      #map { height: 550px; }
+    }
+    .popup-cuisine {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      color: white;
+      margin-top: 4px;
+    }
   </style>
 </head>
 <body>
@@ -182,7 +204,7 @@
 
     <!-- JAPANESE -->
     <div class="cuisine-header"><span class="emoji">🇯🇵</span> Japanese <span class="badge">4 spots</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1265,-115.2065)">
       <div class="card-top">
         <div class="card-name">Raku</div>
@@ -235,9 +257,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- CHINESE -->
     <div class="cuisine-header"><span class="emoji">🇨🇳</span> Chinese <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1264,-115.2230)">
       <div class="card-top">
         <div class="card-name">China Mama</div>
@@ -251,9 +275,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- KOREAN -->
     <div class="cuisine-header"><span class="emoji">🇰🇷</span> Korean <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1247,-115.2230)">
       <div class="card-top">
         <div class="card-name">Yi's Traditional Korean Beef Soup</div>
@@ -267,9 +293,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- FRENCH -->
     <div class="cuisine-header"><span class="emoji">🇫🇷</span> French <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1265,-115.1960)">
       <div class="card-top">
         <div class="card-name">Partage</div>
@@ -283,9 +311,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- AMERICAN -->
     <div class="cuisine-header"><span class="emoji">🇺🇸</span> American <span class="badge">2 spots</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1455,-115.2510)">
       <div class="card-top">
         <div class="card-name">Hash House A Go Go</div>
@@ -312,9 +342,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- MEXICAN -->
     <div class="cuisine-header"><span class="emoji">🇲🇽</span> Mexican <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1455,-115.2520)">
       <div class="card-top">
         <div class="card-name">Taqueria Casa Del Sabor</div>
@@ -328,9 +360,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- SEAFOOD -->
     <div class="cuisine-header"><span class="emoji">🐚</span> Seafood <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1455,-115.1775)">
       <div class="card-top">
         <div class="card-name">Palace Station Oyster Bar</div>
@@ -344,9 +378,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- HAWAIIAN -->
     <div class="cuisine-header"><span class="emoji">🌺</span> Hawaiian & Poke <span class="badge">2 spots</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.1000,-115.3070)">
       <div class="card-top">
         <div class="card-name">Poke Express</div>
@@ -373,9 +409,11 @@
       </div>
     </div>
 
+    </div><!-- /card-grid -->
+
     <!-- BAKERY -->
     <div class="cuisine-header"><span class="emoji">🍞</span> Bakery <span class="badge">1 spot</span></div>
-
+    <div class="card-grid">
     <div class="card" onclick="flyTo(36.0380,-115.2365)">
       <div class="card-top">
         <div class="card-name">Pullman Bread</div>
@@ -388,6 +426,8 @@
         <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Pullman+Bread&find_loc=Las+Vegas" target="_blank">Yelp</a>
       </div>
     </div>
+
+    </div><!-- /card-grid -->
 
     <div class="footer">
       Recs from friends · Built by Desmond 🔷 · March 2026<br>
@@ -423,27 +463,44 @@
       });
     }
 
+    const cuisineLabels = {
+      japanese: '🇯🇵 Japanese',
+      chinese: '🇨🇳 Chinese',
+      korean: '🇰🇷 Korean',
+      french: '🇫🇷 French',
+      american: '🇺🇸 American',
+      mexican: '🇲🇽 Mexican',
+      seafood: '🐚 Seafood',
+      hawaiian: '🌺 Hawaiian',
+      bakery: '🍞 Bakery'
+    };
+
     const spots = [
-      { name: 'Raku', lat: 36.1265, lng: -115.2065, cat: 'japanese', rating: '4.5★' },
-      { name: '888 Japanese BBQ', lat: 36.1275, lng: -115.2105, cat: 'japanese', rating: '4.6★' },
-      { name: 'Kame Omakase', lat: 36.1265, lng: -115.1940, cat: 'japanese', rating: '4.7★' },
-      { name: 'TON TON Katsuya', lat: 36.0670, lng: -115.2790, cat: 'japanese', rating: '4.7★' },
-      { name: 'China Mama', lat: 36.1264, lng: -115.2230, cat: 'chinese', rating: '4.4★' },
-      { name: "Yi's Korean Beef Soup", lat: 36.1247, lng: -115.2230, cat: 'korean', rating: '4.8★' },
-      { name: 'Partage', lat: 36.1265, lng: -115.1960, cat: 'french', rating: '4.7★' },
-      { name: 'Hash House A Go Go', lat: 36.1455, lng: -115.2510, cat: 'american', rating: '4.6★' },
-      { name: 'The Black Sheep', lat: 36.0440, lng: -115.2530, cat: 'american', rating: '4.7★' },
-      { name: 'Taqueria Casa Del Sabor', lat: 36.1455, lng: -115.2520, cat: 'mexican', rating: '4.5★' },
-      { name: 'Palace Station Oyster Bar', lat: 36.1455, lng: -115.1775, cat: 'seafood', rating: '4.5★' },
-      { name: 'Poke Express', lat: 36.1000, lng: -115.3070, cat: 'hawaiian', rating: '4.9★' },
-      { name: 'Paina Cafe', lat: 36.1265, lng: -115.2380, cat: 'hawaiian', rating: '4.5★' },
-      { name: 'Pullman Bread', lat: 36.0380, lng: -115.2365, cat: 'bakery', rating: '4.5★' },
+      { name: 'Raku', lat: 36.1265, lng: -115.2065, cat: 'japanese', rating: '4.5★', desc: 'Charcoal Grill' },
+      { name: '888 Japanese BBQ', lat: 36.1275, lng: -115.2105, cat: 'japanese', rating: '4.6★', desc: 'Japanese BBQ' },
+      { name: 'Kame Omakase', lat: 36.1265, lng: -115.1940, cat: 'japanese', rating: '4.7★', desc: 'Fine Dining Omakase' },
+      { name: 'TON TON Katsuya', lat: 36.0670, lng: -115.2790, cat: 'japanese', rating: '4.7★', desc: 'Tonkatsu' },
+      { name: 'China Mama', lat: 36.1264, lng: -115.2230, cat: 'chinese', rating: '4.4★', desc: 'Authentic Chinese' },
+      { name: "Yi's Korean Beef Soup", lat: 36.1247, lng: -115.2230, cat: 'korean', rating: '4.8★', desc: 'Seolleongtang' },
+      { name: 'Partage', lat: 36.1265, lng: -115.1960, cat: 'french', rating: '4.7★', desc: 'Small Plates' },
+      { name: 'Hash House A Go Go', lat: 36.1455, lng: -115.2510, cat: 'american', rating: '4.6★', desc: 'Massive Portions' },
+      { name: 'The Black Sheep', lat: 36.0440, lng: -115.2530, cat: 'american', rating: '4.7★', desc: 'Viet-American Fusion' },
+      { name: 'Taqueria Casa Del Sabor', lat: 36.1455, lng: -115.2520, cat: 'mexican', rating: '4.5★', desc: 'Tacos' },
+      { name: 'Palace Station Oyster Bar', lat: 36.1455, lng: -115.1775, cat: 'seafood', rating: '4.5★', desc: 'Oyster Bar' },
+      { name: 'Poke Express', lat: 36.1000, lng: -115.3070, cat: 'hawaiian', rating: '4.9★', desc: 'Poke Bowls' },
+      { name: 'Paina Cafe', lat: 36.1265, lng: -115.2380, cat: 'hawaiian', rating: '4.5★', desc: 'Hawaiian' },
+      { name: 'Pullman Bread', lat: 36.0380, lng: -115.2365, cat: 'bakery', rating: '4.5★', desc: 'Korean Bakery' },
     ];
 
     spots.forEach(s => {
-      L.marker([s.lat, s.lng], { icon: makeIcon(colors[s.cat]) })
+      const color = colors[s.cat];
+      const popup = `<div style="min-width:140px;"><b style="font-size:14px;">${s.name}</b><br>` +
+        `<span style="font-size:13px;">${s.rating}</span><br>` +
+        `<span class="popup-cuisine" style="background:${color};">${cuisineLabels[s.cat]}</span>` +
+        `<br><span style="font-size:11px;color:#666;">${s.desc}</span></div>`;
+      L.marker([s.lat, s.lng], { icon: makeIcon(color) })
         .addTo(map)
-        .bindPopup(`<b>${s.name}</b><br>${s.rating}`);
+        .bindPopup(popup);
     });
 
     // Add Airbnb marker
