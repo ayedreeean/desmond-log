@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegas Eats 🍜</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);
+      min-height: 100vh;
+      padding: 16px;
+      color: #333;
+    }
+    .container { max-width: 440px; margin: 0 auto; }
+    .header {
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+      padding: 16px 0;
+    }
+    .header h1 { font-size: 32px; margin-bottom: 4px; }
+    .header .sub { font-size: 14px; opacity: 0.8; }
+    #map {
+      width: 100%;
+      height: 300px;
+      border-radius: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+      z-index: 1;
+    }
+    .section-label {
+      color: rgba(255,255,255,0.7);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 16px 0 10px;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 3px 16px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .card:active { transform: scale(0.98); }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+    .card-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a2e;
+      flex: 1;
+    }
+    .card-rating {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #e17055;
+      white-space: nowrap;
+    }
+    .card-rating .reviews {
+      font-size: 11px;
+      color: #999;
+      font-weight: 400;
+    }
+    .card-cuisine {
+      display: inline-block;
+      background: #f0f0f0;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .card-address {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .card-links {
+      display: flex;
+      gap: 8px;
+    }
+    .card-links a {
+      flex: 1;
+      display: block;
+      padding: 8px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      color: white;
+    }
+    .btn-maps { background: #4285f4; }
+    .btn-yelp { background: #d32323; }
+    .cuisine-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 20px 0 10px;
+      padding: 0 4px;
+    }
+    .cuisine-header .emoji { font-size: 24px; }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      color: rgba(255,255,255,0.8);
+      background: rgba(255,255,255,0.1);
+      padding: 4px 8px;
+      border-radius: 12px;
+    }
+    .legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .footer {
+      text-align: center;
+      color: rgba(255,255,255,0.4);
+      font-size: 12px;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🍜 Vegas Eats</h1>
+      <div class="sub">Friend-recommended restaurants · March 2026</div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span> Japanese</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#e67e22"></span> Chinese</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#3498db"></span> Korean</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#9b59b6"></span> French</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#2ecc71"></span> American</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#f39c12"></span> Mexican</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#1abc9c"></span> Seafood</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#e91e63"></span> Hawaiian</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#795548"></span> Bakery</div>
+    </div>
+
+    <!-- JAPANESE -->
+    <div class="cuisine-header"><span class="emoji">🇯🇵</span> Japanese <span class="badge">4 spots</span></div>
+
+    <div class="card" onclick="flyTo(36.1265,-115.2065)">
+      <div class="card-top">
+        <div class="card-name">Raku</div>
+        <div class="card-rating">⭐ 4.5 <span class="reviews">(1,353)</span></div>
+      </div>
+      <div><span class="card-cuisine">🔥 Authentic Japanese · Charcoal Grill</span></div>
+      <div class="card-address">📍 5030 Spring Mountain Rd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/feozFkvExHCCEWcv6" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Raku&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="flyTo(36.1275,-115.2105)">
+      <div class="card-top">
+        <div class="card-name">888 Japanese BBQ</div>
+        <div class="card-rating">⭐ 4.6 <span class="reviews">(1,563)</span></div>
+      </div>
+      <div><span class="card-cuisine">🥩 Japanese BBQ</span></div>
+      <div class="card-address">📍 3550 S Decatur Blvd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/3KsePi54JBtWMjPQ8" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=888+Japanese+BBQ&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="flyTo(36.1265,-115.1940)">
+      <div class="card-top">
+        <div class="card-name">Kame Omakase</div>
+        <div class="card-rating">⭐ 4.7 <span class="reviews">(267)</span></div>
+      </div>
+      <div><span class="card-cuisine">🍣 Fine Dining Omakase</span></div>
+      <div class="card-address">📍 3616 W Spring Mountain Rd Ste 103</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/Et78d2khPMqctQfo6" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Kame+Omakase&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="flyTo(36.0670,-115.2790)">
+      <div class="card-top">
+        <div class="card-name">TON TON Katsuya</div>
+        <div class="card-rating">⭐ 4.7 <span class="reviews">(667)</span></div>
+      </div>
+      <div><span class="card-cuisine">🍱 Tonkatsu</span></div>
+      <div class="card-address">📍 7225 S Durango Dr #105</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/3MmZD46SdNF7oqnC9" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=TON+TON+Katsuya&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- CHINESE -->
+    <div class="cuisine-header"><span class="emoji">🇨🇳</span> Chinese <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.1264,-115.2230)">
+      <div class="card-top">
+        <div class="card-name">China Mama</div>
+        <div class="card-rating">⭐ 4.4 <span class="reviews">(1,161)</span></div>
+      </div>
+      <div><span class="card-cuisine">🥟 Authentic Chinese</span></div>
+      <div class="card-address">📍 3420 S Jones Blvd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/jMCBeBwYCBZec78B6" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=China+Mama&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- KOREAN -->
+    <div class="cuisine-header"><span class="emoji">🇰🇷</span> Korean <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.1247,-115.2230)">
+      <div class="card-top">
+        <div class="card-name">Yi's Traditional Korean Beef Soup</div>
+        <div class="card-rating">⭐ 4.8 <span class="reviews">(862)</span></div>
+      </div>
+      <div><span class="card-cuisine">🍲 Korean · Seolleongtang</span></div>
+      <div class="card-address">📍 3560 S Jones Blvd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/rEAEeGypto5iMGPF7" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Yi%27s+Korean+Beef+Soup&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- FRENCH -->
+    <div class="cuisine-header"><span class="emoji">🇫🇷</span> French <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.1265,-115.1960)">
+      <div class="card-top">
+        <div class="card-name">Partage</div>
+        <div class="card-rating">⭐ 4.7 <span class="reviews">(662)</span></div>
+      </div>
+      <div><span class="card-cuisine">🥖 French · Small Plates</span></div>
+      <div class="card-address">📍 3839 Spring Mountain Rd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/94R4QDWpK5dPouf46" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Partage&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- AMERICAN -->
+    <div class="cuisine-header"><span class="emoji">🇺🇸</span> American <span class="badge">2 spots</span></div>
+
+    <div class="card" onclick="flyTo(36.1455,-115.2510)">
+      <div class="card-top">
+        <div class="card-name">Hash House A Go Go</div>
+        <div class="card-rating">⭐ 4.6 <span class="reviews">(6,772)</span></div>
+      </div>
+      <div><span class="card-cuisine">🥞 American · Massive Portions</span></div>
+      <div class="card-address">📍 6800 W Sahara Ave</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/SbuRSjRkBEywksEy6" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Hash+House+A+Go+Go&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="flyTo(36.0440,-115.2530)">
+      <div class="card-top">
+        <div class="card-name">The Black Sheep</div>
+        <div class="card-rating">⭐ 4.7 <span class="reviews">(640)</span></div>
+      </div>
+      <div><span class="card-cuisine">🍽️ Vietnamese-American Fusion</span></div>
+      <div class="card-address">📍 8680 W Warm Springs Rd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/L6ztu99aPCWhyvwz8" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=The+Black+Sheep&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- MEXICAN -->
+    <div class="cuisine-header"><span class="emoji">🇲🇽</span> Mexican <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.1455,-115.2520)">
+      <div class="card-top">
+        <div class="card-name">Taqueria Casa Del Sabor</div>
+        <div class="card-rating">⭐ 4.5 <span class="reviews">(3,055)</span></div>
+      </div>
+      <div><span class="card-cuisine">🌮 Mexican · Tacos</span></div>
+      <div class="card-address">📍 6840 W Sahara Ave</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/PK42i9qFftt6kTJa8" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Taqueria+Casa+Del+Sabor&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- SEAFOOD -->
+    <div class="cuisine-header"><span class="emoji">🐚</span> Seafood <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.1455,-115.1775)">
+      <div class="card-top">
+        <div class="card-name">Palace Station Oyster Bar</div>
+        <div class="card-rating">⭐ 4.5 <span class="reviews">(2,993)</span></div>
+      </div>
+      <div><span class="card-cuisine">🦪 Oyster Bar · Seafood</span></div>
+      <div class="card-address">📍 2411 W Sahara Ave</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/Zi4B8BQGTsqLnzXX8" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Palace+Station+Oyster+Bar&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- HAWAIIAN -->
+    <div class="cuisine-header"><span class="emoji">🌺</span> Hawaiian & Poke <span class="badge">2 spots</span></div>
+
+    <div class="card" onclick="flyTo(36.1000,-115.3070)">
+      <div class="card-top">
+        <div class="card-name">Poke Express</div>
+        <div class="card-rating">⭐ 4.9 <span class="reviews">(225)</span></div>
+      </div>
+      <div><span class="card-cuisine">🐟 Poke Bowls · Highest Rated!</span></div>
+      <div class="card-address">📍 4165 S Grand Canyon Dr Ste 103</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/zQoPTRGeojQoyjj69" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Poke+Express&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="flyTo(36.1265,-115.2380)">
+      <div class="card-top">
+        <div class="card-name">Paina Cafe</div>
+        <div class="card-rating">⭐ 4.5 <span class="reviews">(785)</span></div>
+      </div>
+      <div><span class="card-cuisine">🌴 Hawaiian</span></div>
+      <div class="card-address">📍 6870 Spring Mountain Rd</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/SQrmXqyrS51R18E4A" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Paina+Cafe&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <!-- BAKERY -->
+    <div class="cuisine-header"><span class="emoji">🍞</span> Bakery <span class="badge">1 spot</span></div>
+
+    <div class="card" onclick="flyTo(36.0380,-115.2365)">
+      <div class="card-top">
+        <div class="card-name">Pullman Bread</div>
+        <div class="card-rating">⭐ 4.5 <span class="reviews">(441)</span></div>
+      </div>
+      <div><span class="card-cuisine">🥐 Korean Bakery</span></div>
+      <div class="card-address">📍 5025 Blue Diamond Rd Ste 106</div>
+      <div class="card-links">
+        <a class="btn-maps" href="https://maps.app.goo.gl/V1Kixv6nP1hEELLA9" target="_blank">📍 Maps</a>
+        <a class="btn-yelp" href="https://www.yelp.com/search?find_desc=Pullman+Bread&find_loc=Las+Vegas" target="_blank">Yelp</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      Recs from friends · Built by Desmond 🔷 · March 2026<br>
+      <a href="vegas-trip.html" style="color:rgba(255,255,255,0.6);">← Back to Trip Itinerary</a>
+    </div>
+  </div>
+
+  <script>
+    const map = L.map('map').setView([36.115, -115.22], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      maxZoom: 18
+    }).addTo(map);
+
+    const colors = {
+      japanese: '#e74c3c',
+      chinese: '#e67e22',
+      korean: '#3498db',
+      french: '#9b59b6',
+      american: '#2ecc71',
+      mexican: '#f39c12',
+      seafood: '#1abc9c',
+      hawaiian: '#e91e63',
+      bakery: '#795548'
+    };
+
+    function makeIcon(color) {
+      return L.divIcon({
+        className: '',
+        html: `<div style="width:14px;height:14px;background:${color};border:2px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.4);"></div>`,
+        iconSize: [14, 14],
+        iconAnchor: [7, 7]
+      });
+    }
+
+    const spots = [
+      { name: 'Raku', lat: 36.1265, lng: -115.2065, cat: 'japanese', rating: '4.5★' },
+      { name: '888 Japanese BBQ', lat: 36.1275, lng: -115.2105, cat: 'japanese', rating: '4.6★' },
+      { name: 'Kame Omakase', lat: 36.1265, lng: -115.1940, cat: 'japanese', rating: '4.7★' },
+      { name: 'TON TON Katsuya', lat: 36.0670, lng: -115.2790, cat: 'japanese', rating: '4.7★' },
+      { name: 'China Mama', lat: 36.1264, lng: -115.2230, cat: 'chinese', rating: '4.4★' },
+      { name: "Yi's Korean Beef Soup", lat: 36.1247, lng: -115.2230, cat: 'korean', rating: '4.8★' },
+      { name: 'Partage', lat: 36.1265, lng: -115.1960, cat: 'french', rating: '4.7★' },
+      { name: 'Hash House A Go Go', lat: 36.1455, lng: -115.2510, cat: 'american', rating: '4.6★' },
+      { name: 'The Black Sheep', lat: 36.0440, lng: -115.2530, cat: 'american', rating: '4.7★' },
+      { name: 'Taqueria Casa Del Sabor', lat: 36.1455, lng: -115.2520, cat: 'mexican', rating: '4.5★' },
+      { name: 'Palace Station Oyster Bar', lat: 36.1455, lng: -115.1775, cat: 'seafood', rating: '4.5★' },
+      { name: 'Poke Express', lat: 36.1000, lng: -115.3070, cat: 'hawaiian', rating: '4.9★' },
+      { name: 'Paina Cafe', lat: 36.1265, lng: -115.2380, cat: 'hawaiian', rating: '4.5★' },
+      { name: 'Pullman Bread', lat: 36.0380, lng: -115.2365, cat: 'bakery', rating: '4.5★' },
+    ];
+
+    spots.forEach(s => {
+      L.marker([s.lat, s.lng], { icon: makeIcon(colors[s.cat]) })
+        .addTo(map)
+        .bindPopup(`<b>${s.name}</b><br>${s.rating}`);
+    });
+
+    // Add Airbnb marker
+    L.marker([36.1215, -115.1689], {
+      icon: L.divIcon({
+        className: '',
+        html: '<div style="width:16px;height:16px;background:#000;border:2px solid #fff;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;font-size:10px;">🏠</div>',
+        iconSize: [16, 16],
+        iconAnchor: [8, 8]
+      })
+    }).addTo(map).bindPopup('<b>Your Airbnb</b><br>Home base');
+
+    function flyTo(lat, lng) {
+      map.flyTo([lat, lng], 15, { duration: 0.8 });
+      spots.forEach(s => {
+        if (Math.abs(s.lat - lat) < 0.001 && Math.abs(s.lng - lng) < 0.001) {
+          setTimeout(() => {
+            map.eachLayer(layer => {
+              if (layer instanceof L.Marker && layer.getLatLng().lat === s.lat) {
+                layer.openPopup();
+              }
+            });
+          }, 900);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
