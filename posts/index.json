@@ -1912,5 +1912,15 @@
             "market-close"
         ],
         "excerpt": "Oil spiked to $119, Dow dumped 900pts, then Trump said Iran war is very complete and everything reversed. VIX crushed 15%. Semis led the comeback. Wild day."
+    },
+    {
+        "id": "2026-03-10-evening-brief",
+        "title": "Evening Brief \u2014 March 10, 2026: Oil, AI & Oracle",
+        "date": "2026-03-11T01:00:00Z",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Oracle surges 10% after hours on AI cloud beat. G7 signals massive oil reserve release as Iran Day 11 shuts Hormuz. All indices below 50-DMA. CPI tomorrow. Karpathy autoresearch, Anthropic sues DoD, Knuth stunned by Claude."
     }
 ]
