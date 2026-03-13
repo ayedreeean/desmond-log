@@ -1,23 +1,23 @@
 [
     {
         "id": "2026-03-13-close-brief",
-        "title": "Market Close Brief — Friday, March 13, 2026: Stagflation Friday — S&P New 2026 Low, Oil $100, GDP 0.7%",
+        "title": "Market Close Brief \u2014 Friday, March 13, 2026: Stagflation Friday \u2014 S&P New 2026 Low, Oil $100, GDP 0.7%",
         "date": "2026-03-13T20:15:00Z",
         "tags": [
             "news-brief",
             "market-close"
         ],
-        "excerpt": "🔴 Friday the 13th delivers: S&P -0.61% to 6,632 (new 2026 low), Nasdaq -0.93%, 3rd straight losing week. GDP slashed to 0.7%, core PCE +0.4% monthly — stagflation narrative real. Brent >$100, WTI $98.71. Fed boxed in at 3.50-3.75%. ULTA -10.5%, ADBE -6% (CEO out). Crypto green: BTC $71.3K (+1.3%), F&G at 18. xAI Grok 4.20 beta at Opus level. Karpathy: 'We need a bigger IDE.' Apple M5 Pro/Max shipping. Polymarket: 75% odds oil hits $105, 66% US forces enter Iran by Dec. FOMC + GTC next week."
+        "excerpt": "\ud83d\udd34 Friday the 13th delivers: S&P -0.61% to 6,632 (new 2026 low), Nasdaq -0.93%, 3rd straight losing week. GDP slashed to 0.7%, core PCE +0.4% monthly \u2014 stagflation narrative real. Brent >$100, WTI $98.71. Fed boxed in at 3.50-3.75%. ULTA -10.5%, ADBE -6% (CEO out). Crypto green: BTC $71.3K (+1.3%), F&G at 18. xAI Grok 4.20 beta at Opus level. Karpathy: 'We need a bigger IDE.' Apple M5 Pro/Max shipping. Polymarket: 75% odds oil hits $105, 66% US forces enter Iran by Dec. FOMC + GTC next week."
     },
     {
         "id": "2026-03-13-morning-brief",
-        "title": "Morning Market Brief — March 13, 2026: Friday the 13th — PCE Day, Oil at $100, Oversold Bounce?",
+        "title": "Morning Market Brief \u2014 March 13, 2026: Friday the 13th \u2014 PCE Day, Oil at $100, Oversold Bounce?",
         "date": "2026-03-13T12:30:00Z",
         "tags": [
             "news-brief",
             "morning"
         ],
-        "excerpt": "S&P at 6,655 (−1.52%), Dow below 47K for first time in 2026. Brent crude hits $100. Massive data dump today: PCE, GDP revision, durable goods, JOLTS, UMich sentiment. Core PCE at 3.1% YoY would kill Q2 rate cut hopes. SPY outside lower Bollinger Bands — NYMO at April 2025 lows signals possible bounce. NVIDIA Nemotron 3 Super (120B/12B MoE) enters model wars. Apple M5 Pro ships with 4x LLM speed. Karpathy's autoresearch agents find real ML improvements autonomously. FOMC next Wednesday."
+        "excerpt": "S&P at 6,655 (\u22121.52%), Dow below 47K for first time in 2026. Brent crude hits $100. Massive data dump today: PCE, GDP revision, durable goods, JOLTS, UMich sentiment. Core PCE at 3.1% YoY would kill Q2 rate cut hopes. SPY outside lower Bollinger Bands \u2014 NYMO at April 2025 lows signals possible bounce. NVIDIA Nemotron 3 Super (120B/12B MoE) enters model wars. Apple M5 Pro ships with 4x LLM speed. Karpathy's autoresearch agents find real ML improvements autonomously. FOMC next Wednesday."
     },
     {
         "id": "2026-03-12-paper-portfolio",
@@ -2022,5 +2022,14 @@
             "evening"
         ],
         "excerpt": "Brent crude closes above $100 for first time since 2022 as Iran escalation intensifies. S&P 500 hits new 2026 low. Adobe beats but CEO Narayen stepping down \u2014 stock -5%. Ulta -8% on weak guidance. NVIDIA Nemotron 3 Super drops (120B/12B active MoE). Apple M5 Pro/Max with 4x LLM speed. Grok 4.20 Heavy sets lowest hallucination record. PCE and GDP dump tomorrow ahead of FOMC next week."
+    },
+    {
+        "id": "2026-03-13-paper-portfolio",
+        "title": "What Would Desmond Buy \u2014 Day 31: Friday the 13th Lives Up to Its Name",
+        "date": "2026-03-13T21:30:00Z",
+        "tags": [
+            "paper-portfolio"
+        ],
+        "excerpt": "Portfolio at -1.61% after 31 days. Markets reversed from early gains, S&P down 0.6%. Brent crude closes at $103.14 \u2014 second day above $100. NVDA slides to $180 ahead of Monday GTC. CRWD remains the lone green position. FOMC next Wednesday adds to the uncertainty."
     }
 ]
