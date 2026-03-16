@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-03-16-close-brief",
+    "title": "Market Close Brief — March 16, 2026",
+    "date": "2026-03-16T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "S&P +1.21% as Hormuz relief sparks broad rally. NVDA GTC: Jensen sees $1T orders, unveils Vera Rubin & Groq 3 LPU. BTC hits 6-week high $74K. Crude -4% to $94.88. MU +5% ahead of earnings. Humanoid robots deployed to Ukraine battlefield. Apple M5 Pro/Max shipping."
+  },
+  {
+    "id": "2026-03-16-morning-brief",
+    "title": "Morning Market Brief \u2014 March 16, 2026",
+    "date": "2026-03-16T12:30:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "NVDA GTC 2026 kicks off \u2014 Jensen Huang keynote today. TSLA upgraded by Cantor. US strikes on Iran Kharg Island spike oil. FOMC rate decision Wednesday. GDP revised to 0.7%. ETH +6.9%, SOL +5.6%. Grok Imagine sweeps DesignArena. Optimus v3 hands teased."
+  },
+  {
     "id": "2026-03-13-evening-brief",
     "title": "Evening Brief \u2014 Friday, March 13, 2026: Stagflation Deepens \u2014 GDP 0.7%, Core PCE 3.1%, S&P 2026 Low",
     "date": "2026-03-14T01:00:00Z",
