@@ -1,51 +1,75 @@
 [
   {
+    "id": "2026-03-18-close-brief",
+    "title": "Market Close Brief \u2014 Mar 18, 2026",
+    "date": "2026-03-18T21:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Fed holds at 3.50-3.75%. Hot PPI (+0.7% vs +0.3% est) hammers Dow -768pts but Nasdaq +0.5% and S&P +0.3% hit records. NVIDIA GTC Day 3: DGX Station GB300 ships, Groq 3 LPU unveiled. Crypto dumps (BTC -5%, ETH -6.5%). Micron reports AH \u2014 entire 2026 HBM supply sold out. META kills Metaverse June 15."
+  },
+  {
     "id": "2026-03-18-morning-brief",
-    "title": "Morning Market Brief — Wednesday, March 18, 2026",
+    "title": "Morning Market Brief \u2014 Wednesday, March 18, 2026",
     "date": "2026-03-18T12:30:00Z",
-    "tags": ["news-brief", "morning"],
-    "excerpt": "⭐ FOMC DAY — Fed hold at 3.50-3.75% is certain but dot plot & Powell presser will drive volatility. PPI due 8:30 AM (+0.3% est). NVDA +1% on China chip approval & GTC momentum (Vera Rubin, Groq LPU). AMD +1.3% on Samsung HBM deal for MI400. SPX futures +0.48%, Nasdaq +0.62%. BTC $73.8K flat, Citi cuts targets. SPX in 2-month downtrend per Heisenberg. MU +2.7% ahead of earnings. Digital Optimus (xAI+Tesla) hiring push."
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "\u2b50 FOMC DAY \u2014 Fed hold at 3.50-3.75% is certain but dot plot & Powell presser will drive volatility. PPI due 8:30 AM (+0.3% est). NVDA +1% on China chip approval & GTC momentum (Vera Rubin, Groq LPU). AMD +1.3% on Samsung HBM deal for MI400. SPX futures +0.48%, Nasdaq +0.62%. BTC $73.8K flat, Citi cuts targets. SPX in 2-month downtrend per Heisenberg. MU +2.7% ahead of earnings. Digital Optimus (xAI+Tesla) hiring push."
   },
   {
     "id": "2026-03-17-evening-brief",
-    "title": "Evening Brief — Tuesday, March 17, 2026",
+    "title": "Evening Brief \u2014 Tuesday, March 17, 2026",
     "date": "2026-03-18T01:00:00Z",
-    "tags": ["news-brief", "evening"],
-    "excerpt": "🍀 St. Patrick's Day green day — S&P +0.6%, Nasdaq +0.7% into FOMC Eve. MU hits $467 overnight ahead of Wed earnings. LULU beats but falls AH on soft FY26 guidance. BTC fades from $75K back to $73.7K. Polymarket: Iran by Dec 61%, Fed hold locked. Unsloth Studio drops no-code fine-tuning. Rhoda AI $450M for robot world models, Replit $9B. FOMC + PPI + Powell presser tomorrow is THE event. Heisenberg: 'We're all playing MU earnings right?'"
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "\ud83c\udf40 St. Patrick's Day green day \u2014 S&P +0.6%, Nasdaq +0.7% into FOMC Eve. MU hits $467 overnight ahead of Wed earnings. LULU beats but falls AH on soft FY26 guidance. BTC fades from $75K back to $73.7K. Polymarket: Iran by Dec 61%, Fed hold locked. Unsloth Studio drops no-code fine-tuning. Rhoda AI $450M for robot world models, Replit $9B. FOMC + PPI + Powell presser tomorrow is THE event. Heisenberg: 'We're all playing MU earnings right?'"
   },
   {
     "id": "2026-03-17-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 35: Quiet Before the Storm",
+    "title": "What Would Desmond Buy \u2014 Day 35: Quiet Before the Storm",
     "date": "2026-03-17T21:30:00Z",
-    "tags": ["paper-portfolio"],
-    "excerpt": "Portfolio at -1.23% after 35 days, up $308 on the session. S&P +0.25%, Nasdaq +0.47% as markets hold steady ahead of tomorrow's FOMC decision. CRWD leads at +4.2%, DDOG crosses into green at +1.2%. Five straight days of improvement. All eyes on Powell's presser Wednesday — tone on oil-driven inflation risk is the key variable."
+    "tags": [
+      "paper-portfolio"
+    ],
+    "excerpt": "Portfolio at -1.23% after 35 days, up $308 on the session. S&P +0.25%, Nasdaq +0.47% as markets hold steady ahead of tomorrow's FOMC decision. CRWD leads at +4.2%, DDOG crosses into green at +1.2%. Five straight days of improvement. All eyes on Powell's presser Wednesday \u2014 tone on oil-driven inflation risk is the key variable."
   },
   {
     "id": "2026-03-17-morning-brief",
-    "title": "Morning Market Brief — March 17, 2026",
+    "title": "Morning Market Brief \u2014 March 17, 2026",
     "date": "2026-03-17T12:30:00Z",
-    "tags": ["news-brief", "morning"],
-    "excerpt": "☘️ St. Patrick's Day edition. NVDA GTC afterglow — Vera Rubin, Feynman, $1T order pipeline, Disney robotics. FOMC Day 1 begins. MU +2.5% nearing ATH ahead of Wed earnings. BTC $74K decoupling from equities (correlation -0.43). Meta delays Avocado model, considers licensing Gemini. Elon: 3 Grok Build models training simultaneously. Oil ~$95 retreating. Heisenberg: St. Patrick's Day is 7th best return day historically."
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "\u2618\ufe0f St. Patrick's Day edition. NVDA GTC afterglow \u2014 Vera Rubin, Feynman, $1T order pipeline, Disney robotics. FOMC Day 1 begins. MU +2.5% nearing ATH ahead of Wed earnings. BTC $74K decoupling from equities (correlation -0.43). Meta delays Avocado model, considers licensing Gemini. Elon: 3 Grok Build models training simultaneously. Oil ~$95 retreating. Heisenberg: St. Patrick's Day is 7th best return day historically."
   },
   {
     "id": "2026-03-16-evening-brief",
-    "title": "Evening Brief — Monday, March 16, 2026",
+    "title": "Evening Brief \u2014 Monday, March 16, 2026",
     "date": "2026-03-17T01:00:00Z",
-    "tags": ["news-brief", "evening"],
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
     "excerpt": "S&P +1.0%, Nasdaq +1.2% as oil retreats from $102 to $94 on Hormuz reopening efforts. NVIDIA GTC blockbuster: Vera Rubin platform, $1T revenue outlook, NemoClaw for OpenClaw, Feynman next-gen arch, AI data centers in space. SEC proposes eliminating quarterly reporting. Apple M5 Pro/Max ships with 4x LLM speed. BTC $74K, ETH +6.9%. FOMC Wednesday is the main event. Polymarket: 78% odds oil $100 by EOM, 62% US forces enter Iran by Dec."
   },
   {
     "id": "2026-03-16-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 34: GTC Monday Delivers",
+    "title": "What Would Desmond Buy \u2014 Day 34: GTC Monday Delivers",
     "date": "2026-03-16T21:30:00Z",
     "tags": [
       "paper-portfolio"
     ],
-    "excerpt": "Portfolio at -1.54% after 34 days. Relief rally as Hormuz eases and NVDA GTC delivers — S&P +1.21%, crude drops to $94.88. NVDA bounces on Vera Rubin unveil and $1T order pipeline. All positions up on the day. FOMC Wednesday is the next test."
+    "excerpt": "Portfolio at -1.54% after 34 days. Relief rally as Hormuz eases and NVDA GTC delivers \u2014 S&P +1.21%, crude drops to $94.88. NVDA bounces on Vera Rubin unveil and $1T order pipeline. All positions up on the day. FOMC Wednesday is the next test."
   },
   {
     "id": "2026-03-16-close-brief",
-    "title": "Market Close Brief — March 16, 2026",
+    "title": "Market Close Brief \u2014 March 16, 2026",
     "date": "2026-03-16T20:15:00Z",
     "tags": [
       "news-brief",
