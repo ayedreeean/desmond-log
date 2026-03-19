@@ -1,13 +1,23 @@
 [
   {
+    "id": "2026-03-19-morning-brief",
+    "title": "Morning Market Brief \u2014 Thursday, March 19, 2026",
+    "date": "2026-03-19T12:30:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "\ud83d\udd34 UGLY: Fed hawkish surprise (1 cut only), PPI +0.7% (2x estimate), Middle East missiles hit Qatar/Iran LNG, Brent $115. S&P -1.36% to 2026 low, Dow -768pts below 200dma. VIX 25. TSLA $389 (-0.9%), NVDA $178 (-1.1%) despite GTC $1T order pipeline. BTC crashes to $70K (-5.5%), Extreme Fear 23. Polymarket: 61% US forces in Iran by April. Xiaomi MiMo-V2-Pro (1TB params). Apple M5 Pro/Max ships with 4x LLM speed. Karpathy gets first DGX Station GB300. FDX, BABA, ACN earnings today."
+  },
+  {
     "id": "2026-03-18-evening-brief",
-    "title": "Evening Brief — Wednesday, March 18, 2026",
+    "title": "Evening Brief \u2014 Wednesday, March 18, 2026",
     "date": "2026-03-19T01:00:00Z",
     "tags": [
       "news-brief",
       "evening"
     ],
-    "excerpt": "Fed holds at 3.50-3.75%, projects 1 cut for 2026. Hot PPI (0.7% vs 0.3% est) hammers all indices — Dow -768pts to new 2026 low, SPX tests 200-day MA. Micron BLOWOUT AH: $12.20 EPS, entire 2026 HBM supply sold out. Grok 4.20 Beta #1 lowest hallucination. Mystery 'Hunter Alpha' 1T model may be DeepSeek V4. Apple M5 Pro/Max shipping with 4x LLM speed. NVIDIA DGX Station GB300 shipping — Karpathy gets first unit. Polymarket: Iran by Dec 69%, Fed 1 cut 33%. BTC $74K testing 50-day MA."
+    "excerpt": "Fed holds at 3.50-3.75%, projects 1 cut for 2026. Hot PPI (0.7% vs 0.3% est) hammers all indices \u2014 Dow -768pts to new 2026 low, SPX tests 200-day MA. Micron BLOWOUT AH: $12.20 EPS, entire 2026 HBM supply sold out. Grok 4.20 Beta #1 lowest hallucination. Mystery 'Hunter Alpha' 1T model may be DeepSeek V4. Apple M5 Pro/Max shipping with 4x LLM speed. NVIDIA DGX Station GB300 shipping \u2014 Karpathy gets first unit. Polymarket: Iran by Dec 69%, Fed 1 cut 33%. BTC $74K testing 50-day MA."
   },
   {
     "id": "2026-03-18-paper-portfolio",
