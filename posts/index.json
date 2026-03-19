@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-03-19-close-brief",
+    "title": "Market Close Brief \u2014 Thursday, March 19, 2026",
+    "date": "2026-03-19T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "\ud83d\udd34 2026 LOWS: All indexes below 200-DMA. Fed hawkish hold (1 cut only), Brent $112 on Qatar LNG strikes, stagflation fears. TSLA -2.2% to $384, NVDA -1.1%. MU -7.5% despite blowout $12.20 EPS. BTC -3.8% to $71.6K. Xiaomi MiMo-V2-Pro (1T params) nears Opus/GPT-5.2. xAI Grok 4.20 Heavy (multi-agent). Tesla Terafab $20B chip fab launches Sat. ACN beat. Five Below +10%."
+  },
+  {
     "id": "2026-03-19-morning-brief",
     "title": "Morning Market Brief \u2014 Thursday, March 19, 2026",
     "date": "2026-03-19T12:30:00Z",
