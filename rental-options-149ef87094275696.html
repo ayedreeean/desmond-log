@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rental Property Options — For Ellen's Parents</title>
+<style>
+:root {
+  --bg: #fafaf9;
+  --card: #ffffff;
+  --border: #e7e5e4;
+  --text: #1c1917;
+  --muted: #78716c;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --green-border: #bbf7d0;
+  --red: #dc2626;
+  --red-bg: #fef2f2;
+  --red-border: #fecaca;
+  --blue: #2563eb;
+  --blue-bg: #eff6ff;
+  --blue-border: #bfdbfe;
+  --yellow: #ca8a04;
+  --yellow-bg: #fefce8;
+  --yellow-border: #fef08a;
+  --purple: #7c3aed;
+  --purple-bg: #f5f3ff;
+  --purple-border: #ddd6fe;
+  --gold: #d97706;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 2rem 1rem;
+}
+.container { max-width: 900px; margin: 0 auto; }
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.subtitle {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Current Situation */
+.current {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.current h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.stat {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg);
+  border-radius: 8px;
+}
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.stat-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+/* Option Cards */
+.option {
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.option.recommended {
+  border-color: var(--green);
+}
+.badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: var(--green);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.option h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.option .tagline {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.option-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 600px) {
+  .option-grid { grid-template-columns: 1fr; }
+}
+
+.pros, .cons, .details, .considerations {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.pros { background: var(--green-bg); border: 1px solid var(--green-border); }
+.cons { background: var(--red-bg); border: 1px solid var(--red-border); }
+.details { background: var(--blue-bg); border: 1px solid var(--blue-border); }
+.considerations { background: var(--yellow-bg); border: 1px solid var(--yellow-border); }
+
+.pros h3 { color: var(--green); }
+.cons h3 { color: var(--red); }
+.details h3 { color: var(--blue); }
+.considerations h3 { color: var(--yellow); }
+
+.pros h3, .cons h3, .details h3, .considerations h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.pros ul, .cons ul, .details ul, .considerations ul {
+  list-style: none;
+  padding: 0;
+}
+.pros li::before { content: "✅ "; }
+.cons li::before { content: "❌ "; }
+.details li::before { content: "📋 "; }
+.considerations li::before { content: "⚠️ "; }
+.pros li, .cons li, .details li, .considerations li {
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
+}
+
+/* Financial Summary */
+.financial {
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.financial-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.financial-row:last-child { border-bottom: none; }
+.financial-row.total {
+  font-weight: 700;
+  font-size: 1rem;
+  border-top: 2px solid var(--text);
+  padding-top: 0.6rem;
+  margin-top: 0.25rem;
+}
+.pos { color: var(--green); font-weight: 600; }
+.neg { color: var(--red); font-weight: 600; }
+
+/* Comparison Table */
+.comparison {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+.comparison h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+th, td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: var(--bg);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+td:first-child { font-weight: 500; }
+tr:last-child td { border-bottom: none; }
+.highlight-col { background: var(--green-bg); }
+
+/* Bottom Line */
+.bottom-line {
+  background: var(--purple-bg);
+  border: 1px solid var(--purple-border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+.bottom-line h2 {
+  color: var(--purple);
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.bottom-line p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* Legal Note */
+.legal {
+  background: var(--yellow-bg);
+  border: 1px solid var(--yellow-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.legal h2 {
+  color: var(--yellow);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.legal ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.legal li {
+  margin-bottom: 0.35rem;
+}
+.legal li::before { content: "• "; color: var(--yellow); font-weight: 700; }
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>🏠 Rental Property Options</h1>
+<p class="subtitle">Three paths forward for the California rental properties — with real numbers</p>
+
+<!-- Current Situation -->
+<div class="current">
+  <h2>📊 Where Things Stand Today</h2>
+  <div class="stats-grid">
+    <div class="stat">
+      <div class="stat-value">$6,600</div>
+      <div class="stat-label">Monthly Gross Rent</div>
+      <div class="stat-note">Rosemead $3,600 + Anaheim $3,000</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" style="color: var(--green);">~$5,000</div>
+      <div class="stat-label">Monthly Net Income</div>
+      <div class="stat-note">~$60,000/year</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">~$1.65M</div>
+      <div class="stat-label">Estimated Property Value</div>
+      <div class="stat-note">Rosemead ~$900K + Anaheim ~$750K</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" style="color: var(--gold);">~$6,400</div>
+      <div class="stat-label">Annual Property Tax</div>
+      <div class="stat-note">Prop 13 protected (very low!)</div>
+    </div>
+  </div>
+  <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: var(--yellow-bg); border-radius: 8px; font-size: 0.85rem; border: 1px solid var(--yellow-border);">
+    <strong>Key context:</strong> Both properties are fully paid off with no mortgages. Currently managed by family members in CA, which is creating some uncomfortable dynamics. The goal is to find a path that removes the family dependency while preserving income.
+  </div>
+</div>
+
+<!-- OPTION 1: Hire a PM -->
+<div class="option recommended">
+  <div class="badge">Recommended First Step</div>
+  <h2>Option 1: Hire a Property Manager</h2>
+  <p class="tagline">Keep the CA properties, replace family with a professional — simplest fix for the real problem</p>
+
+  <div class="financial">
+    <div class="financial-row">
+      <span>Current net income</span>
+      <span>$60,000/yr</span>
+    </div>
+    <div class="financial-row">
+      <span>Property management fee (8-10% of gross)</span>
+      <span class="neg">-$6,600 to -$7,920/yr</span>
+    </div>
+    <div class="financial-row">
+      <span>Upfront cost</span>
+      <span>$0</span>
+    </div>
+    <div class="financial-row">
+      <span>Tax bill</span>
+      <span>$0</span>
+    </div>
+    <div class="financial-row total">
+      <span>New annual income</span>
+      <span class="pos">~$52,000–$53,400/yr ($4,350–$4,450/mo)</span>
+    </div>
+  </div>
+
+  <div class="option-grid">
+    <div class="pros">
+      <h3>Advantages</h3>
+      <ul>
+        <li>Solves the family dependency issue immediately</li>
+        <li>Keeps Prop 13 protection ($6,400/yr vs $28,600+ in TX)</li>
+        <li>Highest ongoing income of all three options</li>
+        <li>No tax hit whatsoever</li>
+        <li>Existing tenants stay — zero disruption</li>
+        <li>Stepped-up basis at inheritance (same as other options)</li>
+        <li>Reversible — can always sell later if it's not working</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Concerns</h3>
+      <ul>
+        <li>Still a landlord (even if hands-off)</li>
+        <li>PM may flag habitability issues on older property</li>
+        <li>Two properties in two cities = potentially two PMs</li>
+        <li>Cash-paying tenants may need formalized lease</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="considerations">
+    <h3>About the PM &amp; Code Concerns</h3>
+    <ul>
+      <li>A PM's job is to manage what exists, not demand upgrades. They need basic habitability (working plumbing, electrical, heating) — not a remodel.</li>
+      <li>Look for a smaller, local PM in the San Gabriel Valley who handles older properties — not a corporate chain.</li>
+      <li>Be upfront when interviewing: "We have long-term tenants, minimal turnover, we want stability."</li>
+      <li>A good PM will see 10-year tenants with zero vacancy as a dream portfolio — they won't rock the boat.</li>
+      <li>Under California law (AB-291), a PM <strong>cannot ask about or act on</strong> tenants' immigration status. This actually protects everyone.</li>
+      <li>If the third unit at Rosemead is unpermitted, discuss this honestly with the PM upfront.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- OPTION 2: 1031 Exchange -->
+<div class="option">
+  <h2>Option 2: Sell &amp; 1031 Exchange into Texas Property</h2>
+  <p class="tagline">Sell both CA properties, buy a TX home tax-deferred, rent it to Adrian &amp; Ellen</p>
+
+  <div class="financial">
+    <div class="financial-row">
+      <span>Sell CA properties</span>
+      <span>~$1,650,000</span>
+    </div>
+    <div class="financial-row">
+      <span>Buy TX property ($1.3M home)</span>
+      <span>-$1,300,000</span>
+    </div>
+    <div class="financial-row">
+      <span>Boot (excess cash)</span>
+      <span>$350,000</span>
+    </div>
+    <div class="financial-row">
+      <span>Tax on boot</span>
+      <span class="neg">-$120,000</span>
+    </div>
+    <div class="financial-row">
+      <span>Net cash to pocket</span>
+      <span>~$230,000</span>
+    </div>
+    <div class="financial-row" style="border-top: 1px solid var(--border); padding-top: 0.6rem;">
+      <span>TX rental income (NNN lease)</span>
+      <span>$4,500/mo ($54,000/yr)</span>
+    </div>
+    <div class="financial-row">
+      <span>TX property tax (2.2% — no Prop 13!)</span>
+      <span class="neg">-$28,600/yr</span>
+    </div>
+    <div class="financial-row">
+      <span>Insurance</span>
+      <span class="neg">-$4,500/yr</span>
+    </div>
+    <div class="financial-row total">
+      <span>New annual income (NNN + cash invested at 4%)</span>
+      <span>~$40,000–$49,000/yr</span>
+    </div>
+  </div>
+
+  <div class="option-grid">
+    <div class="pros">
+      <h3>Advantages</h3>
+      <ul>
+        <li>Complete break from CA properties &amp; family dynamics</li>
+        <li>Property near Ellen and grandkids</li>
+        <li>One property to manage instead of two</li>
+        <li>New depreciation deductions on TX property</li>
+        <li>Adrian &amp; Ellen get a $1.3M home at below-market rent</li>
+        <li>Stepped-up basis at inheritance eliminates all deferred gains</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Concerns</h3>
+      <ul>
+        <li>Income drops $10–20K/yr vs keeping CA</li>
+        <li>Lose Prop 13 forever — TX property tax is 4.5x higher</li>
+        <li>1031 is complex — 45-day identification, 180-day close</li>
+        <li>Attorney + Qualified Intermediary fees: $10–20K</li>
+        <li>Some boot tax still due (~$120K)</li>
+        <li>Concentration risk: all equity in one TX property</li>
+        <li>Still a landlord (now out-of-state for them)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="details">
+    <h3>Key Details</h3>
+    <ul>
+      <li><strong>NNN Lease:</strong> Adrian &amp; Ellen pay rent + all property expenses (tax, insurance, maintenance). Parents just collect rent.</li>
+      <li><strong>Prop 13 Loss:</strong> Going from $6,400/yr in CA property tax to $28,600/yr in TX — that's $22,200/yr extra, every year, forever.</li>
+      <li><strong>The 45-day rule:</strong> After selling CA, they have 45 days to identify the TX replacement property and 180 days to close. This creates time pressure.</li>
+      <li><strong>Boot minimization:</strong> Finding a home closer to $1.5–1.65M would reduce or eliminate the taxable boot.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- OPTION 3: Sell & Invest -->
+<div class="option">
+  <h2>Option 3: Sell Everything &amp; Invest the Proceeds</h2>
+  <p class="tagline">Clean break — no more properties, no more landlording, invest in index funds</p>
+
+  <div class="financial">
+    <div class="financial-row">
+      <span>Sell CA properties</span>
+      <span>~$1,650,000</span>
+    </div>
+    <div class="financial-row">
+      <span>Total capital gains tax</span>
+      <span class="neg">-$550,000 to -$600,000</span>
+    </div>
+    <div class="financial-row" style="font-size: 0.8rem; color: var(--muted);">
+      <span>&nbsp;&nbsp;&nbsp;Federal (20%) + NIIT (3.8%) + CA (13.3%) + depreciation recapture (25%)</span>
+      <span></span>
+    </div>
+    <div class="financial-row">
+      <span>Net investable proceeds</span>
+      <span>~$1,050,000–$1,100,000</span>
+    </div>
+    <div class="financial-row" style="border-top: 1px solid var(--border); padding-top: 0.6rem;">
+      <span>Conservative income (4% withdrawal)</span>
+      <span>$42,000–$44,000/yr</span>
+    </div>
+    <div class="financial-row total">
+      <span>Annual income</span>
+      <span>~$42,000–$44,000/yr ($3,500–$3,667/mo)</span>
+    </div>
+  </div>
+
+  <div class="option-grid">
+    <div class="pros">
+      <h3>Advantages</h3>
+      <ul>
+        <li><strong>Zero landlord responsibilities</strong> — no tenants, no repairs, no PMs</li>
+        <li>Complete break from CA property &amp; family dynamics</li>
+        <li>Fully liquid — access money anytime</li>
+        <li>Diversified (index funds vs single properties)</li>
+        <li>Portfolio grows over time (historically ~10%/yr)</li>
+        <li>Stepped-up basis still applies to investments at inheritance</li>
+        <li>Simplest option — sell and be done</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Concerns</h3>
+      <ul>
+        <li><strong>$550K+ tax bill</strong> — largest upfront cost of any option</li>
+        <li>Lowest starting income (~$42K vs $53K or $60K)</li>
+        <li>Market volatility — income not guaranteed</li>
+        <li>Lose Prop 13 permanently</li>
+        <li>Lose real estate as inflation hedge</li>
+        <li>Requires comfort with stock market</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="details">
+    <h3>The Long-Term Math</h3>
+    <ul>
+      <li>$1.05M invested in index funds (S&amp;P 500) at historical 10% average → <strong>$2.7M in 10 years, $7.1M in 20 years</strong></li>
+      <li>Even at conservative 7%: <strong>$2.1M in 10 years, $4.1M in 20 years</strong></li>
+      <li>The $550K tax hit is painful now, but if they don't need the rental income to live on, this path likely creates the most total wealth over 15+ years</li>
+      <li>However — this requires stomach for market ups and downs</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Side-by-Side Comparison -->
+<div class="comparison">
+  <h2>📊 Side-by-Side Comparison</h2>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th class="highlight-col">Option 1: Hire PM</th>
+        <th>Option 2: 1031 to TX</th>
+        <th>Option 3: Sell &amp; Invest</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Annual income</td>
+        <td class="highlight-col"><strong class="pos">~$53,000</strong></td>
+        <td>~$40,000–$49,000</td>
+        <td>~$42,000–$44,000</td>
+      </tr>
+      <tr>
+        <td>Monthly income</td>
+        <td class="highlight-col"><strong class="pos">~$4,400</strong></td>
+        <td>~$3,300–$4,100</td>
+        <td>~$3,500–$3,667</td>
+      </tr>
+      <tr>
+        <td>Upfront tax hit</td>
+        <td class="highlight-col"><strong class="pos">$0</strong></td>
+        <td>~$120K (boot)</td>
+        <td class="neg">~$550K+</td>
+      </tr>
+      <tr>
+        <td>Prop 13 kept?</td>
+        <td class="highlight-col"><strong class="pos">✅ Yes</strong></td>
+        <td class="neg">❌ Lost forever</td>
+        <td class="neg">❌ Lost forever</td>
+      </tr>
+      <tr>
+        <td>Annual property tax</td>
+        <td class="highlight-col"><strong class="pos">$6,400</strong></td>
+        <td class="neg">$28,600</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>Landlord duties?</td>
+        <td class="highlight-col">Minimal (PM handles)</td>
+        <td>Minimal (NNN lease)</td>
+        <td class="pos">None</td>
+      </tr>
+      <tr>
+        <td>Family dependency?</td>
+        <td class="highlight-col"><strong class="pos">Eliminated</strong></td>
+        <td class="pos">Eliminated</td>
+        <td class="pos">Eliminated</td>
+      </tr>
+      <tr>
+        <td>Step-up basis at inheritance?</td>
+        <td class="highlight-col"><strong class="pos">✅ Yes</strong></td>
+        <td class="pos">✅ Yes</td>
+        <td class="pos">✅ Yes</td>
+      </tr>
+      <tr>
+        <td>Complexity</td>
+        <td class="highlight-col"><strong class="pos">Low</strong></td>
+        <td class="neg">High</td>
+        <td class="pos">Low</td>
+      </tr>
+      <tr>
+        <td>Reversible?</td>
+        <td class="highlight-col"><strong class="pos">✅ Fully</strong></td>
+        <td>❌ No</td>
+        <td>❌ No</td>
+      </tr>
+      <tr>
+        <td>10-year wealth potential</td>
+        <td class="highlight-col">$1.65M property + $530K income</td>
+        <td>$1.75M property + $400-490K income</td>
+        <td>$2.1M–$2.7M portfolio</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Bottom Line -->
+<div class="bottom-line">
+  <h2>💡 Our Recommendation</h2>
+  <p>
+    <strong>Start with Option 1.</strong> Hire a local property manager in the San Gabriel Valley. 
+    This solves the actual problem — the family dependency — for about $550–660/month. 
+    It keeps the Prop 13 protection (saving $22,000/year vs Texas), maintains the highest income, 
+    costs nothing upfront, and is completely reversible.
+  </p>
+  <p>
+    The stepped-up basis at inheritance works the same regardless of which option you choose. 
+    So there's no tax advantage to doing a 1031 exchange — the capital gains are eliminated at 
+    inheritance either way.
+  </p>
+  <p>
+    If after hiring a PM, you still want out of CA real estate entirely, you can always revisit 
+    Options 2 or 3 later. But there's no financial urgency to make that decision now.
+  </p>
+  <p style="margin-top: 1rem; padding: 0.75rem; background: rgba(124, 58, 237, 0.08); border-radius: 6px;">
+    <strong>One thing to look into:</strong> If the third unit at Rosemead is unpermitted, 
+    it's worth understanding that situation before hiring a PM. A local real estate attorney 
+    can advise on the best way to handle it — this is independent of which option you choose.
+  </p>
+</div>
+
+<!-- Legal Disclaimer -->
+<div class="legal">
+  <h2>⚠️ Important Notes</h2>
+  <ul>
+    <li>This is a family analysis, not professional tax or legal advice.</li>
+    <li>Property values are estimates based on market data — a professional appraisal is recommended before any sale.</li>
+    <li>Tax calculations are approximate — consult a CPA for exact numbers, especially regarding depreciation recapture.</li>
+    <li>If considering a 1031 exchange, a Qualified Intermediary and tax attorney are required.</li>
+    <li>California tenant protection laws (AB 1482, AB 291) should be reviewed with any property management changes.</li>
+    <li>All three options preserve stepped-up basis at inheritance under current tax law (IRC §1014).</li>
+  </ul>
+</div>
+
+<footer>
+  Prepared March 2026 · Based on available property data and current tax law<br>
+  Property values, tax rates, and investment returns are estimates and may vary
+</footer>
+
+</div>
+</body>
+</html>
