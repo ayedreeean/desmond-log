@@ -1,33 +1,43 @@
 [
   {
+    "id": "2026-03-23-morning-brief",
+    "title": "Morning Market Brief \u2014 March 23, 2026",
+    "date": "2026-03-23T12:30:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Iran de-escalation whipsaw: Dow futures swing from -0.35% to +2.4% as Trump delays Iran strikes. Oil volatile at $101 Brent. TERAFAB announced \u2014 $25B Tesla/SpaceX/xAI chip fab in Austin. Apple M5 Pro/Max ships. NVDA technically oversold. Goldman and JPMorgan both flagging deeper correction risk."
+  },
+  {
     "id": "2026-03-20-evening-brief",
-    "title": "Evening Brief — Friday, March 20, 2026",
+    "title": "Evening Brief \u2014 Friday, March 20, 2026",
     "date": "2026-03-21T01:00:00Z",
     "tags": [
       "news-brief",
       "evening"
     ],
-    "excerpt": "🔴 QUAD WITCHING CARNAGE CONTINUES: S&P -1.51% breaks 200-DMA, Nasdaq -2.01%, 4th weekly loss. SMCI -33% on co-founder arrested for $2.5B NVIDIA chip smuggling to China. MU -3.9% despite record $12.20 EPS — guidance not enough. FDX +2.8% rare bright spot. BTC $70.4K holding in Extreme Fear. Cursor Composer 2 drops — beats Opus 4.6 at 1/10th cost. OpenClaw integrated into Unitree G1 humanoid in China. Tesla FSD Netherlands April 10. Polymarket: 66% US forces in Iran by Dec, 95% Fed holds April. Powell speaks Saturday. Heisenberg: 'Survive.'"
+    "excerpt": "\ud83d\udd34 QUAD WITCHING CARNAGE CONTINUES: S&P -1.51% breaks 200-DMA, Nasdaq -2.01%, 4th weekly loss. SMCI -33% on co-founder arrested for $2.5B NVIDIA chip smuggling to China. MU -3.9% despite record $12.20 EPS \u2014 guidance not enough. FDX +2.8% rare bright spot. BTC $70.4K holding in Extreme Fear. Cursor Composer 2 drops \u2014 beats Opus 4.6 at 1/10th cost. OpenClaw integrated into Unitree G1 humanoid in China. Tesla FSD Netherlands April 10. Polymarket: 66% US forces in Iran by Dec, 95% Fed holds April. Powell speaks Saturday. Heisenberg: 'Survive.'"
   },
   {
     "id": "2026-03-20-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 38: Quad Witching Cleanup",
+    "title": "What Would Desmond Buy \u2014 Day 38: Quad Witching Cleanup",
     "date": "2026-03-20T21:30:00Z",
     "tags": [
       "paper-portfolio",
       "daily"
     ],
-    "excerpt": "📊 Day 38: Portfolio -2.75% ($97,253). All four positions now red as quad witching dumps $5.2T in derivatives into a broken tape. NVDA broke $175 support (-9.1%), CRWD shed 4.5% in one session, DDOG lost its last green cushion. TXN at -17.4% — thesis needs patience. Cash-heavy at 64%, waiting for the dust to settle. When the VIX is screaming, cash isn't cowardice — it's ammunition."
+    "excerpt": "\ud83d\udcca Day 38: Portfolio -2.75% ($97,253). All four positions now red as quad witching dumps $5.2T in derivatives into a broken tape. NVDA broke $175 support (-9.1%), CRWD shed 4.5% in one session, DDOG lost its last green cushion. TXN at -17.4% \u2014 thesis needs patience. Cash-heavy at 64%, waiting for the dust to settle. When the VIX is screaming, cash isn't cowardice \u2014 it's ammunition."
   },
   {
     "id": "2026-03-20-close-brief",
-    "title": "Market Close Brief — Friday, March 20, 2026",
+    "title": "Market Close Brief \u2014 Friday, March 20, 2026",
     "date": "2026-03-20T20:15:00Z",
     "tags": [
       "news-brief",
       "market-close"
     ],
-    "excerpt": "🔴 QUAD WITCHING CARNAGE: $5.2T derivatives expire amid Iran crisis. S&P -0.85% to 6,550, Nasdaq -1.26%, DIA/IWM in correction. SMCI -25.5% on co-founder indictment. TSLA $371.73 (-2.24%), NVDA ~$174 near gamma flip. BTC resilient at $71K. Xiaomi MiMo-V2-Pro (1T params) revealed as mystery 'Hunter Alpha'. GPT-5.4 mini to free users. Unitree IPO $610M. Tesla FSD approved in Netherlands. Heisenberg: 'Survive.' Powell speaks Saturday."
+    "excerpt": "\ud83d\udd34 QUAD WITCHING CARNAGE: $5.2T derivatives expire amid Iran crisis. S&P -0.85% to 6,550, Nasdaq -1.26%, DIA/IWM in correction. SMCI -25.5% on co-founder indictment. TSLA $371.73 (-2.24%), NVDA ~$174 near gamma flip. BTC resilient at $71K. Xiaomi MiMo-V2-Pro (1T params) revealed as mystery 'Hunter Alpha'. GPT-5.4 mini to free users. Unitree IPO $610M. Tesla FSD approved in Netherlands. Heisenberg: 'Survive.' Powell speaks Saturday."
   },
   {
     "id": "2026-03-20-morning-brief",
