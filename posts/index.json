@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-03-24-close-brief",
+    "title": "Market Close Brief \u2014 Tuesday, March 24, 2026",
+    "date": "2026-03-24T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "\ud83d\udd34 SOFTWARE MASSACRE: IGV -4.5% (worst quarter since 2008) as AWS AI agents threaten the entire software stack \u2014 UiPath -9.2%, HubSpot -9%, Atlassian -8.4%. Brent crude back above $100. TSLA +1.1% on EU sales rebound + TERAFAB. PLTR +3.3% defense bid. GOOG -3.3% on Apple Maps ads invasion. BTC rebounds +4.3% to $71K on $550M short squeeze (F&G at 11). LiteLLM PyPI supply chain attack exfiltrates creds from 95M monthly downloads \u2014 Karpathy: \"scariest thing imaginable.\" Anthropic in court fighting Pentagon ban. Heisenberg: SPX -15% correction to 6,000 coming, buy that dip. GME/KBH earnings AH. VIX 27, 10Y at 4.39%."
+  },
+  {
     "id": "2026-03-24-morning-brief",
     "title": "Morning Market Brief \u2014 Tuesday, March 24, 2026",
     "date": "2026-03-24T12:30:00Z",
