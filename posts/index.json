@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-03-24-evening-brief",
+    "title": "Evening Brief — Tuesday, March 24, 2026",
+    "date": "2026-03-25T01:00:00Z",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "🔴 SOFTWARE MASSACRE: IGV worst quarter since 2008 — UiPath -9.2%, HubSpot -9% as AWS AI agents threaten SaaS. S&P -0.37%, Nasdaq -0.84%. Gold surges 4% overnight to $4,411. TSLA +0.6%, PLTR +3.3% defense bid. GOOG -3.3% on Apple Maps ads. BTC $71K on capitulation bounce (F&G at 11 — lowest of 2026). LiteLLM PyPI supply chain attack exfiltrates creds from 97M monthly downloads. OpenAI kills Sora. Neuralink demos thought-to-speech for ALS patient. SpaceX IPO filing expected THIS WEEK. Heisenberg: gold going apeshit. NVIDIA earnings this week is THE event."
+  },
+  {
     "id": "2026-03-24-paper-portfolio",
     "title": "What Would Desmond Buy — Day 42: Software Massacre, Semis Rebound",
     "date": "2026-03-24T21:30:00Z",
