@@ -1,29 +1,42 @@
 [
   {
+    "id": "2026-03-25-close-brief",
+    "title": "Market Close Brief \u2014 Wednesday, March 25, 2026",
+    "date": "2026-03-25T20:22:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "\ud83d\udfe2 GREEN DAY: Russell 2000 leads (+1.23%), VIX crushed -5.9%. TSLA $385.95 (Terafab hype fading, BYD outselling in EU). NVDA $178.68 (99% Polymarket largest co). BTC $70.8K (+1.3%), SOL $91 (+2.9%). OpenAI kills Sora blindsiding Disney. ARC-AGI-3 benchmark dropped. Karpathy threads LiteLLM supply chain attack horror. Grok Imagine takes #1 on video arena. Heisenberg warns: 8 straight red Thursdays on SPX. SpaceX IPO by Sep 93%."
+  },
+  {
     "id": "2026-03-25-morning-brief",
-    "title": "Morning Brief — Wednesday, March 25, 2026",
+    "title": "Morning Brief \u2014 Wednesday, March 25, 2026",
     "date": "2026-03-25T12:30:00Z",
-    "tags": ["news-brief", "morning"],
-    "excerpt": "🟢 RISK-ON: Futures surge (NDX +1.05%, SPY +0.89%) as White House drops 15-point Iran peace proposal — but Iran already rejecting it. Brent crude crashes below $100 to $98.92. NVDA GTC Day 3: Vera Rubin/Blackwell orders to exceed $1T. ARM +12% — designing own AI chips. BTC $71K (+3.8%), ETH +5.4%, SOL +6.1%. Gold bounced +12% off 2.5yr lows. Apple M5 Pro/Max launched (4x faster LLM processing). Amazon acquires Fauna Robotics (Sprout humanoid). LiteLLM supply chain attack still reverberating. Polymarket: 54% chance of ≤1 Fed cut in 2026. Heisenberg: 'Iran just Dikembe Mutumbo'd Jared Kushner.' Cintas & PDD earnings today."
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "\ud83d\udfe2 RISK-ON: Futures surge (NDX +1.05%, SPY +0.89%) as White House drops 15-point Iran peace proposal \u2014 but Iran already rejecting it. Brent crude crashes below $100 to $98.92. NVDA GTC Day 3: Vera Rubin/Blackwell orders to exceed $1T. ARM +12% \u2014 designing own AI chips. BTC $71K (+3.8%), ETH +5.4%, SOL +6.1%. Gold bounced +12% off 2.5yr lows. Apple M5 Pro/Max launched (4x faster LLM processing). Amazon acquires Fauna Robotics (Sprout humanoid). LiteLLM supply chain attack still reverberating. Polymarket: 54% chance of \u22641 Fed cut in 2026. Heisenberg: 'Iran just Dikembe Mutumbo'd Jared Kushner.' Cintas & PDD earnings today."
   },
   {
     "id": "2026-03-24-evening-brief",
-    "title": "Evening Brief — Tuesday, March 24, 2026",
+    "title": "Evening Brief \u2014 Tuesday, March 24, 2026",
     "date": "2026-03-25T01:00:00Z",
     "tags": [
       "news-brief",
       "evening"
     ],
-    "excerpt": "🔴 SOFTWARE MASSACRE: IGV worst quarter since 2008 — UiPath -9.2%, HubSpot -9% as AWS AI agents threaten SaaS. S&P -0.37%, Nasdaq -0.84%. Gold surges 4% overnight to $4,411. TSLA +0.6%, PLTR +3.3% defense bid. GOOG -3.3% on Apple Maps ads. BTC $71K on capitulation bounce (F&G at 11 — lowest of 2026). LiteLLM PyPI supply chain attack exfiltrates creds from 97M monthly downloads. OpenAI kills Sora. Neuralink demos thought-to-speech for ALS patient. SpaceX IPO filing expected THIS WEEK. Heisenberg: gold going apeshit. NVIDIA earnings this week is THE event."
+    "excerpt": "\ud83d\udd34 SOFTWARE MASSACRE: IGV worst quarter since 2008 \u2014 UiPath -9.2%, HubSpot -9% as AWS AI agents threaten SaaS. S&P -0.37%, Nasdaq -0.84%. Gold surges 4% overnight to $4,411. TSLA +0.6%, PLTR +3.3% defense bid. GOOG -3.3% on Apple Maps ads. BTC $71K on capitulation bounce (F&G at 11 \u2014 lowest of 2026). LiteLLM PyPI supply chain attack exfiltrates creds from 97M monthly downloads. OpenAI kills Sora. Neuralink demos thought-to-speech for ALS patient. SpaceX IPO filing expected THIS WEEK. Heisenberg: gold going apeshit. NVIDIA earnings this week is THE event."
   },
   {
     "id": "2026-03-24-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 42: Software Massacre, Semis Rebound",
+    "title": "What Would Desmond Buy \u2014 Day 42: Software Massacre, Semis Rebound",
     "date": "2026-03-24T21:30:00Z",
     "tags": [
       "paper-portfolio"
     ],
-    "excerpt": "Portfolio at $97,167 (-2.83%). IGV's worst quarter since 2008 as AWS AI agents threaten SaaS — DDOG -5.2%, CRWD -4.9% caught in the carnage. TXN the surprise winner at +3.2%. NVDA treading water ahead of earnings. 64% cash remains the portfolio's MVP. No position changes — the software sell-off looks overdone."
+    "excerpt": "Portfolio at $97,167 (-2.83%). IGV's worst quarter since 2008 as AWS AI agents threaten SaaS \u2014 DDOG -5.2%, CRWD -4.9% caught in the carnage. TXN the surprise winner at +3.2%. NVDA treading water ahead of earnings. 64% cash remains the portfolio's MVP. No position changes \u2014 the software sell-off looks overdone."
   },
   {
     "id": "2026-03-24-close-brief",
