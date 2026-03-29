@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1031 → Convert to Primary → Sell: Tax Analysis</title>
+<style>
+:root {
+  --bg: #fafaf9;
+  --card: #ffffff;
+  --border: #e7e5e4;
+  --text: #1c1917;
+  --muted: #78716c;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --green-border: #bbf7d0;
+  --red: #dc2626;
+  --red-bg: #fef2f2;
+  --red-border: #fecaca;
+  --blue: #2563eb;
+  --blue-bg: #eff6ff;
+  --blue-border: #bfdbfe;
+  --yellow: #ca8a04;
+  --yellow-bg: #fefce8;
+  --yellow-border: #fef08a;
+  --purple: #7c3aed;
+  --purple-bg: #f5f3ff;
+  --purple-border: #ddd6fe;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 2rem 1rem;
+}
+.container { max-width: 860px; margin: 0 auto; }
+
+h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.25rem; }
+.subtitle { color: var(--muted); font-size: 0.95rem; margin-bottom: 2rem; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.steps {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.step {
+  flex: 1;
+  min-width: 140px;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  background: var(--blue-bg);
+  border: 1px solid var(--blue-border);
+}
+.step:first-child { border-radius: 8px 0 0 8px; }
+.step:last-child { border-radius: 0 8px 8px 0; }
+.step-num {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--blue);
+  font-weight: 600;
+}
+.step-label { font-weight: 600; font-size: 0.95rem; margin-top: 0.25rem; }
+.step-detail { font-size: 0.8rem; color: var(--muted); }
+.step.problem { background: var(--red-bg); border-color: var(--red-border); }
+.step.problem .step-num { color: var(--red); }
+
+.verdict {
+  background: var(--red-bg);
+  border: 2px solid var(--red-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.verdict h2 { justify-content: center; color: var(--red); font-size: 1.3rem; }
+.verdict p { font-size: 1rem; margin-top: 0.5rem; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+th, td {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: var(--bg);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+tr:last-child td { border-bottom: none; }
+.pos { color: var(--green); font-weight: 600; }
+.neg { color: var(--red); font-weight: 600; }
+.total-row { font-weight: 700; border-top: 2px solid var(--text); }
+
+.callout {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.c-red { background: var(--red-bg); border: 1px solid var(--red-border); }
+.c-blue { background: var(--blue-bg); border: 1px solid var(--blue-border); }
+.c-green { background: var(--green-bg); border: 1px solid var(--green-border); }
+.c-yellow { background: var(--yellow-bg); border: 1px solid var(--yellow-border); }
+.c-purple { background: var(--purple-bg); border: 1px solid var(--purple-border); }
+
+.callout strong { display: block; margin-bottom: 0.35rem; }
+
+.scenario-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 600px) { .scenario-grid { grid-template-columns: 1fr; } }
+
+.scenario {
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.scenario h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.better-options {
+  background: var(--card);
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.better-options h2 { color: var(--green); }
+
+.option-row {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.option-row:last-child { border-bottom: none; }
+.option-icon {
+  font-size: 1.5rem;
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.option-content h3 { font-size: 0.95rem; margin-bottom: 0.25rem; }
+.option-content p { font-size: 0.85rem; color: var(--muted); }
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>🔄 1031 → Convert to Primary → Sell</h1>
+<p class="subtitle">Can you 1031 into Texas, live in it, then sell tax-free? Here's why it doesn't work.</p>
+
+<!-- The Strategy -->
+<div class="card">
+  <h2>📋 The Strategy</h2>
+  <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--muted);">Sell CA rentals → 1031 exchange into a TX home → rent it out → move in → sell with Section 121 exclusion ($500K tax-free for married couples)</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">Year 0</div>
+      <div class="step-label">Sell CA</div>
+      <div class="step-detail">1031 exchange</div>
+    </div>
+    <div class="step">
+      <div class="step-num">Years 1–2</div>
+      <div class="step-label">Rent Out</div>
+      <div class="step-detail">Lease to family</div>
+    </div>
+    <div class="step">
+      <div class="step-num">Years 3–4</div>
+      <div class="step-label">Move In</div>
+      <div class="step-detail">Primary residence</div>
+    </div>
+    <div class="step problem">
+      <div class="step-num">Year 4</div>
+      <div class="step-label">Sell?</div>
+      <div class="step-detail">❌ Doesn't qualify</div>
+    </div>
+  </div>
+</div>
+
+<!-- The Verdict -->
+<div class="verdict">
+  <h2>❌ This Strategy Doesn't Work</h2>
+  <p>Congress closed this loophole in <strong>2008</strong> with the Housing Assistance Tax Act.</p>
+</div>
+
+<!-- Why It Fails -->
+<div class="card">
+  <h2>⚖️ Two Laws Block This</h2>
+
+  <div class="callout c-red">
+    <strong>🚫 Problem #1: The 5-Year Holding Rule (Section 121(d)(10))</strong>
+    If a property was acquired via 1031 exchange, you must own it for <strong>at least 5 years</strong> before the Section 121 exclusion applies. 2 years rental + 2 years primary = 4 years. <strong>Does not qualify.</strong>
+  </div>
+
+  <div class="callout c-red">
+    <strong>🚫 Problem #2: Non-Qualified Use Proration (Section 121(b)(5))</strong>
+    Even if you hold for 5+ years, the exclusion is <strong>reduced proportionally</strong> for any time the property was <em>not</em> a primary residence. Renting it out counts as "non-qualified use."
+  </div>
+</div>
+
+<!-- Best Case: 5-Year Hold -->
+<div class="card">
+  <h2>📊 Best Case: 3 Years Rental + 2 Years Primary (5-Year Hold)</h2>
+  <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem;">Even with a 5-year hold to meet the minimum, the numbers still don't work.</p>
+
+  <div class="scenario-grid">
+    <div class="scenario" style="background: var(--blue-bg); border-color: var(--blue-border);">
+      <h3>Gain at Sale</h3>
+      <table>
+        <tr><td>Deferred gain from CA properties</td><td>~$1,435,000</td></tr>
+        <tr><td>TX appreciation (3%/yr × 5 yrs)</td><td>~$210,000</td></tr>
+        <tr class="total-row"><td><strong>Total gain</strong></td><td><strong>~$1,645,000</strong></td></tr>
+      </table>
+    </div>
+    <div class="scenario" style="background: var(--yellow-bg); border-color: var(--yellow-border);">
+      <h3>Exclusion Calculation</h3>
+      <table>
+        <tr><td>Section 121 exclusion (MFJ)</td><td>$500,000</td></tr>
+        <tr><td>Non-qualified use: 3/5 = 60%</td><td>×40%</td></tr>
+        <tr class="total-row"><td><strong>Actual exclusion</strong></td><td><strong>$200,000</strong></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3 style="font-size: 0.95rem; margin-bottom: 0.75rem;">Tax Bill on the Sale</h3>
+  <table>
+    <thead><tr><th>Tax</th><th>Rate</th><th>Amount</th></tr></thead>
+    <tbody>
+      <tr><td>Depreciation recapture</td><td>25%</td><td class="neg">~$60,000</td></tr>
+      <tr><td>Federal long-term capital gains</td><td>20%</td><td class="neg">~$277,000</td></tr>
+      <tr><td>Net Investment Income Tax</td><td>3.8%</td><td class="neg">~$55,000</td></tr>
+      <tr><td>California state tax</td><td>—</td><td class="pos">$0 (TX property!)</td></tr>
+      <tr class="total-row"><td><strong>Total tax at sale</strong></td><td></td><td class="neg"><strong>~$392,000</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout c-blue">
+    <strong>Compared to selling CA outright today: ~$550,000 in tax</strong>
+    So this strategy saves roughly $158,000 in taxes — but at what cost?
+  </div>
+</div>
+
+<!-- The True Cost -->
+<div class="card">
+  <h2>💸 The 5-Year Cost to Execute This Strategy</h2>
+
+  <table>
+    <thead><tr><th>Cost Item</th><th>Amount</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Lost Prop 13 savings</td><td class="neg">$110,000</td><td>$22K/yr × 5 years (TX tax vs CA tax)</td></tr>
+      <tr><td>Lower rental income vs CA + PM</td><td class="neg">$21,000</td><td>~$7K/yr × 3 rental years</td></tr>
+      <tr><td>Boot tax (excess proceeds)</td><td class="neg">$120,000</td><td>Tax on $350K not reinvested</td></tr>
+      <tr><td>Attorney + Qualified Intermediary</td><td class="neg">$15,000</td><td>1031 exchange fees</td></tr>
+      <tr class="total-row"><td><strong>Total cost of strategy</strong></td><td class="neg"><strong>~$266,000</strong></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout c-red" style="margin-top: 1rem; text-align: center;">
+    <strong style="font-size: 1.1rem;">Net Result: −$108,000</strong>
+    Tax saved ($158K) minus cost to execute ($266K) = <strong>$108K worse off</strong> than just staying in CA
+  </div>
+</div>
+
+<!-- Optimistic Scenario -->
+<div class="card">
+  <h2>🤞 What About 2 Rent + 3 Live? (5 Years, More Primary)</h2>
+
+  <table>
+    <tbody>
+      <tr><td>Non-qualified use ratio</td><td>2/5 = 40%</td></tr>
+      <tr><td>Section 121 exclusion</td><td>$500K × 60% = <strong>$300,000</strong></td></tr>
+      <tr><td>Taxable gain</td><td>~$1,345,000</td></tr>
+      <tr><td>Estimated tax</td><td>~$350,000</td></tr>
+      <tr><td>Tax savings vs selling CA today</td><td class="pos">~$200,000</td></tr>
+      <tr><td>Minus 5-year costs</td><td class="neg">~$266,000</td></tr>
+      <tr class="total-row"><td><strong>Net result</strong></td><td class="neg"><strong>~−$66,000 (still negative)</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout c-yellow">
+    <strong>Even the best-case scenario is roughly breakeven to negative.</strong>
+    Five years of hassle, two cross-state moves, lower income throughout — for no financial gain.
+  </div>
+</div>
+
+<!-- Better Options -->
+<div class="better-options">
+  <h2>✅ What Actually Works Better</h2>
+
+  <div class="option-row">
+    <div class="option-icon">🏆</div>
+    <div class="option-content">
+      <h3>Option A: Keep CA + Hire a Property Manager</h3>
+      <p>Highest income (~$53K/yr), keep Prop 13, zero tax hit, fully reversible. Solves the family management problem for ~$550/mo. Stepped-up basis at inheritance eliminates all gains — same as the 1031 path but simpler.</p>
+    </div>
+  </div>
+
+  <div class="option-row">
+    <div class="option-icon">🏡</div>
+    <div class="option-content">
+      <h3>Option B: 1031 to TX and Hold Until Inheritance</h3>
+      <p>If lifestyle matters (closer to Ellen, one property, done with CA) — 1031 into TX and hold it. Don't try to convert and sell. The stepped-up basis at inheritance eliminates the deferred gains permanently. Income is ~$7K/yr less than CA + PM, but family proximity may be worth it.</p>
+    </div>
+  </div>
+
+  <div class="option-row">
+    <div class="option-icon">📈</div>
+    <div class="option-content">
+      <h3>Option C: Sell Everything, Invest Proceeds</h3>
+      <p>If they want zero landlord responsibilities forever. Pay the ~$550K tax, invest ~$1.05M in index funds. Lower starting income but highest long-term growth potential. Simplest possible life. Stepped-up basis still applies to the investment portfolio at inheritance.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Key Takeaway -->
+<div class="card" style="border: 2px solid var(--purple); background: var(--purple-bg);">
+  <h2 style="color: var(--purple);">💡 The Key Insight</h2>
+  <p style="font-size: 0.95rem; line-height: 1.7;">
+    <strong>Stepped-up basis at inheritance works regardless of which path you choose.</strong>
+    Whether the properties are in CA, exchanged to TX, or sold and invested — when Ellen inherits,
+    the cost basis resets to fair market value and all gains are eliminated. The 1031 "convert and sell"
+    strategy tries to capture tax savings <em>during their lifetime</em>, but the costs of executing it
+    ($266K+) exceed the tax savings ($158–200K). The math doesn't work.
+  </p>
+  <p style="font-size: 0.95rem; line-height: 1.7; margin-top: 0.75rem;">
+    <strong>The real decision isn't about taxes — it's about lifestyle.</strong>
+    Want maximum income with minimum change? → Keep CA, hire a PM.<br>
+    Want to be near Ellen and simplify? → 1031 to TX and hold forever.<br>
+    Want out of real estate entirely? → Sell, pay the tax, invest.
+  </p>
+</div>
+
+<!-- Legal -->
+<div class="callout c-yellow">
+  <strong>⚠️ Important Disclaimers</strong>
+  This is a family analysis, not professional tax advice. Tax laws referenced: IRC §121(d)(10), §121(b)(5), §1031, §1014. Consult a CPA and/or tax attorney before making any decisions. Property values and tax calculations are estimates. Tax law may change.
+</div>
+
+<footer>
+  Prepared March 2026 · Based on current tax law (post-2008 Housing Assistance Tax Act)<br>
+  All figures are estimates for planning purposes only
+</footer>
+
+</div>
+</body>
+</html>
