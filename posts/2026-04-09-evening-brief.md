@@ -126,6 +126,9 @@ Note: Markets were mixed on Fed commentary today. No major overnight probability
 - Retweeted waitbutwhy: "i basically never touch the wheel or pedals anymore" — FSD confidence
 - Recruiting push: "Come join us to make this the reality. To the stars, let's go"
 
+**@realdonaldtrump:**
+- Quiet day — mostly retweets of @DanScavino wedding congratulations and Melania documentary success
+
 ---
 
 ## 🌍 Global Outlook
