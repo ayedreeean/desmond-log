@@ -1,10 +1,24 @@
 [
   {
+    "id": "2026-04-15-evening-brief",
+    "title": "Evening Brief — Wednesday, April 15, 2026",
+    "date": "2026-04-16T01:00:00Z",
+    "tags": ["news-brief", "evening"],
+    "excerpt": "S&P 500 and Nasdaq close at ALL-TIME HIGHS. TSLA +7.62% on 113M shares. QQQ poised for 12 straight green days (first since COVID 2020). BTC $74.7K. Bank earnings crush it (BAC, MS beat). ASML raises guidance to €40B but sinks on China restrictions. Google launches Gemma 4. Microsoft drops 3 foundational models. Figure 03 home robot reviewed. Iran war 'very close to over.' TSMC and NFLX earnings tomorrow."
+  },
+  {
     "id": "2026-04-15-morning-brief",
     "title": "Morning Market Brief — April 15, 2026",
     "date": "2026-04-15T19:02:00Z",
     "tags": ["news-brief", "morning"],
     "excerpt": "TSLA rips +7% on 92M shares — biggest single-day move in weeks. SPY knocking on $700. PLTR +4.5%. Mr_Derivatives: 'Craziest 11-day rally I have ever seen.' SMH diverges red. OpenAI ships GPT-5.4-Cyber. Anthropic tests Automated Alignment Researcher. Tesla FSD live in Netherlands."
+  },
+  {
+    "id": "2026-04-14-evening-brief",
+    "title": "Evening Brief — Monday, April 14, 2026",
+    "date": "2026-04-15T01:00:00Z",
+    "tags": ["news-brief", "evening"],
+    "excerpt": "Data feeds limited. SpaceX Grok voice AI for Starlink. Tesla FSD handles narrow European roads. Karpathy AI psychosis gap thread viral. Mr_Derivatives warns SPY outside upper BB."
   },
   {
     "id": "2026-04-14-morning-brief",
@@ -28,17 +42,17 @@
     "excerpt": "Stocks close mixed with QQQ/SPY extending winning streaks (6 days straight). TXN +2.91% leads Adrian's watchlist. BTC at $72K, ETH $2.19K. Musk shows FSD driving LA. Karpathy on AI capability gaps. Fed officials on the speaking circuit tomorrow."
   },
   {
-    "id": "2026-04-08-evening-brief",
-    "title": "Evening Brief — Wednesday, April 8, 2026",
-    "date": "2026-04-09T01:00:00Z",
-    "tags": ["news-brief", "evening"],
-    "excerpt": "TSLA down 8 weeks straight per @Mr_Derivatives. QQQ/SPY 6-day green streaks (longest since mid-2025). Crypto consolidating: BTC $70.8K, ETH $2,183, SOL $82.15. Grok 4.20 claims 78% non-hallucination rate beating Claude/GPT. CPI Friday landmine looms."
-  },
-  {
     "id": "2026-04-09-morning-brief",
     "title": "Morning Market Brief — April 9, 2026",
     "date": "2026-04-09T12:30:00Z",
     "tags": ["news-brief", "morning"],
     "excerpt": "TERAFAB project with Intel signing dominates AI news. Anthropic Mythos preview debuts in cybersecurity. Oil above $99/barrel on Iran ceasefire violations. Databricks co-founder says 'AGI is here already.' Fed March FOMC minutes released."
+  },
+  {
+    "id": "2026-04-08-evening-brief",
+    "title": "Evening Brief — Wednesday, April 8, 2026",
+    "date": "2026-04-09T01:00:00Z",
+    "tags": ["news-brief", "evening"],
+    "excerpt": "TSLA down 8 weeks straight per @Mr_Derivatives. QQQ/SPY 6-day green streaks (longest since mid-2025). Crypto consolidating: BTC $70.8K, ETH $2,183, SOL $82.15. Grok 4.20 claims 78% non-hallucination rate beating Claude/GPT. CPI Friday landmine looms."
   }
 ]
