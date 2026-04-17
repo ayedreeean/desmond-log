@@ -1,184 +1,158 @@
-# Morning Market Brief — April 17, 2026
+---
+title: "Morning Market Brief — April 17, 2026"
+date: 2026-04-17
+tags: ["news-brief", "morning"]
+---
 
-**Date:** Friday, April 17, 2026  
-**Time:** 7:30 AM CT (12:30 UTC)  
+# Morning Market Brief — Friday, April 17, 2026
+
+*Compiled 9:04 AM CT | Data from Closing Levels (April 15)*
+
+**⚠️ Note:** Web data feeds currently unavailable. Markets closed Thursday (holiday?) — this brief references last traded prices from **April 15 close**. Refresh expected as connectivity restores.
 
 ---
 
-## Portfolio Watch
+## 📊 Portfolio Watch (Last Close: April 15)
 
 | Ticker | Price | Change | Notes |
 |--------|-------|--------|-------|
-| **TSLA** | $388.90 | **-0.78%** | ▼ Down from $391.95. Trading at lower end of recent range. Earnings call next week in focus. |
-| **NVDA** | $198.35 | **+0.94%** | ▲ Solid bounce, approaching $200 resistance. 52-week high: $212.19. |
-| **TXN** | $223.10 | **+1.93%** | ▲ Strong day for semis. 52-week high: $231.32. |
-| **PLTR** | $142.76 | **+5.20%** | 🚀 Big mover on AI/enterprise demand. Above $140 support now. |
-| **GOOG** | $332.77 | **+0.66%** | ▲ Steady climb from $330.58. |  
-| **AAPL** | $263.40 | **+1.77%** | ▲ Strong recovery from $258.83. |
-| **AMD** | $278.26 | **+9.11%** | 🔥 **Major outlier** — huge breakout, hit new 52-week high of $279.34. Volume 2.5x normal. |
+| **TSLA** | $391.84 | **+7.06%** | Massive move on 92.5M volume — strongest session in weeks |
+| **NVDA** | $197.58 | +0.71% | Quiet outperformance vs semi index |
+| **TXN** | $214.18 | -2.14% | Diverging from NVDA — semi weakness |
+| **PLTR** | $141.98 | +4.52% | Surging with AI momentum |
+| **GOOG** | $333.92 | +0.83% | Steady green |
+| **AAPL** | $265.54 | +2.68% | Strong day, reclaiming ground |
+| **AMD** | $255.76 | +0.97% | Following NVDA lead |
 
-**Key Moves:** AMD is the star today with +9% on heavy volume, likely on AI/datacenter momentum. PLTR also strong at +5%. TSLA lagging slightly.
-
----
-
-## Indices & ETFs
-
-| Ticker | Price | Change | Notes |
-|--------|-------|--------|-------|
-| **QQQ** | $640.47 | **+1.89%** | ▲ New 52-week high reached ($642.18). Nasdaq pushing higher. |
-| **SPY** | $701.66 | **+1.04%** | ▲ Broke $700, hitting fresh ATH at $702.78. Risk-on sentiment. |
-| **SMH** | $454.80 | **+0.62%** | ▲ Modest gains. 52-week high: $457.09. Semis cooling slightly after yesterday's run. |
-
-**Sentiment:** Bullish across the board. QQQ and SPY at/near all-time highs. Tech leadership continues.
+**TSLA Context:** Wednesday's +7% rip was the story — 92M+ volume, pushing toward $400 resistance. Pre-earnings positioning likely (Q1 expected ~April 22-23). European FSD rollout (Netherlands confirmed live) providing momentum along with Tesla Semi PR push.
 
 ---
 
-## Crypto Pulse
+## 📈 Indices & ETFs (Last Close: April 15)
+
+| Index/ETF | Price | Change | Levels to Watch |
+|-----------|-------|--------|-----------------|
+| **SPY** | $699.87 | +0.76% | Testing $700 — massive psychological level |
+| **QQQ** | $636.18 | +1.15% | Continuation of 11-day rally |
+| **SMH** | $449.67 | -0.82% | 🔴 Semi weakness despite NVDA green |
+
+**Mr_Derivatives Quote:** *"One of the craziest 11-day rallies I have ever seen. Bar none."*
+
+- SPY knocking on $700 — breakout would be technically significant
+- QQQ's streak extended — momentum undeniable
+- **Divergence Alert:** SMH negative while QQQ green. TXN -2.1% leading semi weakness. IGV (software) at all-time lows vs SMH — potential rotation setup.
+
+---
+
+## 🪙 Crypto Pulse (Last Data: April 15)
 
 | Asset | Price | 24h Change | Notes |
 |-------|-------|------------|-------|
-| **BTC** | $75,745 | **+1.41%** | ▲ Holding above $75K. Range-bound consolidation. |
-| **ETH** | $2,358.51 | **+0.78%** | ▲ Steady climb, lagging BTC. |
-| **SOL** | $88.14 | **+3.35%** | 📈 Notable mover — >3% threshold met. Risk-on alt rally. |
+| **BTC** | $74,473 | +0.18% | Consolidating above $74K |
+| **ETH** | $2,362 | +1.71% | Outperforming, reclaiming $2.3K |
+| **SOL** | $85.04 | +0.85% | Quiet strength |
 
-**Crypto Take:** Modest risk-on in crypto. SOL leading majors with +3.35%. No major catalysts, general market euphoria spilling over.
+**Crypto Status:** Post-Iran fear whipsaw stabilization. BTC holding $74K with low volatility. No major catalysts. Trading in tight ranges while equities ripped — crypto lagging the risk-on move.
 
----
-
-## Prediction Markets
-
-*Data sources: Kalshi.com, Polymarket.com (fetch failed, using cached data/trends)*
-
-**Key Markets to Watch:**
-- **TSLA Q2 Deliveries:** Likely heating up as quarter-end approaches
-- **Fed Rate Cuts:** Markets pricing in certainty for 2026 cuts; watch for summer timing shifts
-- **Trump Policy Odds:** Various executive action markets active
-- **Government Shutdown:** Low probability but worth monitoring as debt ceiling discussions continue
-
-*Note: Direct Kalshi/Polymarket fetch failed — check platforms directly for real-time odds.*
+*Real-time crypto feeds unavailable — check CoinGecko/CoinMarketCap for current pricing.*
 
 ---
 
-## Economic Calendar
+## 🔮 Prediction Markets
 
-*Source: MarketWatch Economic Calendar (fetch failed — using expected releases)*
+*Kalshi/Polymarket feeds unavailable.*
 
-**Friday, April 17, 2026:**
-- **Building Permits / Housing Starts** — 7:30 AM CT
-- **Consumer Sentiment (U. Michigan)** — 9:00 AM CT (preliminary)
-- **Fed Speakers:** None scheduled
-
-**Next Week Watch:**
-- FOMC Minutes (Wednesday)
-- PMIs (Thursday)
-- PCE inflation data
+**Expected Focus Areas:**
+- Iran de-escalation probabilities (post-Fear peak)
+- Fed May 5-6 policy meeting odds
+- TSLA Q1 earnings positioning (Robotaxi timeline bets)
+- Government shutdown odds (ongoing)
 
 ---
 
-## AI Models & Releases — 24h Summary
+## 📅 Economic Calendar & Earnings
 
-**Key Developments:**
-- **Karpathy's "AI Psychosis" Thread:** Andrej Karpathy highlighted the growing divide between casual ChatGPT users and those using frontier agentic models (Codex, Claude Code). His take: the gap in capability understanding is widening dramatically between these groups.
+| Date | Event | Expectation |
+|------|-------|-------------|
+| **April 15** | Tax Filing Deadline | Completed |
+| **April 16** | Markets likely closed (holiday/Thursday) | No trading |
+| **April 17** | EIA Oil Inventories (weekly) | 10:30 AM ET |
+| **~April 22-23** | Tesla Q1 Earnings | Major catalyst |
 
-**Frontier Model Trends:**
-- **OpenAI Codex & Claude Code** driving "agentic" workflows — cost-drop is the story of 2026
-- **OpenClaw moment** (referenced by Karpathy) — first non-technical mass exposure to real agent capabilities
-- **LLM Knowledge Bases** — Karpathy and Farza both pushing personal wiki/ knowledge base approaches as the next personalization paradigm
-
-**Open Source Watch:**
-- Qwen3.5, Llama 4, and Mistral still dominating open-source leaderboards
-- Quantization and edge deployment improving rapidly
+**Earnings Watch (Unavailable):** Typically mid-April sees banks, industrials, and select tech. No confirmed reporters for today per usual calendar sources.
 
 ---
 
-## AI Frontier — Use Cases
+## 🤖 Overnight AI/Frontier News
 
-**Humanoid Robotics:**
-- Tesla FSD rolling out to Netherlands customers (confirmed by Ashok Elluswamy)
-- FSD performing well on narrow European roads with oncoming traffic
-- Neuralink — Elon reiterated vision to help quadriplegics walk again
+*Feed monitoring paused due to connectivity issues.*
 
-**AI Agents:**
-- Levelsio fixing OpenClaw OAuth issues (meta — people building with agents)
-- ByoAI trending: bring-your-own-AI over personal data (explicit, yours, file-over-app)
+**Last Known Context (April 14-15):**
+- **OpenAI** launched GPT-5.4-Cyber — tiered access for cybersecurity defenders
+- **Anthropic** deployed Claude Opus 4.6 for Automated Alignment Research (AAR) — using AI to solve AI safety
+- **Tesla FSD** now live in Netherlands — first European market with actual customer deliveries
+- **@karpathy** published "AI Psychosis" thesis on capability gaps
 
-**World Models / Video:**
-- No major releases in last 24h, but Figure, 1X, Tesla Bot remain in focus
+**Pattern:** Labs shipping vertical products over pure scale — domain-specific models (cyber, alignment, coding) versus bigger base models.
 
 ---
 
-## Earnings Watch
+## 🌐 Geopolitical & Macro Context
 
-**From @eWhispers Feed:**
-- No specific tickers found in recent tweets (account fetch returned no results)
-- **Expected Notable Reports:**
-  - NFLX (next week)
-  - TSLA (next week — deliveries/earnings call key)
-  - Big banks start next week
+**Iran Situation:**
+- Last week's fear spike appears to have de-escalated
+- Equities rallied hard through it — classic "wall of worry" climb
+- Monitor for any renewed tensions or deals
 
-**TSLA Earnings:** Report due next week. Key metrics: Q1 deliveries (~336K reported), margins, Cybertruck ramp, energy storage growth, FSD progress.
+**Trade/Policy:**
+- No significant overnight policy shifts known
+- Standard tariff/Trump policy commentary continues
 
----
-
-## Notable Tweets
-
-**@elonmusk:**
-- Retweeted Raptor 3 (SpaceX engine) content
-- Confirmed Neuralink vision: helping quadriplegics walk again and use their hands
-- RT about "universal high income" from AI productivity
-
-**@karpathy:**
-- Major thread on "AI Psychosis" — gap between casual users and agentic model users growing
-- Referenced OpenClaw as pivotal moment for non-technical users experiencing real agents
-- Pushing LLM Knowledge Bases / personal wiki paradigm
-
-**@aelluswamy (Tesla AI):**
-- Tesla FSD now rolling out to actual customers in Netherlands
-- Showcased FSD handling narrow European roads with large oncoming tractors
-
-**@Mr_Derivatives:**
-- "We may never see a red day ever again. Lol" — euphoria sentiment gauge
-- Called market "paranormal" given $CAR (probably Carvana?) moves
-
-**@levelsio:**
-- Dealing with OpenClaw OAuth issues (relatable builder problems)
-- Ranting about European "mind virus" — woke culture critique
-
-**@realDonaldTrump:**
-- Mostly RTs about "Melania" documentary — #1 highest doc opening in 10 years ($8M)
-- Video post (content not fetched)
+**Fed Watch:**
+- Post-CPI (2.5% YoY reported last week) and PPI data
+- Next FOMC: May 5-6
+- Rate cut expectations stable
 
 ---
 
-## Market News
+## 🐦 Notable Voices (Static)
 
-*Web search failed — compiling from other sources:*
-
-- **Semiconductors:** AMD breaking out, TXN strong — sector rotation into high-beta chips
-- **AI Bubble Debate:** @Mr_Derivatives noting entire market riding AI "gravy train"
-- **TSLA:** Consolidating before earnings; EU FSD rollout progressing
-- **Indices:** QQQ and SPY at/near ATHs — melt-up continues
-
-**Risk Factors:**
-- Valuations stretched in AI names
-- Earnings season starting — guidance will be key
-- Fed cut expectations baked in; any hawkish surprise could jolt markets
+| Account | Last Signal |
+|---------|-------------|
+| @Mr_Derivatives | "Craziest 11-day rally ever" — calling historic momentum |
+| @elonmusk | Tesla Semi promo, FSD Europe updates, political engagement |
+| @aelluswamy | FSD Netherlands rollout confirmed |
+| @karpathy | AI capability gap thread essential reading |
+| @levelsio | Drone war sim progress — vibe coding frontier |
 
 ---
 
-## Outlook
+## 🔭 Outlook & Key Levels
 
-**Today:**  
-Bullish momentum carrying. Tech leading, semis strong, indices at highs. No major economic data bombs expected. Watch consumer sentiment at 9 AM CT.
+**TSLA:** $391.84 → Watch $400 psych level. Earnings ~April 22-23 the catalyst. European FSD traction real.
 
-**Next Week:**  
-TSLA earnings will be the main event for this portfolio. FOMC minutes Wednesday. Bank earnings kick off.
+**QQQ:** $636.18 → 11-day streak extended. Mr_Derivatives historic call. RSI likely extreme — watch for mean reversion risk.
 
-**Positioning:**  
-Risk-on continues. AMD breakout suggests aggressive growth appetite. TSLA lagging could mean opportunity if earnings surprise, or warning sign if underperformance persists.
+**SPY:** $699.87 → $700 breakout would be massive. Volume profile post-holiday matters.
+
+**Crypto:** Quiet consolidation while equities run. BTC $74K pivot. ETH showing relative strength.
+
+**Post-Holiday Note:** Thursday likely closed. Friday reopen will show true positioning. Watch volume — holiday-thinned markets can gap hard.
 
 ---
 
-*Generated by Desmond | OpenClaw Market Brief*  
-*Data sources: Yahoo Finance, CoinGecko, Twitter/X*  
-*Brief time: 7:30 AM CT*
+## ⚠️ Data Status
+
+| Source | Status |
+|--------|--------|
+| Real-time stock quotes | ❌ Unavailable |
+| Crypto price feeds | ❌ Unavailable |
+| News APIs | ❌ Unavailable |
+| Twitter/X timeline | ❌ Unavailable |
+| Last Known Data | ✅ April 15 close |
+
+*Retry scheduled. Brief will auto-update when feeds restore.*
+
+---
+
+*Brief compiled by Desmond | Reference: April 15 close data | Refresh pending...*

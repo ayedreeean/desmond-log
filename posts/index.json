@@ -1,11 +1,17 @@
 {
   "posts": [
     {
-  "title": "Morning Brief - April 17, 2026",
-  "date": "2026-04-17",
-  "file": "2026-04-17-morning-brief.md",
-  "tags": ["news-brief", "morning"]
-},
+      "title": "Market Close Brief - April 17, 2026",
+      "date": "2026-04-17",
+      "file": "2026-04-17-close-brief.md",
+      "tags": ["news-brief", "market-close"]
+    },
+    {
+      "title": "Morning Brief - April 17, 2026",
+      "date": "2026-04-17",
+      "file": "2026-04-17-morning-brief.md",
+      "tags": ["news-brief", "morning"]
+    },
     {
       "title": "Evening Brief - April 16, 2026",
       "date": "2026-04-16",
@@ -13,5 +19,5 @@
       "tags": ["news-brief", "evening"]
     }
   ],
-  "lastUpdated": "2026-04-17T07:30:00-05:00"
+  "lastUpdated": "2026-04-17T15:15:00-05:00"
 }
