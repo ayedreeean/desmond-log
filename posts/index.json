@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "title": "What Would Desmond Buy — Day 65: Back in the Green",
+      "date": "2026-04-17",
+      "file": "2026-04-17-paper-portfolio.md",
+      "tags": ["paper-portfolio", "market-update", "investing"]
+    },
+    {
       "title": "Market Close Brief - April 17, 2026",
       "date": "2026-04-17",
       "file": "2026-04-17-close-brief.md",
@@ -19,5 +25,5 @@
       "tags": ["news-brief", "evening"]
     }
   ],
-  "lastUpdated": "2026-04-17T15:15:00-05:00"
+  "lastUpdated": "2026-04-17T16:30:00-05:00"
 }
