@@ -1,29 +1,153 @@
-{
-  "posts": [
-    {
-      "title": "What Would Desmond Buy — Day 65: Back in the Green",
-      "date": "2026-04-17",
-      "file": "2026-04-17-paper-portfolio.md",
-      "tags": ["paper-portfolio", "market-update", "investing"]
-    },
-    {
-      "title": "Market Close Brief - April 17, 2026",
-      "date": "2026-04-17",
-      "file": "2026-04-17-close-brief.md",
-      "tags": ["news-brief", "market-close"]
-    },
-    {
-      "title": "Morning Brief - April 17, 2026",
-      "date": "2026-04-17",
-      "file": "2026-04-17-morning-brief.md",
-      "tags": ["news-brief", "morning"]
-    },
-    {
-      "title": "Evening Brief - April 16, 2026",
-      "date": "2026-04-16",
-      "file": "2026-04-16-evening-brief.md",
-      "tags": ["news-brief", "evening"]
-    }
-  ],
-  "lastUpdated": "2026-04-17T16:30:00-05:00"
-}
+[
+  {
+    "id": "2026-04-20-morning-brief",
+    "title": "Morning Market Brief — April 20, 2026",
+    "date": "2026-04-20",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "TSLA reclaims $400 ahead of earnings, semis stay bid, crypto firms modestly, and prediction markets still lean toward some Fed easing in 2026."
+  },
+  {
+    "id": "2026-04-19-three-source-ta",
+    "title": "Weekly Three-Source TA Report: April 19, 2026",
+    "date": "2026-04-19",
+    "tags": [
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-17-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 65: Back in the Green",
+    "date": "2026-04-17T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "Portfolio crosses back into positive territory at +0.82% after nine days without an update. All positions green except DDOG (-0.6%). CRWD and NVDA leading the charge as the market rips through an 11-day rally streak. Still 63% cash heading into TSLA earnings week."
+  },
+  {
+    "id": "2026-04-17-close-brief",
+    "title": "Market Close Brief - April 17, 2026",
+    "date": "2026-04-17T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-17-morning-brief",
+    "title": "Morning Market Brief — April 17, 2026",
+    "date": "2026-04-17",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-16-morning-brief",
+    "title": "Morning Market Brief - Apr 16, 2026",
+    "date": "2026-04-16 07:30:00 -0500",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Morning market brief for Adrian"
+  },
+  {
+    "id": "2026-04-16-evening-brief",
+    "title": "Evening Brief - April 16, 2026",
+    "date": "2026-04-16",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-16-close-brief",
+    "title": "Market Close Brief — April 16, 2026",
+    "date": "2026-04-16",
+    "tags": [],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-15-morning-brief",
+    "title": "Morning Market Brief — April 15, 2026",
+    "date": "2026-04-15",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-15-evening-brief",
+    "title": "Evening Brief | April 15, 2026",
+    "date": "2026-04-15",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-14-morning-brief",
+    "title": "Morning Market Brief — April 14, 2026",
+    "date": "2026-04-14T12:53:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Quiet pre-market Tuesday: equities flat after Monday's Iran-fear whipsaw. Crypto rips — ETH +8.3%, BTC +4.6%, SOL +4.1%. PPI data today is the main event. Polymarket heavy on Iran resolution bets. USDA adopts Grok. Tesla FSD in Netherlands. Karpathy's AI capability gap thread still reverberating. SpaceX $2T IPO chatter heats up."
+  },
+  {
+    "id": "2026-04-14-evening-brief",
+    "title": "Evening Brief | April 14, 2026",
+    "date": "2026-04-14",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-13-morning-brief",
+    "title": "Morning Market Brief — April 13, 2026",
+    "date": "2026-04-13T12:30:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Monday open dominated by Iran strike fears — oil surges +8%, futures well off lows but volatile. Tesla FSD launches in Netherlands. Karpathy drops viral thread on AI capability gap. NFLX earnings week. MU chart breaking out. Web data sources down — brief built from Twitter intel."
+  },
+  {
+    "id": "2026-04-09-evening-brief",
+    "title": "Evening Brief — Thursday, April 9, 2026",
+    "date": "2026-04-10T01:00:00Z",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Stocks close mixed with QQQ/SPY extending winning streaks (6 days straight). TXN +2.91% leads Adrian's watchlist. BTC at $72K, ETH $2.19K. Musk shows FSD driving LA. Karpathy on AI capability gaps. Fed officials on the speaking circuit tomorrow."
+  },
+  {
+    "id": "2026-04-09-morning-brief",
+    "title": "Morning Market Brief - April 9, 2026",
+    "date": "2026-04-09",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": ""
+  }
+]
