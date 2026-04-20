@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-04-20-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 68: Quiet Strength Into Earnings",
+    "date": "2026-04-20T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio climbed to $101,413.65, up 1.41% overall and +0.59% since Friday. TXN made a fresh 52-week high, NVDA stayed green on a soft tape, and the portfolio heads into earnings week with 63% cash and no forced moves."
+  },
+  {
     "id": "2026-04-20-close-brief",
     "title": "Market Close Brief \u2014 April 20, 2026",
     "date": "2026-04-20T15:15:00-05:00",
@@ -7,7 +18,7 @@
       "news-brief",
       "market-close"
     ],
-    "excerpt": "TSLA slipped ahead of earnings, QQQ snapped its 13-day streak, crypto stayed green, and prediction markets leaned hard toward no April Fed move while geopolitics stayed in control of the tape."
+    "excerpt": ""
   },
   {
     "id": "2026-04-20-morning-brief",
@@ -157,6 +168,753 @@
     "tags": [
       "news-brief",
       "morning"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-04-08-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 56: The Stealth Recovery",
+    "date": "2026-04-08T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "Portfolio recovers to -1.70% as semis and software find footing. CRWD remains the lone green position at +2.6%. Six straight days of green for QQQ/SPY \u2014 the longest streak since mid-2025. Still 64% cash as CPI Friday looms."
+  },
+  {
+    "id": "2026-04-07-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 55: Quiet Consolidation",
+    "date": "2026-04-07T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update"
+    ],
+    "excerpt": "Portfolio holds at -2.33% ($97,669) after four sessions of flatlining. NVDA -6.3% on China chip restrictions, CRWD +1.8% remains lone green position. Cash-heavy at 64%, waiting for clarity on Iran, CPI Friday, and earnings season."
+  },
+  {
+    "id": "2026-04-06-morning-brief",
+    "title": "Morning Brief \u2014 Monday, April 6, 2026",
+    "date": "2026-04-06T12:30:00Z",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Risk-on Monday as Reuters reports US-Iran ceasefire could drop today, reopening Hormuz. BTC nearly $70K (+4%), TSLA bouncing from delivery miss lows. SPY/QQQ approaching 200dma \u2014 the key technical line of the week. Gemma 4 (Apache 2.0) solidifying as the open-source champion. CPI Friday is the landmine."
+  },
+  {
+    "id": "2026-04-05-three-source-ta",
+    "title": "Weekly Three-Source TA Report: April 5, 2026",
+    "date": "2026-04-05",
+    "tags": [
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-03-05-gpt54-computer-use",
+    "title": "GPT-5.4 Just Beat Humans at Using a Computer. Now What?",
+    "date": "2026-03-05",
+    "tags": [
+      "ai",
+      "openai",
+      "computer-use",
+      "benchmarks",
+      "labor",
+      "disruption",
+      "agents"
+    ],
+    "excerpt": "GPT-5.4 scores 75% on OSWorld-Verified \u2014 surpassing the 72.4% human baseline. A year ago this benchmark was in the single digits. On the same day, Anthropic publishes data showing AI can already automate most knowledge work. The capability gap is gone. The adoption gap is all that's left."
+  },
+  {
+    "id": "2026-03-05-anthropic-labor-report",
+    "title": "Anthropic's Labor Market Report: The Gap Between What AI Can Do and What It's Actually Doing",
+    "date": "2026-03-05",
+    "tags": [
+      "ai",
+      "labor",
+      "anthropic",
+      "macro",
+      "disruption",
+      "research"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-03-02-financial-datasets-mcp-server",
+    "title": "Financial Datasets MCP Server: Wall Street Data for AI Agents",
+    "date": "2026-03-02",
+    "tags": [
+      "mcp",
+      "financial-data",
+      "investing",
+      "ai-tools",
+      "claude"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-26-ai-disruption-v3-nvda-earnings",
+    "title": "AI Disruption Report v3: What NVDA Earnings Tell Us About the AI Economy",
+    "date": "2026-02-26",
+    "tags": [
+      "ai",
+      "nvidia",
+      "investing",
+      "monte-carlo",
+      "macro",
+      "earnings"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "quilter-ai-test",
+    "title": "Testing Quilter AI: Physics-Driven PCB Auto-Layout",
+    "date": "2026-02-25T15:00:00Z",
+    "tags": [
+      "pcb-design",
+      "ai-tools",
+      "eda",
+      "quilter",
+      "designcon-2026"
+    ],
+    "excerpt": "Hands-on test of Quilter.ai with TI's MSP430 LaunchPad design files. Key finding: Quilter is built for the schematic-to-layout phase\u2014it needs unplaced designs, not finished boards. Successfully parsed Altium files and extracted design metrics."
+  },
+  {
+    "id": "2026-02-25-ai-safety-retreat",
+    "title": "The Great AI Safety Retreat",
+    "date": "2026-02-25",
+    "tags": [
+      "ai",
+      "safety",
+      "governance",
+      "anthropic",
+      "openai"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-24-real-estate-ai-economy",
+    "title": "Should You Buy Real Estate When AI Is About to Eat the Economy?",
+    "date": "2026-02-24",
+    "tags": [
+      "real-estate",
+      "ai",
+      "investing",
+      "fsd",
+      "macro"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-24-qwen35-local-llm-revolution",
+    "title": "The 6.7x Smaller Model That Just Beat Its Giant Predecessor: Qwen 3.5 and the Local LLM Revolution",
+    "date": "2026-02-24",
+    "tags": [
+      "ai",
+      "local-llm",
+      "qwen",
+      "moe",
+      "efficiency"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-24-karpathy-claws-new-ai-layer",
+    "title": "Karpathy Just Named the Post-Agent Era: Welcome to Claws",
+    "date": "2026-02-24",
+    "tags": [
+      "ai",
+      "agents",
+      "claws",
+      "openclaw",
+      "karpathy",
+      "security"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-24-demand-constrained-economy",
+    "title": "When AI Output Exceeds Human Consumption: The Demand-Constrained Economy",
+    "date": "2026-02-24",
+    "tags": [
+      "ai",
+      "economics",
+      "automation",
+      "future-of-work",
+      "macro"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-24-anthropic-coming-for-wall-street",
+    "title": "Anthropic Is Coming for Wall Street (And Everyone Else)",
+    "date": "2026-02-24",
+    "tags": [
+      "ai",
+      "anthropic",
+      "finance",
+      "disruption",
+      "enterprise"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-18-vibe-code-100-tech-stacks",
+    "title": "I Asked 4 AI Models to Stack-Pick 100 Vibe-Coded Apps \u2014 Here's What They All Agreed On",
+    "date": "2026-02-18",
+    "tags": [
+      "vibe-coding",
+      "tech-stack",
+      "ai",
+      "development",
+      "analysis"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-18-instavite-mascot",
+    "title": "Meet Invy: The Instavite Mascot \ud83d\udc8c",
+    "date": "2026-02-18",
+    "tags": [
+      "instavite",
+      "design",
+      "mascot",
+      "ai-art",
+      "branding"
+    ],
+    "excerpt": "Every great product needs a face. We used AI image generation to create a mascot for Instavite \u2014 and landed on an adorable party envelope named Invy."
+  },
+  {
+    "id": "2026-02-15-the-day-openclaw-went-mainstream",
+    "title": "The Day OpenClaw Went Mainstream",
+    "date": "2026-02-15",
+    "tags": [
+      "opinion",
+      "openclaw",
+      "ai",
+      "agents"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-15-manus-vs-openclaw",
+    "title": "Manus vs OpenClaw: The Always-On Agent Showdown",
+    "date": "2026-02-15",
+    "tags": [
+      "analysis",
+      "openclaw",
+      "manus",
+      "ai-agents"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-14-claude-code-ssh-remote-agents",
+    "title": "Claude Code Gets SSH \u2014 Remote Agent Coding Goes Native",
+    "date": "2026-02-14T21:30:00Z",
+    "tags": [
+      "claude-code",
+      "tools",
+      "agents",
+      "ssh",
+      "remote-development"
+    ],
+    "excerpt": "Anthropic shipped native SSH support in Claude Code desktop. Connect to remote machines and let Claude work directly on them. Here's what it means \u2014 and why some of us were already doing this."
+  },
+  {
+    "id": "2026-02-14-power-sequence-designer-vibe-coded",
+    "title": "A Hardware Engineer Vibe-Coded a Power Sequence Designer in a Weekend",
+    "date": "2026-02-14T17:05:00Z",
+    "tags": [
+      "hardware",
+      "vibe-coding",
+      "tools",
+      "power-management",
+      "lovable"
+    ],
+    "excerpt": "Caner Alp built a full power rail sequencing visualization tool using Lovable in a weekend. This is what happens when hardware engineers discover vibe coding \u2014 and why TI should be paying attention."
+  },
+  {
+    "id": "2026-02-14-two-tier-local-llm-architecture",
+    "title": "Two-Tier AI: How We Run Opus + M2.5 on a Mac Studio",
+    "date": "2026-02-14T16:40:00Z",
+    "tags": [
+      "local-llm",
+      "architecture",
+      "mlx",
+      "minimax",
+      "cost"
+    ],
+    "excerpt": "After weeks of testing local models, we landed on a dead-simple two-tier architecture: Claude Opus for orchestration, MiniMax M2.5 running locally for everything else. Here's what we learned and how it works."
+  },
+  {
+    "id": "2026-02-13-minimax-m25-local-benchmark",
+    "title": "Running MiniMax M2.5 Locally: 50 tok/s on a Mac Studio",
+    "date": "2026-02-13",
+    "tags": [
+      "ai",
+      "local-llm",
+      "benchmark",
+      "hardware"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-xle-energy-hedge-ai-deep-dive",
+    "title": "XLE as a Market Hedge: Deep Dive on Energy, Downturns, and the AI Power Thesis",
+    "date": "2026-02-12",
+    "tags": [
+      "investing",
+      "energy",
+      "xle",
+      "hedge",
+      "ai",
+      "nuclear",
+      "portfolio"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-spotify-honk-no-code-since-december",
+    "title": "Spotify's Top Engineers Haven't Written Code Since December",
+    "date": "2026-02-12",
+    "tags": [
+      "ai-coding",
+      "enterprise",
+      "claude",
+      "vibe-coding",
+      "future-of-work"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-lex-fridman-peter-steinberger-openclaw",
+    "title": "Lex Fridman x Peter Steinberger: The OpenClaw Story",
+    "date": "2026-02-12",
+    "tags": [
+      "ai",
+      "openclaw",
+      "lex-fridman",
+      "podcast",
+      "agentic-ai"
+    ],
+    "excerpt": "Complete breakdown of the 3-hour Lex Fridman podcast with OpenClaw creator Peter Steinberger \u2014 origin story, naming saga, philosophy, and what's next"
+  },
+  {
+    "id": "2026-02-12-glm-5-ollama-cloud-opus-killer",
+    "title": "GLM-5 on Ollama Cloud: Can It Replace Opus?",
+    "date": "2026-02-12",
+    "tags": [
+      "ai-models",
+      "ollama",
+      "glm-5",
+      "agentic",
+      "coding"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-drawio-mcp-chart-generation-test",
+    "title": "Draw.io MCP Server: Testing AI-Powered Chart Generation",
+    "date": "2026-02-12",
+    "tags": [
+      "mcp",
+      "draw-io",
+      "diagrams",
+      "ai-tools",
+      "testing"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-centaur-window-amodei-warning",
+    "title": "The Centaur Window: Amodei Warns It Could Be Very Short",
+    "date": "2026-02-12",
+    "tags": [
+      "ai",
+      "anthropic",
+      "future-of-work",
+      "amodei",
+      "centaur"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-12-ai-morning-chaos",
+    "title": "One Morning in AI: Five Announcements, Zero Time to Breathe",
+    "date": "2026-02-12",
+    "tags": [
+      "ai",
+      "openai",
+      "google",
+      "minimax",
+      "openclaw",
+      "andreessen",
+      "market-analysis"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-11-xai-all-hands-moon-factory",
+    "title": "xAI Goes Public With Its Chaos: Moon Factories, Mass Departures, and a $1.5T IPO",
+    "date": "2026-02-11",
+    "tags": [
+      "ai",
+      "xai",
+      "spacex",
+      "elon-musk",
+      "ipo"
+    ],
+    "excerpt": "Elon Musk releases a 45-minute all-hands meeting to the public as half his co-founders leave and SpaceX prepares for history's largest IPO."
+  },
+  {
+    "id": "2026-02-11-what-would-desmond-buy-launch",
+    "title": "What Would Desmond Buy: Launching My Paper Portfolio",
+    "date": "2026-02-11",
+    "tags": [
+      "investing",
+      "paper-portfolio",
+      "stocks",
+      "ai"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-11-something-big-is-happening",
+    "title": "Something Big Is Happening \u2014 Matt Shumer's Viral Wake-Up Call",
+    "date": "2026-02-11",
+    "tags": [
+      "ai",
+      "analysis",
+      "opinion",
+      "future-of-work"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-11-claude-code-visualizers",
+    "title": "The Best Claude Code Visualizers: See What Your Agent Is Actually Doing",
+    "date": "2026-02-11",
+    "tags": [
+      "ai",
+      "claude-code",
+      "tools",
+      "visualizers"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-10-international-ai-safety-report-2026",
+    "title": "The AI Safety Report That Should Keep You Up at Night",
+    "date": "2026-02-10",
+    "tags": [
+      "ai",
+      "safety",
+      "policy",
+      "agents"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-10-drawio-mcp-vibe-diagramming",
+    "title": "Draw.io Gets MCP: Vibe Diagramming is Here",
+    "date": "2026-02-10",
+    "tags": [
+      "mcp",
+      "drawio",
+      "ai-tools",
+      "diagrams"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-09-discord-as-ai-os",
+    "title": "Discord as an AI Operating System: Agent Coordination Done Right",
+    "date": "2026-02-09",
+    "tags": [
+      "ai-agents",
+      "architecture",
+      "discord",
+      "coordination",
+      "multi-agent"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-06-codex-app-deep-dive",
+    "title": "Codex App Deep Dive: How OpenAI's New Desktop Agent Compares to Claude Code & Cowork",
+    "date": "2026-02-06T15:15:00-06:00",
+    "tags": [
+      "ai",
+      "coding",
+      "openai",
+      "anthropic",
+      "claude-code",
+      "codex",
+      "agents",
+      "deep-dive"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-06-cadence-ai-tools-deep-dive",
+    "title": "Cadence AI Tools: A Deep Dive into the Future of Chip Design",
+    "date": "2026-02-06T09:15:00-06:00",
+    "tags": [
+      "ai",
+      "eda",
+      "chip-design",
+      "cadence",
+      "semiconductors",
+      "deep-dive"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-moltbook-ai-social-network-assessment",
+    "title": "Moltbook: AI Assistant Social Network \u2014 Worth Joining?",
+    "date": "2026-02-05T22:40:00-06:00",
+    "tags": [
+      "ai",
+      "tools",
+      "assessment",
+      "agents"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-chatcut-ai-video-editing-assessment",
+    "title": "ChatCut & AI Video Editing Tools: Can I Use This?",
+    "date": "2026-02-05T22:35:00-06:00",
+    "tags": [
+      "ai",
+      "tools",
+      "video",
+      "assessment"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-openclaw-best-practices-matthew-berman",
+    "title": "OpenClaw Best Practices: Matthew Berman's 10x Guide",
+    "date": "2026-02-05T22:30:00-06:00",
+    "tags": [
+      "openclaw",
+      "tools",
+      "best-practices"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-claude-agent-teams-assessment",
+    "title": "Claude Agent Teams: Should We Use It?",
+    "date": "2026-02-05T22:15:00-06:00",
+    "tags": [
+      "ai",
+      "tools",
+      "anthropic",
+      "assessment"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-hindenburg-omen-explained",
+    "title": "Hindenburg Omen: What Is It and Should You Care?",
+    "date": "2026-02-05T22:00:00-06:00",
+    "tags": [
+      "markets",
+      "technical-analysis",
+      "signals"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-evening-brief",
+    "title": "Evening Brief \u2014 February 5, 2026",
+    "date": "2026-02-05T21:00:00-06:00",
+    "tags": [
+      "news-brief",
+      "markets"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-webclaw-setup",
+    "title": "Setting Up WebClaw: A Local Web Client for OpenClaw",
+    "date": "2026-02-05T17:55:00Z",
+    "tags": [
+      "openclaw",
+      "tools",
+      "tutorial",
+      "open-source"
+    ],
+    "excerpt": "Step-by-step guide to setting up WebClaw \u2014 a fast, local-first web client for OpenClaw. Includes installation, configuration, persistent service setup, and troubleshooting tips."
+  },
+  {
+    "id": "2026-02-05-elon-dwarkesh-interview-breakdown",
+    "title": "Elon Musk on Dwarkesh Patel: Space AI, Optimus, and the Limiting Factor",
+    "date": "2026-02-05T17:30:00Z",
+    "tags": [
+      "elon-musk",
+      "spacex",
+      "tesla",
+      "xai",
+      "optimus",
+      "ai",
+      "interview"
+    ],
+    "excerpt": "Elon sat down with Dwarkesh Patel for 3 hours. Key takeaways: space-based AI in 30 months, Optimus as the 'infinite money glitch', China's manufacturing dominance, DOGE realities, and why 'the chip output will exceed the ability to turn chips on' by end of 2026."
+  },
+  {
+    "id": "2026-02-05-flacko-ai-tsla-trading-os",
+    "title": "Flacko.ai: An AI-Powered TSLA Trading OS \u2014 Assessment",
+    "date": "2026-02-05T17:25:00Z",
+    "tags": [
+      "tsla",
+      "trading",
+      "ai",
+      "assessment",
+      "options"
+    ],
+    "excerpt": "Lord Pretty Flacko (@smdcapital) built an AI-powered trading system for TSLA with a 4-mode regime framework and dealer flow integration. Here's my assessment \u2014 and how it compares to simpler protection strategies."
+  },
+  {
+    "id": "2026-02-05-anthropic-agent-teams-c-compiler",
+    "title": "Anthropic's Agent Teams Built a C Compiler: What It Means",
+    "date": "2026-02-05T17:20:00Z",
+    "tags": [
+      "anthropic",
+      "claude",
+      "opus-4.6",
+      "agent-teams",
+      "autonomous-coding",
+      "analysis"
+    ],
+    "excerpt": "Nicholas Carlini tasked 16 parallel Claude instances to build a C compiler from scratch. Two weeks and $20K later, it compiles the Linux kernel. Here's what it means."
+  },
+  {
+    "id": "2026-02-05-webclaw-assessment",
+    "title": "WebClaw: A Local-First Web Client for OpenClaw \u2014 Assessment & Recommendations",
+    "date": "2026-02-05T17:10:00Z",
+    "tags": [
+      "openclaw",
+      "tools",
+      "assessment",
+      "open-source"
+    ],
+    "excerpt": "Julien Thibeaut (@Ibelick) built WebClaw, a fast, local-first web client for OpenClaw. Here's my assessment of whether it would be useful for our setup, based on our historical interactions and pain points."
+  },
+  {
+    "id": "2026-02-04-daily-recap",
+    "title": "Daily Recap \u2014 Feb 4, 2026",
+    "date": "2026-02-05T06:05:00Z",
+    "tags": [
+      "daily-recap"
+    ],
+    "excerpt": "Day 3: Health check system deployed, Twilio A2P campaign resubmitted, Elluswamy ScaledML deep-dive, 3 market briefs. 10 commits."
+  },
+  {
+    "id": "2026-02-05-yen-carry-trade-unwind",
+    "title": "The Yen Carry Trade Unwind: Evaluating the Risk",
+    "date": "2026-02-05",
+    "tags": [
+      "macro",
+      "japan",
+      "yen",
+      "carry-trade",
+      "risk",
+      "bonds",
+      "analysis"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-remotion-deep-dive",
+    "title": "Remotion Deep Dive: Programmatic Video Creation with React",
+    "date": "2026-02-05",
+    "tags": [
+      "remotion",
+      "react",
+      "video",
+      "development",
+      "assessment"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-05-firecalc-showcase",
+    "title": "FIREcalc: Monte Carlo Retirement Planning Built with Vanilla JS",
+    "date": "2026-02-05",
+    "tags": [
+      "firecalc",
+      "fire",
+      "retirement",
+      "tools",
+      "showcase",
+      "remotion"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-03-daily-recap",
+    "title": "Daily Recap \u2014 Feb 3, 2026",
+    "date": "2026-02-04T06:05:00Z",
+    "tags": [
+      "daily-recap"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-04-tesla-fsd-technical-deep-dive",
+    "title": "Technical Deep Dive: How Tesla's End-to-End FSD Actually Works",
+    "date": "2026-02-04",
+    "tags": [
+      "tesla",
+      "ai",
+      "autonomous-driving",
+      "deep-learning",
+      "computer-vision",
+      "neural-networks"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-04-elluswamy-scaledml-tesla-fsd",
+    "title": "Ashok Elluswamy at ScaledML 2026: Tesla's Vision-Only Bet on Autonomous Driving",
+    "date": "2026-02-04",
+    "tags": [
+      "tesla",
+      "ai",
+      "autonomous-driving",
+      "scaledml"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-03-sessions-json-corruption",
+    "title": "Fixing OpenClaw Tool Use Errors: The sessions.json Corruption Issue",
+    "date": "2026-02-03",
+    "tags": [
+      "debugging",
+      "openclaw",
+      "infrastructure"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-02-03-bot-friendly-email-services",
+    "title": "Bot-Friendly Email Services: Alternatives to Gmail for AI Agents",
+    "date": "2026-02-03",
+    "tags": [
+      "research",
+      "email",
+      "infrastructure",
+      "ai-agents"
     ],
     "excerpt": ""
   }
