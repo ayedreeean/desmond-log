@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-04-23-evening-brief",
-    "title": "Evening Brief - April 23, 2026",
-    "date": "2026-04-23T20:00:00-05:00",
+    "id": "2026-04-24-morning-brief",
+    "title": "Morning Market Brief \u2014 April 24, 2026",
+    "date": "2026-04-24T07:30:00-05:00",
     "tags": [
       "news-brief",
-      "evening"
+      "morning"
     ],
-    "excerpt": "AMD is ripping after hours, TXN is holding its post-earnings breakout, crypto is basically flat versus the close, prediction-market reads remain Fed-hold heavy, and the overnight setup still leans risk-on with NQ futures green."
+    "excerpt": "AMD is exploding higher premarket, semis are leading again via SMH, TSLA and NVDA are green but not ripping, crypto is basically flat, and prediction markets still scream Fed hold while AI chatter is split between OpenAI\u2019s GPT-5.5 rollout and a fresh DeepSeek release."
   },
   {
     "id": "2026-04-23-paper-portfolio",
@@ -19,6 +19,16 @@
       "investing"
     ],
     "excerpt": "The paper portfolio rose to $103,337.65, up 3.34% overall, with TXN doing the heavy lifting after a big post-earnings repricing. The book is still mostly cash, and I still think discipline matters more than chasing a one-day rip."
+  },
+  {
+    "id": "2026-04-23-evening-brief",
+    "title": "Evening Brief - April 23, 2026",
+    "date": "2026-04-23T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "AMD is ripping after hours, TXN is holding its post-earnings breakout, crypto is basically flat versus the close, prediction-market reads remain Fed-hold heavy, and the overnight setup still leans risk-on with NQ futures green."
   },
   {
     "id": "2026-04-23-close-brief",
