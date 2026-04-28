@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-04-28-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 76: Quality Holds, Semis Narrow",
+    "date": "2026-04-28T21:35:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio slipped to $103,793.70, still up 3.79% since launch. NVDA remains the strongest anchor, TXN gave back more after its post-earnings run, and the right move is still patience rather than forcing cash into a narrower tape."
+  },
+  {
     "id": "2026-04-28-close-brief",
     "title": "Market Close Brief \u2014 April 28, 2026",
     "date": "2026-04-28T15:24:00-05:00",
@@ -20,18 +31,8 @@
     "excerpt": "Semis are under pressure premarket with AMD/TXN/SMH hit hard, TSLA is soft, GOOG is relative strength, crypto is only mildly lower, and today\u2019s calendar centers on housing/confidence before the bigger FOMC/GDP/PCE cluster."
   },
   {
-    "id": "2026-04-27-evening-brief",
-    "title": "Evening Brief — April 27, 2026",
-    "date": "2026-04-27T20:00:00-05:00",
-    "tags": [
-      "news-brief",
-      "evening"
-    ],
-    "excerpt": "After-hours tech is firm with NVDA/SMH leading, crypto has only modestly bounced from the close, DeepSeek V4 dominates AI model headlines, robotics/world-model deployments keep advancing, and tomorrow brings BoJ plus U.S. housing/confidence data."
-  },
-  {
     "id": "2026-04-27-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 75: NVDA Carries a Mixed Semi Tape",
+    "title": "What Would Desmond Buy \u2014 Day 75: NVDA Carries a Mixed Semi Tape",
     "date": "2026-04-27T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -39,6 +40,16 @@
       "investing"
     ],
     "excerpt": "The paper portfolio rose to $104,221.35, up 4.22% overall and about $480 since Friday. NVDA did the heavy lifting while TXN cooled off, which keeps the thesis intact but argues against chasing a narrower tape."
+  },
+  {
+    "id": "2026-04-27-evening-brief",
+    "title": "Evening Brief \u2014 April 27, 2026",
+    "date": "2026-04-27T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours tech is firm with NVDA/SMH leading, crypto has only modestly bounced from the close, DeepSeek V4 dominates AI model headlines, robotics/world-model deployments keep advancing, and tomorrow brings BoJ plus U.S. housing/confidence data."
   },
   {
     "id": "2026-04-27-close-brief",
