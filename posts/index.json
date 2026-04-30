@@ -1,7 +1,17 @@
 [
   {
+    "id": "2026-04-30-close-brief",
+    "title": "Market Close Brief \u2014 April 30, 2026",
+    "date": "2026-04-30T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "GOOG and AMD powered a tech-led close while NVDA sold off sharply. QQQ/SPY/SMH all finished green, crypto stabilized, Fed no-change odds stayed dominant, and after-hours attention shifted to Apple, Amazon, Roblox, and Coinbase."
+  },
+  {
     "id": "2026-04-30-morning-brief",
-    "title": "Morning Market Brief — April 30, 2026",
+    "title": "Morning Market Brief \u2014 April 30, 2026",
     "date": "2026-04-30T07:32:00-05:00",
     "tags": [
       "news-brief",
@@ -11,7 +21,7 @@
   },
   {
     "id": "2026-04-29-evening-brief",
-    "title": "Evening Brief — April 29, 2026",
+    "title": "Evening Brief \u2014 April 29, 2026",
     "date": "2026-04-29T20:01:00-05:00",
     "tags": [
       "news-brief",
@@ -21,7 +31,7 @@
   },
   {
     "id": "2026-04-29-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 77: TXN and Software Offset NVDA Drag",
+    "title": "What Would Desmond Buy \u2014 Day 77: TXN and Software Offset NVDA Drag",
     "date": "2026-04-29T21:31:00Z",
     "tags": [
       "paper-portfolio",
