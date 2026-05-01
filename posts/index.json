@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-01-close-brief",
+    "title": "Market Close Brief \u2014 May 1, 2026",
+    "date": "2026-05-01T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AAPL, PLTR, TSLA, and AMD led a constructive tech close while NVDA slipped for a fourth straight red day; QQQ +0.96%, SPY +0.29%, SMH +0.61%, crypto firmed, and Polymarket still priced June Fed no-change near 96%."
+  },
+  {
     "id": "2026-05-01-morning-brief",
     "title": "Morning Market Brief \u2014 May 1, 2026",
     "date": "2026-05-01T07:30:00-05:00",
