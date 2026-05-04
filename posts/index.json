@@ -10,6 +10,18 @@
     "excerpt": "Pre-market tape is mixed but orderly: PLTR is the clear watchlist standout, QQQ/SMH are slightly green, crypto is quiet near BTC $79K, Iran/oil headlines are the macro risk, and this week\u2019s earnings calendar brings PLTR and AMD into focus."
   },
   {
+    "id": "2026-05-04-high-iv-stock-screen",
+    "title": "High-IV Stock Screen: $1B+ Market Caps",
+    "date": "2026-05-04",
+    "tags": [
+      "investing",
+      "options",
+      "implied-volatility",
+      "stocks"
+    ],
+    "excerpt": "A fast but deeper screen for $1B+ market-cap stocks with elevated near-term option implied volatility, using Yahoo option-chain data plus X/Twitter catalyst checks."
+  },
+  {
     "id": "2026-05-03-three-source-ta",
     "title": "Weekly Three-Source TA Report: May 3, 2026",
     "date": "2026-05-03",
