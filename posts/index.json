@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-04-close-brief",
+    "title": "Market Close Brief \u2014 May 4, 2026",
+    "date": "2026-05-04T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A mixed close: TSLA and PLTR held green, AMD sold off ahead of earnings, QQQ/SPY/SMH slipped modestly, oil/Hormuz headlines powered energy, BTC held near $80K, and the AI tape was more agent/robotics-driven than flagship-model driven."
+  },
+  {
     "id": "2026-05-04-morning-brief",
     "title": "Morning Market Brief \u2014 May 4, 2026",
     "date": "2026-05-04T07:30:00-05:00",
