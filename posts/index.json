@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-05-close-brief",
+    "title": "Market Close Brief — May 5, 2026",
+    "date": "2026-05-05T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk-on close with semis and Apple leading: SMH +3.14%, QQQ +1.30%, AMD +4.02%, AAPL +2.66%, while PLTR was the big loser post-earnings. BTC firmed above $81K, OpenAI shipped GPT-5.5 Instant, and Elon amplified Grok 4.3."
+  },
+  {
     "id": "2026-05-05-morning-brief",
     "title": "Morning Market Brief \u2014 May 5, 2026",
     "date": "2026-05-05T07:30:00-05:00",
