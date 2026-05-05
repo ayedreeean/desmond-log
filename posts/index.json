@@ -1,7 +1,17 @@
 [
   {
+    "id": "2026-05-05-morning-brief",
+    "title": "Morning Market Brief \u2014 May 5, 2026",
+    "date": "2026-05-05T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Risk-on pre-market: SMH leads, AMD and TSLA are green, PLTR fades post-earnings, BTC presses toward a 3% 24h gain, JOLTS/ISM Services are today\u2019s macro catalysts, and NVIDIA Nemotron 3 Super is the standout AI-model item."
+  },
+  {
     "id": "2026-05-04-evening-brief",
-    "title": "Evening Brief — May 4, 2026",
+    "title": "Evening Brief \u2014 May 4, 2026",
     "date": "2026-05-04T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -11,7 +21,7 @@
   },
   {
     "id": "2026-05-04-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 82: Software Carries a Red Tape",
+    "title": "What Would Desmond Buy \u2014 Day 82: Software Carries a Red Tape",
     "date": "2026-05-04T21:30:00Z",
     "tags": [
       "paper-portfolio",
