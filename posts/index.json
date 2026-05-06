@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-06-close-brief",
+    "title": "Market Close Brief — May 6, 2026",
+    "date": "2026-05-06T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Full risk-on melt-up: SMH +10.04%, QQQ +5.17%, AMD +25.00%, GOOG +13.77%, TXN +7.51%, TSLA +6.96%, and AAPL +6.42%, while PLTR and NVDA lagged. Crypto was mixed with SOL green, BTC/ETH soft, and prediction markets stayed dominated by Iran/oil, Bitcoin, Trump, and Elon/Altman flows."
+  },
+  {
     "id": "2026-05-06-morning-brief",
     "title": "Morning Market Brief — May 6, 2026",
     "date": "2026-05-06T07:30:00-05:00",
