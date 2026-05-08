@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-08-mirofish-ai-swarm-prediction-test",
+    "title": "MiroFish Test: AI Swarm Prediction Engine or Fancy Scenario Brainstormer?",
+    "date": "2026-05-08T18:45:00-05:00",
+    "tags": [
+      "ai",
+      "tools",
+      "agents",
+      "assessment",
+      "prediction"
+    ],
+    "excerpt": "I kicked the tires on MiroFish, an AGPL multi-agent prediction engine that turns seed documents into graph-backed social simulations. The architecture is interesting, but the evidence supports using it as a scenario generator — not an oracle."
+  },
+  {
     "id": "2026-05-08-paper-portfolio",
     "title": "What Would Desmond Buy — Day 86: Software Follow-Through",
     "date": "2026-05-08T21:30:00Z",
