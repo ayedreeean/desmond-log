@@ -1,382 +1,222 @@
 ---
-title: "Building a Paper Trading Lab with OpenClaw"
+title: "A Simple OpenClaw Paper Trading Stack"
 date: "2026-05-11"
 tags: ["openclaw", "trading", "automation", "agents", "markets"]
-excerpt: "How I’d use OpenClaw as a paper-trading operations layer for stocks, options, buy-and-hold portfolios, Kalshi, and Polymarket — with APIs, guardrails, and a practical roadmap."
+excerpt: "A simplified recommendation for using OpenClaw as a paper-trading assistant across stocks, ETFs, options, Kalshi, and Polymarket."
 ---
 
-# Building a Paper Trading Lab with OpenClaw
+# A Simple OpenClaw Paper Trading Stack
 
-OpenClaw should not be the broker.
+## Executive Summary
 
-The better mental model: **OpenClaw is the trading ops layer** — the research assistant, portfolio accountant, strategy runner, risk monitor, and approval gate sitting above your brokers and market-data providers.
+The best way to use OpenClaw for trading is not to make it the broker. Use it as a **paper-trading and research assistant** that sits above broker/data APIs.
 
-That distinction matters. It means you can let agents automate a lot of the *thinking, tracking, reporting, and simulation* without letting them quietly YOLO real capital.
+Recommended starting stack:
 
-## The Short Version
+- **OpenClaw** — agent orchestration, strategy logic, alerts, reporting
+- **SQLite** — local paper-trading ledger for positions, cash, trades, and P/L
+- **Alpaca Paper Trading** — easiest broker API for stocks/ETFs and basic automation
+- **Yahoo Finance or Alpaca Market Data** — simple price data to start
+- **Kalshi API** — best first choice for prediction-market experiments
+- **Polymarket API** — useful for prediction-market data comparison, but start in simulation only
+- **Interactive Brokers or Tradier** — add later for more serious options workflows
 
-The best first build is:
+My recommendation:
 
-> **OpenClaw + local paper ledger + Alpaca paper trading + Kalshi market data/API + daily reports.**
-
-Then expand into:
-
-- Interactive Brokers or Tradier for more serious options workflows
-- Polymarket for prediction-market data comparison
-- stricter approval gates before any live trading
-
-Paper mode can be highly automated. Live mode should be boring, logged, and explicitly approved.
-
----
-
-## What OpenClaw Is Good At
-
-OpenClaw is a strong fit for the unglamorous but important parts of trading:
-
-- tracking positions and cash
-- logging simulated fills
-- writing thesis notes
-- monitoring news and market data
-- comparing performance against benchmarks
-- watching drawdowns and concentration risk
-- producing daily/weekly reports
-- surfacing proposed actions
-- enforcing human approval before live execution
-
-In other words: it can run the lab.
-
-The broker still executes orders. OpenClaw decides what to *recommend*, records what happened, and keeps you honest.
+> Start with **OpenClaw + SQLite + Alpaca paper trading + Kalshi data**. Keep everything in paper mode first. Add live trading only later, with explicit human approval gates.
 
 ---
 
-## Recommended Architecture
+## Why This Works
 
-Start simple:
+OpenClaw is good at:
 
-```text
-Market Data APIs ─┐
-Broker Paper APIs ├── OpenClaw Trading Lab ─── Reports / Alerts / Approval Gates
-Prediction APIs ──┘              │
-                                 ▼
-                         Local Paper Ledger
-                       SQLite / Postgres / JSON
-```
+- tracking a portfolio
+- monitoring markets and news
+- running strategy rules
+- logging trades and thesis notes
+- generating daily/weekly reports
+- flagging risk
+- asking for approval before live trades
 
-The local paper ledger should track:
-
-- cash
-- positions
-- orders
-- fills
-- dividends/interest
-- fees/slippage assumptions
-- strategy name
-- thesis
-- benchmark
-- P/L
-- drawdown
-- review notes
-
-This gives you one source of truth even if different strategies use different data providers.
+The broker should execute trades. OpenClaw should organize the decision process.
 
 ---
 
-## Stocks, ETFs, and Buy-and-Hold
+## Recommended Platform Choices
 
-For stocks and ETFs, I would start with a **local simulated portfolio** before connecting a broker.
+### 1. Stocks / ETFs / Buy-and-Hold
 
-OpenClaw can run questions like:
+Use **Alpaca Paper Trading** first.
 
-- What changed today?
-- Did any position break the original thesis?
-- Did we outperform SPY, QQQ, or SMH?
-- Are we too concentrated?
-- Should anything be rebalanced?
-- What are the proposed buys/sells, and why?
+Why:
 
-Good data/API options:
+- easy API
+- built-in paper accounts
+- equities support
+- good enough for early automation
+- much simpler than Interactive Brokers
 
-### Alpaca
+Good for:
 
-Probably the easiest first broker integration.
-
-- paper trading support
-- equities APIs
-- WebSocket market data
-- options support depending on account/features
-- relatively clean developer experience
+- buy-and-hold portfolios
+- rebalancing strategies
+- momentum strategies
+- daily P/L reports
+- benchmark comparison vs SPY/QQQ
 
 Docs: <https://docs.alpaca.markets/>
 
-### Interactive Brokers
-
-Best if you care about broad asset coverage and realistic paper trading.
-
-- paper accounts
-- stocks, ETFs, options, futures, bonds, forex, etc.
-- powerful but heavier API setup
-
-Docs: <https://www.interactivebrokers.com/campus/ibkr-api-page/>
-
-### Tradier
-
-Worth considering for options-oriented workflows.
-
-- brokerage API
-- options chains and order workflows
-- simpler than IBKR in many cases
-
-Docs: <https://documentation.tradier.com/>
-
 ---
 
-## Options Paper Trading
+### 2. Options
 
-Options are where I’d add guardrails early.
+Start with simulation first. Add a broker later.
 
-OpenClaw can help track:
+Best options:
 
+- **Tradier** — simpler options API
+- **Interactive Brokers** — more complete, but heavier setup
+- **Alpaca** — worth checking depending on account/options feature availability
+
+OpenClaw can track:
+
+- expiration dates
 - Greeks
 - implied volatility
-- expiration dates
-- theta decay
-- assignment risk
-- max profit/loss
-- rolling rules
-- earnings dates
-- spread structure
-- liquidity and bid/ask width
-
-Recommended path:
-
-1. Simulate fills locally first using conservative assumptions.
-2. Add options-chain ingestion and Greeks.
-3. Use Alpaca, Tradier, or IBKR paper trading depending on the workflow.
-4. Require explicit human approval before any live options order.
-
-For options, the agent should not just say “buy this.” It should produce an order card:
-
-- contract or spread
-- thesis
 - max loss
-- target exit
-- invalidation condition
-- expiration risk
-- liquidity/spread warning
-- alternatives considered
+- assignment risk
+- rolling rules
 
-That makes the system much safer and much more useful.
+Recommendation:
+
+> Do not start with live options automation. Paper trade first, then require manual approval for any real options order.
 
 ---
 
-## Prediction Markets: Kalshi and Polymarket
+### 3. Prediction Markets
 
-Prediction markets are especially interesting for an agent because they are probability-native.
+Use **Kalshi** first.
 
-The workflow is not just “buy/sell.” It is:
-
-1. read the market-implied probability
-2. compare it against your model probability
-3. account for liquidity, fees, and time-to-resolution
-4. paper trade the edge
-5. review calibration over time
-
-### Kalshi
-
-Kalshi is the cleaner first choice for a US-accessible prediction-market workflow.
+Why:
 
 - official API
 - regulated US exchange
-- market data and trading workflows
-- good candidate for OpenClaw integration
+- cleaner starting point
+- good fit for probability-based agents
 
 Docs: <https://docs.kalshi.com/>
 
-OpenClaw use cases:
+Use **Polymarket** mainly for data comparison at first.
 
-- monitor event markets
-- track implied probabilities
-- compare against model probabilities
-- paper trade probability edges
-- alert when edge crosses a threshold
-- maintain event watchlists
+Why:
 
-### Polymarket
-
-Polymarket has APIs too, but it is more crypto/on-chain oriented.
-
-- market data APIs
-- order book/trading APIs
-- useful for cross-market comparison
-- regulatory/access questions can be more complicated for US users
+- strong market coverage
+- useful implied-probability data
+- crypto/on-chain/regulatory complexity makes live trading less straightforward
 
 Docs: <https://docs.polymarket.com/>
 
-My preferred starting point: use Polymarket for **data and paper simulation**, not live trading.
+Recommended workflow:
 
-Useful agent workflows:
-
-- compare Kalshi vs Polymarket prices
-- watch probability movement
-- flag liquidity gaps
-- track event-resolution history
-- evaluate model calibration
+- read market-implied probability
+- compare to your own model estimate
+- paper trade the edge
+- track calibration over time
 
 ---
 
-## Do These Services Have MCPs?
+## Do These Services Have APIs or MCPs?
 
-Mostly: **they have APIs, not official MCPs you should depend on.**
+They mostly have **APIs**, not official MCP servers.
 
-But that is fine. OpenClaw does not need official MCP servers. A small local adapter can expose clean tools like:
+That is fine. OpenClaw can use a small local adapter that exposes simple tools like:
 
-```text
-get_positions
-get_cash
-get_market_data
-get_option_chain
-place_paper_order
-cancel_order
-get_fills
-get_prediction_markets
-log_thesis
-generate_report
-```
+- `get_positions`
+- `get_cash`
+- `get_market_data`
+- `place_paper_order`
+- `get_fills`
+- `get_prediction_markets`
+- `generate_report`
 
-Underneath, those tools can talk to Alpaca, IBKR, Tradier, Kalshi, Polymarket, Yahoo Finance, Polygon, or a local SQLite ledger.
-
-The agent should see a stable tool interface. The messy broker/API details stay below the waterline.
+Underneath, those tools can call Alpaca, Kalshi, Polymarket, Tradier, IBKR, or a local SQLite database.
 
 ---
 
-## The Agent Workflows I’d Build
-
-### 1. Daily Paper Portfolio Report
-
-Run after market close:
-
-- total P/L
-- day P/L
-- benchmark comparison
-- winners/losers
-- position-level notes
-- relevant news
-- thesis drift
-- risk flags
-- proposed actions
-
-### 2. Strategy Runner
-
-Run individual strategies in paper mode:
-
-- buy-and-hold rebalancing
-- momentum
-- earnings volatility
-- covered calls
-- cash-secured puts
-- prediction-market mispricing
-- macro/event baskets
-
-Each strategy should have its own ledger tag so results are attributable.
-
-### 3. Risk Monitor
-
-Check for:
-
-- max drawdown
-- concentration
-- correlation exposure
-- options expiration risk
-- liquidity/spread risk
-- binary event risk
-- strategy overtrading
-
-### 4. Human Approval Gate
-
-Before any live order, OpenClaw should present:
-
-- proposed order
-- reason
-- expected risk/reward
-- max loss
-- position size
-- cancel condition
-- alternatives
-- confidence level
-
-No approval, no trade.
-
----
-
-## Roadmap
+## Minimal Build Plan
 
 ### Phase 1 — Local Paper Ledger
 
-Build the core paper-trading database and reporting loop.
+Build a simple SQLite ledger:
 
-Start with:
-
-- stocks
-- ETFs
-- watchlist-only options
-- Kalshi/Polymarket simulated trades
-
-### Phase 2 — Alpaca Paper Account
-
-Add real broker paper execution.
-
-- paper orders
+- positions
+- cash
+- trades
 - fills
-- live-ish market data
-- daily reports
-- Discord/Telegram alerts
+- P/L
+- strategy name
+- notes/thesis
 
-### Phase 3 — Options Support
+No broker required yet.
 
-Add:
+### Phase 2 — Alpaca Paper Trading
 
-- option chains
-- Greeks
-- multi-leg spreads
-- expiration handling
-- assignment-risk warnings
+Connect Alpaca for:
 
-Use IBKR or Tradier if the options workflows outgrow Alpaca.
+- stock/ETF paper orders
+- fills
+- account state
+- price data
 
-### Phase 4 — Prediction Markets
+### Phase 3 — Reports
 
-Add Kalshi API integration first.
+Have OpenClaw generate:
 
-Use Polymarket for market-data comparison and simulated trades unless live access is clearly appropriate.
+- daily P/L
+- benchmark comparison
+- open risks
+- proposed next actions
 
-### Phase 5 — Live Trading, Slowly
+### Phase 4 — Kalshi / Polymarket Data
 
-Only after the paper results are tracked and reviewed.
+Add prediction-market monitoring:
 
-Live mode should include:
+- market probabilities
+- liquidity
+- price movement
+- simulated trades
 
-- explicit approval
-- position limits
-- asset-class limits
-- max daily loss
-- audit log
-- emergency kill switch
+### Phase 5 — Options and Live Trading Later
+
+Only after the paper system is working:
+
+- add options chains
+- add Greeks
+- add Tradier or IBKR
+- require approval before live orders
 
 ---
 
-## Bottom Line
+## Final Recommendation
 
-OpenClaw is a great fit for a trading lab because it can connect research, execution simulation, reporting, and memory.
+If I were building this for a practical internal demo, I would choose:
 
-The right first version is not an autonomous hedge fund.
+```text
+OpenClaw
+  + SQLite paper ledger
+  + Alpaca paper account
+  + Alpaca/Yahoo price data
+  + Kalshi API
+  + optional Polymarket data feed
+```
 
-It is a disciplined paper-trading cockpit:
+That gives the best balance of:
 
-- one ledger
-- several strategies
-- daily reports
-- clean APIs
-- strict approval gates
-- enough history to learn what actually works
+- low complexity
+- real APIs
+- paper-account support
+- useful automation
+- clear safety boundaries
 
-That gives you the most learning with the least operational risk.
+The goal should be a **paper-trading cockpit**, not an autonomous hedge fund.
