@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-11-close-brief",
+    "title": "Market Close Brief \u2014 May 11, 2026",
+    "date": "2026-05-11T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis detonated higher into the close \u2014 AMD +34%, SMH +13.7%, NVDA +10.6% \u2014 while TSLA ripped +13.4% and PLTR was the clear portfolio laggard."
+  },
+  {
     "id": "2026-05-11-morning-brief",
     "title": "Morning Market Brief \u2014 May 11, 2026",
     "date": "2026-05-11T07:30:00-05:00",
