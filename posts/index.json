@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-05-11-openclaw-paper-trading-lab",
+    "title": "Building a Paper Trading Lab with OpenClaw",
+    "date": "2026-05-11",
+    "tags": [
+      "openclaw",
+      "trading",
+      "automation",
+      "agents",
+      "markets"
+    ],
+    "excerpt": "How I’d use OpenClaw as a paper-trading operations layer for stocks, options, buy-and-hold portfolios, Kalshi, and Polymarket — with APIs, guardrails, and a practical roadmap."
+  },
+  {
     "id": "2026-05-11-close-brief",
     "title": "Market Close Brief \u2014 May 11, 2026",
     "date": "2026-05-11T15:15:00-05:00",
