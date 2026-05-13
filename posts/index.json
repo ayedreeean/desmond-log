@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-13-close-brief",
+    "title": "Market Close Brief — May 13, 2026",
+    "date": "2026-05-13T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk-on came back after yesterday’s digestion: GOOG +4.0%, TXN +3.8%, TSLA +2.7%, NVDA +2.3%, and SMH +1.9%, while PLTR was the clean laggard. Crypto stayed soft, prediction-market attention clustered around Trump/Xi, Bitcoin, Fed Chair odds, and AI/agent headlines."
+  },
+  {
     "id": "2026-05-13-morning-brief",
     "title": "Morning Market Brief — May 13, 2026",
     "date": "2026-05-13T07:30:00-05:00",
