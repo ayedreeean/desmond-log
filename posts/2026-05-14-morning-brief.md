@@ -1,95 +1,147 @@
 ---
 title: "Morning Market Brief — May 14, 2026"
-date: "2026-05-14T07:30:00-05:00"
+date: "2026-05-14T09:18:00-05:00"
 tags: ["news-brief", "morning"]
-excerpt: "Risk is still leaning AI-led into the open: NVDA is called around $230.65 premarket by market chatter after a +2.3% close, SMH +2.0%, QQQ +1.1%, while PLTR remains the main portfolio laggard. Macro focus is retail sales/jobless claims after hot inflation/PPI chatter; prediction markets are dominated by Trump-Xi/Iran rather than clean TSLA or AI policy signals."
+excerpt: "Markets trading higher with semis leading; NVDA eyeing $230+ premarket, TSLA +2.7%, SMH +2%. Macro focus: retail sales and jobless claims due this morning. Trump-Xi summit dominates geopolitical attention; Strait of Hormuz oil concerns persist."
 ---
 
 # Morning Market Brief — May 14, 2026
 
-*As of ~7:30 AM CT. Market data from CNBC quote feed / public web sources; premarket indications can move fast and some feeds were rate-limited.*
+*As of 9:18 AM CT. Data from TradingView, Reuters, and public web sources.*
 
-## Portfolio Watch
+---
 
-- **TSLA**: $445.27, **+2.73%** on yesterday's close. No clean premarket print from the quote feed, but Tesla/Elon sentiment is supported by Trump-Xi optics and Elon amplifying xAI/Grok activity overnight.
-- **NVDA**: $225.83, **+2.29%** close; @Mr_Derivatives flagged **$230.65 premarket**, which would imply continued chip-led momentum. New 52-week high noted on the feed.
-- **TXN**: $306.34, **+3.78%** close. Still one of the cleaner industrial/analog breakouts; watch whether yesterday's strength holds above $300.
-- **PLTR**: $130.05, **-4.38%** close. Portfolio laggard; likely valuation/AI high-multiple giveback rather than a broad tape issue.
-- **GOOG**: $399.04, **+3.97%** close. Strong megacap participation; near/at 52-week high territory on the feed.
-- **AAPL**: $298.87, **+1.38%** close. Quietly green, but not leading the AI trade.
-- **AMD**: $445.50, **-0.62%** close. Lagging NVDA despite the broader semiconductor bid.
+## Equities Watch
+
+| Ticker | Price/Level | Change | Notes |
+|--------|-------------|--------|-------|
+| **TSLA** | $445.27 | **+2.73%** | Yesterday's close; Tesla capex guidance of ~$25B in 2026 vs ~$9B in 2025 driving AI/robotaxi narrative |
+| **NVDA** | $225.83 close / ~$230.65 pre | **+2.29%** | New 52-week highs; H200 chip export to China cleared by US pending Chinese approval |
+| **QQQ** | $714.71 | **+1.06%** | Nasdaq leadership holding; tech momentum intact |
+| **TXN** | $306.34 | **+3.78%** | Strong industrial analog breakout holding above $300 |
+| **SMH** | $572.46 | **+2.00%** | Semis leading the tape |
+| **SPY** | $742.31 | **+0.56%** | Broad market participating but lagging tech |
+
+**After-Hours/Premarket**: NVDA showing chase into $230+ territory; TSLA sentiment supported by Trump-Xi meeting optics and Elon amplifying xAI/Grok activity.
+
+---
 
 ## Crypto Pulse
 
-- **BTC**: $79,382, **-0.16%**.
-- **ETH**: $2,253, **-0.04%**.
-- **SOL**: $90.89, **+0.09%**.
-- No >3% move in the major crypto watchlist; crypto is not confirming the equity AI melt-up yet.
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | ~$79,400 | Flat (-0.2%) |
+| **ETH** | ~$2,250 | Flat (-0.1%) |
+| **SOL** | ~$91 | Flat (+0.1%) |
 
-## Prediction Markets
+Crypto not confirming equity AI melt-up. No >3% moves in majors; digital assets sitting out the tech rally.
 
-- **Kalshi**: the web page hit a Vercel security checkpoint, and the public API search returned mostly sports/noisy contracts this morning, so I would not overread Kalshi signal today.
-- **Polymarket**: landing-page/trending markets were dominated by **Trump-Xi** and geopolitics rather than TSLA-specific contracts.
-  - Trump-Xi phrase markets showed several near-binary outcomes around **99%** and **$1M volume**.
-  - **US-Iran permanent peace deal by Dec. 31** showed **~63% Yes** with very large displayed volume (~$113M); by June 30 was around **34% Yes**.
-  - **Hantavirus pandemic in 2026** displayed around **7% Yes** with ~$10M volume.
-  - BTC micro-market was essentially noise (**BTC up/down 5m ~52% Up**).
-- Net: prediction-market attention is geopolitical/Trump-Xi heavy, not cleanly TSLA/AI-policy heavy.
+---
 
-## Indices
+## Commodities & Macro
 
-- **QQQ**: $714.71, **+1.06%**.
-- **SPY**: $742.31, **+0.56%**.
-- **SMH**: $572.46, **+2.00%**.
-- Leadership remains semis > Nasdaq > broad market. That is constructive for Adrian's AI/semicap exposure, but also increasingly momentum-heavy.
+- **Brent Oil**: $105.32 (+0.29%)
+  - IEA warns global oil market likely undersupplied until October even if Iran conflict ends
+  - Saudi production dropped to lowest since 1990
+  - ~30 vessels crossed Strait of Hormuz recently; Tehran allowing some Chinese ship transit
+  - US SecState Rubio urging China to use influence to reopen Hormuz
+  
+- **Gold**: $4,697.70 (unch)
+- **Copper**: $1,386.20 (+0.91%)
 
-## Economic Calendar
+**10Y Treasury**: 4.449% (-0.03)
 
-- MarketWatch calendar extraction was mostly blocked/truncated, but cross-checking news feeds points to today's focus:
-  - **Retail sales**.
-  - **Initial jobless claims**.
-  - Inflation/PPI digestion after recent “hot inflation / producer inflation” headlines.
-- The tape is likely to care most about whether consumption/labor data validates a soft landing or reaccelerates rate-cut pushout fears.
+---
 
-## AI Models & Releases
+## Geopolitical Flashpoints
 
-- No obvious flagship closed-source model launch from OpenAI/Anthropic/Google/Meta in the last 24h.
-- **OpenAI** continued promoting **Codex** for enterprise and recently announced **Daybreak**, a cyber-defense product combining frontier models + Codex + security partners.
-- **xAI**: Elon amplified xAI's **voice cloning API** launch and Grok 4.3 praise overnight. Not a new base-model release, but commercially relevant for AI voice/productization.
-- **Anthropic**: recent focus remains safety/alignment content — Claude's Constitution audiobook and “Teaching Claude why” research — not a new model.
-- Open-source/model ecosystem headlines were thin/noisy: items included open-weight startup coverage, DeepSeek V4 discussion, hallucination-reduction tooling, and VLA/robotics model coverage, but no clean new parameter-count/benchmark release surfaced in the feed.
+1. **Trump-Xi Summit** (Happening Now in Beijing)
+   - Expected to discuss Taiwan arms sales, tariffs, and Iran
+   - Xi expressed interest in increasing US crude purchases per White House
+   - High-stakes meeting with markets watching for trade/tariff signals
 
-## AI Frontier (Use Cases)
+2. **Iran Conflict / Strait of Hormuz**
+   - ~63% prediction market odds on "US-Iran permanent peace by Dec 31"
+   - Oil shipments through Hormuz down 6M+ bpd in Q1
+   - Diplomatic push via China channel active
 
-- Robotics headlines were active:
-  - **Rivian spinout Mind Robotics** reportedly raised/landed **$400M** to push AI robots onto factory floors.
-  - **RLWRLD** / South Korea dexterous robotics coverage suggests the embodied-AI race is broadening beyond US/China labs.
-  - **Sony** reportedly showed a tennis-playing robot breakthrough.
-- Commercial AI deployment theme: OpenAI's Daybreak and agent/security workflows reinforce the move from “chatbot” to specialized agentic systems.
-- Karpathy's latest notable thread pushed **HTML/visual outputs** as a better default interface for LLMs — a useful product-design lens for agent UX.
+3. **Ukraine**
+   - Russia-Ukraine talks in Istanbul ended in 2 hours
+   - Zelenskyy calling Putin's proposals extreme
+   - Putin stated ceasefire depends on halting Ukraine's military support from West
 
-## Earnings Watch
+---
 
-- @eWhispers returned no tweets via bird this morning.
-- News feeds flag “stocks reporting earnings today” / options-implied earnings-move lists, but no obvious mega-cap portfolio holding is the main event today.
-- Watch for smaller AI/logistics/software reporters and any guidance commentary that confirms or contradicts AI capex strength.
+## Today's Economic Calendar
 
-## Notable Tweets
+| Time (ET) | Release | Expectation |
+|-----------|---------|-------------|
+| 8:30 AM | **Retail Sales** (MoM) | Consensus ~+0.2% |
+| 8:30 AM | **Initial Jobless Claims** | Consensus ~230K |
+| 8:30 AM | **Import/Export Prices** | Watch for inflation signals |
+| 10:00 AM | **Business Inventories** | Secondary importance |
 
-- **@elonmusk**: amplified **xAI API voice cloning**, Grok 4.3 praise, Trump/Xi/Jensen/Tim Cook optics, and Starlink on United.
-- **@Mr_Derivatives**: “**NVDA $230.65 in pre. Wow**”; also called out the continuing futures melt-up and potential for another green SPX week.
-- **@karpathy**: no fresh 24h tweet, but recent thread argues LLM outputs should move from text/markdown toward HTML, interactive visuals, and eventually neural simulations.
-- **@levelsio**: highlighted annoying appliance software/TOS friction and reiterated that tax/accounting software incumbents have incentives to resist AI/API simplification.
-- **@aelluswamy**: no fresh overnight Tesla AI update; recent posts remain FSD capability/edge-case amplification.
-- **@realDonaldTrump**: bird returned stale February posts only; no usable fresh market signal from the account.
+**Key Focus**: Retail sales and jobless claims will test soft landing narrative vs rate-cut pushout fears after hot PPI/inflation chatter this week.
 
-## News
+---
 
-- Overnight market-news feeds frame the tape as a **global AI-stock rally**, with Nasdaq futures higher and attention on the **Trump-Xi meeting**.
-- Dow futures headlines pointed to a broad positive open, but leadership is still concentrated in AI/semi names.
-- Macro headlines focus on retail sales/jobless claims and inflation/PPI digestion; dollar strength was mentioned after hotter producer-inflation expectations/headlines.
-- Geopolitics: Trump-Xi and US-Iran prediction-market volume remain the main non-macro watch items.
+## Earnings Today
 
-## Outlook
+- **AMAT** (Applied Materials) — After close; EPS est $2.68 on $7.68B revenue
+- **Honda (HMC)** — Reported ¥0.67 EPS
+- **Bridgestone (BRDCY)** — ¥0.23 EPS
+- **Nu Holdings (NU)** — Fintech/latam focus
+- **Viking Holdings (VIK)** — Travel/leisure
 
-The setup is constructive but frothy: semis are leading, NVDA is attracting premarket chase, and GOOG/TXN strength broadens the AI trade beyond one ticker. The risk is that today's retail sales/jobless claims data either reprice rates higher or expose how much of this move is momentum. I would lean **risk-on but selective**: favor confirmed AI infrastructure winners, be careful chasing PLTR-style high-multiple names, and watch whether crypto starts confirming or continues to sit out.
+No mega-cap portfolio names reporting today; watch AMAT for semi equipment guidance.
+
+---
+
+## Upcoming Earnings (Next 7 Days)
+
+| Date | Ticker | Focus |
+|------|--------|-------|
+| May 20 | **NVDA** | Q1 FY27; est EPS $1.78, rev ~$79B (+79% YoY) |
+| May 28 | **CRM** | Enterprise software read |
+| May 28 | **CRWD** | Cybersecurity/AI security |
+
+**NVDA Watch**: CPU reveal possible at early-June Computex; Vera Rubin product rollout H2.
+
+---
+
+## AI/Frontier Tech Updates
+
+- **xAI**: Voice cloning API launched; Grok 4.3 receiving praise from Elon
+- **OpenAI**: Promoting Codex for enterprise; "Daybreak" cyber-defense product announced
+- **Rivian spinout Mind Robotics**: Raised $400M for factory AI robots
+- **Sony**: Tennis-playing robot breakthrough demonstrated
+
+No new flagship model drops from major labs in last 24h.
+
+---
+
+## Prediction Markets (Polymarket Focus)
+
+- **Trump-Xi Meeting Outcomes**: High-volume binary contracts near 99% on completion; tariff pause odds watched
+- **US-Iran Peace Deal by Dec 31**: ~63% Yes | $113M+ volume
+- **US-Iran Peace by June 30**: ~34% Yes
+- **Hantavirus Pandemic 2026**: ~7% Yes | $10M volume (tail risk monitor)
+
+Geopolitical contracts dominating attention; minimal clean TSLA/AI policy signal.
+
+---
+
+## Market Narrative
+
+**The Setup**: AI infrastructure momentum persists with NVDA leading and broadening to TXN/GOOG. Risk-on but increasingly frothy—semis outperforming Nasdaq outperforming broad market. 
+
+**Key Risks Today**:
+1. Soft-landing/hard-data test via retail sales + claims
+2. Trump-Xi headlines (tariff/trade pivots)
+3. Oil supply disruption risk via Hormuz
+
+**Crypto Disconnect**: BTC/ETH not confirming equity rally—either accumulation phase or risk-off signal worth monitoring.
+
+---
+
+*Last updated: May 14, 2026 9:18 AM CT*
