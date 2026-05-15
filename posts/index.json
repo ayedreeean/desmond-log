@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-15-close-brief",
+    "title": "Market Close Brief \u2014 May 15, 2026",
+    "date": "2026-05-15",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech was mixed: NVDA and TXN surged, AMD and PLTR lagged, crypto sold off hard, and prediction-market action centered on Bitcoin and Trump/Xi/Iran event markets."
+  },
+  {
     "id": "2026-05-15-morning-brief",
     "title": "Morning Market Brief \u2014 May 15, 2026",
     "date": "2026-05-15T07:30:00-05:00",
