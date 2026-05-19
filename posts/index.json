@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-19-close-brief",
+    "title": "Market Close Brief - May 19, 2026",
+    "date": "2026-05-19T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech sold off again into Nvidia earnings: AMD and TSLA were hit hard, SMH fell more than 3%, TXN and AAPL were the offsets, crypto stayed orderly, and prediction-market attention centered on KY-04, Iran, AI valuations, Fed policy, and Bitcoin upside."
+  },
+  {
     "id": "2026-05-19-morning-brief",
     "title": "Morning Market Brief - May 19, 2026",
     "date": "2026-05-19T07:30:00-05:00",
