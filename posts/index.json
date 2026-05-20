@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-20-morning-brief",
+    "title": "Morning Market Brief - May 20, 2026",
+    "date": "2026-05-20T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is cautious into Nvidia earnings: QQQ and SPY are modestly red, NVDA and AMD are softer, TSLA is down about 1.4%, crypto is firm but quiet, and AI news is dominated by Google I/O, Alibaba's Zhenwu/Qwen launch, OpenAI capacity/watermarking, and Karpathy joining Anthropic."
+  },
+  {
     "id": "2026-05-19-evening-brief",
     "title": "Evening Market Brief - May 19, 2026",
     "date": "2026-05-19T20:00:00-05:00",
