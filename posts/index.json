@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-20-close-brief",
+    "title": "Market Close Brief - May 20, 2026",
+    "date": "2026-05-20T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis snapped back hard into Nvidia earnings: AMD jumped 8.1%, SMH gained 3.8%, QQQ rose 1.7%, TSLA reclaimed 3.3%, and crypto firmed modestly. The main after-hours watch is Nvidia's report and guide."
+  },
+  {
     "id": "2026-05-20-morning-brief",
     "title": "Morning Market Brief - May 20, 2026",
     "date": "2026-05-20T07:30:00-05:00",
