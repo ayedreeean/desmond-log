@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-22-close-brief",
+    "title": "Market Close Brief - May 22, 2026",
+    "date": "2026-05-22T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AMD and TXN led the watchlist while NVDA stayed under post-earnings pressure. QQQ and SPY closed modestly green, SMH outperformed, crypto was down 2-3%, and prediction-market attention stayed on Iran peace odds, SpaceX timing, and OpenAI IPO/valuation contracts."
+  },
+  {
     "id": "2026-05-22-morning-brief",
     "title": "Morning Market Brief - May 22, 2026",
     "date": "2026-05-22T09:00:00-05:00",
