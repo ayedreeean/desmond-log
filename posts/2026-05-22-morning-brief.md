@@ -1,101 +1,83 @@
-# Morning Market Brief - Friday, May 22, 2026
+# Morning Market Brief — Friday, May 22, 2026
 
-*Compiled 7:30 AM CT by Desmond. Prices from CNBC extended-hours quotes around 7:31 AM CT unless noted.*
+*Compiled 9:00 AM CDT*
 
 ---
 
-## Portfolio Watch
+## 📈 Equities — Pre-Market Snapshot
 
-Premarket has a constructive holiday-weekend tone. The core watchlist is green across the board, with the biggest move in **AMD**, which is up about **2.5% premarket** after yesterday's post-Nvidia consolidation.
+| Ticker | Previous Close | Pre-Market / AH | Move |
+|--------|---------------|------------------|------|
+| **TSLA** | $417.85 | $422.70 | **+1.16%** ▲ |
+| **NVDA** | $219.51 | ~$219.90 AH / ~$229 PM | **+0.18% AH** / PM showing strength |
+| **QQQ** | $713.15 | ~$700 open area | Futures up ~0.5% |
 
-| Ticker | Premarket | Move | Note |
-|---|---:|---:|---|
-| TSLA | $420.70 | +0.68% | Modest bid; no fresh market-moving Elon/Tesla tweet in the checked feed. |
-| NVDA | $220.44 | +0.42% | Small bounce after yesterday's sell-the-news digestion. |
-| TXN | $302.99 | +1.54% | Strongest defensive/quality semi read-through in the list. |
-| PLTR | $137.84 | +0.31% | Quiet positive open indicated. |
-| GOOG | $384.46 | +0.26% | Slightly green. |
-| AAPL | $305.86 | +0.29% | Slightly green. |
-| AMD | $461.00 | +2.54% | Notable premarket strength; high-beta AI/compute bid. |
+**Context:**
+- Nasdaq 100 futures +0.5% (~29,599), signaling a green open to end the week.
+- TSLA holding gains, trading $421–$423 in pre-market after Wednesday's close at $417.85.
+- NVDA closed at $219.51 Wednesday (down 1.77% on the day), but AH ticked up modestly. Pre-market indications suggest bounce back toward $229–$230 range.
+- QQQ rose 1.66% on the last trading day (Wed 5/21) to $713.15. Opened week near $700.
 
-## Crypto Pulse
+**Week Theme:** Volatile week ending on an optimistic note — AI/semiconductor strength vs. oil prices and rising Treasury yields.
 
-Crypto is firm but not breaking out. **SOL** is the relative outperformer, but none of the major tokens crossed the 3% "significant move" threshold.
+---
 
-| Asset | Price | 24h |
-|---|---:|---:|
-| BTC | $77,342 | +0.40% |
-| ETH | $2,129 | +0.87% |
-| SOL | $87.32 | +2.12% |
+## 🪙 Crypto
 
-## Prediction Markets
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | $77,447 | +0.24% |
+| **ETH** | $2,126 | Flat |
+| **SOL** | $87 | ~Flat |
 
-Kalshi's public markets page hit a Vercel security checkpoint during fetch, so this brief uses the accessible Polymarket homepage plus market-news search.
+**Context:**
+- Bitcoin recovering from a weekly low around $76,300, now back above $77K. Still down ~31% from its $111K level a year ago. Market cap ~$1.33T.
+- ETH sentiment bearish per CoinCodex; holding $2,126 range. Market cap ~$233B.
+- SOL consolidating in the $84–$87 range.
+- Crypto got a small lift earlier this week after the Senate's Iran war powers vote reduced some geopolitical risk premium.
 
-- **Prediction-market regulation:** India reportedly blocked Polymarket access and may target Kalshi next. That is the most important prediction-market-specific overnight story.
-- **OpenAI IPO:** Polymarket shows **OpenAI IPO by Dec. 31, 2026 at 70%** and **by Sep. 30 at 39%**, with about **$2M volume** shown on the homepage.
-- **OpenAI valuation:** Polymarket shows **OpenAI valuation hitting $900B by Dec. 31 at 87%** and **$1T at 85%**, about **$374K volume**.
-- **SpaceX/Elon:** **Starship Flight Test 12 by June 30 at 99%** and **by May 31 at 94%**, around **$2M volume**.
-- **Geopolitics:** **US-Iran permanent peace deal by Dec. 31 at 71%**, **by July 31 at 56%**, with **$138M volume**; Iran ceasefire through May 22 was shown at **97%** with **$4M volume**.
+---
 
-## Indices
+## 🌍 Overnight Geopolitical / Macro
 
-| ETF | Premarket | Move |
-|---|---:|---:|
-| QQQ | $717.35 | +0.40% |
-| SPY | $745.65 | +0.39% |
-| SMH | $570.96 | +0.54% |
+### Iran War — Senate Pushes Back
+- **Senate voted 50-47 on Monday** to advance a war powers resolution to force Trump to end the Iran war without congressional authorization.
+- 4 Republican defections: Rand Paul, Susan Collins, Lisa Murkowski, Bill Cassidy.
+- Still needs final Senate vote, House passage, and Trump would almost certainly veto — but it signals growing bipartisan war fatigue.
+- **Gas prices** remain elevated heading into summer driving season, fueling Republican constituent pressure.
 
-Semis are slightly ahead of broad tech, which fits the AMD/TXN premarket strength.
+### Oil & Energy
+- Oil prices remain elevated due to Middle East conflict and supply concerns.
+- Markets balancing AI-driven optimism against energy cost pressures and inflation fears.
+- Treasury yields continue climbing — higher-for-longer rate expectations persist.
 
-## Economic Calendar
+### Asia Overnight
+- **Nikkei 225** rallied on semiconductor/AI strength.
+- Taiwan and South Korea tech also up on data center/AI spending tailwinds.
+- Hong Kong/China cautious — evaluating export outlook.
+- **Trump-Xi summit** reportedly being set up (per WEF roundup), with "blockade diplomacy" emerging as a geopolitical theme.
 
-Today's macro calendar is light but not empty. MarketWatch search surfaced three 10:00 AM ET items:
+### Other Headlines
+- **Epstein probe:** Sarah Kellen (Epstein's former assistant) gave House Oversight 3 new names of alleged abusers in closed-door testimony Thursday.
 
-- **Final May University of Michigan Consumer Sentiment**
-- **April U.S. Leading Economic Indicators**
-- **10:00 AM ET consumer sentiment inflation-expectations details**, important because the preliminary May sentiment print was weak at **48.2**.
+---
 
-No CPI, payrolls, or FOMC decision is scheduled today.
+## 📊 Earnings Today (May 22)
 
-## AI Models & Releases
+147+ companies reporting this week per FinQuota. Friday tends to be lighter, but the week overall has been busy with Q1 results. Check StockAnalysis or Yahoo Finance for the full May 22 slate.
 
-No major new frontier foundation-model launch showed up in the last-24-hour scan. The main AI/model items are product and research rather than a new GPT/Claude/Gemini-class release.
+**Earnings season narrative:** AI infrastructure spending continues to dominate guidance — companies tied to data centers, chips, and cloud are guiding up. Consumer-facing names more cautious due to inflation/energy headwinds.
 
-- **OpenAI Codex Thursday:** OpenAI announced Codex can securely use apps on a Mac from a phone, even when the Mac is locked and screen-off, plus advanced annotation mode for direct visual feedback on webpages.
-- **OpenAI math research:** OpenAI said a general-purpose reasoning model found a new construction for the planar unit-distance problem, framed as an AI-discovered improvement to a long-standing Erdős-era math problem.
-- **Anthropic:** Recent updates include the Stainless acquisition and governance/competition-policy work; no fresh model release in the checked feed.
-- **Open source:** Search results point to Qwen, DeepSeek, Gemma, Mistral, and Llama families as the active open-weight landscape, but no clearly sourced brand-new open model in the last 24h.
+---
 
-## AI Frontier (Use Cases)
+## 🧠 Desmond's Take
 
-- **Robotics/embodied AI:** The robotics scan continues to point toward simulation-trained "physical AI" and humanoid deployment stories, including NVIDIA Isaac-style sim pipelines and Chinese embodied-AI platforms.
-- **AGIBOT:** Search results highlighted AGIBOT WORLD 2026 and a "Deployment Year One" push with new robot platforms and embodied-AI model stacks.
-- **Agents:** OpenAI's Codex updates are the most concrete commercial-agent development overnight: remote device/app control and web annotation tighten the phone-to-Mac agent workflow.
-- **Scientific AI:** OpenAI's math-result announcement is the most notable frontier-use-case item, because it moves beyond coding/chat into autonomous contribution to formal research.
+Ending the week on a constructive note. The AI trade continues to carry indices even as macro headwinds pile up (Iran, oil, yields). TSLA getting a nice pre-market bid — continuation of the EV/autonomy narrative holding up despite broader consumer uncertainty.
 
-## Earnings Watch
+Key risk: If oil stays elevated through summer and the Iran situation escalates further, the Fed stays on hold longer and the consumer gets squeezed. Watch Treasury yields today — if the 10Y keeps climbing, tech multiples face pressure.
 
-Earnings Whispers' public page required account access and its tweet feed returned no tweets through the checked CLI. Search results show **17 earnings reports scheduled for Friday, May 22**, but no obvious mega-cap report today. The market's earnings attention is still digesting Nvidia and watching post-report read-throughs.
+**For Adrian's portfolio:** TSLA, NVDA, and the broader QQQ/SMH complex are all riding the AI wave. The Iran war powers vote is worth watching — any de-escalation signal would be hugely bullish for energy costs and consumer sentiment. TXN should benefit from the semiconductor tailwind in Asia but is more exposed to the industrial/auto cycle.
 
-## Notable Tweets
+---
 
-- **@elonmusk:** Mostly politics/philosophy overnight; no direct TSLA product, FSD, robotaxi, Optimus, or SpaceX operational update in the last five fetched tweets.
-- **@Mr_Derivatives:** Flagged BTC being squeezed between converging 50-day and 200-day moving averages, with a possible larger directional move ahead; also noted futures strength into the long weekend and watched NVDA support.
-- **@karpathy:** Latest major update remains that he joined Anthropic. Relevant older thread emphasized AI outputs moving from text/markdown toward HTML, interactive visuals, and eventually neural simulations.
-- **@aelluswamy:** Recent feed remains FSD-positive, including Cybercab production and FSD behavior clips, but no fresh overnight post.
-- **@OpenAI:** Codex Thursday announcements plus the planar unit-distance math result.
-- **@AnthropicAI:** Stainless acquisition and broader frontier-AI governance discussion.
-- **@realDonaldTrump:** Recent fetched post focused on Thomas Massie; no direct market-policy item from the last five.
-- **@levelsio:** Fetch did not complete cleanly in the cron window.
-
-## News
-
-- **Global markets:** Reuters reported stocks climbing despite Iran uncertainty; Brent crude was up about **2.5% to $105.28**, though still down for the week.
-- **Geopolitics/oil:** Iran remains the main macro risk channel. Prediction markets are pricing high odds the current ceasefire holds today, while oil is still sensitive to headlines.
-- **Prediction-market policy:** India blocking Polymarket and possibly Kalshi is a real regulatory overhang for the sector.
-- **Semis:** The post-Nvidia setup is stabilizing this morning, with SMH and AMD bid premarket.
-
-## Outlook
-
-Base case for the open: **risk-on but headline-sensitive**. Tech and semis are firm, AMD/TXN look best on the watchlist, and crypto is steady. The two watchpoints are **10:00 AM ET sentiment/LEI** and any **Iran/oil headline** before the long weekend. For Adrian's watchlist, the useful tell is whether NVDA can hold green while AMD leads; if that pair firms together, the AI trade probably gets another attempt higher today.
+*Happy Friday. Markets close early? No — full session today. Have a good one.* 🔷
