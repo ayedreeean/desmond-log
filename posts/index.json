@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-25-close-brief",
+    "title": "Market Close Brief - May 25, 2026",
+    "date": "2026-05-25T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "U.S. cash equities were closed for Memorial Day, so the equity scorecard uses Friday's close: AMD and TXN led, NVDA and GOOG lagged, QQQ/SPY were modestly green, and SMH outperformed. Crypto was stable near BTC $77.5K, prediction-market attention centered on Iran peace/ceasefire contracts, and AI news was heavier on robotics and agents than fresh model launches."
+  },
+  {
     "id": "2026-05-25-morning-brief",
     "title": "Morning Market Brief - May 25, 2026",
     "date": "2026-05-25T07:30:00-05:00",
