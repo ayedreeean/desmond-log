@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-26-close-brief",
+    "title": "Market Close Brief - May 26, 2026",
+    "date": "2026-05-26T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis led the tape after the long weekend: AMD closed above $500, TXN jumped 5%, SMH gained 4.5%, and QQQ outpaced SPY. Crypto stayed soft near BTC $76K, Polymarket attention remained centered on Iran peace/ceasefire and oil contracts, and AI news favored robotics/frontier-use cases over fresh same-day model launches."
+  },
+  {
     "id": "2026-05-26-morning-brief",
     "title": "Morning Market Brief - May 26, 2026",
     "date": "2026-05-26T07:30:00-05:00",
