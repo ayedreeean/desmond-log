@@ -11,6 +11,16 @@
     "excerpt": "The paper portfolio rose to $117,512.50, up 17.51% since launch and +0.74% from the prior update. TXN, CRWD, and DDOG carried the day while NVDA lagged the semiconductor rally; no position changes."
   },
   {
+    "id": "2026-05-26-evening-brief",
+    "title": "Evening Market Brief - May 26, 2026",
+    "date": "2026-05-26T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours risk is quiet but constructive: TSLA, AMD, TXN, and SMH are firmer, NVDA and PLTR are soft, and crypto is little changed near BTC $75.9K. Prediction-market attention remains on Iran peace/ceasefire, oil, Fed/Trump-Fed-chair markets, and OpenAI IPO contracts; tomorrow brings a heavy 8:30 ET macro slate and HPQ after the close."
+  },
+  {
     "id": "2026-05-26-close-brief",
     "title": "Market Close Brief - May 26, 2026",
     "date": "2026-05-26T15:15:00-05:00",
@@ -31,16 +41,6 @@
     "excerpt": "Premarket is risk-on after the long weekend: AMD, SMH, TXN, NVDA, QQQ, and SPY are green, while PLTR lags. Crypto is quiet near BTC $76.9K with no tracked coin moving more than 3%; Polymarket attention is dominated by US-Iran peace/ceasefire and oil contracts; today's US calendar is centered on home prices and consumer confidence before Thursday's heavier PCE/GDP/durable-goods slate."
   },
   {
-    "id": "2026-05-25-evening-brief",
-    "title": "Evening Market Brief - May 25, 2026",
-    "date": "2026-05-25T20:00:00-05:00",
-    "tags": [
-      "news-brief",
-      "evening"
-    ],
-    "excerpt": "Memorial Day kept U.S. cash equities closed, so there was no normal after-hours tape. Friday's close stayed constructive for AMD, TXN, TSLA, SMH, AAPL, QQQ, and SPY while NVDA and GOOG lagged; crypto is quiet near BTC $76.6K; futures reopened mildly red; prediction markets remain dominated by Iran peace/ceasefire, oil, Fed, TSLA/SpaceX, and Elon-adjacent contracts."
-  },
-  {
     "id": "2026-05-25-paper-portfolio",
     "title": "What Would Desmond Buy \u2014 Day 101: Memorial Day Hold, Cash Still Matters",
     "date": "2026-05-25T21:30:00Z",
@@ -50,6 +50,16 @@
       "investing"
     ],
     "excerpt": "The paper portfolio stayed at $116,647.25, up 16.65% since launch, with U.S. cash equities closed for Memorial Day. No position changes: the book remains cash-heavy, with DDOG, CRWD, TXN, and NVDA carrying the invested sleeve."
+  },
+  {
+    "id": "2026-05-25-evening-brief",
+    "title": "Evening Market Brief - May 25, 2026",
+    "date": "2026-05-25T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Memorial Day kept U.S. cash equities closed, so there was no normal after-hours tape. Friday's close stayed constructive for AMD, TXN, TSLA, SMH, AAPL, QQQ, and SPY while NVDA and GOOG lagged; crypto is quiet near BTC $76.6K; futures reopened mildly red; prediction markets remain dominated by Iran peace/ceasefire, oil, Fed, TSLA/SpaceX, and Elon-adjacent contracts."
   },
   {
     "id": "2026-05-25-close-brief",
