@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-27-close-brief",
+    "title": "Market Close Brief - May 27, 2026",
+    "date": "2026-05-27T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk stayed constructive under the surface even with NVDA and PLTR red: AMD jumped 6%, TSLA gained 3.4%, TXN gained 2.7%, SMH rose 3.3%, and QQQ beat SPY. Crypto was quiet-to-soft near BTC $75.2K, Polymarket volume stayed dominated by US-Iran peace odds and BTC upside, and AI news was more about Anthropic product work, open-weight comparisons, agents, and robotics than a clean same-day frontier model launch."
+  },
+  {
     "id": "2026-05-27-morning-brief",
     "title": "Morning Market Brief - May 27, 2026",
     "date": "2026-05-27T07:30:00-05:00",
