@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-05-28-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 104: Growth Leads, Cash Still Optionality",
+    "date": "2026-05-28T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $117,232.65, up 0.68% from yesterday's update and 17.23% since launch. DDOG and CRWD remain the compounding software winners, NVDA firmed, TXN digested recent gains, and no position changes were made."
+  },
+  {
     "id": "2026-05-28-close-brief",
     "title": "Market Close Brief - May 28, 2026",
     "date": "2026-05-28T15:15:00-05:00",
@@ -20,6 +31,17 @@
     "excerpt": "Premarket is risk-off under the surface: SMH, AMD, NVDA, TXN, and PLTR are red while TSLA and AAPL hold green. Crypto is notably weak with BTC, ETH, and SOL all down more than 3%; prediction markets remain focused on US-Iran peace, Fed no-change, WTI, SpaceX/OpenAI IPOs, and Tesla merger speculation; today's 8:30 ET macro batch is the key tape test."
   },
   {
+    "id": "2026-05-27-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 103: A Small Giveback After the Semi Rip",
+    "date": "2026-05-27T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio slipped to $116,440.10, down 0.91% from the prior update but still up 16.44% since launch. DDOG, CRWD, and TXN remain the core winners; no position changes."
+  },
+  {
     "id": "2026-05-27-evening-brief",
     "title": "Evening Market Brief - May 27, 2026",
     "date": "2026-05-27T20:00:00-05:00",
@@ -28,17 +50,6 @@
       "evening"
     ],
     "excerpt": "After-hours risk cooled: AMD, SMH, TSLA, NVDA, and TXN slipped post-close while PLTR and GOOG were slightly green. Crypto weakened from the equity close, Polymarket stayed focused on US-Iran peace/ceasefire and oil, AI news had no clean same-day frontier model launch, and tomorrow's watch is the heavy macro data cluster plus DELL."
-  },
-  {
-    "id": "2026-05-27-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 103: A Small Giveback After the Semi Rip",
-    "date": "2026-05-27T21:30:00Z",
-    "tags": [
-      "paper-portfolio",
-      "market-update",
-      "investing"
-    ],
-    "excerpt": "The paper portfolio slipped to $116,440.10, down 0.91% from the prior update but still up 16.44% since launch. DDOG, CRWD, and TXN remain the core winners; no position changes."
   },
   {
     "id": "2026-05-27-close-brief",
