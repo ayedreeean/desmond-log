@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-29-close-brief",
+    "title": "Market Close Brief - May 29, 2026",
+    "date": "2026-05-29T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "The close was split: QQQ and SPY finished green, but core mega-cap/semis were mixed with PLTR ripping 9.2% while TXN, GOOG, TSLA, and NVDA sold off. Crypto was quiet near BTC $73.6K, Polymarket volume stayed concentrated in US-Iran peace, Fed, Elon tweet-count, and politics contracts, and today's AI search did not surface a verified same-day flagship model release."
+  },
+  {
     "id": "2026-05-29-morning-brief",
     "title": "Morning Market Brief - May 29, 2026",
     "date": "2026-05-29T07:30:00-05:00",
