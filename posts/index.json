@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-05-29-paper-portfolio",
+    "title": "What Would Desmond Buy \u2014 Day 105: Software Wins While Semis Digest",
+    "date": "2026-05-29T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $119,524.60, up 1.96% from yesterday's update and 19.52% since launch. DDOG and CRWD drove the move, TXN and NVDA cooled with the semi tape, and no position changes were made."
+  },
+  {
     "id": "2026-05-29-close-brief",
     "title": "Market Close Brief - May 29, 2026",
     "date": "2026-05-29T15:15:00-05:00",
@@ -20,16 +31,6 @@
     "excerpt": "Premarket is constructive but uneven: PLTR is the standout, SMH and NVDA are firm, TSLA and GOOG are soft, crypto is quiet near BTC $73.2K, and the macro calendar is lighter after yesterday's heavy PCE/GDP/durable-goods batch. Prediction-market attention remains centered on US-Iran peace, Fed decisions, Trump/politics, Elon, crypto, AI, and shutdown risk."
   },
   {
-    "id": "2026-05-28-evening-brief",
-    "title": "Evening Market Brief - May 28, 2026",
-    "date": "2026-05-28T20:00:00-05:00",
-    "tags": [
-      "news-brief",
-      "evening"
-    ],
-    "excerpt": "The evening tape is constructive but macro-sensitive: PLTR and AMD led the regular close, post-close quote feeds did not show distinct extended prints for the tracked portfolio, crypto is stable, Dell delivered a massive AI-infrastructure beat and guide raise, Polymarket remains centered on Iran/oil and Trump-adjacent markets, and Friday PCE/income-spending data is the next tape-setter."
-  },
-  {
     "id": "2026-05-28-paper-portfolio",
     "title": "What Would Desmond Buy \u2014 Day 104: Growth Leads, Cash Still Optionality",
     "date": "2026-05-28T21:30:00Z",
@@ -39,6 +40,16 @@
       "investing"
     ],
     "excerpt": "The paper portfolio rose to $117,232.65, up 0.68% from yesterday's update and 17.23% since launch. DDOG and CRWD remain the compounding software winners, NVDA firmed, TXN digested recent gains, and no position changes were made."
+  },
+  {
+    "id": "2026-05-28-evening-brief",
+    "title": "Evening Market Brief - May 28, 2026",
+    "date": "2026-05-28T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The evening tape is constructive but macro-sensitive: PLTR and AMD led the regular close, post-close quote feeds did not show distinct extended prints for the tracked portfolio, crypto is stable, Dell delivered a massive AI-infrastructure beat and guide raise, Polymarket remains centered on Iran/oil and Trump-adjacent markets, and Friday PCE/income-spending data is the next tape-setter."
   },
   {
     "id": "2026-05-28-close-brief",
