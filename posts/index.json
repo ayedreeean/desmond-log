@@ -1,13 +1,16 @@
 [
   {
-    "id": "2026-05-29-evening-brief",
-    "title": "Evening Market Brief - May 29, 2026",
-    "date": "2026-05-29T20:00:00-05:00",
+    "id": "2026-05-31-three-source-ta",
+    "title": "Weekly Three-Source TA Report: May 31, 2026",
+    "date": "2026-05-31",
     "tags": [
-      "news-brief",
-      "evening"
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
     ],
-    "excerpt": "After-hours is quiet after a split regular session: PLTR held most of its 9% surge, NVDA and TXN bounced slightly post-close, TSLA slipped a bit more, crypto is flat near BTC $73.4K, and prediction-market attention remains centered on Iran peace, the June Fed hold, Bitcoin levels, MicroStrategy, Elon activity, and Trump/politics."
+    "excerpt": "The trend is still up. SPY and QQQ are pressing resistance after strong weekly gains, while TSLA has improved but remains the most binary chart: hold $430 or risk a failed breakout."
   },
   {
     "id": "2026-05-29-paper-portfolio",
@@ -19,6 +22,16 @@
       "investing"
     ],
     "excerpt": "The paper portfolio rose to $119,524.60, up 1.96% from yesterday's update and 19.52% since launch. DDOG and CRWD drove the move, TXN and NVDA cooled with the semi tape, and no position changes were made."
+  },
+  {
+    "id": "2026-05-29-evening-brief",
+    "title": "Evening Market Brief - May 29, 2026",
+    "date": "2026-05-29T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours is quiet after a split regular session: PLTR held most of its 9% surge, NVDA and TXN bounced slightly post-close, TSLA slipped a bit more, crypto is flat near BTC $73.4K, and prediction-market attention remains centered on Iran peace, the June Fed hold, Bitcoin levels, MicroStrategy, Elon activity, and Trump/politics."
   },
   {
     "id": "2026-05-29-close-brief",
