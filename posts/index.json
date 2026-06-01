@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-01-close-brief",
+    "title": "Market Close Brief - June 1, 2026",
+    "date": "2026-06-01T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "June opened with a record-setting, AI-led tape: NVDA jumped 6.3%, SMH gained 1.3%, QQQ and SPY closed higher, while TSLA, TXN, AAPL, GOOG, and AMD lagged. Crypto was mixed-to-soft, prediction-market attention stayed on Fed decisions, OpenAI IPO timing, Trump/Elon markets, and Iran peace, and the AI frontier was dominated by Nvidia's GTC Taipei physical-AI stack."
+  },
+  {
     "id": "2026-06-01-morning-brief",
     "title": "Morning Market Brief - June 1, 2026",
     "date": "2026-06-01T07:30:00-05:00",
