@@ -1,103 +1,100 @@
+# 🔷 Morning Market Brief — Friday, May 29, 2026
+
+*Compiled at 9:04 AM CT*
+
 ---
-title: "Morning Market Brief - May 29, 2026"
-date: "2026-05-29T07:30:00-05:00"
-tags: ["news-brief", "morning"]
-excerpt: "Premarket is constructive but uneven: PLTR is the standout, SMH and NVDA are firm, TSLA and GOOG are soft, crypto is quiet near BTC $73.2K, and the macro calendar is lighter after yesterday's heavy PCE/GDP/durable-goods batch. Prediction-market attention remains centered on US-Iran peace, Fed decisions, Trump/politics, Elon, crypto, AI, and shutdown risk."
+
+## 📈 Equities
+
+| Ticker | Price | Prev Close | Change | Notes |
+|--------|-------|-----------|--------|-------|
+| **TSLA** | $437.09 | $442.10 | **-1.1%** | Ranged $436–441; Tesla-SpaceX merger buzz continues |
+| **NVDA** | $216.34 | $214.28 | **+0.96%** | AH was $214.46; recouping from last week's pullback |
+| **QQQ** | $740.93 | ~$738 | **+0.4%** | New 52-week high at $741.61 today 🚀 |
+
+**QQQ hitting fresh all-time highs** heading into the long weekend. Tech leading with NVDA rebounding. TSLA pulling back slightly from yesterday's range.
+
+### TSLA Headlines
+- Tesla has only 42 unsupervised Robotaxis on the road in Texas vs. Waymo's 577
+- Tesla-SpaceX merger talk accelerating — Musk holds 85% voting power at SpaceX; early investors expect a tie-up post-SpaceX IPO
+- Stock up 30%+ since April lows, trading around $440 level
+
+### NVDA Headlines
+- Analysts asking: Can Nvidia's $1 trillion AI vision reignite the stock rally?
+- Consensus analyst target: $304.59 (41% upside from current)
+- FY2026 revenue was $215.9B (+65% YoY), earnings $120B (+65%)
+
 ---
 
-# Morning Market Brief - May 29, 2026
+## 🪙 Crypto
 
-Generated at 7:30 AM CT. Equity prices use live premarket/extended-hours quotes where available; crypto uses spot quotes. Prediction-market pages were checked directly, but Kalshi's public markets page returned a Vercel security checkpoint, so Kalshi color is limited to indexed market pages/API attempts rather than a clean homepage scan.
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | $73,066 | +0.23% |
+| **ETH** | $1,998 | +1.0% |
+| **SOL** | $81.35 | +1.3% |
 
-## Portfolio Watch
+Crypto mostly flat. BTC hovering just above $73K. ETH flirting with the $2K level again. SOL showing modest strength.
 
-| Ticker | Premarket / extended | Move vs Thu close | Note |
-| --- | ---: | ---: | --- |
-| TSLA | $439.27 | -0.6% | Soft premarket, no clear single-news catalyst from search. |
-| NVDA | $215.05 | +0.4% | Semis remain bid after the chip-led tape. |
-| TXN | $315.50 | -0.2% | Quiet, slightly red. |
-| PLTR | $147.47 | +2.9% | Standout core holding premarket. |
-| GOOG | $381.42 | -1.2% | Weakest megacap in the watchlist this morning. |
-| AAPL | $311.50 | -0.3% | Modestly soft. |
-| AMD | $519.98 | +0.4% | Still holding yesterday's strength. |
+---
 
-The portfolio setup is risk-on under the surface but not broad. PLTR is the meaningful mover, SMH is firm, and the software/semi side still looks better than TSLA/GOOG.
+## 🌍 Overnight Geopolitical News
 
-## Crypto Pulse
+### 🔴 US-Iran Ceasefire Deal Imminent
+VP Vance says US and Iran "very close" to a 60-day ceasefire MOU that would reopen the Strait of Hormuz and launch nuclear talks. Iran says it's ready to sign; Trump hasn't given final approval yet. Oil/energy implications if Hormuz reopens.
 
-| Asset | Price | Move |
-| --- | ---: | --- |
-| BTC | $73,205 | No >3% 24h move flagged by sources. |
-| ETH | $1,999 | No >3% 24h move flagged; still soft on the week per CoinDesk. |
-| SOL | $81.62 | No >3% 24h move flagged. |
+### 🔴 Russian Drone Hits NATO Member Romania
+A Russian attack drone crashed into an apartment building in Galati, eastern Romania this morning. Two injured. NATO condemned "Russia's recklessness." Major escalation — first strike on a NATO member's civilians.
 
-CoinDesk's overnight read was that BTC and ETH were little changed despite record stocks, falling oil, and easing war fears. Crypto is not driving the morning tape.
+### 🟡 Israel Expanding Gaza Control
+Netanyahu directing military to expand to 70% of Gaza (up from 53% per ceasefire, then 60%). Israel also cutting ties with UN Secretary General over sexual violence blacklist inclusion.
 
-## Prediction Markets
+### 🟡 China Military Buildup
+Satellite images show China building 80+ launch pads, bunkers, and comms nodes near its longest-range missile silos.
 
-Polymarket direct fetches show active market clusters in:
+### 🟡 EU Fines Temu $232M
+EU hit Chinese retailer Temu with Digital Services Act violation fine.
 
-- Fed: 20 active Fed markets with about $99.6M aggregate volume; the most active listed market is "Fed Decision in June?"
-- Trump/politics: 20 active Trump markets with about $482.0M aggregate volume; US-Iran peace timing is the dominant theme.
-- Elon: 162 active Elon markets with about $31.8M aggregate volume; current featured market is around Elon tweet counts for May 22-May 29.
-- Crypto: 20 active crypto markets with about $157.3M aggregate volume; active examples include "What price will Bitcoin hit in May?" and "Bitcoin Up or Down on May 29?"
-- AI: 20 active AI markets with about $52.3M aggregate volume; featured market is "Largest Company end of June?"
-- Government shutdown: 101 active markets with about $26.5M aggregate volume; shutdown/political-control pairings remain active.
+### 🟡 US Designates Brazilian Drug Gangs as Terrorist Groups
+Came after Bolsonaro's sons visited Trump at White House.
 
-Polymarket homepage also highlighted US-Iran permanent peace deal timing, with the December 31, 2026 contract shown around 78% Yes. I did not get reliable probability-shift history from the fetched pages, so I am treating these as high-volume/current-probability reads rather than confirmed overnight shifts.
+### 🟡 Guatemala Agrees to Joint US Military Strikes
+Targeting drug trafficking groups inside its territory; operations could start next month.
 
-## Indices
+---
 
-| ETF | Premarket / extended | Move vs Thu close |
-| --- | ---: | ---: |
-| QQQ | $736.38 | +0.1% |
-| SPY | $755.95 | +0.2% |
-| SMH | $604.77 | +0.8% |
+## 📊 Earnings This Week
 
-SMH is the clean leader. The tape is still tech/semi-led, while broad SPY is only modestly positive.
+### Already Reported (Wed 5/27 & Thu 5/28)
+Key names that reported this week:
+- **Best Buy (BBY)** — BMO Wed
+- **Costco (COST)** — AMC Wed
+- **Dell (DELL)** — AMC Wed
+- **Marvell (MRVL)** — AMC Wed (AI infrastructure bellwether)
+- **Zscaler (ZS)** — AMC Wed
+- **UiPath (PATH)** — AMC Wed
+- **Ulta Beauty (ULTA)** — AMC Wed
+- **Burlington (BURL)** — BMO Wed
+- **Kohl's (KSS)** — BMO Wed
+- **NetApp (NTAP)** — AMC Thu
 
-## Economic Calendar
+### Reporting Today (Fri 5/29)
+- **Brookfield Corporation (BN)** — BMO
 
-MarketWatch fetch returned a mostly script-heavy page, so I cross-checked Investing.com and Trading Economics. For today, the visible US item is:
+### Themes
+- 🛍️ Consumer Cyclical dominated this week (14 companies) — real-time read on spending health heading into summer
+- 💻 Tech after-hours Wed was the marquee event — AI infra spend, cybersecurity, enterprise software all in focus
+- 🏦 Canadian banks (RY, CIBC) offered cross-border credit/housing lens
 
-- FOMC member Neel Kashkari speaks.
+---
 
-Yesterday's heavier batch is now in the rear-view mirror: Core PCE MoM printed 0.2% vs 0.3% consensus, durable goods orders 7.9% vs 3.5% consensus, GDP growth 1.6% vs 2.0% consensus, personal income 0.0% vs 0.4% consensus, and personal spending 0.5% in line.
+## 🧠 Desmond's Take
 
-## AI Models & Releases
+Market vibes heading into the weekend are cautiously bullish. **QQQ at all-time highs** is the headline — tech continues to lead. The Iran ceasefire deal could be a catalyst either way depending on Trump's decision; a signed deal would likely be bullish for markets (oil down, risk-on). The Romania drone strike is alarming but markets seem to be shrugging off Russia-Ukraine escalation at this point.
 
-- Anthropic posted that Claude Opus 4.8 is live, describing sharper judgment, better honesty about progress, and improved ability to handle tough agentic work. Anthropic also announced a $65B Series H at a $965B post-money valuation and said run-rate revenue crossed $47B.
-- OpenAI posted "R&D Part 1: Here to Win" and recently highlighted Codex launches, including remote Mac app use from phone and advanced annotation mode. The notable research item remains OpenAI's claim that a model found a new construction for the planar unit distance problem.
-- Open-weight model coverage today is more roundup than a single clean launch. Search results continue to frame the May 2026 open-model stack around DeepSeek V4 Pro, Qwen 3.6/Qwen coder variants, Llama 4, Gemma 4, Kimi K2.6, and Mistral Large 3/Small 4. Reported open-model benchmarks in those roundups include Qwen3.6-27B at 77.2 SWE-bench Verified and DeepSeek V4 Pro at 80.6% SWE-bench Verified, but I would treat blog benchmark claims as directional until checked against original model cards.
+**Watch today:** Brookfield earnings BMO, and any Iran deal announcement over the weekend. TSLA's Robotaxi numbers vs Waymo narrative could be a headwind, but the SpaceX merger talk keeps the speculative premium alive.
 
-## AI Frontier (Use Cases)
+*Have a good Friday, Adrian.* 🔷
 
-- Humanoid robotics remains a live frontier theme. Fresh search surfaced May 2026 state-of-humanoid coverage across Tesla Optimus, Boston Dynamics, Figure AI, and embodied AI generally rather than a single overnight production milestone.
-- Agents remain the commercial wedge. OpenAI's Codex product work and Anthropic's agent-sandboxing engineering post both point to the same trend: more capable agents, but more emphasis on permissioning and controlled execution.
-- Scientific AI continues to matter: OpenAI's math result is the cleanest recent example of a frontier model producing novel research output rather than just productivity tooling.
-
-## Earnings Watch
-
-The @eWhispers bird pull returned no usable recent tweet text in this run. Web earnings calendars did not surface a clean single marquee report for today in the fetched snippets. The broader earnings watch remains post-DELL AI infrastructure read-through and any follow-through in storage/networking/enterprise hardware names.
-
-## Notable Tweets
-
-- @AnthropicAI: announced a $65B Series H at a $965B post-money valuation; said the funding supports research and capacity expansion for Claude demand.
-- @AnthropicAI: said run-rate revenue crossed $47B, driven by enterprise Claude deployments and everyday usage.
-- @AnthropicAI: amplified Claude Opus 4.8 launch messaging.
-- @OpenAI: posted "R&D Part 1: Here to Win."
-- @OpenAI: recent Codex thread highlighted remote Mac app use from phone and advanced annotation mode.
-- @realDonaldTrump: latest available bird pull showed older posts, including a May 22 video post and a May 19 Thomas Massie attack. No fresh overnight market-relevant post was captured.
-- @elonmusk, @MR_Derivatives, @levelsio, @karpathy, @aelluswamy, and @eWhispers: bird lookup ran, but the command returned no usable tweet bodies for this run.
-
-## News
-
-- US equity futures were slightly higher overnight as reports pointed to a tentative US-Iran deal/ceasefire extension; Bloomberg and TheStreet both flagged firmer Asian equities and lower oil.
-- Schwab's morning market update said the chip rally continued early, lifting tech, while oil dropped after Iran-related headlines.
-- Investing.com premarket movers flagged NetApp up about 18% after record fiscal Q4 results.
-- CoinDesk characterized crypto as little changed despite record stocks, falling oil, and easing war fears.
-
-## Outlook
-
-The morning bias is constructive but selective. Semis are still the leadership group, PLTR has the strongest single-stock setup in the core watchlist, and macro looks lighter today after yesterday's data dump. The main risk is headline-driven: Iran/oil, Fed-rate interpretation after PCE/GDP, and any AI/semi earnings read-through. I would watch SMH relative strength, PLTR follow-through above the premarket gap, and whether TSLA/GOOG weakness stays contained after the open.
-
+---
+*Data sources: Robinhood, CoinGecko, StockAnalysis, MacroTrends, Just Security, EverHint*

@@ -1,69 +1,85 @@
-# Morning Market Brief - Tuesday, May 26, 2026
+# 🔷 Morning Market Brief — Tuesday, May 26, 2026
 
-Published 7:30 AM CT.
+*Compiled 9:03 AM CT | Markets reopen after Memorial Day*
 
-## Portfolio Watch
+---
 
-Premarket is risk-on after the long weekend, led by semis and high-beta tech.
+## 📈 Equities — Pre-Market Snapshot
 
-| Ticker | Premarket | Move | Note |
-|---|---:|---:|---|
-| TSLA | $430.38 | +1.03% | Firm but not a standout; still below the Dec. 2025 52-week high near $498.83. |
-| NVDA | $218.19 | +1.33% | Rebounding after Friday's -1.90% close; AI/semis remain the tape leader. |
-| TXN | $316.00 | +2.20% | Strongest defensive/industrial semi move in the watchlist; fresh 52-week-high area. |
-| PLTR | $136.37 | -0.37% | Weak relative to the AI complex this morning. |
-| GOOG | $380.66 | +0.34% | Mild bounce after Friday's -1.07%. |
-| AAPL | $310.83 | +0.65% | Near 52-week highs; steady, not explosive. |
-| AMD | $482.19 | +3.14% | Clear watchlist leader; pushing above Friday's 52-week-high close area. |
+| Ticker | Pre-Market | Prev Close | Change |
+|--------|-----------|------------|--------|
+| **TSLA** | $430.30 | $426.01 | **+1.01%** ▲ |
+| **NVDA** | $216.56 | $215.33 | **+0.57%** ▲ |
+| **QQQ** | ~$719 | ~$718 | **+0.54%** ▲ (est. from futures) |
 
-## Crypto Pulse
+**S&P 500** closed at a record **7,473.47** on Friday — 8th consecutive weekly gain, longest streak since late 2023. Futures up **+0.54%** early Tuesday.
 
-BTC is $76,925 (-0.50% 24h), ETH is $2,114.35 (-0.07%), and SOL is $84.93 (-1.09%). No tracked coin is moving more than 3%, so this is a quiet crypto morning rather than a major signal.
+### Key Movers & Context
+- **TSLA** — FSD rollout continuing to expand globally (China launch + Lithuania last week). Stock rebounding above $400 after recent selling pressure. Robinhood showing range of $417-$431 over past session.
+- **NVDA** — Steady pre-market, trading $216-$218 range. Q1 FY2027 earnings coming June 12 — Wall Street watching for AI infrastructure demand signals. NVDA has been trending down from ~$223 levels last week.
+- **QQQ** — Nasdaq tracking broader risk-on sentiment. Fed rate hike fears creating some headwinds for tech (FedWatch showing 8.5% chance of July hike, up from 0.9% a month ago).
 
-## Prediction Markets
+---
 
-Kalshi's public markets page was blocked by a Vercel security checkpoint during fetch, so no reliable Kalshi quotes were available.
+## 🪙 Crypto
 
-Polymarket's public page is dominated by geopolitics and macro-adjacent contracts: US-Iran permanent peace deal by Dec. 31 at 81% with about $186M volume; July 31 version at 69%; US announcing a new Iran agreement or ceasefire extension by June 30 at 81% with about $7M volume; WTI crude May range contracts show $85 downside at 30% and $105 upside at 16% with about $30M volume. Texas GOP Senate primary shows Ken Paxton at 96% in a high-attention politics market.
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | ~$77,200 | rebounding |
+| **ETH** | $2,095 – $2,123 | -0.97% to +1.2% (sources vary) |
+| **SOL** | $85.49 | -0.55% |
 
-## Indices
+Crypto rebounding modestly. Senate moved to curb Trump's Iran war powers, which boosted risk assets including BTC. HYPE token hit ATH above $62 on strong ETF inflows, surpassing SOL in fully diluted valuation.
 
-| ETF | Premarket | Move | Read |
-|---|---:|---:|---|
-| QQQ | $725.71 | +1.14% | Nasdaq leadership remains intact. |
-| SPY | $751.01 | +0.72% | Broad risk bid, less aggressive than QQQ. |
-| SMH | $590.40 | +2.44% | Semis are leading again; aligns with AMD/TXN/NVDA strength. |
+---
 
-## Economic Calendar
+## 🌍 Geopolitical Overnight
 
-MarketWatch's calendar fetch returned mostly page script, but the cross-check points to today's key US releases as S&P Case-Shiller home prices and Conference Board consumer confidence for May. Bigger macro data lands later this week: core PCE, GDP, durable goods, jobless claims, and new home sales on Thursday.
+### 🔴 Iran/Middle East — Dominant Theme
+- **US and Israeli missile strikes on Iran and Lebanon** over the weekend are the top geopolitical catalyst this week
+- **Trump said Iran talks "proceeding nicely"** — markets interpreting this as progress toward a diplomatic resolution
+- **Oil dropped 5%+** in early trading on deal optimism (WTI crude falling sharply)
+- **Netanyahu reportedly admitted privately** that Israel has "little ability" to influence Trump on the Iran deal
+- **Iran has reportedly agreed to relinquish stockpile of highly enriched uranium** as part of a deal framework with the US
+- Safe haven flows into gold and commodities as hedges against escalation
+- XTB: "Market uncertainty is rising once again... global market attention will primarily shift toward geopolitics"
 
-## AI Models & Releases
+**Net read:** Markets are cautiously optimistic that a deal framework is emerging, but the simultaneous strikes + diplomacy is creating volatile two-way risk. Oil is the key barometer.
 
-No clearly confirmed major frontier LLM launch appeared in the last 24 hours. The model-release chatter is more about May's broader open-weight field than a fresh overnight drop: Kimi K2.6, DeepSeek V4, GLM-5.1, MiMo-V2.5-Pro, MiniMax-M2.7, Qwen3.6-27B, and Gemma 4 are being discussed as the current open/Apache/MIT shortlist, but the newest benchmark claims remain uneven and some are vendor-reported.
+---
 
-OpenAI's latest official tweets focused on Codex product updates from Friday and an AI-discovered construction for the planar unit distance problem. Anthropic highlighted Project Glasswing, saying partners found more than 10,000 high- or critical-severity vulnerabilities in essential software, plus Chris Olah's remarks at a Vatican AI ethics event. Karpathy's newest visible tweet says he has joined Anthropic.
+## 📊 Earnings Calendar — This Week (May 25-29)
 
-## AI Frontier (Use Cases)
+| Day | Notable Reports |
+|-----|----------------|
+| **Tue 5/26** | 151+ companies reporting (lighter day post-holiday) |
+| **Wed 5/27** | CPI inflation data 8:30 AM ET — major catalyst |
+| **Fri 5/30** | **Amazon (AMZN)** Q1 earnings — AWS revenue expected $28.2B (+18% YoY) |
 
-The useful frontier signal is still applications, not fresh model names: autonomous math discovery from OpenAI, AI-assisted vulnerability discovery from Anthropic's Glasswing work, and Karpathy's framing that AI output should move from raw text toward HTML, interactive visualizations, and eventually generated simulations. Robotics/world-model news did not surface as a major overnight market-moving item in the searched results.
+### Upcoming Big Tech:
+- **AMZN** — May 30 (cloud demand + operating leverage in focus)
+- **AAPL** — June 2 (pre-earnings de-risking underway, stock down ~1.8% in PM)
+- **NVDA** — June 12 (the big one — AI capex sustainability)
 
-## Earnings Watch
+*Big Tech earnings season is largely in the rearview (TSLA already reported) with AMZN and AAPL the remaining heavyweights this cycle.*
 
-Yahoo Finance shows 73 earnings reports scheduled today. Notable names from search and Earnings Whispers: AutoZone (AZO) before the open, Zscaler (ZS) after the close, Agora (API), Digital Turbine (APPS), and Freightos (CRGO). Earnings Whispers' recent feed also flagged HPQ reporting after the close on Wednesday.
+---
 
-## Notable Tweets
+## 📅 Economic Data Today
+- **10:00 AM ET** — S&P/Case-Shiller Home Price Index (March)
+- **11:00 AM ET** — Conference Board Consumer Confidence (May) — consensus 92 vs prior 92.8
+- **11:30 AM ET** — Dallas Fed Manufacturing Index (May)
 
-- @karpathy: announced he has joined Anthropic and is returning to frontier LLM R&D while planning to resume education work later.
-- @AnthropicAI: Project Glasswing update says AI-assisted cybersecurity work found 10,000+ high/critical vulnerabilities in essential software.
-- @OpenAI: highlighted Codex Thursday features and the autonomous solution of a prominent planar unit distance problem.
-- @eWhispers: flagged HPQ as a Wednesday after-close report.
-- Bird returned account lookup/fetch messages but no visible recent tweet bodies for @realdonaldtrump, @elonmusk, @MR_Derivatives, @levelsio, or @aelluswamy in this run.
+---
 
-## News
+## 🧭 Desmond's Take
 
-The overnight setup is constructive: QQQ, SPY, and especially SMH are green premarket; AMD, TXN, and NVDA are carrying the tech watchlist. Prediction-market attention is heavily concentrated in US-Iran peace/ceasefire contracts and oil ranges, which matters for risk appetite and inflation expectations. The macro calendar is light today but becomes more important Thursday with PCE/GDP/durable goods.
+Solid setup going into the week. S&P at record highs, 8-week win streak, and the Iran situation is actually being received as potentially bullish (oil down = lower inflation pressure). The CPI data Wednesday is the real make-or-break for the week — a hot print could quickly reverse the risk-on mood, especially with Fed rate *hike* probabilities creeping up.
 
-## Outlook
+**Watch list:** Oil prices (Iran barometer), Wednesday CPI, AMZN Friday, and NVDA setup into June 12 earnings.
 
-Bias is positive into the open, with semis leading and crypto quiet. Watch whether AMD's +3% premarket strength and SMH's +2.4% gap hold after the first 30 minutes. For Adrian's core tape, the cleanest signal is still AI/semi breadth: AMD/TXN/NVDA up together is constructive; PLTR lagging is the main soft spot.
+**For Adrian's portfolio:** TSLA holding up well above $425, NVDA consolidating in the $215-220 range pre-earnings. Both in wait-and-see mode. QQQ/SPY riding the streak.
+
+---
+
+*Sources: StockAnalysis, Robinhood, Public.com, Investing.com, CoinMarketCap, CoinGecko, Bybit, Benzinga, XTB, Kiplinger, Investopedia*
