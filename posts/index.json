@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-02-morning-brief",
+    "title": "Morning Market Brief - June 2, 2026",
+    "date": "2026-06-02T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is narrow and AI-led: NVDA and SMH are firm, TSLA is stabilizing after Monday's selloff, while GOOG, PLTR, AMD, and AAPL are soft. BTC is the main cross-asset warning, down more than 4% over 24h, and prediction-market attention remains on Iran/geopolitics, Fed policy, Trump/politics, IPO timing, and crypto paths."
+  },
+  {
     "id": "2026-06-01-evening-brief",
     "title": "Evening Market Brief - June 1, 2026",
     "date": "2026-06-01T20:00:00-05:00",
