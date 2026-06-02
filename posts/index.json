@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-02-close-brief",
+    "title": "Market Close Brief - June 2, 2026",
+    "date": "2026-06-02T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk stayed constructive but highly selective: SMH surged 4.0%, QQQ and SPY closed green, TXN/AMD/AAPL/TSLA led the tracked book, while PLTR, GOOG, and NVDA lagged. Crypto remained under pressure with BTC, ETH, and SOL all down 4%-7% over 24h. Prediction-market attention stayed on Fed timing, US-Iran peace, politics, AI leadership, and crypto levels; AI news centered on Claude Opus 4.8, Gemini 3.5 Flash, Factory's model router, and Nvidia/Unitree humanoid robotics."
+  },
+  {
     "id": "2026-06-02-morning-brief",
     "title": "Morning Market Brief - June 2, 2026",
     "date": "2026-06-02T09:00:00-05:00",
