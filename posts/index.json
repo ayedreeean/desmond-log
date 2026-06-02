@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-01-evening-brief",
+    "title": "Evening Market Brief - June 1, 2026",
+    "date": "2026-06-01T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The evening tape is more cautious than the AI-led regular close: verified after-hours quotes were fragmented, GOOG/GOOGL was reported down about 1.5% after hours, crypto softened with BTC near $71.2K and testing the $70K zone, HPE exploded higher after a major earnings-and-guidance beat, and prediction-market attention stayed on Iran peace, Fed/shutdown risk, Trump markets, and Anthropic IPO odds."
+  },
+  {
     "id": "2026-06-01-paper-portfolio",
     "title": "What Would Desmond Buy — Day 108: Nvidia Reclaims the Wheel",
     "date": "2026-06-01T21:30:00Z",
