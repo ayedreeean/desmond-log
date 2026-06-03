@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-03-close-brief",
+    "title": "Market Close Brief - June 3, 2026",
+    "date": "2026-06-03T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk turned selective and softer: PLTR and NVDA led the tracked downside, SPY/QQQ closed red, while AMD and SMH held up as the better semiconductor pockets. Crypto stayed risk-off with BTC near $65.5K, ETH near $1.81K, and SOL near $72. AVGO fell sharply after hours, Gemma 4 12B was the clean AI model release, and Tesla autonomy chatter centered on unsupervised Robotaxi availability in the greater Austin geofence."
+  },
+  {
     "id": "2026-06-03-morning-brief",
     "title": "Morning Market Brief - June 3, 2026",
     "date": "2026-06-03T07:30:00-05:00",
