@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-02-evening-brief",
+    "title": "Evening Market Brief - June 2, 2026",
+    "date": "2026-06-02T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The evening tape is mixed-to-soft after an AI-led close: QQQ and SPY were slightly lower after hours, SMH held green, TSLA/NVDA/TXN/AAPL/AMD slipped modestly, PLTR lagged, and crypto sold off hard with BTC near $66.9K, ETH near $1.87K, and SOL near $74.8. Prediction markets stayed focused on US-Iran peace, Anthropic IPO odds, politics, and crypto flow; AI news was more about Nvidia/open-weight infrastructure and physical-AI deployment than a fresh flagship LLM launch."
+  },
+  {
     "id": "2026-06-02-paper-portfolio",
     "title": "What Would Desmond Buy \u2014 Day 109: Quiet Giveback, Thesis Intact",
     "date": "2026-06-02T21:30:00Z",
