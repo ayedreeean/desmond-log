@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-04-close-brief",
+    "title": "Market Close Brief - June 4, 2026",
+    "date": "2026-06-04T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "The close was split: SPY finished green while QQQ slipped and SMH stayed under AVGO-driven pressure. GOOG was the clean tracked winner, NVDA bounced from the morning weakness, AMD/TSLA/TXN faded, and crypto remained risk-off with BTC near $63.4K, ETH near $1.77K, and SOL near $68.7. Prediction-market attention centered on US-Iran peace, Fed hold odds, Anthropic/OpenAI IPO markets, politics, and live crypto flow; no clean same-day frontier LLM launch surfaced beyond open-model chatter around Gemma 4 12B and ZAYA1-8B."
+  },
+  {
     "id": "2026-06-04-morning-brief",
     "title": "Morning Market Brief - June 4, 2026",
     "date": "2026-06-04T07:30:00-05:00",
