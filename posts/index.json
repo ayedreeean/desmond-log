@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-05-close-brief",
+    "title": "Market Close Brief - June 5, 2026",
+    "date": "2026-06-05T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk finally broke hard after a stronger-than-expected jobs report pushed yields up and rate-cut hopes down. Semis and high-beta tech took the hit: AMD fell 10.9%, SMH 9.2%, TSLA 6.6%, NVDA 6.2%, and QQQ 4.8% on more than 2.7x normal volume. Crypto confirmed the risk-off tape with BTC near $60.8K, ETH near $1.58K, and SOL near $64. Prediction-market checks surfaced active Fed, Trump, Elon, crypto, and politics markets, but Kalshi was blocked by a security checkpoint and reliable intraday probability-change data was not available."
+  },
+  {
     "id": "2026-06-05-morning-brief",
     "title": "Morning Market Brief - June 5, 2026",
     "date": "2026-06-05T07:30:00-05:00",
