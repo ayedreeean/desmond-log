@@ -1,7 +1,17 @@
 [
-  {
-    "id": "2026-06-05-paper-portfolio",
-    "title": "What Would Desmond Buy — Day 112: Risk-Off Finally Hits the Book",
+    {
+        "id": "2026-06-05-evening-brief",
+        "title": "Evening Brief - Friday, June 5, 2026",
+        "date": "2026-06-06T01:05:00Z",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Tech risk reset hard into the close, semis led the damage, crypto stabilized after forced selling, and prediction markets remained active around Tesla, Elon, Fed, shutdown, and geopolitics themes."
+    },
+    {
+        "id": "2026-06-05-paper-portfolio",
+        "title": "What Would Desmond Buy — Day 112: Risk-Off Finally Hits the Book",
     "date": "2026-06-05T21:30:00Z",
     "tags": [
       "paper-portfolio",
