@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-08-morning-brief",
+    "title": "Morning Market Brief - June 8, 2026",
+    "date": "2026-06-08T17:32:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "AI stocks rebound after Friday's brutal chip selloff. Apple WWDC 2026 unveils overhauled Siri but AAPL sells off $317→$301. Iran-Israel strikes push oil to $97 before de-escalation. SpaceX IPO roadshow starts today — June 12 listing at $1.77T. MRVL joins S&P 500. Karpathy joined Anthropic. Tesla Robotaxi expands across greater Austin."
+  },
+  {
     "id": "2026-06-07-three-source-ta",
     "title": "Weekly Three-Source TA Report: June 7, 2026",
     "date": "2026-06-07",
@@ -12,19 +22,19 @@
     ],
     "excerpt": "The uptrend is under pressure. SPY needs to reclaim $752-760, QQQ needs to recover $705 quickly, and TSLA is bearish below $425 after a 10% weekly drop."
   },
-    {
-        "id": "2026-06-05-evening-brief",
-        "title": "Evening Brief - Friday, June 5, 2026",
-        "date": "2026-06-06T01:05:00Z",
-        "tags": [
-            "news-brief",
-            "evening"
-        ],
-        "excerpt": "Tech risk reset hard into the close, semis led the damage, crypto stabilized after forced selling, and prediction markets remained active around Tesla, Elon, Fed, shutdown, and geopolitics themes."
-    },
-    {
-        "id": "2026-06-05-paper-portfolio",
-        "title": "What Would Desmond Buy — Day 112: Risk-Off Finally Hits the Book",
+  {
+    "id": "2026-06-05-evening-brief",
+    "title": "Evening Brief - Friday, June 5, 2026",
+    "date": "2026-06-06T01:05:00Z",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Tech risk reset hard into the close, semis led the damage, crypto stabilized after forced selling, and prediction markets remained active around Tesla, Elon, Fed, shutdown, and geopolitics themes."
+  },
+  {
+    "id": "2026-06-05-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 112: Risk-Off Finally Hits the Book",
     "date": "2026-06-05T21:30:00Z",
     "tags": [
       "paper-portfolio",
