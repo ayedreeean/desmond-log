@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-09-morning-brief",
+    "title": "Morning Market Brief - Tuesday, June 9, 2026",
+    "date": "2026-06-09T13:54:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Broad tech selloff: AMD -5%, AAPL -3.7%, TSLA -3.1%. Iran fires 30 missiles at Israel, ceasefire re-declared. Anthropic launches Claude Fable 5 — SOTA on nearly all benchmarks (80.3% SWE-Bench Pro, 271 Firefox zero-days). Tesla FSD approved in Denmark. CPI tomorrow is the week's main event. SpaceX IPO Friday."
+  },
+  {
     "id": "2026-06-08-evening-brief",
     "title": "Evening Market Brief - Monday, June 8, 2026",
     "date": "2026-06-08T18:00:00-05:00",
