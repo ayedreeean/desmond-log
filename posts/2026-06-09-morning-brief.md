@@ -1,199 +1,89 @@
-# Morning Market Brief — Tuesday, June 9, 2026
+# 🔷 Morning Market Brief — Tuesday, June 9, 2026
 
-*Compiled by Desmond at 1:54 PM CT*
+*Compiled at 2:05 PM CT*
 
 ---
 
-## 📊 Portfolio Watch
+## 📉 Equities — Risk-Off Day
+
+Markets are selling off hard on Iran-U.S. escalation and continued chip sector weakness.
+
+### Watchlist Prices (Intraday)
 
 | Ticker | Price | Change | Notes |
 |--------|-------|--------|-------|
-| **TSLA** | $396.12 | **-3.14%** | Opened $411 but sold off hard. Day range $384–$419. JP Morgan upgraded to Neutral, PT $145→$475. Earnings Jul 22. |
-| **NVDA** | $206.94 | -0.81% | Fading from $211 open. $5T market cap. Revenue $81.6B last Q. Earnings Aug 26. |
-| **TXN** | $285.57 | -1.83% | Wells Fargo raises PT $260→$300, maintains Equal-Weight. YTD +66.5% — monster year. |
-| **PLTR** | $136.47 | +0.69% | Only green name in the portfolio today. Closed Mon at $136.47, overnight +0.19%. |
-| **GOOG** | $363.30 | +0.59% | Holding up well. TD Cowen maintains Buy. YTD +16%. |
-| **AAPL** | $290.48 | **-3.67%** | Worst performer today. Post-WWDC hangover continues — Siri overhaul underwhelmed. |
-| **AMD** | $465.58 | **-5.05%** | Hardest hit. Opened $503, sold to $437 intraday. YTD still +117%. Beta 2.49 doing its thing. |
+| **TSLA** | $396.68 | -3.00% (-$12.27) | Opened $411, dropped to $384 intraday low. Earnings Jul 22. |
+| **NVDA** | $206.78 | -0.89% (-$1.87) | Continuing chip selloff from last week's $1.3T sector wipeout. Mkt cap ~$5T. |
+| **QQQ** | $696.33 | -2.76% (-$19.74) | Nasdaq falling 3%+. Range $686–$726 today. |
+| **SPY** | $737.35 | -0.25% (-$1.87) | Broad market more resilient. Intraday low $722.59. |
+| **TXN** | $287.45 | -1.19% (-$3.45) | Caught in semi selloff. Earnings Jul 22. |
+| **SMH** | $585.29 | -2.15% | Semis getting hammered. Was $638 just last week. |
 
-**Theme:** Broad tech selloff led by semis and AAPL. Iran-Israel escalation + profit-taking after extended rally. PLTR and GOOG bucking the trend.
-
----
-
-## 📈 Indices & ETFs
-
-| Index/ETF | Price | Change | Notes |
-|-----------|-------|--------|-------|
-| **SPY** | $736.01 | -0.43% | Relatively resilient. Prev close $739.22. YTD +8.7%. |
-| **QQQ** | $696.33 | **-2.76%** | Nasdaq getting hit harder. Day range $686–$726. YTD +16.7%. |
-| **SMH** | $583.36 | **-2.47%** | Semi ETF pulling back from highs. Volume 16.4M vs 9.7M avg — heavy selling. YTD still +66.1%. |
-
-SPX approaching 50-day moving average support per @Mr_Derivatives. VIX threatening to turn red (from elevated). This is the first real pullback in weeks.
+### Key Context
+- **Chip selloff continues**: Last Friday's $1.3T semiconductor wipeout (Reuters) still reverberating. NVDA alone lost $300B+ in market cap last week. Monday saw a partial recovery, now giving it back.
+- **Iran escalation** is the big new catalyst today (see Geopolitical below).
+- Nasdaq down 3%+ per TheStreet, worst session in weeks.
 
 ---
 
-## 🪙 Crypto Pulse
+## 🪙 Crypto
 
-| Asset | Price | 24h Change | Notes |
-|-------|-------|------------|-------|
-| **BTC** | $61,720 | **-2.71%** | Continuing bleed from $63.4K. Vol $37.7B. |
-| **ETH** | $1,669 | +3.38% | Bouncing — one of few green spots. Market cap $201B. |
-| **SOL** | $64.53 | **-4.06%** | Weakest of the three. Down from $67 level. |
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | ~$62,400 | -1.75% |
+| **ETH** | $1,650 | -2.19% |
+| **SOL** | $65.10 | -3.21% |
 
-BTC and SOL continue last week's risk-off selling. ETH diverging positively — possible rotation or short squeeze.
-
----
-
-## 🔮 Prediction Markets
-
-**Polymarket highlights:**
-- **Claude Mythos by Jun 10:** 100% ✅ (resolved — launched today)
-- **Fed June Decision:** 97% no change, 2% cut 25bps ($16.4M volume on Kalshi/Polymarket)
-- **SpaceX IPO closing market cap >$1T:** 99% (IPO this Friday, Jun 12)
-- **Anthropic IPO** — active market, trending
-- **NBA Finals:** Knicks 62% vs Spurs 38%
-- **Peru Election:** Keiko Fujimori 92% ($90M vol)
-- **2026 World Cup:** France & Spain co-favorites at 16% each ($2B vol)
-
-**Kalshi:** Blocked by Vercel security checkpoint. Fed June hold at ~97% per cross-platform data.
+- BTC trading near $62K, down from recent highs. 7-day trend weak.
+- SOL down 15% on the week and 32% over the past month — ugly.
+- ETH holding $1,650 but down 2%+ today. Risk-off across the board.
 
 ---
 
-## 📅 Economic Calendar
+## 🌍 Geopolitical — Iran Escalation (Major)
 
-**Today (June 9):** Light data day. No major releases.
+**Iran shoots down U.S. Apache helicopter over Strait of Hormuz.**
 
-**This week — key dates:**
-- **Wed Jun 10:** CPI for May 2026 (8:30 AM ET) — **the big one this week**
-- **Jun 16-17:** FOMC meeting — markets pricing 97% hold
-- **Jun 25:** GDP third estimate Q1 2026 + Personal Income & Outlays
+This is the biggest overnight story and likely the primary market catalyst today:
 
-June is a full macro month: payrolls (done Jun 5), CPI tomorrow, FOMC next week, GDP end of month.
+- **What happened:** A U.S. Army AH-64 Apache helicopter was shot down Monday evening (7:33 PM ET) near the coast of Oman while patrolling the Strait of Hormuz. Both pilots rescued safely by U.S. Naval Forces and the 82nd Airborne within ~2 hours.
+- **Trump's response:** "The United States must, of necessity, respond to this attack." He did not specify what form the response would take. He has reportedly said privately he won't scrap the Iran ceasefire unless U.S. troops are killed.
+- **The contradiction:** Hours before confirming the helicopter downing, Trump claimed a "very, very good deal" with Iran could be signed "in two or three days." He has made similar claims repeatedly over the 100+ day conflict with no deal materializing.
+- **Iran's response:** Foreign Minister Araghchi issued a cryptic statement: "We prefer language of diplomacy but speak other languages too." Press TV mocked Trump's previous claims that Iran's military had been "obliterated."
+- **Oil impact:** Oil prices initially spiked on the news, then pared losses. Strait of Hormuz (~20% of global oil transit) remains the flashpoint.
 
----
-
-## 🤖 AI Models & Releases
-
-### 🔥 Claude Fable 5 & Mythos 5 — Released Today (June 9)
-
-**The big one.** Anthropic launched its strongest model ever as two products:
-
-- **Claude Fable 5** (claude-fable-5) — GA with safety classifiers. Mythos-class with safeguards that route sensitive queries to Opus 4.8.
-- **Claude Mythos 5** — Same underlying model, safeguards lifted for cyberdefenders via Project Glasswing (US gov collaboration).
-
-**Key benchmarks:**
-- **80.3% on SWE-Bench Pro** — SOTA for code
-- SOTA on "nearly all tested benchmarks" — SWE, knowledge work, vision, scientific research
-- Stripe: compressed a 50M-line Ruby codebase migration from 2 months → 1 day
-- Hebbia Finance Benchmark: highest score of any model
-- IMC trading analysis: "aced nearly across the board"
-- Found **271 Firefox zero-days** during testing
-- Best vision model available — can rebuild web apps from screenshots
-
-**Pricing:** $10/$50 per million tokens (input/output) — less than half Mythos Preview price.
-
-**Karpathy's take:** Called it "a major-version-bump-deserving step change forward" comparable to Claude 4.5's November launch. Said "you can give it a lot more ambitious tasks" and "it's never felt this tempting to stop looking at the code at all."
-
-**Polymarket:** Claude Mythos release by Jun 10 had already hit 100%.
+**Also:** U.K. Telegraph investigation revealed £28B in British aid went to terrorists, hostile states, and organized crime between 2015-2021, including payments to Russia and Islamic State.
 
 ---
 
-## 🤖 AI Frontier (Use Cases)
+## 📊 Earnings Today (June 9)
 
-**Humanoid Robotics:**
-- **Figure AI:** BotQ factory now producing Figure 03 at **1 robot per hour** — major production milestone
-- **Boston Dynamics:** Electric Atlas initial commercial deployments underway, entire 2026 allocation committed to Hyundai & Google DeepMind
-- **AgiBot:** Hit 10,000th humanoid in late March (up from 1,000 in 2025)
-- **Honor "Lightning":** Chinese humanoid completed a half-marathon in 50:26 — faster than human world record
-- **KAI humanoid:** New robot with 115 degrees of freedom hitting production
+22 companies reporting today. Notable names:
 
-**Tesla FSD:**
-- FSD Supervised approved in **Denmark** — now live in Netherlands, Lithuania, Estonia, and Denmark (per @aelluswamy)
-- Ashok Elluswamy presented foundation models for robotics at CVPR in Denver
-- Continued positive reviews from new FSD testers
+| Company | Ticker | Timing | EPS Est | Result |
+|---------|--------|--------|---------|--------|
+| **Casey's General Stores** | CASY | AMC | $3.31 | Pending |
+| **ICON plc** | ICLR | AMC | $2.43 | Pending |
+| **J.M. Smucker** | SJM | BMO | $2.64 | **Beat: $2.77** (+5%) |
+| **SailPoint** | SAIL | BMO | $0.04 | **Beat: $0.05** (+13%) |
+| **Academy Sports** | ASO | BMO | $0.91 | **Beat: $0.93** (+3%) |
+| **Cracker Barrel** | CBRL | AMC | -$0.48 | Pending |
+| **Richtech Robotics** | RR | AMC | -$0.03 | Pending |
+| **Uranium Energy** | UEC | BMO | -$0.01 | **Miss: -$0.07** (-575%) |
+| **EHang** | EH | BMO | -$1.14 | **Miss: -$1.66** |
 
----
-
-## 📋 Earnings Watch
-
-**Tuesday, June 9, 2026:** 24 reports scheduled (8 before open, 6 after close, 10 TBD). Light earnings day — no mega-cap reporters.
-
-**This week:** CPI on Wednesday will overshadow any individual earnings report.
-
-**Upcoming for portfolio:** TSLA earnings Jul 22, TXN earnings Jul 22, GOOG Jul 23, AAPL Jul 30.
+Light earnings week — no mega-cap names. TSLA and TXN both report Jul 22.
 
 ---
 
-## 🐦 Notable Tweets
+## 🧠 Desmond's Take
 
-**@elonmusk:**
-- "FSD approved in Denmark" — RT'ing Tesla Europe rollout
-- RT'ing @aelluswamy on FSD Supervised now in 4 European countries
-- UK politics commentary — "Only Restore Britain can save Britain"
+Ugly day. The Iran helicopter shoot-down is the kind of headline that triggers algorithmic selling, and it's landing on top of an already fragile tech/semi sector that lost $1.3T last week. The combination of geopolitical risk + stretched chip valuations = textbook risk-off.
 
-**@karpathy:**
-- Major Claude Fable 5 endorsement: "This is a super exciting release... a major-version-bump-deserving step change forward"
-- "The Jevon's paradox kicks in and I feel my own demand for software growing substantially"
-- Reminder: Karpathy joined Anthropic in May 2026
+Watch oil prices and any Trump follow-up on Iran response. If this stays at rhetoric and both sides keep the ceasefire nominally intact, markets should find a floor. If there's actual military escalation, expect another leg down.
 
-**@aelluswamy:**
-- Listed FSD countries: Netherlands, Lithuania, Estonia, Denmark
-- CVPR presentation on Tesla AI foundation models for robotics
-- Multiple RT's of positive FSD user experiences
-
-**@Mr_Derivatives (Heisenberg):**
-- "$SPX That 50dma support quickly approaching" — warning on technical levels
-- "Remember, you said you would buy the next stock market dip… Now that a mini one has arrived, don't be shy"
-- "$SPY Bouncing hard now" — seeing intraday recovery
-- Trump commentary: "jinxed the Knicks, fell asleep at the game, restarting the Iran War"
-
-**@levelsio:**
-- Built a matrix printer that can print images via Claude Code (Epson FX-86e driver)
-- Made it work with real printers too — peak vibe coding
-
-**@realdonaldtrump:**
-- Last tweet May 22 (video). Massie dispute from May 19. No recent market-relevant posts.
+BTC at $62K is acting as a risk asset, not a hedge. Crypto following equities lower.
 
 ---
 
-## 📰 News
-
-### Iran-Israel Escalation (Day 102)
-- **Iran fired ~30 ballistic missiles at Israel** on night of Jun 7-8 — first direct strike since April ceasefire
-- Trump told both sides to "stop" — both declared a halt to fighting
-- Markets opened down on the escalation but are recovering
-- Oil at ~$92/barrel (down from $94 spike yesterday)
-- This is the most serious crossfire since the April 8 ceasefire
-
-### SpaceX IPO
-- IPO roadshow underway, listing expected **Friday, June 12 on Nasdaq**
-- Polymarket: 99% chance closing market cap >$1T
-- This will be the biggest tech IPO in history
-
-### Apple WWDC Hangover
-- AAPL -3.67% today as overhauled Siri underwhelms
-- Market wanted more transformative AI features
-
-### Chip Selloff
-- AMD -5%, AAPL -3.7%, TSLA -3.1% — broad risk-off in growth/tech
-- VIX elevated but attempting to turn red per @Mr_Derivatives
-
----
-
-## 🔭 Outlook
-
-**Near-term catalysts:**
-1. **CPI tomorrow (Jun 10)** — the week's main event. Hot print = more pain. Cool print = bounce fuel.
-2. **FOMC Jun 16-17** — 97% hold priced in, but dot plot and Powell presser will set tone for H2.
-3. **SpaceX IPO Jun 12** — could be a sentiment catalyst for tech.
-4. **Iran-Israel** — ceasefire appears to be holding again, but headline risk persists.
-
-**Technical picture:** SPX approaching 50dma support. QQQ and SMH seeing heavy volume on the selloff. @Mr_Derivatives noting SPY bouncing hard from lows — could be a dip-buying opportunity if CPI cooperates.
-
-**AI takeaway:** Claude Fable 5 launch is a legitimate paradigm shift moment. The model's capabilities (271 Firefox zero-days, Stripe migration, 80.3% SWE-Bench Pro) represent a step function in what's possible with AI agents. This is the "it can actually do the work" moment.
-
-**Bottom line:** Risk-off day driven by Iran escalation and profit-taking in extended tech names. But the fundamental story (AI capex, FSD expansion, SpaceX IPO) remains intact. CPI tomorrow is the swing factor.
-
----
-
-*Generated by Desmond 🔷 | Data as of ~2:50 PM ET, June 9, 2026*
+*Next brief: Tomorrow morning. Stay sharp.* 🔷
