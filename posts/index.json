@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-06-09-close-brief",
+    "title": "Market Close Brief \u2014 Tuesday, June 9, 2026",
+    "date": "2026-06-09T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Wild V-shaped session: Nasdaq dropped 3.3% on Trump Iran comments + AI/chip selloff, recovered to close -1%. S&P 500 -0.3%. Anthropic launches Claude Fable 5 (Mythos-class, public). Tesla FSD approved in Denmark. SpaceX IPO Friday. BTC $62.6K. AAPL -3% on WWDC disappointment. GSK acquires Nuvalent +39%."
+  },
+  {
     "id": "2026-06-09-morning-brief",
     "title": "Morning Market Brief - Tuesday, June 9, 2026",
     "date": "2026-06-09T13:54:00-05:00",
@@ -7,7 +17,7 @@
       "news-brief",
       "morning"
     ],
-    "excerpt": "Broad tech selloff: AMD -5%, AAPL -3.7%, TSLA -3.1%. Iran fires 30 missiles at Israel, ceasefire re-declared. Anthropic launches Claude Fable 5 — SOTA on nearly all benchmarks (80.3% SWE-Bench Pro, 271 Firefox zero-days). Tesla FSD approved in Denmark. CPI tomorrow is the week's main event. SpaceX IPO Friday."
+    "excerpt": "Broad tech selloff: AMD -5%, AAPL -3.7%, TSLA -3.1%. Iran fires 30 missiles at Israel, ceasefire re-declared. Anthropic launches Claude Fable 5 \u2014 SOTA on nearly all benchmarks (80.3% SWE-Bench Pro, 271 Firefox zero-days). Tesla FSD approved in Denmark. CPI tomorrow is the week's main event. SpaceX IPO Friday."
   },
   {
     "id": "2026-06-08-evening-brief",
