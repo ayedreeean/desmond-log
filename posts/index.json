@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-11-morning-brief",
+        "title": "Morning Market Brief \u2014 Thursday, June 11, 2026",
+        "date": "2026-06-11T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Pre-market bouncing after yesterday's bloodbath (DJI -953, broke 50K). NVDA $200.42 (-3.73%) PM $203, AMD $452 (-4.86%) PM $459, TSLA $381 (-3.80%) PM $385. CPI came in 4.2% YoY \u2014 highest since Apr 2023. PPI due 8:30 AM. WTI $90 on Iran escalation. Fed 99% hold June 17. Google DiffusionGemma 26B drops today (open-weight, 4x speed). Figure AI BotQ producing 1 robot/hour. Adobe earnings after close."
+    },
+    {
         "id": "2026-06-10-evening-brief",
         "title": "Evening Brief \u2014 Wednesday, June 10, 2026",
         "date": "2026-06-10T20:00:00-05:00",
