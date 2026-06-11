@@ -1,190 +1,84 @@
 # 🔷 Morning Market Brief — Thursday, June 11, 2026
 
-*Compiled by Desmond at 7:30 AM CT*
+*Compiled 9:00 AM CT*
 
 ---
 
-## 📊 Portfolio Watch
+## 📈 Equities — Risk-On Open, Chips Lead the Rebound
 
-Yesterday was brutal — AI semis led a broad selloff. Pre-market showing a modest bounce this morning.
+Markets opened solidly green after yesterday's CPI-driven selloff. Semis are bouncing hard.
 
-| Ticker | Close | Change | Pre-Market | PM Δ |
-|--------|-------|--------|------------|------|
-| **TSLA** | $381.59 | **-3.80%** | $385.00 | +0.89% |
-| **NVDA** | $200.42 | **-3.73%** | $203.00 | +1.29% |
-| **TXN** | $282.01 | **-2.29%** | $285.06 | +1.08% |
-| **PLTR** | $130.21 | **-1.41%** | $130.59 | +0.29% |
-| **GOOG** | $353.32 | **-2.48%** | $353.85 | +0.15% |
-| **AAPL** | $291.58 | **+0.35%** | $292.54 | +0.33% |
-| **AMD** | $452.40 | **-4.86%** | $459.00 | +1.46% |
+| Ticker | Price | Change | Notes |
+|--------|-------|--------|-------|
+| **TSLA** | $389.44 | **+2.06%** | Prev close $381.59. JP Morgan upgraded to Neutral on 6/5. Earnings 7/22. |
+| **NVDA** | $203.35 | **+1.46%** | Prev close $200.42. $4.9T mkt cap. Ex-div was 6/4. Earnings 8/26. |
+| **QQQ** | $704.86 | **+1.61%** | Prev close $693.69. YTD +13.06%. |
+| **SPY** | $729.94 | **+0.61%** | Prev close $725.49. YTD +6.68%. |
+| **SMH** | $593.52 | **+3.96%** | Semis leading the rebound after last week's $1T wipeout. |
+| **TXN** | $291.93 | **+3.52%** | Strong bounce — riding the semiconductor recovery. |
 
-**Key moves:** AMD led losses at -4.86%, followed by TSLA and NVDA both down ~3.7%. AAPL was the lone green spot, eking out +0.35%. Broadcom (AVGO) got hammered -5.1%. The AI semi profit-taking continued as rate hike fears intensified. Wells Fargo raised TXN target to $300 (from $260) — a bright spot.
-
----
-
-## 📈 Indices & ETFs
-
-| Index | Close | Change | Pre-Market |
-|-------|-------|--------|------------|
-| **SPY** | $725.43 | **-1.58%** | $729.37 (+0.53%) |
-| **QQQ** | $693.69 | **-2.00%** | $702.72 (+1.30%) |
-| **SMH** | $570.91 | **-3.40%** | $580.10 (+1.61%) |
-
-DJIA broke below 50,000 for the first time since May 19 (closed 49,918). S&P finished at 7,266. VIX surged +11.8% to 22.22. Pre-market is green across the board — dead cat bounce or buyers stepping in?
+**Context:** Last week saw a brutal Nasdaq -4% day (June 5) after a blowout jobs report spiked rate hike expectations. Semis got crushed. Today's bounce is a relief rally, but the CPI print hangs heavy.
 
 ---
 
-## 🪙 Crypto Pulse
+## 🔥 Key Macro: CPI Comes In Hot
 
-| Asset | Price | 24h Δ | 30d Δ |
-|-------|-------|-------|-------|
-| **BTC** | $62,622 | +1.92% | -22.20% |
-| **ETH** | $1,646 | +1.64% | -27.62% |
-| **SOL** | $599 | +2.21% | -9.84% |
+**May CPI: +4.2% YoY** — highest since April 2023.
 
-Crypto showing modest green across the board today but still deep in the red on a monthly basis. BTC holding above $62K. ETH continues to underperform, down nearly 28% from last month. SOL relatively resilient at -10% monthly. No significant >3% moves in majors overnight.
-
----
-
-## 🎰 Prediction Markets
-
-**Fed / Rates:**
-- **June 17 FOMC: 99% no change** at 3.50-3.75% (held since April 29 vote, 8-4)
-- **57% odds of zero cuts in all of 2026** — market diverging from Fed's own dot plot which calls for one cut
-- Rate hike probability for 2026 appears to be creeping up after hot CPI data
-
-**Trending on Polymarket:**
-- **SpaceX IPO** closing above $1T: 99% Yes ($2B+ volume market)
-- **Anthropic IPO** & **OpenAI IPO** — both trending topics
-- **U.S.-Iran peace deal** — among most actively traded political markets
-- **2026 Midterms** balance of power — Democrats Sweep trading at 44%
-- **FIFA World Cup** — Spain 17%, France 16% favorites ($2B volume)
-- **NBA Finals** — Knicks 81% vs Spurs 19% ($421M volume)
-
-*Kalshi blocked by Vercel security checkpoint — unable to scrape directly.*
+- Up from 3.8% in April, 3.3% in March. Third straight month of acceleration.
+- **Energy is the driver.** Iran war disruptions to Strait of Hormuz shipping have pushed gas above $4/gallon. Oil lost ~600-700M barrels of production per Vitol estimates.
+- Oil still below $100/bbl as alternative export routes provide buffer, but geopolitical risk premium is elevated.
+- **Fed implications:** Rate cut hopes are dead. Markets now pricing rate *hike* possibility in December. Short end of the curve under pressure.
 
 ---
 
-## 📅 Economic Calendar — Today
+## 🌍 Geopolitical: Iran Escalation — "Long Grind" Priced In
 
-| Time (ET) | Report | Period | Estimate | Previous |
-|-----------|--------|--------|----------|----------|
-| **8:30 AM** | Initial Jobless Claims | June 6 | 220K | 225K |
-| **8:30 AM** | **PPI** | May | **0.7%** | 1.4% |
-| **8:30 AM** | **Core PPI** | May | **0.4%** | 0.6% |
-| **8:30 AM** | PPI YoY | May | — | 6.0% |
-| **8:30 AM** | Core PPI YoY | May | — | 4.4% |
-
-**Context:** Yesterday's CPI came in at 0.5% MoM (in line) but YoY accelerated to **4.2% — highest since April 2023**. Core CPI was a slight bright spot at 0.2% (below 0.3% est). Today's PPI will be closely watched — if it runs hot, it reinforces the "no cuts, maybe hike" narrative that's rattling markets.
-
-**Coming up:** Friday — Consumer Sentiment prelim (June). **Next week** is the big one: FOMC decision on June 17 + Fed Chair Warsh press conference.
+- **Overnight:** U.S. Central Command completed strikes against Iranian military targets. Tehran retaliated by attacking Gulf countries Thursday morning.
+- Investors increasingly pricing a **prolonged conflict** rather than quick diplomatic resolution.
+- CNBC: Markets bracing for "long grind" with higher geopolitical risk premiums.
+- Oil up ~2% Thursday on the escalation, but not spiking to panic levels — alternative supply routes holding.
+- Goldman Sachs (overnight note): Investors are **underestimating AI boom potential** despite geopolitical headwinds. Sees accelerating corporate adoption driving upward revisions.
 
 ---
 
-## 🤖 AI Models & Releases
+## 🪙 Crypto
 
-### Claude Fable 5 (June 9) — Anthropic
-- **First public Mythos-class model** — same underlying architecture as Mythos but with added safeguards
-- SOTA on nearly all benchmarks, especially excels on long/complex tasks — software engineering, knowledge work, scientific research, vision
-- Pricing: **$10/$50** per million tokens (input/output)
-- Karpathy (now at Anthropic): *"This is a major-version-bump-deserving step change forward... it's never felt this tempting to stop looking at the code at all"*
+| Asset | Price | 24h Change |
+|-------|-------|------------|
+| **BTC** | $62,967 | +1.35% |
+| **ETH** | $1,652 | +0.05% |
+| **SOL** | $65.46 | +0.68% |
 
-### DiffusionGemma 26B-A4B (June 11 — TODAY) — Google DeepMind
-- **Open-weight** text diffusion model (Apache 2.0 license!)
-- 26B parameter MoE architecture based on Gemma 4
-- **Non-autoregressive** — generates text in parallel rather than token-by-token
-- ~**1,000 tokens/sec on a single H100** (~4x faster than comparable autoregressive models)
-- Trade-off: Speed comes at a quality cost; Google positions as experimental
-- Based on last year's Gemini Diffusion research
-
-### Notable Personnel
-- **Andrej Karpathy joined Anthropic** (announced May 19) — back to R&D at the frontier
+Crypto muted. BTC holding above $62K. ETH and SOL essentially flat — risk appetite staying in equities for now.
 
 ---
 
-## 🌐 AI Frontier (Use Cases)
+## 📊 Earnings Today — June 11
 
-### Humanoid Robotics — Manufacturing Inflection Point
-- **Figure AI BotQ factory** now producing **1 Figure 03 per hour** — a 24x throughput increase in just 4 months, targeting 12,000 units/year. The transition from prototype to scalable fleet is real.
-- **Boston Dynamics** electric Atlas beginning initial deployments at Hyundai
-- **NVIDIA x Unitree** partnership for humanoid robotics research systems (first publicly available from NVIDIA)
-- **OpenAI** established a dedicated robotics division — signaling push toward embodied AI/AGI
-- KAIST developed tech enabling AI to learn human judgment criteria for physical AI commercialization
+### Before the Bell
+- **McGraw Hill** (MH) — EPS est $0.17, Rev $440M
+- **Driven Brands** (DRVN) — EPS est $0.23, Rev $481M
+- **Aurora Cannabis** (ACB) — EPS est -$0.14, Rev $75M
+- **Lovesac** (LOVE) — EPS est -$0.93, Rev $136M
+- **Hooker Furnishings** (HOFT) — EPS est -$0.07, Rev $66M
+- **Vera Bradley** (VRA) — EPS est -$0.33, Rev $49M
 
-### Tesla FSD / Autonomy
-- **FSD Supervised approved in Denmark** 🇩🇰 — 4th European country (Netherlands, Lithuania, Estonia, Denmark)
-- Ashok Elluswamy presented at **CVPR** on foundation models for robotics
-- Tesla AI team had significant presence at CVPR conference in Denver
-
-### Other AI Applications
-- **Huawei** transforming HarmonyOS into an AI-native OS where agents are part of the system layer
-- Levelsio discussing AI compute in space — satellite constellations for unregulated inference/training
+### After the Bell ⭐
+- **Adobe** (ADBE) — EPS est $5.60, Rev $6.45B ← *The one to watch*
+- **Lennar** (LEN) — EPS est $1.24, Rev $8.07B ← Housing bellwether
+- **RH** (RH) — EPS est -$2.04, Rev $792M
 
 ---
 
-## 💰 Earnings Watch — Today
+## 🧭 Desmond's Take
 
-### Before Open
-- **Dollarama** (DLMAF) — $34.7B cap, EPS est $0.73
-- **McGraw Hill** (MH) — $2.2B cap, beat estimates (EPS $0.32 vs $0.17 est)
-- **Lovesac** (LOVE) — $232M cap, EPS est -$1.02
+Today's the classic "buy the dip after the scare" pattern. Semis leading (+4% on SMH) is encouraging — the AI trade isn't dead, it just needed to breathe after the June 5 massacre. But let's be real: **4.2% CPI is a problem.** The Iran war energy shock is structural, not transitory, and the Fed's hands are tied.
 
-### After Close ⭐
-- **Adobe (ADBE)** — $101.6B cap, **EPS est $5.94**, Rev est $6.6B — *key AI monetization bellwether*
-- **Lennar (LEN)** — $22.9B cap, EPS est $1.26, Rev est $8.1B — *housing market read*
-- Hub Group (HUBG), Zedge (ZDGE)
+**Watch tonight:** Adobe earnings will set the tone for AI/software names. If ADBE beats and guides up, it validates the Goldman "AI underestimated" thesis and this rally has legs. If it whiffs, the CPI anxiety takes over.
 
-**Adobe is the one to watch** — any color on AI feature adoption/monetization could move the broader AI narrative.
+**TXN note:** +3.52% is a nice day for the home team. Semi recovery lifting all boats.
 
 ---
 
-## 🐦 Notable Tweets
-
-**@Mr_Derivatives (Heisenberg):**
-> "$SPY very green in pre. $GLD still red. 🤔 Gold getting just stupidly oversold near term. Looking for a DCB. That's all."
-
-**@karpathy (Andrej Karpathy):**
-> On Claude Fable 5: "You can give it a lot more ambitious tasks than what you're used to, the model 'gets it'... I feel a lot of things changing as working software increasingly comes out on a tap."
-
-**@aelluswamy (Ashok Elluswamy):**
-> FSD Supervised now approved in 4 European countries: Netherlands, Lithuania, Estonia, Denmark 🇩🇰
-
-**@elonmusk:** Retweeting on UK/immigration topics, Howard Lutnick on DC's new Reflecting Pool. No market/Tesla-specific content overnight.
-
-**@levelsio:** Deep in a thread about AI compute in space — arguing satellite constellations could run inference/training beyond regulatory reach. Also built a web-based Quake 1 multiplayer game.
-
-**@eWhispers:** No recent tweets found (possible data gap).
-
----
-
-## 📰 News Roundup
-
-1. **AI Semi Selloff Deepens** — Profit-taking in NVDA (-3.7%), AVGO (-5.1%), AMD (-4.9%) as rate fears and Iran tensions compound. Market questioning whether valuations are sustainable at 151x PE (AMD) and 343x PE (TSLA).
-
-2. **U.S.-Iran Escalation** — U.S. launched retaliatory strikes after Apache helicopter downed. Trump pledged "very hard" attacks. WTI crude surged to **$90.03/bbl** (+2.1%), Brent to $93.10. Energy tensions adding to inflation concerns.
-
-3. **CPI Runs Hot** — May headline CPI at **4.2% YoY**, highest since April 2023. Markets now pricing in potential rate *hike* rather than cuts. Bond yields rising.
-
-4. **Jobs Market Resilient** — May nonfarm payrolls came in at 172K (vs 80K est), unemployment steady at 4.3%. Too-strong labor market feeding the hawkish narrative.
-
-5. **Anthropic Fable 5 Launch** — Mythos-class model goes public, drawing praise across the AI community. Anthropic reportedly preparing for IPO.
-
-6. **Google DiffusionGemma** drops today — open-weight, Apache 2.0, 4x speed gains via text diffusion. Could reshape local/edge AI inference.
-
----
-
-## 🔮 Outlook
-
-**The setup:** Markets are trying to bounce from yesterday's selloff, with pre-market modestly green. But the backdrop is challenging — 4.2% YoY CPI, $90 oil, Iran escalation, and a Fed that's clearly on hold (if not eyeing hikes). Today's PPI at 8:30 AM is the first catalyst.
-
-**Bull case:** PPI comes in softer than expected (est 0.7% vs prior 1.4%), giving relief that inflation is decelerating. Pre-market bounce holds. AI selloff was overdone and buyers step in.
-
-**Bear case:** PPI runs hot, confirming the sticky inflation narrative. Iran tensions escalate further. VIX already at 22 — could see another leg down. The 99% no-change on June FOMC means no rate relief is coming.
-
-**Watch for:** PPI (8:30 AM), weekly jobless claims, Adobe earnings after close, any Iran/Middle East developments. FOMC next Wednesday looms large.
-
-*Oil at $90, CPI at 4.2%, VIX at 22. This is not a market that forgives hot data. Trade carefully.*
-
----
-
-*This brief is for informational purposes only. Not financial advice.*
+*Data as of ~10:00 AM ET. Not financial advice. 🔷*
