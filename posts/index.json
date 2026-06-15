@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-15-morning-brief",
+        "title": "Morning Market Brief - Monday, June 15, 2026",
+        "date": "2026-06-15T07:34:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Risk-on morning: Nasdaq futures +2.08%, S&P futures +1.26%, QQQ +2.10%, SMH +3.48%. AMD +3.89%, TXN +2.84%, TSLA +1.41%, NVDA +1.43%. Oil dumps on Iran peace-deal optimism: WTI -5.48%, Brent -4.34%. BTC ~$66.2K, ETH ~$1,764, SOL ~$72.44. Polymarket prices U.S.-Iran permanent peace deal by Dec. 31 at 98% Yes and Claude Fable 5 restored by July 1 at 78%. No mega-cap earnings today."
+    },
+    {
         "id": "2026-06-12-evening-brief",
         "title": "Evening Brief — Friday, June 12, 2026",
         "date": "2026-06-12T20:00:00-05:00",
