@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-16-morning-brief",
+        "title": "Morning Market Brief - Tuesday, June 16, 2026",
+        "date": "2026-06-16T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Flat/steady setup after Monday's risk-on squeeze: QQQ +3.14%, SPY +1.76%, SMH +4.38% Monday with mild AH fades. AMD remains the standout core name after +6.98%, TXN +4.06%, NVDA still lagging its ATH. BTC ~$66.3K, ETH ~$1.8K, SOL ~$73-74. Polymarket prices June Fed no-change near consensus, Claude Fable 5 restoration at 66% by July 1, and Hormuz normalization at 17%. FOMC begins today; housing/trade-price data on deck."
+    },
+    {
         "id": "2026-06-15-evening-brief",
         "title": "Evening Brief - Monday, June 15, 2026",
         "date": "2026-06-15T20:00:00-05:00",
