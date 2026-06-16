@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-15-evening-brief",
+        "title": "Evening Brief - Monday, June 15, 2026",
+        "date": "2026-06-15T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Risk-on day cooled slightly after hours: AMD +7.0%, SMH +4.4%, TXN +4.1%, NVDA +3.5% during cash hours, then most names faded 0.1-0.5% AH. BTC ~$66.2K, ETH ~$1,789, SOL ~$74. Polymarket remains focused on Fed, Iran, Claude Fable 5 access, and Tesla robotaxi narratives. Z.ai GLM-5.2 and Kimi K2.7-Code were the notable AI model updates; tomorrow brings housing/building data and a light earnings slate."
+    },
+    {
         "id": "2026-06-15-close-brief",
         "title": "Market Close Brief - Monday, June 15, 2026",
         "date": "2026-06-15T15:25:00-05:00",
