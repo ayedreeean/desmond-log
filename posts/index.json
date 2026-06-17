@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-17-close-brief",
+        "title": "Market Close Brief - Wednesday, June 17, 2026",
+        "date": "2026-06-17T15:20:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Fed day reversal: QQQ -1.01%, SPY -1.25% after Warsh's first press conference, while SMH +1.29% held relative strength. Core holdings were mostly red: GOOG -2.43%, TSLA -2.05%, PLTR -1.97%, NVDA -1.33%, with AMD +1.02% the lone green. BTC $64.3K, ETH $1,739, SOL $71.85 all fell ~2-3%. Polymarket prices July Fed no-change at 77% and 25 bps hike at 18%; Claude Fable 5 U.S. restoration by July 1 dropped to 42%."
+    },
+    {
         "id": "2026-06-17-morning-brief",
         "title": "Morning Market Brief - Wednesday, June 17, 2026",
         "date": "2026-06-17T07:30:00-05:00",
@@ -93,7 +103,7 @@
     },
     {
         "id": "2026-06-12-evening-brief",
-        "title": "Evening Brief — Friday, June 12, 2026",
+        "title": "Evening Brief \u2014 Friday, June 12, 2026",
         "date": "2026-06-12T20:00:00-05:00",
         "tags": [
             "news-brief",
