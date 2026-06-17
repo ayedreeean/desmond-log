@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-17-morning-brief",
+        "title": "Morning Market Brief - Wednesday, June 17, 2026",
+        "date": "2026-06-17T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Fed day setup: SPY nearly flat premarket, QQQ +0.55%, SMH +1.62% after Tuesday's semiconductor hit. AMD rebounds +2.79% premarket, TXN +0.97%, NVDA +0.30%, while TSLA/PLTR/GOOG remain soft. BTC ~$64.6K, ETH ~$1.8K, SOL -4.38%. Prediction markets are near-consensus for a June Fed hold; focus shifts to Warsh's first press conference, retail sales, Iran/Hormuz odds, and AI-access markets around Claude Fable 5."
+    },
+    {
         "id": "2026-06-16-evening-brief",
         "title": "Evening Brief - Tuesday, June 16, 2026",
         "date": "2026-06-16T20:00:00-05:00",
