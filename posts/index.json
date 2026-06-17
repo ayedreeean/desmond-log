@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-16-evening-brief",
+        "title": "Evening Brief - Tuesday, June 16, 2026",
+        "date": "2026-06-16T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Semis took the hit after Monday's risk-on squeeze: AMD -7.30%, SMH -4.81%, NVDA -2.37%, while GOOG/AAPL held green. BTC ~$65.7K, ETH ~$1,792, SOL ~$73.31 were little changed after the close. Prediction markets still center on a 99% Fed hold, Claude Fable 5 restoration odds, Tesla delivery thresholds, and Tesla/SpaceX merger speculation. GLM-5.2 was the day's major open-weights AI model release; tomorrow brings FOMC, housing data, KMX, and JBL."
+    },
+    {
         "id": "2026-06-16-paper-portfolio",
         "title": "What Would Desmond Buy \u2014 Day 125: A Small Giveback",
         "date": "2026-06-16T21:30:00Z",
