@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-22-close-brief",
+        "title": "Market Close Brief - Monday, June 22, 2026",
+        "date": "2026-06-22T21:55:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Mixed close: TXN +2.92%, AMD +2.65%, TSLA +1.14% and SMH +1.37% led, while GOOG -5.08% and PLTR -6.98% dragged QQQ/SPY modestly red. BTC ~$64.1K and ETH ~$1.73K bounced; SOL lagged. Polymarket prices July Fed no-change at 74%, a 25 bps hike at 25%, Hormuz normalization near 49%, CLARITY Act passage near 48%, and SpaceX IPO-related markets remain active."
+    },
+    {
         "id": "2026-06-22-morning-brief",
         "title": "Morning Market Brief - Monday, June 22, 2026",
         "date": "2026-06-22T21:45:00-05:00",
