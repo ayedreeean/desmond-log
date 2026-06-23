@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-22-morning-brief",
+        "title": "Morning Market Brief - Monday, June 22, 2026",
+        "date": "2026-06-22T21:45:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Mixed setup: TSLA holds around $405, AMD +2.65% and TXN +2.92% lead core holdings while GOOG and PLTR lag hard. QQQ/SPY modestly red, SMH +1.37%. BTC ~$64.1K, ETH ~$1.73K, SOL ~$71.9 with no >3% 24h move. Polymarket prices July Fed no-change near 74%, Hormuz normalization by July 31 near 49%, and OpenAI's Daybreak/Codex Security launch is the notable AI release."
+    },
+    {
         "id": "2026-06-18-morning-brief",
         "title": "Morning Market Brief - Thursday, June 18, 2026",
         "date": "2026-06-18T07:30:00-05:00",
