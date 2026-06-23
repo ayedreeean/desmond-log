@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-23-morning-brief",
+        "title": "Morning Market Brief - Tuesday, June 23, 2026",
+        "date": "2026-06-23T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Risk-off open setup: QQQ -2.94%, SPY -1.39%, SMH -5.66% with AMD -7.18%, TXN -5.45%, TSLA -2.67%, and NVDA -2.66% in early Nasdaq quote data. BTC $62.4K, ETH $1.66K, and SOL $69.1 are all down more than 3%. Polymarket prices July Fed no-change near 74%, while AI news centers on OpenAI Daybreak security tooling, GLM-5.2, Sakana Fugu, and physical-AI robotics."
+    },
+    {
         "id": "2026-06-22-paper-portfolio",
         "title": "What Would Desmond Buy — Day 131: TXN Reclaims the Lead",
         "date": "2026-06-22T22:00:00-05:00",
