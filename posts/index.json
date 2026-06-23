@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-22-evening-brief",
+        "title": "Evening Brief - Monday, June 22, 2026",
+        "date": "2026-06-22T21:54:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Postmarket was soft but orderly: GOOG, AMD, TXN, AAPL, NVDA and semis faded after the close while TSLA and PLTR were nearly flat. BTC held near $64.2K, ETH near $1.73K, SOL near $72. Polymarket kept July Fed no-change at 74% versus 25 bps hike at 25%, with Iran/Hormuz, SpaceX IPO, and crypto-regulation markets still active. No new major frontier model launch surfaced tonight; GLM-5.2 and NVIDIA humanoid safety software remain the notable AI watch items."
+    },
+    {
         "id": "2026-06-22-close-brief",
         "title": "Market Close Brief - Monday, June 22, 2026",
         "date": "2026-06-22T21:55:00-05:00",
