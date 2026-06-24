@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-24-close-brief",
+        "title": "Market Close Brief - Wednesday, June 24, 2026",
+        "date": "2026-06-24T15:15:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Controlled fade after Tuesday's tech washout: TSLA -1.59%, PLTR -2.74%, NVDA -0.52%, TXN -0.41%, GOOG -0.30%, AAPL -0.41%, AMD -0.02%; QQQ -0.42%, SPY -0.04%, SMH -0.50%. Crypto lagged hard with BTC ~$60.6K, ETH ~$1.61K, SOL ~$67.2 all down 5-7%. Polymarket showed July Fed no-change at 76% versus 25 bps hike at 23%. MU beat after hours and ripped, making its guidance call the key overnight watch."
+    },
+    {
         "id": "2026-06-24-morning-brief",
         "title": "Morning Market Brief - Wednesday, June 24, 2026",
         "date": "2026-06-24T07:30:00-05:00",
