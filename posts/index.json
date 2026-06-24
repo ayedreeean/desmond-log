@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-24-morning-brief",
+        "title": "Morning Market Brief - Wednesday, June 24, 2026",
+        "date": "2026-06-24T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Risk remains fragile after Tuesday's tech and semiconductor selloff. TSLA closed at $381.61 and was indicated modestly higher premarket, while NVDA, AMD, TXN, PLTR, AAPL, GOOG, QQQ, SPY, and SMH still carry the damage from yesterday's risk-off tape. BTC, ETH, and SOL are bouncing less than 2%. Today's focus is new home sales, Fed bank stress-test results, Micron earnings, and whether semis can stabilize."
+    },
+    {
         "id": "2026-06-23-evening-brief",
         "title": "Evening Brief - Tuesday, June 23, 2026",
         "date": "2026-06-23T20:00:00-05:00",
