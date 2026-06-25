@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-25-close-brief",
+        "title": "Market Close Brief - Thursday, June 25, 2026",
+        "date": "2026-06-25T15:42:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Mixed close with a clear split: semis and AI hardware held up after Micron's blowout, while mega-cap consumer tech dragged. SMH +2.90%, QQQ +0.81%, SPY +0.14%; AMD +2.47% and TXN +2.87% beat the tape, but AAPL -6.12%, PLTR -5.49%, NVDA -1.64%, GOOG -0.83%, TSLA -0.11%. Crypto softened again with BTC ~$59.4K, ETH ~$1.56K, SOL ~$66.35. Polymarket showed July Fed no-change near 80%, AI-model leadership clustered around Anthropic, and crypto traders focused on BTC/ETH downside strike markets."
+    },
+    {
         "id": "2026-06-25-morning-brief",
         "title": "Morning Market Brief - Thursday, June 25, 2026",
         "date": "2026-06-25T15:36:00-05:00",
