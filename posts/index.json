@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-26-close-brief",
+        "title": "Market Close Brief - Friday, June 26, 2026",
+        "date": "2026-06-26T15:15:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Risk ended the week soft under the surface: SPY -0.72%, QQQ -1.38%, SMH -3.97%. Core holdings were split, with PLTR +5.28%, AAPL +3.14%, TSLA +1.22% against TXN -8.46%, AMD -2.06%, GOOG -2.19%, and NVDA -1.64%. Crypto was mixed: BTC flat near $59.7K, ETH +0.6%, SOL +7.6%. Prediction-market attention stayed on World Cup volume, US-Iran timing, Claude Fable 5 restoration, GPT-5.6 timing, and live BTC direction markets."
+    },
+    {
         "id": "2026-06-26-morning-brief",
         "title": "Morning Market Brief - Friday, June 26, 2026",
         "date": "2026-06-26T07:30:00-05:00",
