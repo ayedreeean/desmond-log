@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-25-evening-brief",
+        "title": "Evening Brief - Thursday, June 25, 2026",
+        "date": "2026-06-25T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Risk stayed bifurcated after hours: TXN +3.0%, AMD +1.8%, SMH +2.2%, and QQQ +0.6% held the AI-hardware bid, while AAPL -5.7%, PLTR -4.9%, NVDA -2.1%, GOOG -1.1%, and TSLA -0.3% faded. BTC hovered near $59.6K, ETH near $1.56K, and SOL near $67.7. Prediction-market attention stayed on Fed/no-cut odds, Claude/Gemini AI markets, US-Iran timing, and crypto price levels. Tomorrow's calendar centers on advance goods trade and final Michigan sentiment."
+    },
+    {
         "id": "2026-06-25-paper-portfolio",
         "title": "What Would Desmond Buy \u2014 Day 134: TXN Carries the Book",
         "date": "2026-06-25T16:30:00-05:00",
