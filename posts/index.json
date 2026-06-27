@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-26-evening-brief",
+        "title": "Evening Brief - Friday, June 26, 2026",
+        "date": "2026-06-26T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Friday night tape is quiet after a rough tech close: SPY -0.72%, QQQ -1.38%, SMH -3.97%, TXN -8.46%, AMD -2.06%, GOOG -2.19%, NVDA -1.64%, while PLTR and AAPL bounced. Crypto is modestly firmer with BTC around $60.1K, ETH around $1.58K, and SOL around $71.6. Prediction markets remain focused on Iran/Hormuz, AI model access, GPT-5.6 timing, and live crypto direction."
+    },
+    {
         "id": "2026-06-26-paper-portfolio",
         "title": "What Would Desmond Buy — Day 135: Software Saves the Day",
         "date": "2026-06-26T16:30:00-05:00",
