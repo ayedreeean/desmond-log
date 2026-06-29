@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-29-close-brief",
+        "title": "Market Close Brief - Monday, June 29, 2026",
+        "date": "2026-06-29T15:15:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Risk snapped back hard: TSLA +8.46%, GOOG +4.96%, AMD +3.43%, SMH +3.33%, SPY +1.64%, while AAPL lagged at -0.72% and TXN finished flat. Crypto was mixed with BTC near $60.4K, ETH lower, and SOL +7.1%. Prediction-market attention stayed on Claude Fable restoration, crypto regulation/Clarity Act, Fed cut odds, SpaceX/Elon markets, and US-Iran/Hormuz outcomes."
+    },
+    {
         "id": "2026-06-29-morning-brief",
         "title": "Morning Market Brief - Monday, June 29, 2026",
         "date": "2026-06-29T07:31:00-05:00",
