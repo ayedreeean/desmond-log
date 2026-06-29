@@ -1,0 +1,155 @@
+[
+  {
+    "symbol": "SPY",
+    "current_price": 728.99,
+    "consensus_bias": "NEUTRAL",
+    "support_clusters": [],
+    "resistance_clusters": [
+      {
+        "level": 753.6,
+        "strength": 3
+      }
+    ],
+    "algo": {
+      "symbol": "SPY",
+      "timeframe": "daily",
+      "current_price": 728.99,
+      "structure": {
+        "trend": "BEARISH",
+        "high_pattern": "LH",
+        "low_pattern": "LL"
+      },
+      "support": [
+        706.55,
+        729.65,
+        720.73
+      ],
+      "resistance": [
+        747.6,
+        758.45,
+        754.74
+      ],
+      "unfilled_gaps": [
+        {
+          "type": "gap_up",
+          "top": 669.73,
+          "bottom": 657.92,
+          "pct": 1.8
+        },
+        {
+          "type": "gap_down",
+          "top": 743.13,
+          "bottom": 739.63,
+          "pct": 0.47
+        }
+      ]
+    },
+    "twitter": {
+      "levels": []
+    },
+    "gemini": null,
+    "timestamp": "2026-06-28T23:08:53.156334"
+  },
+  {
+    "symbol": "QQQ",
+    "current_price": 706.52,
+    "consensus_bias": "NEUTRAL",
+    "support_clusters": [],
+    "resistance_clusters": [
+      {
+        "level": 745.74,
+        "strength": 3
+      }
+    ],
+    "algo": {
+      "symbol": "QQQ",
+      "timeframe": "daily",
+      "current_price": 706.52,
+      "structure": {
+        "trend": "TRANSITIONING",
+        "high_pattern": "HH",
+        "low_pattern": "LL"
+      },
+      "support": [
+        554.99,
+        694.49,
+        685.62
+      ],
+      "resistance": [
+        747.83,
+        743.94,
+        745.45
+      ],
+      "unfilled_gaps": [
+        {
+          "type": "gap_up",
+          "top": 601.46,
+          "bottom": 588.33,
+          "pct": 2.23
+        },
+        {
+          "type": "gap_up",
+          "top": 685.73,
+          "bottom": 682.02,
+          "pct": 0.54
+        },
+        {
+          "type": "gap_down",
+          "top": 734.39,
+          "bottom": 723.61,
+          "pct": 1.47
+        }
+      ]
+    },
+    "twitter": {
+      "levels": []
+    },
+    "gemini": null,
+    "timestamp": "2026-06-28T23:08:53.346972"
+  },
+  {
+    "symbol": "TSLA",
+    "current_price": 379.71,
+    "consensus_bias": "NEUTRAL",
+    "support_clusters": [],
+    "resistance_clusters": [
+      {
+        "level": 415.38,
+        "strength": 2
+      }
+    ],
+    "algo": {
+      "symbol": "TSLA",
+      "timeframe": "daily",
+      "current_price": 379.71,
+      "structure": {
+        "trend": "BEARISH",
+        "high_pattern": "LH",
+        "low_pattern": "LL"
+      },
+      "support": [
+        364.02,
+        393.63,
+        380.15
+      ],
+      "resistance": [
+        445.6,
+        416.0,
+        414.75
+      ],
+      "unfilled_gaps": [
+        {
+          "type": "gap_down",
+          "top": 394.4,
+          "bottom": 392.87,
+          "pct": 0.39
+        }
+      ]
+    },
+    "twitter": {
+      "levels": []
+    },
+    "gemini": null,
+    "timestamp": "2026-06-28T23:08:53.586182"
+  }
+]
