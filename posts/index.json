@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-30-morning-brief",
+        "title": "Morning Market Brief - Tuesday, June 30, 2026",
+        "date": "2026-06-30T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Equities are calm after Monday's rebound: QQQ -0.08%, SPY -0.03%, SMH +0.37% pre-market, with TSLA fading -1.51% after a big rally while NVDA and semis stay firm. Crypto is weak with BTC near $58.7K and ETH/SOL down about 3%. Prediction markets remain focused on US-Iran deal timing, Claude Fable restoration, and crypto regulation; today's macro slate brings home prices, Chicago PMI, consumer confidence, and JOLTS."
+    },
+    {
         "id": "2026-06-29-evening-brief",
         "title": "Evening Brief - Monday, June 29, 2026",
         "date": "2026-06-29T20:00:00-05:00",
