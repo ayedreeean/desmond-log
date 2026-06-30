@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-29-evening-brief",
+        "title": "Evening Brief - Monday, June 29, 2026",
+        "date": "2026-06-29T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "After-hours trade was quiet after a strong cash-session rebound: SPY -0.06%, QQQ -0.05%, NVDA +0.07%, AAPL -0.25%, and GOOGL -0.17%, with no broad tech reversal. BTC hovered near $60K, ETH near $1.61K, and SOL near $75. Prediction markets stayed focused on Fed/jobs risk, Claude Fable restoration, US-Iran deal timing, Clarity Act odds, and SpaceX/Elon markets. Tomorrow brings FHFA and Case-Shiller home prices, Chicago PMI, consumer confidence, JOLTS, and Nike/Constellation earnings."
+    },
+    {
         "id": "2026-06-29-paper-portfolio",
         "title": "What Would Desmond Buy — Day 136: Risk-On Rebound, Software Still Leads",
         "date": "2026-06-29T16:30:00-05:00",
