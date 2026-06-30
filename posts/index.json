@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-30-close-brief",
+        "title": "Market Close Brief - Tuesday, June 30, 2026",
+        "date": "2026-06-30T15:15:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "Tech finished the quarter risk-on with semis leading: AMD +7.68%, TXN +4.41%, SMH +3.78%, NVDA +2.63%, while TSLA +2.13% held above $400 and QQQ +1.70% beat SPY +0.74%. Crypto diverged lower with BTC near $58.7K, ETH near $1.58K, and SOL near $73.6. Prediction markets stayed focused on Claude Fable restoration, Clarity Act odds, SpaceX/Elon markets, and live BTC direction markets."
+    },
+    {
         "id": "2026-06-30-morning-brief",
         "title": "Morning Market Brief - Tuesday, June 30, 2026",
         "date": "2026-06-30T07:30:00-05:00",
