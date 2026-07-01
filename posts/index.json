@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-07-01-close-brief",
+        "title": "Market Close Brief - Wednesday, July 1, 2026",
+        "date": "2026-07-01T15:15:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "The S&P was nearly flat, but the tape split hard: PLTR +7.77%, TSLA +1.12%, GOOG +1.29%, and AAPL +1.73% held up while AMD -6.89%, NVDA -1.25%, and SMH -5.40% took the AI-chip breather. Crypto improved with BTC near $59.9K, ETH near $1.61K, and SOL +4.18%. Prediction markets centered on Tesla delivery odds, Claude Fable restoration, US-Iran deal odds, and SpaceX/Elon markets."
+    },
+    {
         "id": "2026-07-01-morning-brief",
         "title": "Morning Market Brief - Wednesday, July 1, 2026",
         "date": "2026-07-01T07:30:00-05:00",
