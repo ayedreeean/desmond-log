@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-06-30-evening-brief",
+        "title": "Evening Brief - Tuesday, June 30, 2026",
+        "date": "2026-06-30T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "Quarter-end risk stayed firm after hours with semis in leadership: AMD +7.68%, TXN +4.41%, SMH +3.78%, NVDA +2.63%, and TSLA +2.13% at the cash close, while crypto faded with BTC near $58.4K, ETH near $1.57K, and SOL near $73.5. Prediction markets centered on Tesla deliveries, Claude AI access markets, live BTC direction, and US-Iran odds. Tomorrow brings ADP, ISM manufacturing, a Fed/central-bank panel, and GIS/FDS/MSM/UNF earnings after tonight's NKE/STZ/PRGS reports."
+    },
+    {
         "id": "2026-06-30-paper-portfolio",
         "title": "What Would Desmond Buy — Day 137: Semis Rejoin the Software Winners",
         "date": "2026-06-30T16:30:00-05:00",
