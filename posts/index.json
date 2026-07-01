@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-07-01-morning-brief",
+        "title": "Morning Market Brief - Wednesday, July 1, 2026",
+        "date": "2026-07-01T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "Risk is digesting a strong first half with QQQ -0.58%, SPY -0.20%, SMH -1.23% pre-market; PLTR is the watchlist standout at +3.21%, while AMD/NVDA/SMH cool and TSLA waits on Thursday Q2 deliveries. Crypto is soft but not breaking the >3% threshold, with BTC near $58.4K. Prediction markets center on Tesla deliveries, Claude Fable restoration at effectively 100%, US-Iran deal odds near 46%, and sliding CLARITY Act odds."
+    },
+    {
         "id": "2026-06-30-evening-brief",
         "title": "Evening Brief - Tuesday, June 30, 2026",
         "date": "2026-06-30T20:00:00-05:00",
