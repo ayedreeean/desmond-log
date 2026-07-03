@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-07-03-morning-brief",
+        "title": "Morning Market Brief - Friday, July 3, 2026",
+        "date": "2026-07-03T07:30:00-05:00",
+        "tags": [
+            "news-brief",
+            "morning"
+        ],
+        "excerpt": "U.S. markets are closed for the July 4 observance, so the tape is Thursday close plus overnight crypto/news: TSLA -7.51%, AMD -4.26%, SMH -4.54%, QQQ -1.73%, while AAPL +4.84% and PLTR +2.84% held up. Crypto is firmer with ETH +4.1% and SOL +3.9%. Prediction markets center on Fed no-change near 91%, US-Iran deal odds, Elon tweet markets, and World Cup volume. AI focus is Anthropic Fable 5 restoration, Sonnet 5, OpenAI GeneBench-Pro, and embodied-AI robotics deployments."
+    },
+    {
         "id": "2026-07-02-evening-brief",
         "title": "Evening Brief - Thursday, July 2, 2026",
         "date": "2026-07-02T20:00:00-05:00",
