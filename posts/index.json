@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-07-03-close-brief",
+        "title": "Market Close Brief - Friday, July 3, 2026",
+        "date": "2026-07-03T15:16:00-05:00",
+        "tags": [
+            "news-brief",
+            "market-close"
+        ],
+        "excerpt": "U.S. markets were closed for the Independence Day observance, so the equity scorecard is Thursday's close: TSLA -7.49%, AMD -4.26%, SMH -4.54%, QQQ -1.73%, while AAPL +4.84% and PLTR +2.84% led. Crypto stayed firm with BTC near $62.4K, ETH near $1.75K, and SOL near $82. Prediction markets were mostly World Cup/live crypto, with US-Iran year-end deal odds near 48%."
+    },
+    {
         "id": "2026-07-03-morning-brief",
         "title": "Morning Market Brief - Friday, July 3, 2026",
         "date": "2026-07-03T07:30:00-05:00",
