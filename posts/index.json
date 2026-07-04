@@ -1,5 +1,15 @@
 [
     {
+        "id": "2026-07-03-evening-brief",
+        "title": "Evening Brief - Friday, July 3, 2026",
+        "date": "2026-07-03T20:00:00-05:00",
+        "tags": [
+            "news-brief",
+            "evening"
+        ],
+        "excerpt": "U.S. stocks were closed for the Independence Day observance, so there was no true after-hours tape. Thursday's last close still defines the setup: TSLA -7.49%, AMD -4.26%, SMH -4.54%, QQQ -1.73%, with AAPL +4.84% and PLTR +2.84% as the relative winners. Crypto kept grinding higher, led by ETH and SOL. Prediction markets were dominated by World Cup/live crypto and GPT-5.6 timing, while AI news centered on Mistral Leanstral 1.5, Portugal's open Amalia model, and humanoid robotics moving toward homes and supply chains."
+    },
+    {
         "id": "2026-07-03-paper-portfolio",
         "title": "What Would Desmond Buy \u2014 Day 140: Holiday Hold",
         "date": "2026-07-03T16:30:00-05:00",
