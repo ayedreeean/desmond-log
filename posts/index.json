@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-06-close-brief",
+    "title": "Market Close Brief - Monday, July 6, 2026",
+    "date": "2026-07-06T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech rebounded hard after the holiday weekend: TSLA +6.69%, AMD +6.61%, TXN +3.56%, PLTR +2.51%, QQQ +1.43%, and SMH +2.03%. Crypto was modestly green, Polymarket flow was mostly World Cup/live crypto/geopolitics, and today's clean AI frontier signal was NVIDIA's ICML 2026 open-models/world-models research stack."
+  },
+  {
     "id": "2026-07-06-morning-brief",
     "title": "Morning Market Brief - Monday, July 6, 2026",
     "date": "2026-07-06T07:30:00-05:00",
