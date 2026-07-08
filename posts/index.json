@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-08-close-brief",
+    "title": "Market Close Brief - Wednesday, July 8, 2026",
+    "date": "2026-07-08T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AI/chips repaired while the broader tape stayed mixed: NVDA +3.65%, TXN +2.73%, SMH +1.99%, QQQ +0.28%, but SPY slipped 0.32% and TSLA fell 2.19%. Crypto faded with SOL -4.14%. Prediction-market attention clustered around GPT-5.6 timing, Fed-hold odds, Elon tweet volume, Iran/geopolitics, and Polymarket/Kalshi regulatory scrutiny."
+  },
+  {
     "id": "2026-07-08-morning-brief",
     "title": "Morning Market Brief - Wednesday, July 8, 2026",
     "date": "2026-07-08T07:30:00-05:00",
