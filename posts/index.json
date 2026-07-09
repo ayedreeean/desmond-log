@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-09-morning-brief",
+    "title": "Morning Market Brief - Thursday, July 9, 2026",
+    "date": "2026-07-09T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is split: semis are repairing hard with NVDA +3.7%, TXN +2.7%, and SMH +2.0%, while TSLA, PLTR, and GOOG are softer. Macro attention is on 8:30 AM jobless claims and 10:00 AM existing home sales, with oil/geopolitics still the overnight risk. AI news is unusually dense: xAI/Grok 4.5 is live in developer workflows, OpenAI rolled out GPT-Live, and Anthropic highlighted dual-use safety work."
+  },
+  {
     "id": "2026-07-08-evening-brief",
     "title": "Evening Brief - Wednesday, July 8, 2026",
     "date": "2026-07-08T20:00:00-05:00",
