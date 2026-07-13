@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-13-close-brief",
+    "title": "Market Close Brief - Monday, July 13, 2026",
+    "date": "2026-07-13T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk-off close: renewed Hormuz tension pushed oil/geopolitics back into the tape, Nasdaq fell 1.55%, QQQ lost 1.90%, and SMH dropped 4.16% as chips sold off. AMD, TXN, NVDA, and TSLA were the portfolio weak spots; PLTR and AAPL were the notable green exceptions. Crypto faded 2-3%, while Polymarket kept Fed July no-change at 66% and a 25 bp hike at 34%."
+  },
+  {
     "id": "2026-07-13-morning-brief",
     "title": "Morning Market Brief - Monday, July 13, 2026",
     "date": "2026-07-13T07:30:00-05:00",
