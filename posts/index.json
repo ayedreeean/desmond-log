@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-14-close-brief",
+    "title": "Market Close Brief - Tuesday, July 14, 2026",
+    "date": "2026-07-14T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis snapped back after a softer June CPI print: NVDA +4.1%, SMH +2.5%, AMD +2.6%, TXN +2.3%, PLTR +2.8%, QQQ +1.1%, and SPY +0.4%, while AAPL lagged. Crypto was firm with ETH leading. Polymarket showed July Fed no-change near 93% after CPI; Kalshi was blocked by a security checkpoint."
+  },
+  {
     "id": "2026-07-14-morning-brief",
     "title": "Morning Market Brief - Tuesday, July 14, 2026",
     "date": "2026-07-14T07:30:00-05:00",
