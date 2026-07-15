@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-15-morning-brief",
+    "title": "Morning Market Brief - Wednesday, July 15, 2026",
+    "date": "2026-07-15T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Semis are leading the post-CPI risk-on setup: AMD +5.9%, NVDA +3.8%, SMH +1.2%, QQQ +1.2%, and SPY +0.9%, while GOOG lags slightly. ETH is the crypto standout at +5.7%. Polymarket shows July Fed no-change near 94% after CPI; today's key macro is June PPI, crude inventories, and the Fed Beige Book. ASML raised 2026 forecasts, PayPal jumped on buyout reports, and earnings focus turns to MS, BLK, JNJ, PNC, PGR, KMI, UAL, and JBHT."
+  },
+  {
     "id": "2026-07-14-evening-brief",
     "title": "Evening Brief - Tuesday, July 14, 2026",
     "date": "2026-07-14T20:00:00-05:00",
