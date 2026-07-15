@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-15-close-brief",
+    "title": "Market Close Brief - Wednesday, July 15, 2026",
+    "date": "2026-07-15T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Big Tech carried the close while semis faded: AAPL +4.0% and GOOG +3.6% led the portfolio watchlist, SPY rose 0.4%, but QQQ slipped 0.3% and SMH lost 1.6% as AMD, TXN, and TSLA closed red. Crypto stayed firm with ETH leading. Polymarket showed July Fed no-change near 95%; Kalshi was blocked/unreliable for themed market discovery."
+  },
+  {
     "id": "2026-07-15-morning-brief",
     "title": "Morning Market Brief - Wednesday, July 15, 2026",
     "date": "2026-07-15T07:30:00-05:00",
