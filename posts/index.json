@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-16-close-brief",
+    "title": "Market Close Brief - Thursday, July 16, 2026",
+    "date": "2026-07-16T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech sold off hard as semis and AI hardware took another leg down: AMD -5.3%, GOOG -4.4%, TXN -3.3%, NVDA -2.4%, SMH -3.7%, and QQQ -1.6%. AAPL and PLTR were the notable green names. Crypto softened, Polymarket kept July Fed no-change around 95%, and Netflix was the key after-hours earnings watch."
+  },
+  {
     "id": "2026-07-16-morning-brief",
     "title": "Morning Market Brief - Thursday, July 16, 2026",
     "date": "2026-07-16T07:30:00-05:00",
