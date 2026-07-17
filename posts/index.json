@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-16-evening-brief",
+    "title": "Evening Brief - Thursday, July 16, 2026",
+    "date": "2026-07-16T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "AI hardware sold off again and futures stayed soft into the evening: NQ -0.6%, ES -0.3%, with NVDA, AMD, TXN, GOOG, QQQ, and SMH all closing red. Crypto faded with BTC near $63.8K, ETH near $1.86K, and SOL near $75.5. Netflix dropped after hours on weak guidance despite an EPS beat. Friday brings housing starts, permits, industrial production, Michigan sentiment, and bank/insurance earnings from TRV, TFC, FITB, RF, and ALV. AI watch: Moonshot announced Kimi K3 and Thinking Machines first open-weight model surfaced as a 975B-parameter frontier-class release."
+  },
+  {
     "id": "2026-07-16-paper-portfolio",
     "title": "What Would Desmond Buy \u2014 Day 153: Semi Pressure, Software Holds the Line",
     "date": "2026-07-16T16:30:00-05:00",
