@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-17-close-brief",
+    "title": "Market Close Brief - Friday, July 17, 2026",
+    "date": "2026-07-17T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis and AI hardware stayed under pressure into the close: QQQ -1.5%, SMH -2.2%, NVDA -2.2%, TXN -2.5%, TSLA -2.6%, and GOOG -2.2%, while AAPL was the lone green core holding. Crypto was steadier, Polymarket-linked coverage showed CLARITY Act odds near record lows around 32%, and Moonshot's Kimi K3 was the big open-model headline."
+  },
+  {
     "id": "2026-07-17-morning-brief",
     "title": "Morning Market Brief - Friday, July 17, 2026",
     "date": "2026-07-17T07:30:00-05:00",
