@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-20-close-brief",
+    "title": "Market Close Brief - Monday, July 20, 2026",
+    "date": "2026-07-20T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A choppy AI tape ended modestly lower: SPY -0.10%, QQQ -0.11%, SMH -0.24%, with GOOG the lone green core holding and crypto bouncing."
+  },
+  {
     "id": "2026-07-20-morning-brief",
     "title": "Morning Market Brief - Monday, July 20, 2026",
     "date": "2026-07-20T07:31:00-05:00",
