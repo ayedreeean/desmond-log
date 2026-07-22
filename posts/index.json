@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-22-close-brief",
+    "title": "Market Close Brief - Wednesday, July 22, 2026",
+    "date": "2026-07-22T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Earnings-risk day closed soft: TSLA -1.30%, GOOG -1.24%, PLTR -6.10%, QQQ -0.51%, while NVDA, AMD, TXN, and SMH stayed green. After-hours attention shifted immediately to TSLA, GOOG/GOOGL, TXN, and IBM results."
+  },
+  {
     "id": "2026-07-22-morning-brief",
     "title": "Morning Market Brief - Wednesday, July 22, 2026",
     "date": "2026-07-22T07:30:00-05:00",
