@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-24-close-brief",
+    "title": "Market Close Brief - Friday, July 24, 2026",
+    "date": "2026-07-24T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Mixed close after Thursday's AI-capex flush: AAPL +3.53% and GOOG +0.24% helped SPY hold green, but semis were hit hard with SMH -3.27%, AMD -3.29%, NVDA -0.92%, and TSLA slid another 2.08%."
+  },
+  {
     "id": "2026-07-24-morning-brief",
     "title": "Morning Market Brief - Friday, July 24, 2026",
     "date": "2026-07-24T07:31:00-05:00",
