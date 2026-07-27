@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-27-close-brief",
+    "title": "Market Close Brief - Monday, July 27, 2026",
+    "date": "2026-07-27T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech closed heavy again: TSLA -16.33%, GOOG -7.06%, NVDA -3.33%, QQQ -2.00%, and SMH -1.84%, while AAPL stood out at +3.16% and Fed prediction markets still leaned hold."
+  },
+  {
     "id": "2026-07-27-morning-brief",
     "title": "Morning Market Brief - Monday, July 27, 2026",
     "date": "2026-07-27T07:30:00-05:00",
