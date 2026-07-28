@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-28-close-brief",
+    "title": "Market Close Brief - Tuesday, July 28, 2026",
+    "date": "2026-07-28T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis took the hit into the close: AMD -8.15%, SMH -3.45%, and PLTR -6.08%, while SPY held green on GOOG/AAPL strength; prediction markets stayed focused on tomorrow's Fed decision and Elon flagged Grok 4.6/4.7 release timing."
+  },
+  {
     "id": "2026-07-28-morning-brief",
     "title": "Morning Market Brief - Tuesday, July 28, 2026",
     "date": "2026-07-28T07:30:00-05:00",
