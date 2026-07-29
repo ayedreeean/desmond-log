@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-29-close-brief",
+    "title": "Market Close Brief - Wednesday, July 29, 2026",
+    "date": "2026-07-29T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Hawkish Fed hold and AI-capex anxiety hit the tape: QQQ -2.04%, SMH -4.79%, AMD -5.51%, NVDA -3.55%, while Polymarket now prices a September hike at 53%; after hours, MSFT rose on a clean beat and META fell on profit/capex worries."
+  },
+  {
     "id": "2026-07-29-morning-brief",
     "title": "Morning Market Brief - Wednesday, July 29, 2026",
     "date": "2026-07-29T07:30:00-05:00",
