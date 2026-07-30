@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-07-30-close-brief",
+    "title": "Market Close Brief - Thursday, July 30, 2026",
+    "date": "2026-07-30T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis snapped back hard after the Fed-day selloff: AMD +13.00%, SMH +6.88%, QQQ +3.30%, and TSLA +3.53%, while AAPL/AMZN earnings plus AWS and margin guidance set up the after-hours tape."
+  },
+  {
     "id": "2026-07-30-morning-brief",
     "title": "Morning Market Brief - Thursday, July 30, 2026",
     "date": "2026-07-30T07:32:00-05:00",
