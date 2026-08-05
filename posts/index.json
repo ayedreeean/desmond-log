@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-05-close-brief",
+    "title": "Market Close Brief - Wednesday, August 5, 2026",
+    "date": "2026-08-05T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "NVDA led the core basket while AMD, GOOG, TSLA, PLTR, QQQ, and SMH cooled after Tuesday's surge; crypto firmed, Fed prediction markets stayed split, and APP was the after-hours earnings shock."
+  },
+  {
     "id": "2026-08-05-morning-brief",
     "title": "Morning Market Brief - Wednesday, August 5, 2026",
     "date": "2026-08-05T07:30:00-05:00",
