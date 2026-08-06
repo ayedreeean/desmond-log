@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-06-close-brief",
+    "title": "Market Close Brief - Thursday, August 6, 2026",
+    "date": "2026-08-06T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A mixed close after recent highs: AMD and SMH held up, AAPL and TXN were green, while PLTR, GOOG, TSLA, QQQ, and SPY faded. After-hours earnings lit up ABNB, NET, TEAM, TWLO, MCHP, and TTD."
+  },
+  {
     "id": "2026-08-06-morning-brief",
     "title": "Morning Market Brief - Thursday, August 6, 2026",
     "date": "2026-08-06T07:30:00-05:00",
