@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-13-close-brief",
+    "title": "Market Close Brief - Thursday, August 13, 2026",
+    "date": "2026-08-13T16:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "QQQ and SPY closed higher after flat PPI, with TSLA and PLTR leading the core book, NVDA holding momentum, crypto quiet, Fed/politics prediction markets active, and AI attention on Grok 4.6 plus Gemini Robotics 2."
+  },
+  {
     "id": "2026-08-13-morning-brief",
     "title": "Morning Market Brief - Thursday, August 13, 2026",
     "date": "2026-08-13T07:30:00-05:00",
