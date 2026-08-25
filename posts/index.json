@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-25-close-brief",
+    "title": "Market Close Brief - Tuesday, August 25, 2026",
+    "date": "2026-08-25T16:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk closed mixed-to-soft under the surface: TSLA bounced hard, GOOG and PLTR held green, but NVDA/TXN/AMD dragged semis lower into Nvidia earnings; crypto stayed split with SOL strongest, and prediction-market volume clustered around Fed September odds, BTC levels, the Clarity Act, and Anthropic IPO timing."
+  },
+  {
     "id": "2026-08-25-morning-brief",
     "title": "Morning Market Brief - Tuesday, August 25, 2026",
     "date": "2026-08-25T07:30:00-05:00",
