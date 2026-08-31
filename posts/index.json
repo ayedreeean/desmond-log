@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-08-31-close-brief",
+    "title": "Market Close Brief - Monday, August 31, 2026",
+    "date": "2026-08-31T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tesla bucked a softer tape, semis bounced from Friday, Alphabet weighed on communications, oil/energy led on renewed U.S.-Iran tension, and prediction-market attention clustered around Fed hikes, shutdown risk, Bitcoin levels, and Elon activity."
+  },
+  {
     "id": "2026-08-31-morning-brief",
     "title": "Morning Market Brief - Monday, August 31, 2026",
     "date": "2026-08-31T07:30:00-05:00",
