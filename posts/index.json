@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-02-close-brief",
+    "title": "Market Close Brief - Wednesday, September 2, 2026",
+    "date": "2026-09-02T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk tried to stabilize after the September selloff, but the watchlist was split: NVDA, AAPL, and TSLA bounced hard while AMD, PLTR, TXN, crypto, and SMH lagged; prediction markets stayed focused on September Fed hike odds, shutdown risk, crypto legislation, AI model safety, and physical-world AI."
+  },
+  {
     "id": "2026-09-02-morning-brief",
     "title": "Morning Market Brief - Wednesday, September 2, 2026",
     "date": "2026-09-02T07:30:00-05:00",
