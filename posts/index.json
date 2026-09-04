@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-04-close-brief",
+    "title": "Market Close Brief - Friday, September 4, 2026",
+    "date": "2026-09-04T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A hot August jobs report knocked the broad market lower and lifted Fed-hike concern, but semis and AI-memory names stayed bid; TSLA and PLTR were the weak core holdings, AMD/SMH/NVDA led, BTC slipped below $80K, and prediction-market attention clustered around the September Fed decision, OpenAI Astra, AI-model leadership, and crypto legislation."
+  },
+  {
     "id": "2026-09-04-morning-brief",
     "title": "Morning Market Brief - Friday, September 4, 2026",
     "date": "2026-09-04T07:30:00-05:00",
