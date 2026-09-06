@@ -27,7 +27,10 @@
     "id": "2026-09-04-close-brief",
     "title": "Market Close Brief - Friday, September 4, 2026",
     "date": "2026-09-04T15:15:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
     "excerpt": "A hot August jobs report knocked the broad market lower and lifted Fed-hike concern, but semis and AI-memory names stayed bid; TSLA and PLTR were the weak core holdings, AMD/SMH/NVDA led, BTC slipped below $80K, and prediction-market attention clustered around the September Fed decision, OpenAI Astra, AI-model leadership, and crypto legislation."
   },
   {
@@ -44,7 +47,10 @@
     "id": "2026-09-03-evening-brief",
     "title": "Evening Brief - Thursday, September 3, 2026",
     "date": "2026-09-03T20:00:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
     "excerpt": "Risk stayed bid after a tech-led rebound, but after-hours action was mostly quiet outside LULU's collapse and ZS/Samsara strength; TSLA faded slightly after the Cybercab reveal, NVDA added on the Hugging Face deal, BTC held near $81K, and Friday's jobs report is the overnight macro hinge."
   },
   {
@@ -62,7 +68,10 @@
     "id": "2026-09-03-close-brief",
     "title": "Market Close Brief - Thursday, September 3, 2026",
     "date": "2026-09-03T15:15:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
     "excerpt": "Tech led a strong rebound as Treasury yields eased and Fed-hike odds fell; TSLA and PLTR ripped, NVDA joined the AI bid, crypto bounced hard, and prediction-market volume clustered around the September Fed decision, crypto legislation, OpenAI Astra, midterms, and Iran."
   },
   {
@@ -79,7 +88,10 @@
     "id": "2026-09-02-evening-brief",
     "title": "Evening Brief - Wednesday, September 2, 2026",
     "date": "2026-09-02T20:00:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
     "excerpt": "AI earnings set the after-hours tone: Snowflake ripped higher while Broadcom and HPE faded, crypto stayed soft, Polymarket leaned toward a September Fed hike, and the overnight macro tape remained dominated by oil, yields, Iran, and Thursday's Tesla Cybercab catalyst."
   },
   {
@@ -97,7 +109,10 @@
     "id": "2026-09-02-close-brief",
     "title": "Market Close Brief - Wednesday, September 2, 2026",
     "date": "2026-09-02T15:15:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
     "excerpt": "Risk tried to stabilize after the September selloff, but the watchlist was split: NVDA, AAPL, and TSLA bounced hard while AMD, PLTR, TXN, crypto, and SMH lagged; prediction markets stayed focused on September Fed hike odds, shutdown risk, crypto legislation, AI model safety, and physical-world AI."
   },
   {
@@ -114,7 +129,10 @@
     "id": "2026-09-01-evening-brief",
     "title": "Evening Brief - Tuesday, September 1, 2026",
     "date": "2026-09-01T20:00:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
     "excerpt": "September opened risk-off after the close: oil and yields kept pressure on tech, Dell was the standout AI-server earnings winner, MongoDB and Credo sold off despite beats, crypto stayed heavy, and prediction markets centered on Fed hikes, crypto regulation, shutdown risk, Iran, and AI model-release timing."
   },
   {
@@ -132,7 +150,10 @@
     "id": "2026-09-01-close-brief",
     "title": "Market Close Brief - Tuesday, September 1, 2026",
     "date": "2026-09-01T15:15:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
     "excerpt": "September opened risk-off as oil and yields pressured megacap tech, semis, TSLA, PLTR, and crypto; AAPL was the exception, while prediction-market volume centered on Fed hikes, crypto regulation, Iran, midterms, and AI model-release timing."
   },
   {
@@ -170,7 +191,10 @@
     "id": "2026-08-31-close-brief",
     "title": "Market Close Brief - Monday, August 31, 2026",
     "date": "2026-08-31T15:15:00-05:00",
-    "tags": "",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
     "excerpt": "Tesla bucked a softer tape, semis bounced from Friday, Alphabet weighed on communications, oil/energy led on renewed U.S.-Iran tension, and prediction-market attention clustered around Fed hikes, shutdown risk, Bitcoin levels, and Elon activity."
   },
   {
