@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-10-close-brief",
+    "title": "Market Close Brief — September 10, 2026: Apple Shines, Chips Retreat",
+    "date": "2026-09-10T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AAPL +3.56%, AMD -3.36%, SMH -2.44%; PPI rises 5.4% annually. DeepSeek V4.1-Flash launches; Oracle and Adobe swing after hours."
+  },
+  {
     "id": "2026-09-10-morning-brief",
     "title": "Morning Market Brief — September 10, 2026: Chips Slide, Apple Holds Up",
     "date": "2026-09-10T07:30:00-05:00",
