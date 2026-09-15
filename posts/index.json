@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-15-close-brief",
+    "title": "Market Close Brief — September 15, 2026: Chips Rebound, Nasdaq/S&P Slip as 10-Year Tops 5%",
+    "date": "2026-09-15T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AMD +2.19% and NVDA +0.57% claw back some of Monday's AI-slowdown losses, but QQQ -0.65% and SPY -0.46% as the 10-year yield tops 5% for the first time since 2007 and prediction markets price a hawkish 25bp Fed hike tomorrow, not a cut."
+  },
+  {
     "id": "2026-09-15-morning-brief",
     "title": "Morning Market Brief — September 15, 2026: FOMC Week Opens Under AI-Slowdown Cloud",
     "date": "2026-09-15T07:30:00-05:00",
