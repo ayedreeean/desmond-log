@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-18-close-brief",
+    "title": "Market Close Brief — September 18, 2026: SMH Rips ~3%, QQQ Hits a One-Month High, October Fed Odds Tilt Toward Another Hike",
+    "date": "2026-09-18T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Friday's session extended Thursday's post-FOMC rebound — semis led with SMH up close to 3% and QQQ closing at a fresh one-month high, while the Dow gave back a touch (-0.18%) and S&P 500 eked out a small gain. AMD's Thursday +6.36% Helios/data-center rip remains the week's standout single-name move. Kalshi's site was Vercel-blocked again; Polymarket has October's Fed decision at 55% for another 25bps hike."
+  },
+  {
     "id": "2026-09-18-morning-brief",
     "title": "Morning Market Brief — September 18, 2026: AMD Rips 6.4% on Neocloud Pricing, Chips Lead the Post-Fed Bounce",
     "date": "2026-09-18T07:30:00-05:00",
