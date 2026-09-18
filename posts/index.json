@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-18-morning-brief",
+    "title": "Morning Market Brief — September 18, 2026: AMD Rips 6.4% on Neocloud Pricing, Chips Lead the Post-Fed Bounce",
+    "date": "2026-09-18T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Thursday's post-FOMC rebound turned into a chip stampede — AMD closed +6.36% (and another +1.7% after-hours) on neocloud pricing news, dragging QQQ/SPY to session gains of 1.7%/1.1%. SPY and QQQ are both a touch firmer again pre-market. Kalshi is fully blocked by bot-checkpoints again; Polymarket has the October Fed decision at 53/47 for another hike."
+  },
+  {
     "id": "2026-09-17-evening-brief",
     "title": "Evening Brief — September 17, 2026: Rally Digests Overnight, Fed's October Path Still a Coin-Flip",
     "date": "2026-09-17T20:00:00-05:00",
