@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lovejoy ISD Teacher Turnover: What Happened?</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5ef;
+      --fg: #1f2933;
+      --muted: #667085;
+      --card: #ffffff;
+      --accent: #0f766e;
+      --line: #d8d3c7;
+      --risk: #9f1239;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --fg: #f3f4f6;
+        --muted: #a7b0be;
+        --card: #1f2937;
+        --accent: #2dd4bf;
+        --line: #374151;
+        --risk: #fb7185;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 48px 22px 72px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.8rem);
+      line-height: 1.05;
+      margin: 0 0 14px;
+      letter-spacing: 0;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin: 34px 0 12px;
+    }
+    h3 {
+      font-size: 1rem;
+      margin: 0 0 8px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    p { margin: 0 0 14px; }
+    a { color: var(--accent); }
+    .deck {
+      font-size: 1.12rem;
+      color: var(--muted);
+      max-width: 760px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: .92rem;
+      margin-top: 14px;
+    }
+    .callout {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--accent);
+      border-radius: 8px;
+      padding: 20px;
+      margin: 26px 0;
+    }
+    .risk { border-left-color: var(--risk); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin: 18px 0 8px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .metric {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    ul, ol { padding-left: 1.35rem; }
+    li { margin: 8px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 8px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      padding: 10px 12px;
+    }
+    th { color: var(--muted); font-size: .9rem; }
+    tr:last-child td { border-bottom: 0; }
+    .small { color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Lovejoy ISD Teacher Turnover: What Happened?</h1>
+      <p class="deck">A quick public-source assessment for the Allen/Lovejoy home search decision. Bottom line: COVID appears to have triggered the visible crisis, but the turnover spike looks more like a multi-year funding, enrollment, staffing, and workload problem than a simple pandemic artifact.</p>
+      <p class="meta">Prepared May 24, 2026. Public sources include TEA/TAPR, NBC DFW, WFAA, Texas Tribune Schools Explorer, Lovejoy ISD board communications, The Red Ledger, and public review/forum chatter.</p>
+    </header>
+
+    <section class="callout">
+      <h3>Short Answer</h3>
+      <p><strong>I would not dismiss Lovejoy's 34.9% teacher turnover as “just COVID.”</strong> COVID likely accelerated the problem through enrollment and attendance shocks, but the evidence points to a longer-running funding squeeze, campus consolidation, schedule changes, staffing reductions, compensation pressure, and possible culture/admin churn.</p>
+    </section>
+
+    <section class="grid" aria-label="Key metrics">
+      <div class="card">
+        <div class="metric">34.9%</div>
+        <p><strong>Lovejoy 2025 teacher turnover</strong></p>
+        <p class="small">TEA/TAPR district report.</p>
+      </div>
+      <div class="card">
+        <div class="metric">18.2%</div>
+        <p><strong>Allen 2025 teacher turnover</strong></p>
+        <p class="small">Texas statewide was 18.8%.</p>
+      </div>
+      <div class="card">
+        <div class="metric">236.6</div>
+        <p><strong>Lovejoy 2025 teacher FTE</strong></p>
+        <p class="small">Down from 273.8 in 2024.</p>
+      </div>
+    </section>
+
+    <h2>Turnover Trend</h2>
+    <table>
+      <thead>
+        <tr><th>Year</th><th>Lovejoy ISD</th><th>Allen ISD</th><th>Read</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2021</td><td>13.3%</td><td>10.8%</td><td>Lovejoy looked normal.</td></tr>
+        <tr><td>2022</td><td>21.9%</td><td>16.8%</td><td>Lovejoy begins rising after COVID/budget shock.</td></tr>
+        <tr><td>2023</td><td>30.8%</td><td>19.8%</td><td>Clear Lovejoy-specific stress signal.</td></tr>
+        <tr><td>2024</td><td>23.9%</td><td>19.5%</td><td>Still elevated.</td></tr>
+        <tr><td>2025</td><td>34.9%</td><td>18.2%</td><td>Major red flag.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>What The Public Record Shows</h2>
+    <ol>
+      <li><strong>Structural funding pressure predates COVID.</strong> WFAA reported in 2019 that Lovejoy said it had lost about $25 million in state aid over eight years and faced the loss of another roughly $3 million hardship grant. District leadership said they had been “trimming and trimming” until little was left to cut.</li>
+      <li><strong>COVID hit enrollment and attendance.</strong> Lovejoy's March 2021 board brief said the district budgeted around projected growth to 4,406 students but came in about 200 students short after COVID disrupted enrollment. Texas school funding depends heavily on average daily attendance, so fewer students directly pressured revenue.</li>
+      <li><strong>Lovejoy Elementary closed in 2021.</strong> NBC DFW reported the closure was tied to budget concerns, rising home prices limiting young-family inflow, HB3 funding changes, possible limits on out-of-district tuition, COVID costs, lower local revenue, and revised funding models.</li>
+      <li><strong>Staffing reductions show up in hard data.</strong> Lovejoy teacher FTE fell from 273.8 in 2024 to 236.6 in 2025. Total staff FTE fell from 525.2 to 461.1. That makes the turnover spike more than an anecdotal complaint.</li>
+      <li><strong>2024-25 schedule changes likely increased workload pressure.</strong> The Red Ledger reported Lovejoy moving middle and high school from an eight-period day to seven periods. The student paper described reduced elective capacity, planning-period concerns, larger classes, and no additional teacher compensation.</li>
+    </ol>
+
+    <section class="callout risk">
+      <h3>Forum / Social Chatter</h3>
+      <p>Public reviews and forum-like sources are consistent with the hard-data story but should be treated carefully. Niche reviews from 2024-25 mention financial strain, teacher/admin exits, principal churn, curriculum concerns, and a “toxic” culture. Glassdoor snippets point to turnover complaints, especially around special education/admin. These are useful smoke signals, not proof.</p>
+    </section>
+
+    <h2>Working Diagnosis</h2>
+    <ul>
+      <li>Long-running state funding disadvantage and lost aid.</li>
+      <li>COVID-era enrollment and attendance shock.</li>
+      <li>High home prices reducing young-family inflow and elementary enrollment.</li>
+      <li>Budget cuts, campus consolidation, and staffing contractions.</li>
+      <li>Schedule changes that may have reduced planning time or increased class/workload pressure.</li>
+      <li>Compensation not obviously strong enough to keep teachers from moving to nearby districts.</li>
+      <li>Possible admin/culture churn, based mostly on anecdotal sources.</li>
+    </ul>
+
+    <h2>Buying Decision Read</h2>
+    <p>Lovejoy still has elite academic outcomes, but teacher turnover is a real diligence item. I would ask Lovejoy directly:</p>
+    <div class="callout">
+      <p><strong>What percentage of 2025 turnover was retirements, resignations, non-renewals, or reductions in force? Which campuses and departments were hit hardest? What changed for 2025-26 compensation, planning time, class size, and workload?</strong></p>
+    </div>
+    <p>If the answer is transparent and the 2025-26 trend improves, the red flag weakens. If the district is vague or the turnover remains high, that should meaningfully discount the Lovejoy premium.</p>
+
+    <h2>Source Links</h2>
+    <ul>
+      <li><a href="https://www.wfaa.com/article/news/lovejoy-isd-to-cut-one-period-limit-electives-to-makeup-for-state-aid-loss/287-5667967f-f71e-41b2-81cb-a7018c3b80e3">WFAA: Lovejoy ISD to cut one period, limit electives to make up for state aid loss</a></li>
+      <li><a href="https://www.nbcdfw.com/news/local/carter-in-the-classroom/lovejoy-elementary-school-will-close-due-to-budget-concerns/2615806/">NBC DFW: Lovejoy Elementary School Will Close Due to Budget Concerns</a></li>
+      <li><a href="https://myemail.constantcontact.com/Lovejoy-ISD----March-25--2021-Board-Brief.html?soid=1114502746978&aid=MkmoA9Gz6yg">Lovejoy ISD: March 25, 2021 Board Brief</a></li>
+      <li><a href="https://schools.texastribune.org/districts/lovejoy-isd/">Texas Tribune Schools Explorer: Lovejoy ISD</a></li>
+      <li><a href="https://schools.texastribune.org/districts/lovejoy-isd/teacher-salary/">Texas Tribune: Lovejoy ISD Teacher Pay</a></li>
+      <li><a href="https://theredledger.net/2024/02/29/here-lies-the-eight-period-day/">The Red Ledger: Here lies the eight period day</a></li>
+      <li><a href="allen-vs-lovejoy-isd-deep-dive.html">Related: Allen ISD vs Lovejoy ISD Deep Dive</a></li>
+    </ul>
+  </main>
+</body>
+</html>

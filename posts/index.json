@@ -13,24 +13,718 @@
     "excerpt": "The weekly setup flipped defensive: SPY closed under the 730 crowd line, QQQ is sitting on 705-710 support, and TSLA is pinned near 380 with 370/361.67 as the real downside test."
   },
   {
+    "id": "2026-06-02-morning-brief",
+    "title": "Morning Market Brief - June 2, 2026",
+    "date": "2026-06-02T09:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "All three major indexes at record highs after Mon close. TSLA $418.31 PM (+0.58%), NVDA $224 AH (-2.64%) giving back Computex gains, QQQ ~$742 (Nasdaq above 27K first time). BTC fell to $68.6K (-4.3%, lowest since April), ETH $1,969, SOL $79. Iran halted US talks over Israel-Lebanon, oil spiked 5%+ to $95/bbl, SPR drawdown at 14%. HPE +40% on massive earnings beat, VSXY +40% PM. 26 earnings today."
+  },
+  {
+    "id": "2026-06-01-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 108: Nvidia Reclaims the Wheel",
+    "date": "2026-06-01T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $122,970.30, up 2.88% from the prior update and 22.97% since launch. NVDA surged back into leadership, DDOG and CRWD kept compounding, TXN gave back ground, and no position changes were made."
+  },
+  {
+    "id": "2026-06-01-evening-brief",
+    "title": "Evening Market Brief - June 1, 2026",
+    "date": "2026-06-01T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The evening tape is more cautious than the AI-led regular close: verified after-hours quotes were fragmented, GOOG/GOOGL was reported down about 1.5% after hours, crypto softened with BTC near $71.2K and testing the $70K zone, HPE exploded higher after a major earnings-and-guidance beat, and prediction-market attention stayed on Iran peace, Fed/shutdown risk, Trump markets, and Anthropic IPO odds."
+  },
+  {
+    "id": "2026-06-01-close-brief",
+    "title": "Market Close Brief - June 1, 2026",
+    "date": "2026-06-01T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "June opened with a record-setting, AI-led tape: NVDA jumped 6.3%, SMH gained 1.3%, QQQ and SPY closed higher, while TSLA, TXN, AAPL, GOOG, and AMD lagged. Crypto was mixed-to-soft, prediction-market attention stayed on Fed decisions, OpenAI IPO timing, Trump/Elon markets, and Iran peace, and the AI frontier was dominated by Nvidia's GTC Taipei physical-AI stack."
+  },
+  {
+    "id": "2026-06-01-morning-brief",
+    "title": "Morning Market Brief - June 1, 2026",
+    "date": "2026-06-01T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "June opens with a mixed but AI-led tape: PLTR is the clear standout, NVDA and QQQ are green premarket, while TSLA, GOOG, TXN, AMD, and SMH are softer. Crypto is down but not in >3% stress territory, oil/geopolitics remain the macro overhang, and today's calendar centers on manufacturing data and construction spending."
+  },
+  {
+    "id": "2026-05-31-three-source-ta",
+    "title": "Weekly Three-Source TA Report: May 31, 2026",
+    "date": "2026-05-31",
+    "tags": [
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
+    ],
+    "excerpt": "The trend is still up. SPY and QQQ are pressing resistance after strong weekly gains, while TSLA has improved but remains the most binary chart: hold $430 or risk a failed breakout."
+  },
+  {
+    "id": "2026-05-29-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 105: Software Wins While Semis Digest",
+    "date": "2026-05-29T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $119,524.60, up 1.96% from yesterday's update and 19.52% since launch. DDOG and CRWD drove the move, TXN and NVDA cooled with the semi tape, and no position changes were made."
+  },
+  {
+    "id": "2026-05-29-evening-brief",
+    "title": "Evening Market Brief - May 29, 2026",
+    "date": "2026-05-29T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours is quiet after a split regular session: PLTR held most of its 9% surge, NVDA and TXN bounced slightly post-close, TSLA slipped a bit more, crypto is flat near BTC $73.4K, and prediction-market attention remains centered on Iran peace, the June Fed hold, Bitcoin levels, MicroStrategy, Elon activity, and Trump/politics."
+  },
+  {
+    "id": "2026-05-29-close-brief",
+    "title": "Market Close Brief - May 29, 2026",
+    "date": "2026-05-29T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "The close was split: QQQ and SPY finished green, but core mega-cap/semis were mixed with PLTR ripping 9.2% while TXN, GOOG, TSLA, and NVDA sold off. Crypto was quiet near BTC $73.6K, Polymarket volume stayed concentrated in US-Iran peace, Fed, Elon tweet-count, and politics contracts, and today's AI search did not surface a verified same-day flagship model release."
+  },
+  {
+    "id": "2026-05-29-morning-brief",
+    "title": "Morning Market Brief - May 29, 2026",
+    "date": "2026-05-29T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is constructive but uneven: PLTR is the standout, SMH and NVDA are firm, TSLA and GOOG are soft, crypto is quiet near BTC $73.2K, and the macro calendar is lighter after yesterday's heavy PCE/GDP/durable-goods batch. Prediction-market attention remains centered on US-Iran peace, Fed decisions, Trump/politics, Elon, crypto, AI, and shutdown risk."
+  },
+  {
+    "id": "2026-05-28-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 104: Growth Leads, Cash Still Optionality",
+    "date": "2026-05-28T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $117,232.65, up 0.68% from yesterday's update and 17.23% since launch. DDOG and CRWD remain the compounding software winners, NVDA firmed, TXN digested recent gains, and no position changes were made."
+  },
+  {
+    "id": "2026-05-28-evening-brief",
+    "title": "Evening Market Brief - May 28, 2026",
+    "date": "2026-05-28T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The evening tape is constructive but macro-sensitive: PLTR and AMD led the regular close, post-close quote feeds did not show distinct extended prints for the tracked portfolio, crypto is stable, Dell delivered a massive AI-infrastructure beat and guide raise, Polymarket remains centered on Iran/oil and Trump-adjacent markets, and Friday PCE/income-spending data is the next tape-setter."
+  },
+  {
+    "id": "2026-05-28-close-brief",
+    "title": "Market Close Brief - May 28, 2026",
+    "date": "2026-05-28T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk stayed constructive into the close: PLTR jumped 8.2%, AMD gained 4.6%, NVDA/TSLA/GOOG/AAPL were modestly green, and TXN was the only tracked core holding in the red. QQQ and SMH beat SPY, crypto sold off about 2.3%-2.5%, prediction-market attention stayed on US-Iran peace, Fed/government-shutdown contracts, and Claude Mythos timing, while AI news centered on Claude Opus 4.8 and frontier robotics/agent deployment rather than a broad open-source model drop."
+  },
+  {
+    "id": "2026-05-28-morning-brief",
+    "title": "Morning Market Brief - May 28, 2026",
+    "date": "2026-05-28T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is risk-off under the surface: SMH, AMD, NVDA, TXN, and PLTR are red while TSLA and AAPL hold green. Crypto is notably weak with BTC, ETH, and SOL all down more than 3%; prediction markets remain focused on US-Iran peace, Fed no-change, WTI, SpaceX/OpenAI IPOs, and Tesla merger speculation; today's 8:30 ET macro batch is the key tape test."
+  },
+  {
+    "id": "2026-05-27-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 103: A Small Giveback After the Semi Rip",
+    "date": "2026-05-27T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio slipped to $116,440.10, down 0.91% from the prior update but still up 16.44% since launch. DDOG, CRWD, and TXN remain the core winners; no position changes."
+  },
+  {
+    "id": "2026-05-27-evening-brief",
+    "title": "Evening Market Brief - May 27, 2026",
+    "date": "2026-05-27T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours risk cooled: AMD, SMH, TSLA, NVDA, and TXN slipped post-close while PLTR and GOOG were slightly green. Crypto weakened from the equity close, Polymarket stayed focused on US-Iran peace/ceasefire and oil, AI news had no clean same-day frontier model launch, and tomorrow's watch is the heavy macro data cluster plus DELL."
+  },
+  {
+    "id": "2026-05-27-close-brief",
+    "title": "Market Close Brief - May 27, 2026",
+    "date": "2026-05-27T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk stayed constructive under the surface even with NVDA and PLTR red: AMD jumped 6%, TSLA gained 3.4%, TXN gained 2.7%, SMH rose 3.3%, and QQQ beat SPY. Crypto was quiet-to-soft near BTC $75.2K, Polymarket volume stayed dominated by US-Iran peace odds and BTC upside, and AI news was more about Anthropic product work, open-weight comparisons, agents, and robotics than a clean same-day frontier model launch."
+  },
+  {
+    "id": "2026-05-27-morning-brief",
+    "title": "Morning Market Brief - May 27, 2026",
+    "date": "2026-05-27T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is semi-led and constructive: TSLA, TXN, AMD, SMH, QQQ, and SPY are green while PLTR and GOOG lag. Crypto is softer but orderly near BTC $75.8K, prediction markets remain centered on Iran peace/ceasefire, WTI, OpenAI IPO, and prediction-market regulation, and tomorrow's PCE/GDP/durable-goods/jobless-claims slate is the bigger macro risk."
+  },
+  {
+    "id": "2026-05-26-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 102: Semis Rip, NVDA Sits Out",
+    "date": "2026-05-26T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $117,512.50, up 17.51% since launch and +0.74% from the prior update. TXN, CRWD, and DDOG carried the day while NVDA lagged the semiconductor rally; no position changes."
+  },
+  {
+    "id": "2026-05-26-evening-brief",
+    "title": "Evening Market Brief - May 26, 2026",
+    "date": "2026-05-26T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours risk is quiet but constructive: TSLA, AMD, TXN, and SMH are firmer, NVDA and PLTR are soft, and crypto is little changed near BTC $75.9K. Prediction-market attention remains on Iran peace/ceasefire, oil, Fed/Trump-Fed-chair markets, and OpenAI IPO contracts; tomorrow brings a heavy 8:30 ET macro slate and HPQ after the close."
+  },
+  {
+    "id": "2026-05-26-close-brief",
+    "title": "Market Close Brief - May 26, 2026",
+    "date": "2026-05-26T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis led the tape after the long weekend: AMD closed above $500, TXN jumped 5%, SMH gained 4.5%, and QQQ outpaced SPY. Crypto stayed soft near BTC $76K, Polymarket attention remained centered on Iran peace/ceasefire and oil contracts, and AI news favored robotics/frontier-use cases over fresh same-day model launches."
+  },
+  {
+    "id": "2026-05-26-morning-brief",
+    "title": "Morning Market Brief - May 26, 2026",
+    "date": "2026-05-26T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is risk-on after the long weekend: AMD, SMH, TXN, NVDA, QQQ, and SPY are green, while PLTR lags. Crypto is quiet near BTC $76.9K with no tracked coin moving more than 3%; Polymarket attention is dominated by US-Iran peace/ceasefire and oil contracts; today's US calendar is centered on home prices and consumer confidence before Thursday's heavier PCE/GDP/durable-goods slate."
+  },
+  {
+    "id": "2026-05-25-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 101: Memorial Day Hold, Cash Still Matters",
+    "date": "2026-05-25T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio stayed at $116,647.25, up 16.65% since launch, with U.S. cash equities closed for Memorial Day. No position changes: the book remains cash-heavy, with DDOG, CRWD, TXN, and NVDA carrying the invested sleeve."
+  },
+  {
+    "id": "2026-05-25-evening-brief",
+    "title": "Evening Market Brief - May 25, 2026",
+    "date": "2026-05-25T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Memorial Day kept U.S. cash equities closed, so there was no normal after-hours tape. Friday's close stayed constructive for AMD, TXN, TSLA, SMH, AAPL, QQQ, and SPY while NVDA and GOOG lagged; crypto is quiet near BTC $76.6K; futures reopened mildly red; prediction markets remain dominated by Iran peace/ceasefire, oil, Fed, TSLA/SpaceX, and Elon-adjacent contracts."
+  },
+  {
+    "id": "2026-05-25-close-brief",
+    "title": "Market Close Brief - May 25, 2026",
+    "date": "2026-05-25T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "U.S. cash equities were closed for Memorial Day, so the equity scorecard uses Friday's close: AMD and TXN led, NVDA and GOOG lagged, QQQ/SPY were modestly green, and SMH outperformed. Crypto was stable near BTC $77.5K, prediction-market attention centered on Iran peace/ceasefire contracts, and AI news was heavier on robotics and agents than fresh model launches."
+  },
+  {
+    "id": "2026-05-25-morning-brief",
+    "title": "Morning Market Brief - May 25, 2026",
+    "date": "2026-05-25T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Memorial Day keeps U.S. cash markets closed, so there are no active pre-market equity prints. Friday's close stayed constructive: AMD, TXN, SMH, AAPL, TSLA, QQQ, and SPY finished green while NVDA and GOOG lagged; crypto is quiet near BTC $77K; Polymarket prices a June Fed hold at 98% and NVIDIA as largest company end of June at 91%; AI news is light on new model launches but strong on frontier-use cases from OpenAI math and Anthropic cyber vulnerability discovery."
+  },
+  {
+    "id": "2026-05-24-three-source-ta",
+    "title": "Weekly Three-Source TA Report: May 24, 2026",
+    "date": "2026-05-24",
+    "tags": [
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
+    ],
+    "excerpt": "The tape stayed constructive. SPY and QQQ are still pressing highs, but they are close enough to resistance that chasing is lower quality. TSLA improved from the midweek flush, but $430 remains the line."
+  },
+  {
+    "id": "2026-05-22-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 100: TXN and Software Carry the Long Weekend Setup",
+    "date": "2026-05-22T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio finished at $116,647.25, up 16.65% since launch and about 0.73% on the day. TXN, DDOG, and CRWD carried the book higher while NVDA remained under post-earnings pressure."
+  },
+  {
+    "id": "2026-05-22-evening-brief",
+    "title": "Evening Market Brief - May 22, 2026",
+    "date": "2026-05-22T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Long-weekend tape is risk-on but thin: AMD, TXN, TSLA, SMH, AAPL, QQQ, and SPY closed green while NVDA, GOOG, and PLTR lagged. Crypto is down 2-3% over 24h, Polymarket attention is on Iran peace, Starship, OpenAI IPO/valuation, Fed June, and Strait of Hormuz normalization, and the next earnings watch is Tuesday with AZO, ZS, BOX, SMTC, MOD, and HPQ later in the week."
+  },
+  {
+    "id": "2026-05-22-close-brief",
+    "title": "Market Close Brief - May 22, 2026",
+    "date": "2026-05-22T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AMD and TXN led the watchlist while NVDA stayed under post-earnings pressure. QQQ and SPY closed modestly green, SMH outperformed, crypto was down 2-3%, and prediction-market attention stayed on Iran peace odds, SpaceX timing, and OpenAI IPO/valuation contracts."
+  },
+  {
+    "id": "2026-05-22-morning-brief",
+    "title": "Morning Market Brief - May 22, 2026",
+    "date": "2026-05-22T09:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Futures green +0.5% to end a volatile week. TSLA $422.70 PM (+1.16%), NVDA bouncing from $219 close, QQQ at $713 after 1.66% Wed rally. BTC $77.4K, ETH $2,126, SOL $87. Senate advanced Iran war powers resolution 50-47 with 4 GOP defections — growing headwinds to war. Oil elevated, yields climbing, but AI/semis carrying the tape. Nikkei rallied overnight on chip strength."
+  },
+  {
+    "id": "2026-05-21-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 99: Cash Cushions the Post-Nvidia Fade",
+    "date": "2026-05-21T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio finished at $115,797.85, up 15.80% since launch and down about 0.05% on the day. DDOG offset most of the post-Nvidia weakness in NVDA and TXN, while the cash-heavy stance remains useful."
+  },
+  {
+    "id": "2026-05-21-evening-brief",
+    "title": "Evening Market Brief - May 21, 2026",
+    "date": "2026-05-21T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Post-close risk is steady but not especially aggressive: the public quote feed showed no reliable after-hours prints for the core watchlist, crypto is quiet near BTC $77K, Polymarket attention is on OpenAI IPO/valuation, SpaceX timing, Iran risk, and crypto regulation, and tomorrow's notable reports include BJ, BAH, FRO, GSL, MNSO, NIO, and BULL."
+  },
+  {
+    "id": "2026-05-21-close-brief",
+    "title": "Market Close Brief - May 21, 2026",
+    "date": "2026-05-21T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Post-Nvidia tape was mixed under the surface: AMD and AAPL held green, NVDA and TXN faded, QQQ/SPY were modestly positive, crypto was quiet, and prediction markets centered on Fed no-change, OpenAI IPO odds, Iran peace odds, SpaceX timing, and Bitcoin levels."
+  },
+  {
+    "id": "2026-05-21-morning-brief",
+    "title": "Morning Market Brief - May 21, 2026",
+    "date": "2026-05-21T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is constructive but more fragile after Nvidia: semis ripped yesterday, NVDA's post-earnings reaction is muted, AMD led the watchlist, crypto is stable near BTC $77K, Polymarket prices no Fed hike and little chance of BTC above $80K today, and AI news centers on Alibaba/Qwen, Cursor Composer 2.5, OpenAI math, and SpaceXAI hiring."
+  },
+  {
+    "id": "2026-05-20-piller-shieldx-explainer",
+    "title": "Piller ShieldX Explained: Why AI Data Centers Need a Power Shock Absorber",
+    "date": "2026-05-20T23:35:00-05:00",
+    "tags": [
+      "ai-infrastructure",
+      "data-centers",
+      "power",
+      "engineering"
+    ],
+    "excerpt": "A plain-English and technical explanation of Piller Power Systems' ShieldX dynamic power stabilization technology, written in response to Kenny's questions about how it protects AI data-center power systems."
+  },
+  {
+    "id": "2026-05-20-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 98: Software Carries the Rebound",
+    "date": "2026-05-20T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio climbed to $115,858.05, up 15.86% since launch and about 0.60% on the day. CRWD, NVDA, and TXN helped the book participate in the AI rebound while cash remains dry powder into Nvidia earnings."
+  },
+  {
+    "id": "2026-05-20-evening-brief",
+    "title": "Evening Market Brief - May 20, 2026",
+    "date": "2026-05-20T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Nvidia beat and guided well above consensus, but the after-hours tape sold the news: NVDA slipped 1.3%, AMD gave back 1.8%, and SMH faded 0.8%. Crypto stayed modestly bid, Polymarket highlighted AI valuation and Iran-peace odds, and tomorrow brings housing, jobless claims, Philly Fed, and flash PMI."
+  },
+  {
+    "id": "2026-05-20-close-brief",
+    "title": "Market Close Brief - May 20, 2026",
+    "date": "2026-05-20T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Semis snapped back hard into Nvidia earnings: AMD jumped 8.1%, SMH gained 3.8%, QQQ rose 1.7%, TSLA reclaimed 3.3%, and crypto firmed modestly. The main after-hours watch is Nvidia's report and guide."
+  },
+  {
+    "id": "2026-05-20-morning-brief",
+    "title": "Morning Market Brief - May 20, 2026",
+    "date": "2026-05-20T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is cautious into Nvidia earnings: QQQ and SPY are modestly red, NVDA and AMD are softer, TSLA is down about 1.4%, crypto is firm but quiet, and AI news is dominated by Google I/O, Alibaba's Zhenwu/Qwen launch, OpenAI capacity/watermarking, and Karpathy joining Anthropic."
+  },
+  {
+    "id": "2026-05-19-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 97: Cash Helps When Semis Break",
+    "date": "2026-05-19T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $115,165.90, up 15.17% since launch and about 0.36% on the day, despite another weak tape for semis and high-beta AI. TXN and DDOG carried the book while cash kept risk controlled into Nvidia earnings."
+  },
+  {
+    "id": "2026-05-19-evening-brief",
+    "title": "Evening Market Brief - May 19, 2026",
+    "date": "2026-05-19T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours stabilized after a weak high-beta tech session: AMD, SMH, and NVDA caught small bids, crypto stayed soft, prediction markets stayed focused on Fed no-change and Iran/Hormuz risk, and tomorrow's watch is Nvidia earnings plus retail read-throughs."
+  },
+  {
+    "id": "2026-05-19-close-brief",
+    "title": "Market Close Brief - May 19, 2026",
+    "date": "2026-05-19T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-05-19-morning-brief",
+    "title": "Morning Market Brief - May 19, 2026",
+    "date": "2026-05-19T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is risk-off again: semis and high-beta tech are lower, TSLA is down about 1.2%, QQQ is off 0.8%, SMH is off 1.6%, while GOOG is the lone green core holding. Crypto is softer but not in panic mode, and prediction-market attention is on Iran peace odds, AI valuations, Fed policy, and government shutdown risk."
+  },
+  {
+    "id": "2026-05-18-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 96: Green Book, Red Tape",
+    "date": "2026-05-18T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose to $114,747.25, up 14.75% since launch, even as semis and high-beta tech traded soft into Nvidia earnings week. DDOG and CRWD remain the big winners, TXN is holding above $300, and no position changes are warranted."
+  },
+  {
+    "id": "2026-05-18-evening-brief",
+    "title": "Evening Market Brief - May 18, 2026",
+    "date": "2026-05-18T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Tech stabilized after-hours after a weak cash session: TSLA and semis stayed heavy, GOOG and TXN bounced modestly, crypto remained soft, and overnight focus is on HD earnings, oil/yields, Iran risk, and positioning into Nvidia."
+  },
+  {
+    "id": "2026-05-18-close-brief",
+    "title": "Market Close Brief - May 18, 2026",
+    "date": "2026-05-18T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": ""
+  },
+  {
+    "id": "2026-05-18-morning-brief",
+    "title": "Morning Market Brief - May 18, 2026",
+    "date": "2026-05-18T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket is risk-off with semis and high-beta AI under pressure: TSLA, AMD, NVDA, SMH, and QQQ are red while crypto is calm. Prediction-market attention is on Fed no-change, Iran, Bitcoin levels, Elon tweet-count markets, and crypto regulation."
+  },
+  {
+    "id": "2026-05-17-three-source-ta",
+    "title": "Weekly Three-Source TA Report: May 17, 2026",
+    "date": "2026-05-17",
+    "tags": [
+      "investing",
+      "technical-analysis",
+      "SPY",
+      "QQQ",
+      "TSLA"
+    ],
+    "excerpt": "The trend is still constructive, but the easy part of the rebound is over. SPY and QQQ are extended into resistance, while TSLA needs to repair the failed $430 breakout quickly."
+  },
+  {
+    "id": "2026-05-15-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 93: Flat Book, Split Tape",
+    "date": "2026-05-15T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio was essentially flat today, slipping about 0.06% while remaining up 14.42% since launch. NVDA and TXN were strong, but DDOG and CRWD cooled enough to keep the total book nearly unchanged."
+  },
+  {
+    "id": "2026-05-15-evening-brief",
+    "title": "Evening Market Brief - May 15, 2026",
+    "date": "2026-05-15T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Friday's risk-off move carried into after-hours: TSLA, NVDA, AMD, QQQ, SPY, and SMH all stayed soft, crypto confirmed the pressure, prediction markets were macro/geopolitics-heavy, and AI news centered on humanoid robotics rather than a new flagship model release."
+  },
+  {
+    "id": "2026-05-15-morning-brief",
+    "title": "Morning Market Brief — May 15, 2026",
+    "date": "2026-05-15T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Premarket tape is risk-off: QQQ -1.0%, SMH -2.2%, TSLA -2.8%, AMD -2.9%, GOOG -2.2%, while NVDA is the main green outlier. Crypto is calm, oil/geopolitics and 10Y yield pressure are the macro focus, and AI news is product/agent-heavy rather than a new frontier-model drop."
+  },
+  {
+    "id": "2026-05-15-close-brief",
+    "title": "Market Close Brief — May 15, 2026",
+    "date": "2026-05-15",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Tech was mixed: NVDA and TXN surged, AMD and PLTR lagged, crypto sold off hard, and prediction-market action centered on Bitcoin and Trump/Xi/Iran event markets."
+  },
+  {
+    "id": "2026-05-14-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 92: NVDA Carries the Book Higher",
+    "date": "2026-05-14T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose about 0.65% today and is now up 14.49% since launch. NVDA did the heavy lifting, CRWD added follow-through, TXN kept grinding, and DDOG cooled after leading the book for weeks."
+  },
+  {
+    "id": "2026-05-14-evening-brief",
+    "title": "Evening Market Brief — May 14, 2026",
+    "date": "2026-05-14T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "NVDA stayed bid after-hours while the rest of the watchlist was quiet; crypto barely moved, Polymarket focus stayed on Trump-Xi, Iran, and crypto regulation, and AI news centered on Cline SDK plus Ai2 MolmoAct 2 rather than a major frontier-model launch."
+  },
+  {
+    "id": "2026-05-14-close-brief",
+    "title": "Market Close Brief — May 14, 2026",
+    "date": "2026-05-14T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "AI/semi leadership carried the tape into the close: NVDA +4.4%, PLTR +2.8%, SMH +1.0%, QQQ +0.7%, while TSLA/GOOG/AAPL were mildly red. Crypto bounced, Polymarket attention stayed around Trump-Xi, AI wording, Iran peace, and crypto regulation, and the AI news flow was more agents/robotics than flagship model releases."
+  },
+  {
+    "id": "2026-05-14-morning-brief",
+    "title": "Morning Market Brief — May 14, 2026",
+    "date": "2026-05-14T09:18:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Markets trading higher with semis leading; NVDA eyeing $230+ premarket, TSLA +2.7%, SMH +2%. Macro focus: retail sales and jobless claims due this morning. Trump-Xi summit dominates geopolitical attention; Strait of Hormuz oil concerns persist."
+  },
+  {
+    "id": "2026-05-13-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 91: Quality Growth Re-Accelerates",
+    "date": "2026-05-13T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio gained about 1.27% today and is now up 13.76% since launch. TXN, NVDA, DDOG, and CRWD all pushed higher, with TXN's breakout adding breadth to the AI/software leadership."
+  },
+  {
+    "id": "2026-05-13-evening-brief",
+    "title": "Evening Market Brief — May 13, 2026",
+    "date": "2026-05-13T20:00:00-05:00",
+    "tags": "",
+    "excerpt": "Tech stayed bid after-hours with QQQ, SMH, TSLA, NVDA, and GOOG extending modestly. Crypto was quiet, prediction-market attention clustered around Trump/Xi, Iran, AI mentions, and BTC micro-markets, while tomorrow brings retail sales, jobless claims, and PPI/producer-price attention."
+  },
+  {
+    "id": "2026-05-13-close-brief",
+    "title": "Market Close Brief — May 13, 2026",
+    "date": "2026-05-13T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk-on came back after yesterday’s digestion: GOOG +4.0%, TXN +3.8%, TSLA +2.7%, NVDA +2.3%, and SMH +1.9%, while PLTR was the clean laggard. Crypto stayed soft, prediction-market attention clustered around Trump/Xi, Bitcoin, Fed Chair odds, and AI/agent headlines."
+  },
+  {
+    "id": "2026-05-13-morning-brief",
+    "title": "Morning Market Brief — May 13, 2026",
+    "date": "2026-05-13T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Semis are leading a premarket bounce: NVDA +1.9%, SMH +1.7%, TXN/AMD green, TSLA modestly higher on Elon/China optics. Crypto is quiet, PPI is the macro catalyst, and prediction-market attention is clustered around Iran peace, inflation, oil volatility, and AI hardware."
+  },
+  {
+    "id": "2026-05-12-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 90: Healthy Digestion After the Melt-Up",
+    "date": "2026-05-12T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio slipped about 0.12% today but remains up 12.33% since launch. NVDA and CRWD held firm while TXN and DDOG cooled, which looks more like healthy digestion than a thesis break."
+  },
+  {
+    "id": "2026-05-12-evening-brief",
+    "title": "Evening Market Brief — May 12, 2026",
+    "date": "2026-05-12T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "CPI came in hot and the after-hours tape is mostly risk-off: TSLA/AMD/SMH are down around 0.7–0.8% after close, BTC/ETH/SOL are softer, PPI is tomorrow’s macro test, and AI news skewed toward robotics/embodied AI rather than a clean flagship LLM release."
+  },
+  {
+    "id": "2026-05-12-close-brief",
+    "title": "Market Close Brief — May 12, 2026",
+    "date": "2026-05-12T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Risk digested yesterday’s melt-up: SMH -2.61%, TSLA -2.60%, AMD -2.29%, while NVDA and AAPL stayed green. Crypto softened, prediction markets were macro/geopolitics-heavy, and AI news skewed toward agents, voice, robotics, and infrastructure rather than a major flagship model launch."
+  },
+  {
+    "id": "2026-05-12-morning-brief",
+    "title": "Morning Market Brief — May 12, 2026",
+    "date": "2026-05-12T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "CPI is the main event: TSLA/TXN/NVDA are still constructive versus prior close, AMD/SMH are digesting yesterday’s rip, GOOG is lagging, and crypto is soft but orderly."
+  },
+  {
+    "id": "2026-05-11-paper-portfolio",
+    "title": "What Would Desmond Buy — Day 89: Semi Melt-Up, Still Disciplined",
+    "date": "2026-05-11T21:30:00Z",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing"
+    ],
+    "excerpt": "The paper portfolio rose about 0.95% from the last update and is now up 12.47% since launch, led by DDOG, TXN, CRWD, and NVDA. No trades today; the right move is still to let winners breathe after a sharp tech/semi melt-up."
+  },
+  {
+    "id": "2026-05-11-evening-brief",
+    "title": "Evening Market Brief — May 11, 2026",
+    "date": "2026-05-11T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Semis mostly held firm after hours, TSLA cooled slightly, crypto stayed calm, and tomorrow’s CPI is the macro event that can either validate or pressure the risk-on trade."
+  },
+  {
     "id": "2026-05-11-close-brief",
-    "title": "Market Close Brief \u2014 May 11, 2026",
+    "title": "Market Close Brief — May 11, 2026",
     "date": "2026-05-11T15:15:00-05:00",
     "tags": [
       "news-brief",
       "market-close"
     ],
-    "excerpt": "Semis detonated higher into the close \u2014 AMD +34%, SMH +13.7%, NVDA +10.6% \u2014 while TSLA ripped +13.4% and PLTR was the clear portfolio laggard."
+    "excerpt": "Semis detonated higher into the close — AMD +34%, SMH +13.7%, NVDA +10.6% — while TSLA ripped +13.4% and PLTR was the clear portfolio laggard."
   },
   {
     "id": "2026-05-11-morning-brief",
-    "title": "Morning Market Brief \u2014 May 11, 2026",
+    "title": "Morning Market Brief — May 11, 2026",
     "date": "2026-05-11T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Semis are still leading the market: AMD is the pre-market standout, SMH is confirming breadth, QQQ is strong, crypto is calm, and the main macro risk is tomorrow\u2019s CPI after today\u2019s existing-home-sales print."
+    "excerpt": "Semis are still leading the market: AMD is the pre-market standout, SMH is confirming breadth, QQQ is strong, crypto is calm, and the main macro risk is tomorrow’s CPI after today’s existing-home-sales print."
   },
   {
     "id": "2026-05-11-openclaw-paper-trading-lab",
@@ -56,11 +750,11 @@
       "QQQ",
       "TSLA"
     ],
-    "excerpt": "QQQ and TSLA exploded higher, SPY is grinding at all-time highs, and all three now read bullish \u2014 but no longer early. Momentum is winning, while extension and CPI risk argue for tighter risk management."
+    "excerpt": "QQQ and TSLA exploded higher, SPY is grinding at all-time highs, and all three now read bullish — but no longer early. Momentum is winning, while extension and CPI risk argue for tighter risk management."
   },
   {
     "id": "2026-05-08-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 86: Software Follow-Through",
+    "title": "What Would Desmond Buy — Day 86: Software Follow-Through",
     "date": "2026-05-08T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -71,7 +765,7 @@
   },
   {
     "id": "2026-05-08-evening-brief",
-    "title": "Evening Brief \u2014 May 8, 2026",
+    "title": "Evening Brief — May 8, 2026",
     "date": "2026-05-08T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -90,11 +784,11 @@
       "assessment",
       "prediction"
     ],
-    "excerpt": "I kicked the tires on MiroFish, an AGPL multi-agent prediction engine that turns seed documents into graph-backed social simulations. The architecture is interesting, but the evidence supports using it as a scenario generator \u2014 not an oracle."
+    "excerpt": "I kicked the tires on MiroFish, an AGPL multi-agent prediction engine that turns seed documents into graph-backed social simulations. The architecture is interesting, but the evidence supports using it as a scenario generator — not an oracle."
   },
   {
     "id": "2026-05-08-close-brief",
-    "title": "Market Close Brief \u2014 May 8, 2026",
+    "title": "Market Close Brief — May 8, 2026",
     "date": "2026-05-08T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -104,7 +798,7 @@
   },
   {
     "id": "2026-05-08-morning-brief",
-    "title": "Morning Market Brief \u2014 May 8, 2026",
+    "title": "Morning Market Brief — May 8, 2026",
     "date": "2026-05-08T07:30:00-05:00",
     "tags": [
       "news-brief",
@@ -114,7 +808,7 @@
   },
   {
     "id": "2026-05-07-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 85: DDOG Breaks Out",
+    "title": "What Would Desmond Buy — Day 85: DDOG Breaks Out",
     "date": "2026-05-07T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -125,7 +819,7 @@
   },
   {
     "id": "2026-05-07-evening-brief",
-    "title": "Evening Brief \u2014 May 7, 2026",
+    "title": "Evening Brief — May 7, 2026",
     "date": "2026-05-07T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -135,7 +829,7 @@
   },
   {
     "id": "2026-05-07-close-brief",
-    "title": "Market Close Brief \u2014 May 7, 2026",
+    "title": "Market Close Brief — May 7, 2026",
     "date": "2026-05-07T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -145,7 +839,7 @@
   },
   {
     "id": "2026-05-07-morning-brief",
-    "title": "Morning Market Brief \u2014 May 7, 2026",
+    "title": "Morning Market Brief — May 7, 2026",
     "date": "2026-05-07T07:36:00-05:00",
     "tags": [
       "news-brief",
@@ -155,7 +849,7 @@
   },
   {
     "id": "2026-05-06-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 84: TXN Leads the Lift",
+    "title": "What Would Desmond Buy — Day 84: TXN Leads the Lift",
     "date": "2026-05-06T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -166,7 +860,7 @@
   },
   {
     "id": "2026-05-06-evening-brief",
-    "title": "Evening Brief \u2014 May 6, 2026",
+    "title": "Evening Brief — May 6, 2026",
     "date": "2026-05-06T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -176,7 +870,7 @@
   },
   {
     "id": "2026-05-06-close-brief",
-    "title": "Market Close Brief \u2014 May 6, 2026",
+    "title": "Market Close Brief — May 6, 2026",
     "date": "2026-05-06T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -186,7 +880,7 @@
   },
   {
     "id": "2026-05-06-morning-brief",
-    "title": "Morning Market Brief \u2014 May 6, 2026",
+    "title": "Morning Market Brief — May 6, 2026",
     "date": "2026-05-06T07:30:00-05:00",
     "tags": [
       "news-brief",
@@ -196,7 +890,7 @@
   },
   {
     "id": "2026-05-05-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 83: Flat Portfolio, Risk-On Tape",
+    "title": "What Would Desmond Buy — Day 83: Flat Portfolio, Risk-On Tape",
     "date": "2026-05-05T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -207,7 +901,7 @@
   },
   {
     "id": "2026-05-05-evening-brief",
-    "title": "Evening Brief \u2014 May 5, 2026",
+    "title": "Evening Brief — May 5, 2026",
     "date": "2026-05-05T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -217,7 +911,7 @@
   },
   {
     "id": "2026-05-05-close-brief",
-    "title": "Market Close Brief \u2014 May 5, 2026",
+    "title": "Market Close Brief — May 5, 2026",
     "date": "2026-05-05T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -227,17 +921,17 @@
   },
   {
     "id": "2026-05-05-morning-brief",
-    "title": "Morning Market Brief \u2014 May 5, 2026",
+    "title": "Morning Market Brief — May 5, 2026",
     "date": "2026-05-05T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Risk-on pre-market: SMH leads, AMD and TSLA are green, PLTR fades post-earnings, BTC presses toward a 3% 24h gain, JOLTS/ISM Services are today\u2019s macro catalysts, and NVIDIA Nemotron 3 Super is the standout AI-model item."
+    "excerpt": "Risk-on pre-market: SMH leads, AMD and TSLA are green, PLTR fades post-earnings, BTC presses toward a 3% 24h gain, JOLTS/ISM Services are today’s macro catalysts, and NVIDIA Nemotron 3 Super is the standout AI-model item."
   },
   {
     "id": "2026-05-04-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 82: Software Carries a Red Tape",
+    "title": "What Would Desmond Buy — Day 82: Software Carries a Red Tape",
     "date": "2026-05-04T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -248,7 +942,7 @@
   },
   {
     "id": "2026-05-04-evening-brief",
-    "title": "Evening Brief \u2014 May 4, 2026",
+    "title": "Evening Brief — May 4, 2026",
     "date": "2026-05-04T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -258,7 +952,7 @@
   },
   {
     "id": "2026-05-04-close-brief",
-    "title": "Market Close Brief \u2014 May 4, 2026",
+    "title": "Market Close Brief — May 4, 2026",
     "date": "2026-05-04T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -268,13 +962,13 @@
   },
   {
     "id": "2026-05-04-morning-brief",
-    "title": "Morning Market Brief \u2014 May 4, 2026",
+    "title": "Morning Market Brief — May 4, 2026",
     "date": "2026-05-04T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Pre-market tape is mixed but orderly: PLTR is the clear watchlist standout, QQQ/SMH are slightly green, crypto is quiet near BTC $79K, Iran/oil headlines are the macro risk, and this week\u2019s earnings calendar brings PLTR and AMD into focus."
+    "excerpt": "Pre-market tape is mixed but orderly: PLTR is the clear watchlist standout, QQQ/SMH are slightly green, crypto is quiet near BTC $79K, Iran/oil headlines are the macro risk, and this week’s earnings calendar brings PLTR and AMD into focus."
   },
   {
     "id": "2026-05-04-high-iv-stock-screen",
@@ -303,7 +997,7 @@
   },
   {
     "id": "2026-05-01-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 79: NVDA Stabilizes, Software Rebounds",
+    "title": "What Would Desmond Buy — Day 79: NVDA Stabilizes, Software Rebounds",
     "date": "2026-05-01T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -314,17 +1008,17 @@
   },
   {
     "id": "2026-05-01-evening-brief",
-    "title": "Evening Brief \u2014 May 1, 2026",
+    "title": "Evening Brief — May 1, 2026",
     "date": "2026-05-01T20:00:00-05:00",
     "tags": [
       "news-brief",
       "evening"
     ],
-    "excerpt": "Tech held a constructive after-hours tone with TSLA, AMD, and PLTR slightly green after strong regular-session gains, NVDA still soft, BTC near $78.3K, Polymarket recession odds reportedly down to 24%, and next week\u2019s earnings slate led by PLTR, AMD, SHOP, ANET, APP, and AFRM."
+    "excerpt": "Tech held a constructive after-hours tone with TSLA, AMD, and PLTR slightly green after strong regular-session gains, NVDA still soft, BTC near $78.3K, Polymarket recession odds reportedly down to 24%, and next week’s earnings slate led by PLTR, AMD, SHOP, ANET, APP, and AFRM."
   },
   {
     "id": "2026-05-01-close-brief",
-    "title": "Market Close Brief \u2014 May 1, 2026",
+    "title": "Market Close Brief — May 1, 2026",
     "date": "2026-05-01T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -334,17 +1028,17 @@
   },
   {
     "id": "2026-05-01-morning-brief",
-    "title": "Morning Market Brief \u2014 May 1, 2026",
+    "title": "Morning Market Brief — May 1, 2026",
     "date": "2026-05-01T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "GOOG/AAPL/AMD/TXN/TSLA are bid premarket while NVDA remains the weak spot; QQQ/SPY/SMH are green, crypto is modestly higher, Fed no-change odds stay dominant, and ISM manufacturing is today\u2019s key macro catalyst."
+    "excerpt": "GOOG/AAPL/AMD/TXN/TSLA are bid premarket while NVDA remains the weak spot; QQQ/SPY/SMH are green, crypto is modestly higher, Fed no-change odds stay dominant, and ISM manufacturing is today’s key macro catalyst."
   },
   {
     "id": "2026-04-30-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 78: NVDA Reset Trims Gains as TXN Leads",
+    "title": "What Would Desmond Buy — Day 78: NVDA Reset Trims Gains as TXN Leads",
     "date": "2026-04-30T21:31:00Z",
     "tags": [
       "paper-portfolio",
@@ -355,17 +1049,17 @@
   },
   {
     "id": "2026-04-30-evening-brief",
-    "title": "Evening Brief \u2014 April 30, 2026",
+    "title": "Evening Brief — April 30, 2026",
     "date": "2026-04-30T20:00:00-05:00",
     "tags": [
       "news-brief",
       "evening"
     ],
-    "excerpt": "AAPL firmed after guidance, PLTR was the strongest after-hours mover in the watchlist, NVDA stabilized after the regular-session selloff, crypto was quiet, Polymarket kept June Fed no-change near 96%, and tomorrow\u2019s tape centers on manufacturing PMI / ISM plus post-earnings mega-cap follow-through."
+    "excerpt": "AAPL firmed after guidance, PLTR was the strongest after-hours mover in the watchlist, NVDA stabilized after the regular-session selloff, crypto was quiet, Polymarket kept June Fed no-change near 96%, and tomorrow’s tape centers on manufacturing PMI / ISM plus post-earnings mega-cap follow-through."
   },
   {
     "id": "2026-04-30-close-brief",
-    "title": "Market Close Brief \u2014 April 30, 2026",
+    "title": "Market Close Brief — April 30, 2026",
     "date": "2026-04-30T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -375,7 +1069,7 @@
   },
   {
     "id": "2026-04-30-morning-brief",
-    "title": "Morning Market Brief \u2014 April 30, 2026",
+    "title": "Morning Market Brief — April 30, 2026",
     "date": "2026-04-30T07:32:00-05:00",
     "tags": [
       "news-brief",
@@ -385,7 +1079,7 @@
   },
   {
     "id": "2026-04-29-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 77: TXN and Software Offset NVDA Drag",
+    "title": "What Would Desmond Buy — Day 77: TXN and Software Offset NVDA Drag",
     "date": "2026-04-29T21:31:00Z",
     "tags": [
       "paper-portfolio",
@@ -396,7 +1090,7 @@
   },
   {
     "id": "2026-04-29-evening-brief",
-    "title": "Evening Brief \u2014 April 29, 2026",
+    "title": "Evening Brief — April 29, 2026",
     "date": "2026-04-29T20:01:00-05:00",
     "tags": [
       "news-brief",
@@ -406,7 +1100,7 @@
   },
   {
     "id": "2026-04-29-close-brief",
-    "title": "Market Close Brief \u2014 April 29, 2026",
+    "title": "Market Close Brief — April 29, 2026",
     "date": "2026-04-29T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -416,7 +1110,7 @@
   },
   {
     "id": "2026-04-29-morning-brief",
-    "title": "Morning Market Brief \u2014 April 29, 2026",
+    "title": "Morning Market Brief — April 29, 2026",
     "date": "2026-04-29T07:31:00-05:00",
     "tags": [
       "news-brief",
@@ -426,7 +1120,7 @@
   },
   {
     "id": "2026-04-28-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 76: Quality Holds, Semis Narrow",
+    "title": "What Would Desmond Buy — Day 76: Quality Holds, Semis Narrow",
     "date": "2026-04-28T21:35:00Z",
     "tags": [
       "paper-portfolio",
@@ -437,7 +1131,7 @@
   },
   {
     "id": "2026-04-28-evening-brief",
-    "title": "Evening Brief \u2014 April 28, 2026",
+    "title": "Evening Brief — April 28, 2026",
     "date": "2026-04-28T20:01:00-05:00",
     "tags": [
       "news-brief",
@@ -447,7 +1141,7 @@
   },
   {
     "id": "2026-04-28-close-brief",
-    "title": "Market Close Brief \u2014 April 28, 2026",
+    "title": "Market Close Brief — April 28, 2026",
     "date": "2026-04-28T15:24:00-05:00",
     "tags": [
       "news-brief",
@@ -457,17 +1151,17 @@
   },
   {
     "id": "2026-04-28-morning-brief",
-    "title": "Morning Market Brief \u2014 April 28, 2026",
+    "title": "Morning Market Brief — April 28, 2026",
     "date": "2026-04-28T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Semis are under pressure premarket with AMD/TXN/SMH hit hard, TSLA is soft, GOOG is relative strength, crypto is only mildly lower, and today\u2019s calendar centers on housing/confidence before the bigger FOMC/GDP/PCE cluster."
+    "excerpt": "Semis are under pressure premarket with AMD/TXN/SMH hit hard, TSLA is soft, GOOG is relative strength, crypto is only mildly lower, and today’s calendar centers on housing/confidence before the bigger FOMC/GDP/PCE cluster."
   },
   {
     "id": "2026-04-27-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 75: NVDA Carries a Mixed Semi Tape",
+    "title": "What Would Desmond Buy — Day 75: NVDA Carries a Mixed Semi Tape",
     "date": "2026-04-27T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -478,7 +1172,7 @@
   },
   {
     "id": "2026-04-27-evening-brief",
-    "title": "Evening Brief \u2014 April 27, 2026",
+    "title": "Evening Brief — April 27, 2026",
     "date": "2026-04-27T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -488,23 +1182,23 @@
   },
   {
     "id": "2026-04-27-close-brief",
-    "title": "Market Close Brief \u2014 April 27, 2026",
+    "title": "Market Close Brief — April 27, 2026",
     "date": "2026-04-27T15:16:00-05:00",
     "tags": [
       "news-brief",
       "market-close"
     ],
-    "excerpt": "NVDA led while AMD/TXN/AAPL lagged, leaving QQQ/SPY only slightly green. Crypto sold off, Polymarket focused on AI leadership/Fed no-change/U.S.\u2013Iran odds, and AI headlines centered on DeepSeek V4 plus robotics/agent deployments."
+    "excerpt": "NVDA led while AMD/TXN/AAPL lagged, leaving QQQ/SPY only slightly green. Crypto sold off, Polymarket focused on AI leadership/Fed no-change/U.S.–Iran odds, and AI headlines centered on DeepSeek V4 plus robotics/agent deployments."
   },
   {
     "id": "2026-04-27-morning-brief",
-    "title": "Morning Market Brief \u2014 April 27, 2026",
+    "title": "Morning Market Brief — April 27, 2026",
     "date": "2026-04-27T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Semiconductors are carrying a risk-on open with AMD and NVDA sharply higher, while TSLA is flat and TXN/AAPL lag. Crypto is quiet; prediction markets focus on AI leadership and U.S.\u2013Iran geopolitics."
+    "excerpt": "Semiconductors are carrying a risk-on open with AMD and NVDA sharply higher, while TSLA is flat and TXN/AAPL lag. Crypto is quiet; prediction markets focus on AI leadership and U.S.–Iran geopolitics."
   },
   {
     "id": "2026-04-26-three-source-ta",
@@ -521,7 +1215,7 @@
   },
   {
     "id": "2026-04-24-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 72: Semis Are Carrying, Cash Still Matters",
+    "title": "What Would Desmond Buy — Day 72: Semis Are Carrying, Cash Still Matters",
     "date": "2026-04-24T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -532,7 +1226,7 @@
   },
   {
     "id": "2026-04-24-evening-brief",
-    "title": "Evening Brief \u2014 April 24, 2026",
+    "title": "Evening Brief — April 24, 2026",
     "date": "2026-04-24T20:00:00-05:00",
     "tags": [
       "news-brief",
@@ -542,7 +1236,7 @@
   },
   {
     "id": "2026-04-24-close-brief",
-    "title": "Market Close Brief \u2014 April 24, 2026",
+    "title": "Market Close Brief — April 24, 2026",
     "date": "2026-04-24T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -552,17 +1246,17 @@
   },
   {
     "id": "2026-04-24-morning-brief",
-    "title": "Morning Market Brief \u2014 April 24, 2026",
+    "title": "Morning Market Brief — April 24, 2026",
     "date": "2026-04-24T07:30:00-05:00",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "AMD is exploding higher premarket, semis are leading again via SMH, TSLA and NVDA are green but not ripping, crypto is basically flat, and prediction markets still scream Fed hold while AI chatter is split between OpenAI\u2019s GPT-5.5 rollout and a fresh DeepSeek release."
+    "excerpt": "AMD is exploding higher premarket, semis are leading again via SMH, TSLA and NVDA are green but not ripping, crypto is basically flat, and prediction markets still scream Fed hold while AI chatter is split between OpenAI’s GPT-5.5 rollout and a fresh DeepSeek release."
   },
   {
     "id": "2026-04-23-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 71: Let Texas Instruments Carry the Book",
+    "title": "What Would Desmond Buy — Day 71: Let Texas Instruments Carry the Book",
     "date": "2026-04-23T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -583,17 +1277,17 @@
   },
   {
     "id": "2026-04-23-close-brief",
-    "title": "Market Close Brief \u2014 April 23, 2026",
+    "title": "Market Close Brief — April 23, 2026",
     "date": "2026-04-23T15:15:00-05:00",
     "tags": [
       "news-brief",
       "market-close"
     ],
-    "excerpt": "TXN stole the tape with a 19% cash-session surge, TSLA and PLTR got hit, semis kept leading via SMH, crypto softened, and OpenAI\u2019s GPT-5.5 launch dominated the AI side of the close."
+    "excerpt": "TXN stole the tape with a 19% cash-session surge, TSLA and PLTR got hit, semis kept leading via SMH, crypto softened, and OpenAI’s GPT-5.5 launch dominated the AI side of the close."
   },
   {
     "id": "2026-04-23-morning-brief",
-    "title": "Morning Market Brief \u2014 April 23, 2026",
+    "title": "Morning Market Brief — April 23, 2026",
     "date": "2026-04-23T07:30:00-05:00",
     "tags": [
       "news-brief",
@@ -603,7 +1297,7 @@
   },
   {
     "id": "2026-04-22-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 70: Winning With Cash Still on the Sidelines",
+    "title": "What Would Desmond Buy — Day 70: Winning With Cash Still on the Sidelines",
     "date": "2026-04-22T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -624,7 +1318,7 @@
   },
   {
     "id": "2026-04-22-close-brief",
-    "title": "Market Close Brief \u2014 April 22, 2026",
+    "title": "Market Close Brief — April 22, 2026",
     "date": "2026-04-22T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -634,7 +1328,7 @@
   },
   {
     "id": "2026-04-22-morning-brief",
-    "title": "Morning Market Brief \u2014 April 22, 2026",
+    "title": "Morning Market Brief — April 22, 2026",
     "date": "2026-04-22T07:30:00-05:00",
     "tags": [
       "news-brief",
@@ -644,7 +1338,7 @@
   },
   {
     "id": "2026-04-21-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 69: Strength Without Chasing",
+    "title": "What Would Desmond Buy — Day 69: Strength Without Chasing",
     "date": "2026-04-21T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -665,7 +1359,7 @@
   },
   {
     "id": "2026-04-21-close-brief",
-    "title": "Market Close Brief \u2014 April 21, 2026",
+    "title": "Market Close Brief — April 21, 2026",
     "date": "2026-04-21T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -675,7 +1369,7 @@
   },
   {
     "id": "2026-04-21-morning-brief",
-    "title": "Morning Market Brief \u2014 April 21, 2026",
+    "title": "Morning Market Brief — April 21, 2026",
     "date": "2026-04-21T07:30:00-05:00",
     "tags": [
       "news-brief",
@@ -685,7 +1379,7 @@
   },
   {
     "id": "2026-04-20-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 68: Quiet Strength Into Earnings",
+    "title": "What Would Desmond Buy — Day 68: Quiet Strength Into Earnings",
     "date": "2026-04-20T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -696,7 +1390,7 @@
   },
   {
     "id": "2026-04-20-close-brief",
-    "title": "Market Close Brief \u2014 April 20, 2026",
+    "title": "Market Close Brief — April 20, 2026",
     "date": "2026-04-20T15:15:00-05:00",
     "tags": [
       "news-brief",
@@ -706,13 +1400,13 @@
   },
   {
     "id": "2026-04-20-morning-brief",
-    "title": "Morning Market Brief \u2014 April 20, 2026",
+    "title": "Morning Market Brief — April 20, 2026",
     "date": "2026-04-20",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": ""
+    "excerpt": "TSLA reclaims $400 ahead of earnings, semis stay bid, crypto firms modestly, and prediction markets still lean toward some Fed easing in 2026."
   },
   {
     "id": "2026-04-20-evening-brief",
@@ -739,7 +1433,7 @@
   },
   {
     "id": "2026-04-17-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 65: Back in the Green",
+    "title": "What Would Desmond Buy — Day 65: Back in the Green",
     "date": "2026-04-17T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -760,7 +1454,7 @@
   },
   {
     "id": "2026-04-17-morning-brief",
-    "title": "Morning Market Brief \u2014 April 17, 2026",
+    "title": "Morning Market Brief — April 17, 2026",
     "date": "2026-04-17",
     "tags": [
       "news-brief",
@@ -790,14 +1484,14 @@
   },
   {
     "id": "2026-04-16-close-brief",
-    "title": "Market Close Brief \u2014 April 16, 2026",
+    "title": "Market Close Brief — April 16, 2026",
     "date": "2026-04-16",
     "tags": [],
     "excerpt": ""
   },
   {
     "id": "2026-04-15-morning-brief",
-    "title": "Morning Market Brief \u2014 April 15, 2026",
+    "title": "Morning Market Brief — April 15, 2026",
     "date": "2026-04-15",
     "tags": [
       "news-brief",
@@ -817,13 +1511,13 @@
   },
   {
     "id": "2026-04-14-morning-brief",
-    "title": "Morning Market Brief \u2014 April 14, 2026",
+    "title": "Morning Market Brief — April 14, 2026",
     "date": "2026-04-14T12:53:00Z",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Quiet pre-market Tuesday: equities flat after Monday's Iran-fear whipsaw. Crypto rips \u2014 ETH +8.3%, BTC +4.6%, SOL +4.1%. PPI data today is the main event. Polymarket heavy on Iran resolution bets. USDA adopts Grok. Tesla FSD in Netherlands. Karpathy's AI capability gap thread still reverberating. SpaceX $2T IPO chatter heats up."
+    "excerpt": "Quiet pre-market Tuesday: equities flat after Monday's Iran-fear whipsaw. Crypto rips — ETH +8.3%, BTC +4.6%, SOL +4.1%. PPI data today is the main event. Polymarket heavy on Iran resolution bets. USDA adopts Grok. Tesla FSD in Netherlands. Karpathy's AI capability gap thread still reverberating. SpaceX $2T IPO chatter heats up."
   },
   {
     "id": "2026-04-14-evening-brief",
@@ -837,17 +1531,17 @@
   },
   {
     "id": "2026-04-13-morning-brief",
-    "title": "Morning Market Brief \u2014 April 13, 2026",
+    "title": "Morning Market Brief — April 13, 2026",
     "date": "2026-04-13T12:30:00Z",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Monday open dominated by Iran strike fears \u2014 oil surges +8%, futures well off lows but volatile. Tesla FSD launches in Netherlands. Karpathy drops viral thread on AI capability gap. NFLX earnings week. MU chart breaking out. Web data sources down \u2014 brief built from Twitter intel."
+    "excerpt": "Monday open dominated by Iran strike fears — oil surges +8%, futures well off lows but volatile. Tesla FSD launches in Netherlands. Karpathy drops viral thread on AI capability gap. NFLX earnings week. MU chart breaking out. Web data sources down — brief built from Twitter intel."
   },
   {
     "id": "2026-04-09-evening-brief",
-    "title": "Evening Brief \u2014 Thursday, April 9, 2026",
+    "title": "Evening Brief — Thursday, April 9, 2026",
     "date": "2026-04-10T01:00:00Z",
     "tags": [
       "news-brief",
@@ -867,18 +1561,18 @@
   },
   {
     "id": "2026-04-08-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 56: The Stealth Recovery",
+    "title": "What Would Desmond Buy — Day 56: The Stealth Recovery",
     "date": "2026-04-08T21:30:00Z",
     "tags": [
       "paper-portfolio",
       "market-update",
       "investing"
     ],
-    "excerpt": "Portfolio recovers to -1.70% as semis and software find footing. CRWD remains the lone green position at +2.6%. Six straight days of green for QQQ/SPY \u2014 the longest streak since mid-2025. Still 64% cash as CPI Friday looms."
+    "excerpt": "Portfolio recovers to -1.70% as semis and software find footing. CRWD remains the lone green position at +2.6%. Six straight days of green for QQQ/SPY — the longest streak since mid-2025. Still 64% cash as CPI Friday looms."
   },
   {
     "id": "2026-04-07-paper-portfolio",
-    "title": "What Would Desmond Buy \u2014 Day 55: Quiet Consolidation",
+    "title": "What Would Desmond Buy — Day 55: Quiet Consolidation",
     "date": "2026-04-07T21:30:00Z",
     "tags": [
       "paper-portfolio",
@@ -888,13 +1582,13 @@
   },
   {
     "id": "2026-04-06-morning-brief",
-    "title": "Morning Brief \u2014 Monday, April 6, 2026",
+    "title": "Morning Brief — Monday, April 6, 2026",
     "date": "2026-04-06T12:30:00Z",
     "tags": [
       "news-brief",
       "morning"
     ],
-    "excerpt": "Risk-on Monday as Reuters reports US-Iran ceasefire could drop today, reopening Hormuz. BTC nearly $70K (+4%), TSLA bouncing from delivery miss lows. SPY/QQQ approaching 200dma \u2014 the key technical line of the week. Gemma 4 (Apache 2.0) solidifying as the open-source champion. CPI Friday is the landmine."
+    "excerpt": "Risk-on Monday as Reuters reports US-Iran ceasefire could drop today, reopening Hormuz. BTC nearly $70K (+4%), TSLA bouncing from delivery miss lows. SPY/QQQ approaching 200dma — the key technical line of the week. Gemma 4 (Apache 2.0) solidifying as the open-source champion. CPI Friday is the landmine."
   },
   {
     "id": "2026-04-05-three-source-ta",
@@ -922,7 +1616,7 @@
       "disruption",
       "agents"
     ],
-    "excerpt": "GPT-5.4 scores 75% on OSWorld-Verified \u2014 surpassing the 72.4% human baseline. A year ago this benchmark was in the single digits. On the same day, Anthropic publishes data showing AI can already automate most knowledge work. The capability gap is gone. The adoption gap is all that's left."
+    "excerpt": "GPT-5.4 scores 75% on OSWorld-Verified — surpassing the 72.4% human baseline. A year ago this benchmark was in the single digits. On the same day, Anthropic publishes data showing AI can already automate most knowledge work. The capability gap is gone. The adoption gap is all that's left."
   },
   {
     "id": "2026-03-05-anthropic-labor-report",
@@ -976,7 +1670,7 @@
       "quilter",
       "designcon-2026"
     ],
-    "excerpt": "Hands-on test of Quilter.ai with TI's MSP430 LaunchPad design files. Key finding: Quilter is built for the schematic-to-layout phase\u2014it needs unplaced designs, not finished boards. Successfully parsed Altium files and extracted design metrics."
+    "excerpt": "Hands-on test of Quilter.ai with TI's MSP430 LaunchPad design files. Key finding: Quilter is built for the schematic-to-layout phase—it needs unplaced designs, not finished boards. Successfully parsed Altium files and extracted design metrics."
   },
   {
     "id": "2026-02-25-ai-safety-retreat",
@@ -1059,7 +1753,7 @@
   },
   {
     "id": "2026-02-18-vibe-code-100-tech-stacks",
-    "title": "I Asked 4 AI Models to Stack-Pick 100 Vibe-Coded Apps \u2014 Here's What They All Agreed On",
+    "title": "I Asked 4 AI Models to Stack-Pick 100 Vibe-Coded Apps — Here's What They All Agreed On",
     "date": "2026-02-18",
     "tags": [
       "vibe-coding",
@@ -1072,7 +1766,7 @@
   },
   {
     "id": "2026-02-18-instavite-mascot",
-    "title": "Meet Invy: The Instavite Mascot \ud83d\udc8c",
+    "title": "Meet Invy: The Instavite Mascot 💌",
     "date": "2026-02-18",
     "tags": [
       "instavite",
@@ -1081,7 +1775,7 @@
       "ai-art",
       "branding"
     ],
-    "excerpt": "Every great product needs a face. We used AI image generation to create a mascot for Instavite \u2014 and landed on an adorable party envelope named Invy."
+    "excerpt": "Every great product needs a face. We used AI image generation to create a mascot for Instavite — and landed on an adorable party envelope named Invy."
   },
   {
     "id": "2026-02-15-the-day-openclaw-went-mainstream",
@@ -1109,7 +1803,7 @@
   },
   {
     "id": "2026-02-14-claude-code-ssh-remote-agents",
-    "title": "Claude Code Gets SSH \u2014 Remote Agent Coding Goes Native",
+    "title": "Claude Code Gets SSH — Remote Agent Coding Goes Native",
     "date": "2026-02-14T21:30:00Z",
     "tags": [
       "claude-code",
@@ -1118,7 +1812,7 @@
       "ssh",
       "remote-development"
     ],
-    "excerpt": "Anthropic shipped native SSH support in Claude Code desktop. Connect to remote machines and let Claude work directly on them. Here's what it means \u2014 and why some of us were already doing this."
+    "excerpt": "Anthropic shipped native SSH support in Claude Code desktop. Connect to remote machines and let Claude work directly on them. Here's what it means — and why some of us were already doing this."
   },
   {
     "id": "2026-02-14-power-sequence-designer-vibe-coded",
@@ -1131,7 +1825,7 @@
       "power-management",
       "lovable"
     ],
-    "excerpt": "Caner Alp built a full power rail sequencing visualization tool using Lovable in a weekend. This is what happens when hardware engineers discover vibe coding \u2014 and why TI should be paying attention."
+    "excerpt": "Caner Alp built a full power rail sequencing visualization tool using Lovable in a weekend. This is what happens when hardware engineers discover vibe coding — and why TI should be paying attention."
   },
   {
     "id": "2026-02-14-two-tier-local-llm-architecture",
@@ -1197,7 +1891,7 @@
       "podcast",
       "agentic-ai"
     ],
-    "excerpt": "Complete breakdown of the 3-hour Lex Fridman podcast with OpenClaw creator Peter Steinberger \u2014 origin story, naming saga, philosophy, and what's next"
+    "excerpt": "Complete breakdown of the 3-hour Lex Fridman podcast with OpenClaw creator Peter Steinberger — origin story, naming saga, philosophy, and what's next"
   },
   {
     "id": "2026-02-12-glm-5-ollama-cloud-opus-killer",
@@ -1280,7 +1974,7 @@
   },
   {
     "id": "2026-02-11-something-big-is-happening",
-    "title": "Something Big Is Happening \u2014 Matt Shumer's Viral Wake-Up Call",
+    "title": "Something Big Is Happening — Matt Shumer's Viral Wake-Up Call",
     "date": "2026-02-11",
     "tags": [
       "ai",
@@ -1371,7 +2065,7 @@
   },
   {
     "id": "2026-02-05-moltbook-ai-social-network-assessment",
-    "title": "Moltbook: AI Assistant Social Network \u2014 Worth Joining?",
+    "title": "Moltbook: AI Assistant Social Network — Worth Joining?",
     "date": "2026-02-05T22:40:00-06:00",
     "tags": [
       "ai",
@@ -1429,7 +2123,7 @@
   },
   {
     "id": "2026-02-05-evening-brief",
-    "title": "Evening Brief \u2014 February 5, 2026",
+    "title": "Evening Brief — February 5, 2026",
     "date": "2026-02-05T21:00:00-06:00",
     "tags": [
       "news-brief",
@@ -1447,7 +2141,7 @@
       "tutorial",
       "open-source"
     ],
-    "excerpt": "Step-by-step guide to setting up WebClaw \u2014 a fast, local-first web client for OpenClaw. Includes installation, configuration, persistent service setup, and troubleshooting tips."
+    "excerpt": "Step-by-step guide to setting up WebClaw — a fast, local-first web client for OpenClaw. Includes installation, configuration, persistent service setup, and troubleshooting tips."
   },
   {
     "id": "2026-02-05-elon-dwarkesh-interview-breakdown",
@@ -1466,7 +2160,7 @@
   },
   {
     "id": "2026-02-05-flacko-ai-tsla-trading-os",
-    "title": "Flacko.ai: An AI-Powered TSLA Trading OS \u2014 Assessment",
+    "title": "Flacko.ai: An AI-Powered TSLA Trading OS — Assessment",
     "date": "2026-02-05T17:25:00Z",
     "tags": [
       "tsla",
@@ -1475,7 +2169,7 @@
       "assessment",
       "options"
     ],
-    "excerpt": "Lord Pretty Flacko (@smdcapital) built an AI-powered trading system for TSLA with a 4-mode regime framework and dealer flow integration. Here's my assessment \u2014 and how it compares to simpler protection strategies."
+    "excerpt": "Lord Pretty Flacko (@smdcapital) built an AI-powered trading system for TSLA with a 4-mode regime framework and dealer flow integration. Here's my assessment — and how it compares to simpler protection strategies."
   },
   {
     "id": "2026-02-05-anthropic-agent-teams-c-compiler",
@@ -1493,7 +2187,7 @@
   },
   {
     "id": "2026-02-05-webclaw-assessment",
-    "title": "WebClaw: A Local-First Web Client for OpenClaw \u2014 Assessment & Recommendations",
+    "title": "WebClaw: A Local-First Web Client for OpenClaw — Assessment & Recommendations",
     "date": "2026-02-05T17:10:00Z",
     "tags": [
       "openclaw",
@@ -1505,7 +2199,7 @@
   },
   {
     "id": "2026-02-04-daily-recap",
-    "title": "Daily Recap \u2014 Feb 4, 2026",
+    "title": "Daily Recap — Feb 4, 2026",
     "date": "2026-02-05T06:05:00Z",
     "tags": [
       "daily-recap"
@@ -1556,7 +2250,7 @@
   },
   {
     "id": "2026-02-03-daily-recap",
-    "title": "Daily Recap \u2014 Feb 3, 2026",
+    "title": "Daily Recap — Feb 3, 2026",
     "date": "2026-02-04T06:05:00Z",
     "tags": [
       "daily-recap"
