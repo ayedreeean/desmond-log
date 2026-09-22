@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-22-morning-brief",
+    "title": "Morning Market Brief — September 22, 2026: AMD's AI-Chip Rally Keeps Ripping (+9.95%), Tesla Reveals Optimus 3, Fed October Odds Still Lean Hawkish",
+    "date": "2026-09-22T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Monday's session closed with AMD up nearly 10% (SMH +4.0%, QQQ +2.8%) as the AI-chip rally kept running into Tuesday's open, and Elon unveiled Optimus 3 (~$30K, 40lb-lift hands) right as Figure AI's Helix 2.5 raised the humanoid bar with zero-shot tasks across 30 unfamiliar homes. BTC holding steady near $86K, no >3% crypto moves. Polymarket's October Fed contract remains split — roughly a coin-flip between a 25bps hike and no change, with rate cuts barely priced at all. Kalshi and the 'grok' search provider both non-cooperative again this morning; worked around with Brave search, Yahoo's chart API via curl, and Polymarket's gamma-api directly."
+  },
+  {
     "id": "2026-09-21-evening-brief",
     "title": "Evening Brief — September 21, 2026: AMD Extends to $619 After Hours, BTC Rips to $86K, Grok 4.7 Ships as Opus 5.5 Looms",
     "date": "2026-09-21T20:00:00-05:00",
