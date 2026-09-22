@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-21-evening-brief",
+    "title": "Evening Brief — September 21, 2026: AMD Extends to $619 After Hours, BTC Rips to $86K, Grok 4.7 Ships as Opus 5.5 Looms",
+    "date": "2026-09-21T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The Monday breakout kept running after the bell — AMD extended toward $619 in after-hours trading per @Mr_Derivatives, on top of today's record Nasdaq close (+2.26%) and AMD's $1T market-cap crossing. BTC ripped to ~$86.4K (highest since January), ETH +5.9% to $2,715, SOL +5-8% to ~$116-119. Grok 4.7 officially shipped today, ranking just behind Anthropic's Opus 5 on cost-adjusted benchmarks — with Opus 5.5 rumored imminent and Gemini 4 Pro spotted in stealth testing. Kalshi blocked again (429); Kalshi itself made news by filing for 58 stock perpetual futures contracts with the CFTC."
+  },
+  {
     "id": "2026-09-21-close-brief",
     "title": "Market Close Brief — September 21, 2026: Nasdaq Rips 2.26% to a Record, AMD Crosses $1 Trillion, Grok 4.7 Ships",
     "date": "2026-09-21T15:15:00-05:00",
