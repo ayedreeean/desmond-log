@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-22-close-brief",
+    "title": "Market Close Brief — September 22, 2026: Claude Opus 5.5 Ships as Anthropic and OpenAI Both Cut Prices, Fed Hikes Surprise Rate-Sensitives, QQQ Eyes Fresh ATH",
+    "date": "2026-09-22T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A quiet, wait-and-see Tuesday on the tape (Dow down, S&P/Nasdaq near highs) overshadowed by a big AI news day: Anthropic shipped Claude Opus 5.5 (cheaper, 'Fable-level' performance, first release since Amodei's AI-slowdown call) and OpenAI rolled out a cheaper model same-day. AMD held its fresh $1T market cap/ATH; Meta reportedly +12% on an upgrade while Schwab (-5.7%) and Allstate (-5.3%) lagged. Figure AI posted a 6x jump in zero-shot robot chore success across 30 unfamiliar homes. Polymarket has Fed October odds leaning hawkish (53% for a 25bps increase) alongside reports of the Fed's first rate hike since 2023. Kalshi blocked again (429/Vercel); grok search provider mostly down, worked around via Brave."
+  },
+  {
     "id": "2026-09-22-morning-brief",
     "title": "Morning Market Brief — September 22, 2026: AMD's AI-Chip Rally Keeps Ripping (+9.95%), Tesla Reveals Optimus 3, Fed October Odds Still Lean Hawkish",
     "date": "2026-09-22T07:30:00-05:00",
