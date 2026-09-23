@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-23-close-brief",
+    "title": "Market Close Brief \u2014 September 23, 2026: Dow/S&P/Nasdaq Tumble as 10-Year Yield Hits 2007 High, GPT-6 & Claude Opus 5.5 Ship Same Day, Fed Odds Flip to 64% Hike",
+    "date": "2026-09-23T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A genuinely red session: Dow -0.68%, S&P -0.75%, Nasdaq -1.13% as the 10-year Treasury yield surged to a 2007-era high on inflation worries and oil jumped 2.34%. NVDA broke a six-day win streak (-1.47%), GOOG lagged (-3.58%) on a Gemini-hacking headline, while PLTR outperformed (+3.68%) on FAA AI news. Crypto sold off in sympathy (BTC -2.16%, ETH -2.77%, SOL -3.01%). Polymarket's Fed market flipped sharply hawkish, pricing a 64% chance of an October rate hike, up from 38% three days ago. OpenAI (GPT-6 Luna/Sol), Anthropic (Claude Opus 5.5), and Xiaomi (MiMo V2.6) all shipped flagship models within the same 24 hours. AMD held above its new $1T market cap milestone; TLT hit an all-time low."
+  },
+  {
     "id": "2026-09-23-morning-brief",
     "title": "Morning Market Brief \u2014 September 23, 2026: GPT-6 Sol/Luna & Claude Opus 5.5 Both Ship, Fitch Hands Tesla Its First Investment-Grade Rating, Shutdown Odds Point to Mid-October",
     "date": "2026-09-23T07:30:00-05:00",
