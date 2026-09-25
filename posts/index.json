@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-25-close-brief",
+    "title": "Market Close Brief — September 25, 2026: SPY/QQQ on Pace for Highest Monthly Close Ever, TXN Leads Core Book +2.74%, Tesla Semi Deliveries Begin as TSLA Slips -1.54%",
+    "date": "2026-09-25T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "SPY and QQQ are on pace for their highest monthly close ever per @Mr_Derivatives, with the Dow +0.93%, S&P 500 +0.51%, and Nasdaq +0.48%. TXN led core holdings +2.74% on AI-data-center demand; AAPL +1.53%. TSLA slipped -1.54% on heavy volume despite Tesla officially starting Semi truck deliveries at its new Nevada Gigafactory, weighed down by an EU FSD-vote delay and reports of Optimus manufacturing bottlenecks. Crypto quiet except SOL +3.97%. Polymarket prices an October Fed 25bps hike at 63%; Kalshi's government-shutdown market was live but inaccessible via direct fetch. Costco beat earnings after Thursday's close; today's earnings slate was thin (small-caps only)."
+  },
+  {
     "id": "2026-09-25-morning-brief",
     "title": "Morning Market Brief — September 25, 2026: AMD & Semis Lead Pre-Market, SOL Jumps 6%, Costco Beats as Trump-Xi Trade Truce Holds",
     "date": "2026-09-25T07:30:00-05:00",
