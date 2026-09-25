@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-25-morning-brief",
+    "title": "Morning Market Brief — September 25, 2026: AMD & Semis Lead Pre-Market, SOL Jumps 6%, Costco Beats as Trump-Xi Trade Truce Holds",
+    "date": "2026-09-25T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Semis lead a broad pre-market bid (AMD +1.6%, SMH +1.2%) as yield anxiety eases and futures point higher, with Nasdaq/S&P on pace for weekly gains. SOL jumps ~6% while BTC/ETH hold gains. Costco beat Q4 estimates but traded mixed. Polymarket still prices a 67% chance of an October Fed hike and 82% odds of a US-China tariff deal this month amid the Trump-Xi state visit. Anthropic shipped Claude Opus 5.5 and discovered a CRISPR-like enzyme system via its new biology lab; OpenAI's GPT-6 family (Astra/Sol/Luna) is now broadly live. Figure AI's zero-shot humanoid leap raises the bar on Tesla Optimus."
+  },
+  {
     "id": "2026-09-25-evening-brief",
     "title": "Evening Brief — September 24, 2026: Trump-Xi Trade Truce Extended, Costco Beats After Close, 10-Year Yield Holds at 5.20%",
     "date": "2026-09-24T20:00:00-05:00",
