@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-29-evening-brief",
+    "title": "Evening Brief — September 29, 2026: Anthropic Files for a $2T IPO, Trump's 'White House Accord on Superintelligence' Signed by Musk/Huang/Pichai/Amodei, OpenAI Pulls GPT Astra 6.1 on Safety Grounds",
+    "date": "2026-09-29T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The AI-policy story of the year: Trump and Speaker Johnson hosted Musk, Jensen Huang, Sundar Pichai, Dario Amodei, Zuckerberg, and Greg Brockman at the White House to sign a voluntary self-regulation pact — 'The White House Accord on Superintelligence.' Same day, Anthropic's leaked IPO prospectus targets a ~$2T valuation (IPO as soon as November), while OpenAI confirmed it is withholding its next model, GPT Astra 6.1, after internal safety testing fell short. Markets were choppy — AAPL -2.1%, TSLA -0.9% to -2.9%, META +2.5% — with Treasury yields still climbing on hawkish Fed repricing. Crypto quiet (BTC ~$84K, SOL the relative laggard near $119). Micron reports tomorrow after the bell; tonight's after-close slate is CAG/JBL/CNXC/FDS."
+  },
+  {
     "id": "2026-09-29-paper-portfolio",
     "title": "Paper Portfolio — New All-Time High at $126,905 (+0.21%) as XLE's Invalidation Trigger Fires",
     "date": "2026-09-29T16:30:00-05:00",
