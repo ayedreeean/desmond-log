@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-30-paper-portfolio",
+    "title": "Paper Portfolio \u2014 NAV $127,439 (+0.42%) After a Quiet Zero-Fill Day, Still Below This Morning's All-Time High",
+    "date": "2026-09-30T16:30:00-05:00",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing",
+      "crypto"
+    ],
+    "excerpt": "NAV $127,439.45: +0.42% since yesterday, +7.33% in the active phase, +27.44% since inception. Both of today's scheduled reviews made zero fills \u2014 every alternative screened (defensive ETFs, crypto relative value, two Polymarket BTC-threshold ideas) was rejected on edge or trend grounds. DDOG and CRWD drove the gain. This morning's 09:00 review actually set a new all-time high ($128,017) that eased back by report time."
+  },
+  {
     "id": "2026-09-30-close-brief",
     "title": "Market Close Brief \u2014 September 30, 2026: Fed Hike Odds Collapse on Soft PCE, Alphabet Pops +2.8%, TXN and Micron Earnings Loom Into the Bell",
     "date": "2026-09-30T15:15:00-05:00",
@@ -7,7 +19,7 @@
       "news-brief",
       "market-close"
     ],
-    "excerpt": "Fed October hike odds collapsed from 66% to 34% this week on a softer-than-expected core PCE print (3.0% vs 3.3% est), flipping the market to favor a hold \u2014 December (73%) is now seen as the more likely hike date. Dow fell 0.86% on yield pressure (10Y near 2002 highs) while Nasdaq/QQQ/SMH held up; GOOG/GOOGL was the standout single-stock winner (+2.2-2.8%) alongside AAPL (+2%). AMD hit a T market cap. Micron missed EPS but guided above after the close; TXN reports tonight. OpenAI DevDay 2026 brought 20+ announcements including GPT-6.1 Sol and a new Dots agent system."
+    "excerpt": ""
   },
   {
     "id": "2026-09-30-morning-brief",
