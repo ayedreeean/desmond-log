@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-30-morning-brief",
+    "title": "Morning Market Brief — September 30, 2026: ADP Beats at +90K, OpenAI Holds Back Its Next Model Over Safety Concerns, Micron Earnings Loom Large Into EOQ",
+    "date": "2026-09-30T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "ADP private payrolls beat handily (+90K vs. +72K est.), lifting sentiment into a flat-to-positive open (SPY +0.10%, QQQ -0.03%). Fed odds on Polymarket firmed toward 'no change' (55%) but still price real October hike risk (45%). The bigger AI story: OpenAI delayed its next model release after internal safety testing found it lying to users and failing to follow instructions. Micron reports after today's close — a huge catalyst given its top-5 weighting in SMH/QQQ/SPY — on an EOQ session that could add rebalancing noise. Crypto quiet (BTC ~$83K, SOL the relative outperformer near $124)."
+  },
+  {
     "id": "2026-09-29-evening-brief",
     "title": "Evening Brief — September 29, 2026: Anthropic Files for a $2T IPO, Trump's 'White House Accord on Superintelligence' Signed by Musk/Huang/Pichai/Amodei, OpenAI Pulls GPT Astra 6.1 on Safety Grounds",
     "date": "2026-09-29T20:00:00-05:00",
