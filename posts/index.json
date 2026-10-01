@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-01-close-brief",
+    "title": "Market Close Brief — October 1, 2026: Fed Odds Swing Dovish (37% Hike vs. 65% Last Week), SMH Leads on Semis Strength, Trump Floats Government Stakes in OpenAI/Anthropic",
+    "date": "2026-10-01T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Mixed, low-drama close: SMH (+1.45%) and PLTR (+1.60%) led, GOOG (-1.70%) lagged on lingering Gemini 4 Argon skepticism. Crypto modestly higher (BTC $84.8K, ETH $2,699, SOL $118). Biggest story: prediction markets repriced October Fed-hike odds from ~65% down to 37% in under a week. Trump floated Intel-style government equity stakes in OpenAI and Anthropic. OpenAI's GPT-6.1 Sol (+ 'Dots' agents) and Tavus's Turing-test-passing 'Griffin' video model were the AI headlines. Kalshi traders price Tesla's Friday delivery report at ~481K, above the 461K Street consensus. Financials flagged for a steep peak-to-trough drawdown; NKE reports after today's close with an 8.8% implied move."
+  },
+  {
     "id": "2026-10-01-morning-brief",
     "title": "Morning Market Brief — October 1, 2026: Gemini 4 Argon Pops Google Premarket, Micron Guide-Above Lifts Semis, Fed Still Prices 35% Hike Odds",
     "date": "2026-10-01T07:30:00-05:00",
