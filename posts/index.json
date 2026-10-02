@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-02-close-brief",
+    "title": "Market Close Brief — October 2, 2026: TSLA Delivery Beat Sparks +4.66% Pop, Semis Lead, VIX Crushed Again",
+    "date": "2026-10-02T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Soft September jobs data (+29K vs ~85K est) pulled yields down and sparked a broad rally into the close: TSLA +4.66% on a Q3 delivery beat (486,532 vs ~463,761 est), TXN +4.28%, AMD +2.94%, SMH +2.09% as semis lead. SPY/QQQ near ATHs; PLTR the lone red name (-0.66%). Crypto flat (BTC -0.46%, ETH -1.23%, SOL -0.29%) as capital rotates into equities. Fed October odds stay hawkish (82% hold, 18% hike, <2% cut); government shutdown priced at just 1%. Google's Gemini 4 Argon keeps leading the AI-model narrative against OpenAI's cost-down GPT-6.1 Sol; Tesla confirms Optimus chip memory cuts to scale production toward 2,500 units/week."
+  },
+  {
     "id": "2026-10-02-morning-brief",
     "title": "Morning Market Brief — October 2, 2026: Jobs Report Day, Gemini 4 Argon vs. Alphabet's $3.2B Legal Overhang, Fed Hike Odds at 25%",
     "date": "2026-10-02T07:30:00-05:00",
