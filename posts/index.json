@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-06-close-brief",
+    "title": "Market Close Brief — October 6, 2026: S&P 500 Tops 7,800 for the First Time, AMD Rips +3.9% to a Record, Fed Hike Odds Collapse to 17%",
+    "date": "2026-10-06T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "The S&P 500 closed above 7,800 for the first time and the Nasdaq Composite hit a fresh record as the 10-year yield eased off a 24-year high. AMD (+3.9%) and NVDA (new 52-week high) led tech, with TSLA also up 2.2%; crypto was flat-to-mixed with SOL the lone laggard. The week's biggest prediction-market move: Fed 'hike on Oct 28' odds collapsed from 43% to 17%. OpenAI's cheaper GPT-6.1 Sol and Mistral's 1T-parameter open-weight Large 4 ('Le Chonk') were the AI model headlines; Unitree cut H1 pricing to push humanoid-robot adoption. Penguin Solutions beat and raised after the close, with Constellation Brands, Neogen, Worthington Steel, and Saratoga Investment also reporting tonight."
+  },
+  {
     "id": "2026-10-06-morning-brief",
     "title": "Morning Market Brief — October 6, 2026: SPY Logs All-Time-High Close, AMD Crosses $1T Market Cap, AI Agent Platform War Heats Up",
     "date": "2026-10-06T07:30:00-05:00",
