@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-07-morning-brief",
+    "title": "Morning Market Brief \u2014 October 7, 2026: Semis Give Back Gains, Crypto Sells Off >3%, SpaceX Seeks $40B for Nvidia Chips",
+    "date": "2026-10-07T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "A give-back morning after a blistering October rally: SPY/QQQ/SMH are all red premarket, led by semis (-1.97%) as AMD/NVDA cool off from their $1T/$6T market-cap milestones. BTC, ETH, and SOL are all down >3% overnight (ETH -5%), a real risk-off divergence from equities. SpaceX is reportedly seeking $40B in debt to buy Nvidia AI chips, tightening the Tesla-SpaceX-Nvidia narrative thread. Mistral's trillion-parameter open-weight 'Le Chonk' is the AI model story of the week; humanoid robots had a big week too (Figure's viral stunt, Astribot's $18K US debut, China's fully-domestic-architecture robot). Kalshi (80%) and Polymarket (63%) diverge on Tesla-SpaceX merger odds before end-2027."
+  },
+  {
     "id": "2026-10-06-evening-brief",
     "title": "Evening Brief \u2014 October 6, 2026: Mistral Drops a 1T-Parameter Open Model, Fed Hold Odds Firm Up, NVDA Nears $6T",
     "date": "2026-10-06T20:00:00-05:00",
