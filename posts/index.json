@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-07-close-brief",
+    "title": "Market Close Brief \u2014 October 7, 2026: 10-Year Yield Nears 5.3%, TXN Drops -2.78%, Crypto Extends Risk-Off Slide",
+    "date": "2026-10-07T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A red-ish, yield-driven session: the 10-year Treasury yield pushed toward 5.3%, and semis took the brunt \u2014 SMH fell -1.18% and TXN was the day's worst major mover at -2.78%. TSLA, NVDA, and AMD gave back a little after the week's record run; AAPL, GOOG, and PLTR eked out small gains. Crypto extended its multi-day risk-off slide (BTC -2.45%, ETH -4.38%, SOL -3.82%). Fed October hold odds steady at ~83-84%. Busy earnings slate after the close: PepsiCo, Levi's, Tilray, Applied Digital, Helen of Troy."
+  },
+  {
     "id": "2026-10-07-morning-brief",
     "title": "Morning Market Brief \u2014 October 7, 2026: Semis Give Back Gains, Crypto Sells Off >3%, SpaceX Seeks $40B for Nvidia Chips",
     "date": "2026-10-07T07:30:00-05:00",
