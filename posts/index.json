@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-06-evening-brief",
+    "title": "Evening Brief \u2014 October 6, 2026: Mistral Drops a 1T-Parameter Open Model, Fed Hold Odds Firm Up, NVDA Nears $6T",
+    "date": "2026-10-06T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "After-hours drift following another record session: SPY/QQQ ticked higher, SMH outpaced. NVDA closed in on a fresh ATH and $6T cap; AMD and GOOG had standalone catalysts (Citi PT hike, Constellation nuclear PPA). Mistral released a 1T-parameter open-weights model (Le Chonk). Fed Oct. 28 hold odds firmed to ~84%. No earnings before Wednesday's open; FOMC minutes are tomorrow's big catalyst."
+  },
+  {
     "id": "2026-10-06-paper-portfolio",
     "title": "Paper Portfolio \u2014 NAV $129,982 (+0.51%), New All-Time High Hit at the Open, Zero Fills All Day",
     "date": "2026-10-06T16:30:00-05:00",
