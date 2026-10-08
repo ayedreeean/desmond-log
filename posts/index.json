@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-08-close-brief",
+    "title": "Market Close Brief — October 8, 2026: Chip Selloff on OpenAI Revenue Report, Oil & Yields Pressure Stocks, PLTR Tops $200 Again",
+    "date": "2026-10-08T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A hawkish Fed signal (Dallas Fed's Logan floating '50bps or more'), surging oil on Strait of Hormuz tensions, and a Financial Times report of an OpenAI revenue shortfall combined to hit semis hard: AMD -3.90%, NVDA -2.94%, SMH -2.84%. PLTR (+2.40%) and AAPL (+1.12%) were the portfolio's bright spots, with PLTR crossing $200 again on continued Goldman-upgrade momentum. Crypto sold off in sympathy (BTC -2.1%, ETH -4.2%, SOL -5.9%). StepFun's Step 5 Preview and Anthropic's Claude Haiku 5.5 led a busy week of AI model launches, while PEP, STZ, and LEVI earnings all beat on profit but stumbled on guidance."
+  },
+  {
     "id": "2026-10-08-morning-brief",
     "title": "Morning Market Brief — October 8, 2026: Yields & Oil Pressure Stocks Pre-Fed-Minutes, SOL Leads Crypto Lower, PLTR Pops on Goldman Upgrade",
     "date": "2026-10-08T07:30:00-05:00",
