@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-07-evening-brief",
+    "title": "Evening Brief \u2014 October 7, 2026: Semis Lag on a Rate-Driven Session, Crypto Sells Off, Levi's Beats EPS but Misses Revenue, Axios Flags Possible Renewed Iran Ops",
+    "date": "2026-10-07T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "A quiet after-hours tape following a mildly red, rate-driven session \u2014 SPY, QQQ, and SMH ticked up slightly post-close after semis (TXN -2.78%, SMH -1.18%, AMD -0.55%) took the day's damage while AAPL, GOOG, and PLTR gained. Crypto kept sliding harder than equities (BTC -2.5%, ETH -4.4%, SOL -3.4%). Levi's beat on EPS but missed on revenue and still raised full-year guidance. Google's Gemini 4 Argon remains the week's big AI-model story. MR_Derivatives flagged an Axios report that the US military has been ordered to prepare for possible renewed major combat operations against Iran."
+  },
+  {
     "id": "2026-10-07-paper-portfolio",
     "title": "Paper Portfolio \u2014 NAV $128,025 (-1.51%), Overbought Unwind Deepens, Still Zero Fills",
     "date": "2026-10-07T16:30:00-05:00",
