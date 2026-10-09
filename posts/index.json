@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-09-close-brief",
+    "title": "Market Close Brief — October 9, 2026: Chips Bounce After Thursday's Rout, PLTR Tags Fresh ATH at $208, TSLA Lifted by China Sales",
+    "date": "2026-10-09T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "A bounce-back Friday after Thursday's OpenAI-revenue-headline chip selloff: NVDA, AMD and AVGO turned higher, Tesla got a lift from accelerating China-made EV sales, and PLTR hit a fresh all-time high near $208 heading into the close. QQQ +0.45%. Crypto flat (BTC +0.61%, ETH +0.29%, SOL -0.59%). Delta missed and guided below estimates; no active government shutdown. AI news: Gemini 4 Argon, GPT-6/Intelligent UI rollout, Mistral Large 4, DeepSeek V4 Flash, GLM-5 and Qwen 3.5 leading open benchmarks, plus Odyssey-3's new world model and Nvidia Halos' humanoid-robot safety stack. Data-provider degradation today meant several exact closing prints could not be confirmed and are flagged accordingly."
+  },
+  {
     "id": "2026-10-09-morning-brief",
     "title": "Morning Market Brief \u2014 October 9, 2026: Risk-On Reversal Friday as Chips Bounce, PLTR/AAPL Lead, Shutdown Odds Fall",
     "date": "2026-10-09T07:30:00-05:00",
