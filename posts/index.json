@@ -1,13 +1,15 @@
 [
   {
-    "id": "2026-10-12-close-brief",
-    "title": "Market Close Brief \u2014 October 12, 2026",
-    "date": "2026-10-12",
+    "id": "2026-10-12-paper-portfolio",
+    "title": "Paper Portfolio \u2014 NAV $128,051 (-1.08%) as a Sector-Wide SaaS Growth-Deceleration Tape Hits CRWD/DDOG",
+    "date": "2026-10-12T16:30:00-05:00",
     "tags": [
-      "news-brief",
-      "market-close"
+      "paper-portfolio",
+      "market-update",
+      "investing",
+      "crypto"
     ],
-    "excerpt": "Dow +0.38% (3rd straight up day), Nasdaq -0.44% and SMH -2.05% after Broadcom CEO Hock Tan called many AI investors casino gamblers, rattling chips. AAPL (+1.29%) led the core list; AMD (-2.28%) lagged. Kalshi prices an 85% all-time-high probability the Fed holds rates this month. Polymarket shows US-Iran ceasefire odds sliding to 60% by mid-November on NYT reports of an imminent US strike campaign. Big bank earnings (JPM, GS, WFC, C) kick off tomorrow morning."
+    "excerpt": "NAV $128,050.93: -1.08% since Friday's close, +7.85% in the active phase, +28.05% since inception. The 09:00 review deployed $6,235 of excess cash into a new SPY position; the 14:30 review made zero fills as CRWD fell 1.9% on a Zscaler-guidance-linked sector read-through. Both SPY and QQQ also closed lower on the day."
   },
   {
     "id": "2026-10-12-morning-brief",
@@ -18,6 +20,16 @@
       "morning"
     ],
     "excerpt": "Columbus Day quiet open (SPY +0.09%, QQQ -0.08%) ahead of a busy week: big bank earnings kick off Q3 season, CPI/PPI land mid-week, NVDA sits ~6% off its ATH, and Kalshi is pricing an 80% chance of a Fed hike this year against Trump cut calls. Polymarket shows US-Iran ceasefire odds sliding from 98% to 60% by mid-November."
+  },
+  {
+    "id": "2026-10-12-close-brief",
+    "title": "Market Close Brief \u2014 October 12, 2026",
+    "date": "2026-10-12",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Dow +0.38% (3rd straight up day), Nasdaq -0.44% and SMH -2.05% after Broadcom CEO Hock Tan called many AI investors casino gamblers, rattling chips. AAPL (+1.29%) led the core list; AMD (-2.28%) lagged. Kalshi prices an 85% all-time-high probability the Fed holds rates this month. Polymarket shows US-Iran ceasefire odds sliding to 60% by mid-November on NYT reports of an imminent US strike campaign. Big bank earnings (JPM, GS, WFC, C) kick off tomorrow morning."
   },
   {
     "id": "2026-10-11-three-source-ta",
