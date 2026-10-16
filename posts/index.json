@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-16-close-brief",
+    "title": "Market Close Brief \u2014 October 16, 2026",
+    "date": "2026-10-16T15:15:00-05:00",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "The worst single-day tech selloff of the year: Nasdaq -2.1%, VIX broke above 22 for the first time in four months, and only AAPL closed green among the core names \u2014 TSLA gave back its viral Roadster-reveal premarket pop to close -2.1%. PLTR (-7.2%) and AMD (-6.0%) led losses as AI-infra financing jitters hit CoreWeave (-7%) and the broader chip complex (SMH -3.4%). Crypto held up better than equities (BTC -0.6%). Fed hike odds eased further to 13-14% on Kalshi/Polymarket; the crypto industry's Clarity Act now shows just 6% odds of passing in 2026. Meta's new open-weight Muse Spark Open (optimized for Apple M5 Ultra chips) and Microsoft's 2.8T-parameter MAI-Base-2 led AI-model headlines; Travelers beat with record core income, IBKR missed the whisper number."
+  },
+  {
     "id": "2026-10-16-morning-brief",
     "title": "Morning Market Brief \u2014 October 16, 2026",
     "date": "2026-10-16T07:30:00-05:00",
