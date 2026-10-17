@@ -1,88 +1,88 @@
-# Evening Brief — October 15, 2026
+# Evening Brief — October 16, 2026
 
-**8:00 PM CT (9:00 PM ET) · Thursday**
+**8:00 PM CT (9:00 PM ET) · Friday**
 
-The hot-CPI hangover is now a three-day story. Thursday's data dump — PPI +1.3% m/m (vs +0.5% forecast), retail sales +0.8% (vs +0.3% forecast), both uncomfortably hot — kept Fed rate-*hike* odds elevated and extended the AI-funding-bubble selloff into Asia overnight, where SK Hynix, Samsung, and SoftBank all got hit. The pain moderated some versus Wednesday's rout (SPY/QQQ actually ticked green into the close), but semis logged another red session — Mr. Derivatives flagged SMH/SOXX closing in on their 9th straight losing day. Alcoa beat after the bell; Interactive Brokers and J.B. Hunt did not impress. Google's new Gemini 4 Argon (1M output tokens) and a fresh Meta open-weight model built for Macs were the AI headlines.
+The worst week for tech since April closed with a real split tape. Nasdaq Composite -2.14% to 26,140.03 (Nasdaq 100 -2.50%), S&P -1.09% to 7,659.44, Dow only -0.34% to 52,002.41 — AI-debt jitters hammered chips again (AMD -5.95%, Intel -5.79%, Micron -5.6%) while AAPL quietly closed at a fresh **all-time high** ($343.46) on iPhone-duo preorder strength. QQQ finished the week **-5.52%**, its worst weekly drawdown since April 2025; SMH/SOXX notched a **9th straight losing day** — tied for the longest streak in the ETF's 26-year history, on the 3rd-highest weekly red volume ever. Crypto mostly shrugged it off. Overnight, Fed Chair Kevin Warsh's refusal to prejudge the October meeting at a Bangkok fireside chat sent "no-hike" odds on Kalshi/Polymarket jumping to ~88% from ~72% a month ago. No earnings tonight for the watchlist — TSLA and TXN both report Oct. 21.
 
 ---
 
 ## After-Hours Portfolio
 
-| Ticker/ETF | Prev Close | Current/AH | Change |
+| Ticker/ETF | Today's Close | Change | Note |
 |---|---|---|---|
-| TSLA | $367.16 | $362.44 | **-1.29%** |
-| NVDA | $221.30 | $217.23 | **-1.84%** |
-| TXN | $280.65 | $279.12 | **-0.55%** |
-| PLTR | $200.97 | $200.50 | **-0.23%** |
-| GOOG | $343.65 | $344.91 | **+0.37%** |
-| AAPL | $342.96 | $342.00 | **-0.28%** |
-| AMD | $570.82 | $562.23 | **-1.51%** |
-| QQQ | $728.95 | $728.00 | **-0.13%** |
-| SPY | $769.60 | $771.79 | **+0.29%** |
-| SMH | $564.74 | $558.84 | **-1.05%** |
+| AAPL | $343.46 | **ATH** | Fresh all-time high on iPhone Duo preorder surge |
+| GOOG/GOOGL | $340.59 | **-2.47%** | Caught in the broader AI-capex selloff |
+| AMD | — | **-5.95%** | Led chip losses alongside Intel (-5.79%), Micron (-5.6%) |
+| QQQ | — | **-2.50%** (day) / **-5.52%** (week) | Worst weekly drawdown since April 2025 |
+| SMH | — | down | 9th straight red session — tied longest streak in 26-yr history |
+| SPY | — | **-1.09%** (S&P day) | Still green for the month per @Mr_Derivatives; RSP (equal-weight) held up better |
+| TSLA | — | n/a tonight | No fresh AH print surfaced; Q3 earnings land after close **Wed Oct 21** |
+| NVDA | — | n/a tonight | Trading in sympathy with the broader chip rout, no isolated headline |
+| TXN | — | n/a tonight | Also reports Q3 after close **Wed Oct 21**, same day as TSLA |
+| PLTR | — | n/a tonight | No isolated catalyst found; moving with AI-infra sentiment |
 
-Semis (NVDA, AMD, SMH) stayed the weak links, but the bleeding slowed versus Wednesday's much sharper drop. SPY and QQQ actually firmed into the after-hours tape — a sign dip-buyers showed up even as the macro narrative (hotter inflation, hawkish Fed repricing) stayed intact. GOOG was the lone standout green name on the watchlist, helped by the Gemini 4 Argon launch.
+Chips remain the epicenter — this is now a multi-week "AI-debt-and-capex-worries" rotation, not a one-day wobble. AAPL is the standout: it's the rare mega-cap actually grinding to new highs while the rest of the group bleeds. Couldn't source clean standalone after-hours prints for TSLA/NVDA/TXN/PLTR tonight (feed limitations) — nothing suggests an isolated move away from the sector trend for any of them.
 
 ## Crypto Pulse
 
-| Asset | Prev Close | Current | Change |
-|---|---|---|---|
-| BTC | $82,132 | $82,254 | **+0.86%** |
-| ETH | $2,440 | $2,439 | **+0.96%*** |
-| SOL | $105.33 | $105.49 | **+1.51%** |
+| Asset | Price (approx.) | vs. Close |
+|---|---|---|
+| BTC | ~$81,500–$81,900 | roughly flat to -1% |
+| ETH | ~$2,410–$2,470 | +0.3% to +1% |
+| SOL | ~$105–$107 | roughly flat |
 
-*(ETH essentially flat; % reflects intraday rounding.)*
-
-Crypto stabilized and bounced modestly tonight after Wednesday's sharper slide (BTC had dipped to ~$81.5K) — majors are decoupling a bit from the equity weakness rather than amplifying it, the opposite of what happened earlier this week.
+Crypto continues to decouple from the equity carnage — majors are basically rangebound while Nasdaq just logged its worst week since April. No violent moves since the close; this looks like quiet consolidation rather than a reaction to the tech selloff.
 
 ## Prediction Markets
 
-- **Fed October decision:** Polymarket pricing **~71% no-change / 28% a 25bp hike** (Kalshi tracking the same ~71-72% hold). Hike odds have stayed elevated off today's hot PPI/retail-sales prints — a notable shift from the near-record 85% hold-odds reading just a few days ago.
-- **2026 Midterms:** Polymarket's Senate dashboard has James Talarico (D) at **63%** to flip Texas, Troy Jackson (D) **60%** in Maine, Abdul El-Sayed (D) **70%** in Michigan — Democrats favored across most of the competitive map.
-- No major Elon-specific, crypto-regulation, or shutdown-odds markets showed fresh overnight swings beyond the Fed-hike drift above; Kalshi's markets page sat behind a bot-check wall for direct browsing tonight, so figures above are sourced from Polymarket's live homepage plus secondary reporting.
+- **Fed October decision — big overnight shift:** Kalshi/Polymarket "no rate change" odds jumped to **~87–89%** (vs. ~72% roughly a month ago) after Fed Chair Kevin Warsh declined to prejudge the meeting at a Bangkok fireside chat. Markets read that as dovish-by-omission. "25bp hike" sits around 11-14%; a cut or 50bp move is essentially priced at zero.
+- **Government shutdown:** Resolved. Polymarket's "When will the government shutdown end?" market is pricing **100% on "October 15 or later"** — i.e., the shutdown that began around the Oct. 1 fiscal deadline has already ended as of this week.
+- **2026 Midterms:** Democrats remain favored across most competitive Senate seats — Talarico (TX) 63%, Jackson (ME) 60%, El-Sayed (MI) 70%, Brown (OH) 65%, Peltola (AK) 74% — while Republicans hold Iowa (Hinson 59%) and Kansas (Marshall 64%).
+- No fresh overnight swings found specifically on TSLA/Elon markets, AI-policy contracts, or crypto-regulation odds beyond the Fed repricing above.
 
 ## AI Models & Releases
 
-- **Google — Gemini 4 Argon (Oct 14):** New flagship claims up to **1M output tokens in a single run** — competitors top out near 128K — aimed at long code migrations and multi-step agentic workflows. Priced $1 in / $5 out per million tokens.
-- **Meta — open-weight model for Macs (today):** TechCrunch reports Meta shipped a new open-weight model ("Muse Spark Open") specifically tuned to run on Apple Silicon — a notable local/edge-deployment play.
-- **Qwen3.6-27B:** Alibaba's Qwen team released a dense 27B model focused on coding/agentic workloads, Apache 2.0 licensed.
-- **Qwen-Image-2.1:** Open-sourced unified text-to-image generation + editing model from the Qwen family.
-- **Smaller releases today:** Moondream 3.1 (9B-A2B) vision-language model and NVIDIA Nemotron 3.5 Super VL (free tier), both live on OpenRouter.
+- No single brand-new model dropped today specifically, but the frontier race keeps accelerating: **OpenAI** is running GPT-6 Astra/Sol/Luna plus GPT-6.1 Sol (1.05M-token context) and "dots," its always-on agent product, alongside a $500/mo ChatGPT Pro tier.
+- **Anthropic's** current lineup — Claude Opus 5.5, Sonnet 5.5, Fable 5.1, Haiku 5.5 — all run 1M-token context windows; Sonnet 5.5 sits 2nd on the Intelligence Index at 56.0 ($2/$10 per-million pricing).
+- **Google's** Gemini 4 Argon remains in limited access while Gemini 3.5 Pro stays delayed — a notable gap versus the OpenAI/Anthropic cadence right now.
+- Tracker sites flag OpenAI's next release is cadence-expected around **Monday, Oct 19** based on recent release gaps — worth watching into next week.
 
 ## AI Frontier (Use Cases)
 
-- **Tesla robotaxi:** Per Ashok Elluswamy, Cybercabs have scaled to **300+ in Austin — an 8x increase in 30 days** — with Dallas next. Two years to the day since the original 10/10 WeRobot Cybercab reveal.
-- **Humanoid robotics state of play:** Tesla Optimus still has no public preorder/price as of this week (Musk has said public sale by end of 2027). Unitree is targeting ~20,000 humanoid deliveries in 2026 with its G1 starting at $13.5K; Boston Dynamics is eyeing its first external Atlas customers in early 2027 with Georgia Metaplant production in 2028.
-- **Compute buildout:** Jensen Huang said Nvidia now counts SpaceX among its cloud-provider customers; Musk is targeting **10+ gigawatts of compute by end of 2027**. Huang also said Grok usage is "skyrocketing."
-- **Agentic AI in science:** Argonne National Lab's SYNAPS-I demonstrated an agentic natural-language layer steering live X-ray/microscopy experiments — a concrete step for AI agents running physical-science instrumentation, not just software tasks.
+- **Tesla robotaxi:** Per Ashok Elluswamy, Cybercabs have scaled to **300+ in Austin — an 8x increase in 30 days** — with Dallas coming next. Two years to the day since the original 10/10 WeRobot Cybercab reveal.
+- **Optimus / world models:** Elon says Digital Optimus can now play roughly halfway through the Diablo campaign purely by watching the screen "like a human" — vision-based learning progress Ashok called "sci-fi company" territory.
+- **Humanoid landscape check-in:** Figure AI sits at a ~$39B valuation with its Figure 03 fleet commercially deployed on BMW's largest plant (~$25/robot-hour billing); 1X's OpenAI-backed NEO has 10,000+ home pre-orders at ~$20K with deliveries targeted by year-end; Boston Dynamics' Atlas is in enterprise pilots; Unitree's G1 retails around $17,990.
+- **Karpathy's viral framing** (resurfaced this week): roughly 75% of people have barely touched an LLM, ~20% are casual free-tier users, ~0.2% (≈20M) are professional frontier math/code users, and a sliver of ~5,000 people with internal frontier access are already watching agent swarms do months of work in days. The gap in understanding AI capability, he argues, is widening fast — not narrowing.
 
 ## Earnings Recap
 
-- **Alcoa (AA):** Adjusted EPS **$1.82 vs. $1.47 consensus** — solid beat, shares **+2% after hours**.
-- **Interactive Brokers (IBKR):** Adjusted EPS **$0.67 vs. $0.68 consensus** — narrow miss, shares **-1%**.
-- **J.B. Hunt (JBHT):** Beat headline estimates per Earnings Whispers, but shares still fell **-2.3% after hours** — guidance/outlook likely the drag.
-- Context from earlier this week: **TSM's** narrow EPS beat masked margin pressure from the N2 node ramp — still the swing factor markets are watching into TXN's own Oct. 21 print.
+- **No earnings released after close tonight** for the watchlist. TSLA and **TXN both report Q3 after close next Wednesday, Oct. 21** — same session, a notable scheduling overlap for the two.
+- This week's prints: **Interactive Brokers (IBKR)** matched consensus adjusted EPS ($0.67) but missed the Earnings Whisper number ($0.69) as trading activity cooled; **Alcoa (AA)** and **J.B. Hunt (JBHT)** both beat; **Ericsson** jumped +11.2% on a Q3 beat (18¢ vs. 14¢ est.).
+- @eWhispers' stat of the week: stocks that **missed** their Whisper grade averaged **-7.6%** on the post-earnings open; "Strong" grades averaged **+2.0%**; "A+" grades averaged **+4.6%** — stock selection still mattered even in a down-breadth tape.
 
-## Tomorrow's Watch (Friday, Oct. 16)
+## Tomorrow's Watch
 
-- **Econ data:** Import/Export Prices (8:30 AM ET) and Industrial Production/Capacity Utilization (9:15 AM ET) are the main scheduled releases. The U.S. government budget balance also printed a much wider **-$167B** deficit tonight vs. a **-$25B** forecast — worth watching for follow-through commentary.
-- **Earnings before the open:** A heavy regional-bank/insurer slate — **Travelers (TRV), Truist (TFC), M&T Bank (MTB), Regions Financial (RF), Citizens Financial (CFG), Washington Federal (WAFD), Independent Bank (INDB), Cohen & Steers (CNS), Simmons First (SFNC)**, plus WSE, LOOP, and LADR — per @eWhispers.
-- Watch whether today's partial stabilization in SPY/QQQ holds through Friday's open, or whether the Fed-hike repricing (28% on Polymarket) keeps leaning on richly-valued AI/semis names.
+Markets are closed over the weekend — here's the setup for next week:
+- **Monday, Oct 19:** Fifth Third Bancorp (FITB) earnings before the open.
+- **Tuesday, Oct 20:** A heavy slate — GE Aerospace, RTX, 3M, General Motors, Northrop Grumman, Halliburton, **Netflix (NFLX)**, Intuitive Surgical, Chubb, Capital One, United Airlines — plus September housing starts and building permits.
+- **Wednesday, Oct 21:** The big one — **TSLA and TXN both report Q3 after close.** Tesla consensus is running ~$0.43–0.45 EPS on ~$27.8B revenue, with robotaxi/margin commentary the key watch item.
+- Bulls have a historical tailwind argument: per @Mr_Derivatives, the four prior weeks with the highest weekly red volume in SOXX's history were followed by average **+8.4%** bounces the next week. Whether semis get that bounce — after 9 straight red days — is next week's open question.
 
 ## Notable Tweets
 
-- **@elonmusk:** Teased tonight's Roadster livestream ("Success is not certain, but excitement is"), amplified Jensen Huang's comment that SpaceX has "moved from the K's to the M's" in Nvidia compute spend, and said Grok usage growth is unmatched among paid AI products.
-- **@Mr_Derivatives:** Flagged SMH/SOXX closing in on a **9th straight red session** with a "gambler's fallacy" joke about whether a green day is finally due.
-- **@karpathy:** Reposted his widely-shared essay on the "AI capability funnel" — roughly 6B people have barely touched an LLM, ~5,000 have frontier internal access, and the gap between those two groups' understanding of AI capability is widening fast.
-- **@aelluswamy (Tesla AI lead):** Cybercab update (300+ in Austin, Dallas next) and a reply to a viral Paul Graham anecdote about fully hands-off Model 3 FSD.
-- **@eWhispers:** Confirmed tonight's after-close earnings (AA beat, JBHT beat, IBKR miss) and tomorrow's before-open bank-heavy slate.
-- **@levelsio:** Mostly personal/product content tonight (a vibe-coded newsletter tool, travel notes) — nothing market-moving.
-- **@realDonaldTrump:** Only video reposts in the latest batch — no fresh text commentary on markets or policy.
+- **@Mr_Derivatives (Heisenberg):** QQQ closed the week **-5.52%**, worst since April 2025; SMH/SOXX hit a 9th straight losing day (tied-record) on the 3rd-highest weekly red volume ever — but the four prior comparable weeks averaged **+8.4%** bounces the following week. Also noted SPY stayed green for the month and RSP (equal-weight) held up better than cap-weighted SPY this week.
+- **@karpathy:** Posted an extended, widely-shared thread on the "AI capability perception gap" — the public, casual users, frontier professionals, and ~5,000 people with internal frontier access are all living in effectively different realities of what AI can do right now.
+- **@aelluswamy (Tesla AI lead):** Cybercab fleet up to 300+ in Austin (8x in 30 days), Dallas next; called Optimus's Diablo-playing progress "sci-fi company" territory.
+- **@elonmusk:** Mostly Grok/product focus tonight — Grok Bot got ~3x faster on computer tasks, pushed DM integration, and an RT about "Hagglebot" negotiating shipment delays for large clients. Nothing TSLA-stock-specific.
+- **@eWhispers:** Earnings Whisper-grade performance stats (failing grades -7.6% avg move vs. A+ +4.6%) plus recap of this week's IBKR miss / AA and JBHT beats.
+- **@levelsio:** Product/shipping content (checkout-flow tweaks, latency optimization) — nothing market-moving.
+- **@realDonaldTrump:** No fresh text commentary in the latest batch — only video reposts, nothing on markets or policy.
 
 ## Global Outlook
 
-- **Asia:** The chip-led Wall Street selloff spread overnight — SK Hynix, Samsung, and SoftBank shares all fell on renewed AI-funding-bubble worries, per CNBC. Hong Kong's Hang Seng and the UK's FTSE 100 were still higher on the session per CNN's broader snapshot, underscoring how split the tape was region to region.
-- **Europe:** The FT flagged French debt worries weighing on European equities, with "the biggest underperformance since 2010" in some corners of the market.
-- **Rates:** Oddly, Treasuries rallied even after the hot CPI/PPI prints — strategists at TD Securities called the bond-market reaction "highly counter-intuitive," with falling AI/growth stocks apparently driving safe-haven demand for bonds more than inflation data is driving yields higher. Credit markets are also showing strain: the cost of insuring some AI-exposed companies against default hit records this week.
+- **Europe & Asia:** Both closed **higher** Friday even as Wall Street's chip-led selloff deepened — a notable divergence from the US tape, suggesting the AI-capex worry is still fairly US/Nasdaq-concentrated rather than a global risk-off move.
+- **Rates/Fed:** The Warsh "no prejudging" comments out of Bangkok were the dominant overnight catalyst, repricing hike odds sharply lower (see Prediction Markets above) — a tailwind for rate-sensitive names heading into next week if it holds.
+- **Shutdown:** Resolved as of this week per prediction-market pricing (see above) — one less macro overhang heading into next week's earnings-heavy calendar.
+- No major fresh geopolitical flare-ups surfaced in tonight's scan.
 
 *— Desmond*

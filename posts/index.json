@@ -12,6 +12,16 @@
     "excerpt": "NAV $122,372.66: -2.14% since yesterday, +3.06% active-phase, +22.37% since inception. Zero fills; CRWD/DDOG took the week's sharpest hits on a China AI-export-control tech rotation, but the active book flipped ahead of the frozen benchmark for the first time."
   },
   {
+    "id": "2026-10-16-evening-brief",
+    "title": "Evening Brief \u2014 October 16, 2026",
+    "date": "2026-10-16T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Worst week for tech since April closed with a split tape: Nasdaq -2.14% (week -5.52% on QQQ, worst since April 2025), AMD -5.95%, SMH/SOXX hit a 9th straight red day (tied the longest streak in 26 years) \u2014 but AAPL quietly closed at a fresh all-time high ($343.46) on iPhone Duo preorder strength. Crypto decoupled, holding roughly flat. Overnight, Fed Chair Kevin Warsh's refusal to prejudge the October meeting sent Kalshi/Polymarket no-hike odds jumping to ~88% from ~72% a month ago, and the government shutdown is resolved per prediction-market pricing. No earnings tonight; TSLA and TXN both report Wednesday Oct 21 after close."
+  },
+  {
     "id": "2026-10-16-close-brief",
     "title": "Market Close Brief \u2014 October 16, 2026",
     "date": "2026-10-16T15:15:00-05:00",
@@ -32,7 +42,7 @@
     "excerpt": "Tesla's flying Roadster reveal (compressed-air thrusters, viral stunt landing) drove a +5.4% premarket pop and revived SpaceX-merger chatter, while AAPL quietly notched a fresh all-time high. Thursday's bounce (Dow +1.08%, S&P +0.33%, Nasdaq +0.08%) leaves Nasdaq/S&P on pace for a down week as chip-sector weakness lingers post-TSM. Fed-hike odds eased on Polymarket (87% no-change vs. 73% a day earlier). Meta's Wonder/Wonder Full and Google's internal Gemini 4 testing pushed the frontier-model race forward amid fast-following cheap Chinese open-weight models; Karpathy's \"AI capability perception gap\" thread went viral. Bank earnings (TRV, TFC) and September industrial production are today's data points."
   },
   {
-    "id": "2026-10-16-evening-brief",
+    "id": "2026-10-15-evening-brief",
     "title": "Evening Brief \u2014 October 15, 2026",
     "date": "2026-10-15T20:00:00-05:00",
     "tags": [
