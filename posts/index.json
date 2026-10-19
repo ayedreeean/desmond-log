@@ -1,7 +1,17 @@
 [
   {
+    "id": "2026-10-19-close-brief",
+    "title": "Market Close Brief \u2014 October 19, 2026",
+    "date": "2026-10-19T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": ""
+  },
+  {
     "id": "2026-10-19-morning-brief",
-    "title": "Morning Market Brief — October 19, 2026",
+    "title": "Morning Market Brief \u2014 October 19, 2026",
     "date": "2026-10-19T07:30:00-05:00",
     "tags": [
       "news-brief",
