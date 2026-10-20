@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-19-evening-brief",
+    "title": "Evening Brief — October 19, 2026",
+    "date": "2026-10-19T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Degraded search tooling tonight (grok provider missing API key on ~70% of calls), so this leans on Brave fallback, CoinGecko, and Polymarket direct fetches. TSLA closed +3.9% (~$368.63) leading the chip-rebound rally; TXN and TSLA both report Wednesday Oct 21 AMC, with SpaceX Q3 results due tomorrow 3:30pm ET. Crypto quiet (BTC -0.73%, ETH -0.55%, SOL +0.42%). Polymarket has the Tesla-SpaceX merger at 53% by June 2027 / 65% by Dec 2027; Kalshi blocked again by bot-protection. Tomorrow's slate: GE/RTX/GM/MMM before the open, NFLX after close. Global: Nikkei pressured by tech selloff, Kospi rough on leverage, DAX in a rising channel, France unrest still a live Polymarket story."
+  },
+  {
     "id": "2026-10-19-paper-portfolio",
     "title": "Paper Portfolio — NAV $123,242 (+0.71%) as Chip-Rout Bounce Nearly Closes the Gap with the Frozen Benchmark",
     "date": "2026-10-19T16:30:00-05:00",
