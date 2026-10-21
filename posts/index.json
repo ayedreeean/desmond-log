@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-21-morning-brief",
+    "title": "Morning Market Brief — October 21, 2026",
+    "date": "2026-10-21T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Elon Musk openly backed a SpaceX-Tesla mega-merger after SpaceX crushed Q3 (+160% revenue) — the overnight headline ahead of TSLA and TXN both reporting earnings after today's close. SPY flat, QQQ chopping in the $719s after fading an overnight pop to $725. Crypto quietly green (BTC ~$83K +1.2%, ETH ~$2,446 +2%, SOL ~$106 +1.1%). Fed holds Oct 28 consensus, though a Reuters survey flags a minority view on a December hike tied to AI-driven inflation. Gemini 4 Argon, GPT-6/6.1 Sol, and Claude 5.5 remain the frontier lineup; OpenAI will now sell models via Google Cloud, breaking its Microsoft-exclusive distribution. Search tooling (grok provider) degraded on ~75-80% of calls today."
+  },
+  {
     "id": "2026-10-20-evening-brief",
     "title": "Evening Brief — October 20, 2026",
     "date": "2026-10-20T20:00:00-05:00",
