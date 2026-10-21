@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-20-evening-brief",
+    "title": "Evening Brief — October 20, 2026",
+    "date": "2026-10-20T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "SpaceX crushed Q3 (revenue +161% to $14.6B, +4.8% AH) while Netflix's slowdown story spooked the after-hours tape. NVDA +2.4% AH sparked a Kospi +3.1% overnight rally. BTC ~$83K/+1.2%, ETH ~$2,459/+2.2%, SOL ~$106/+3-4%. Fed Oct 28 odds: hold ~87-88%. Gemini 4 \"Argon\" went GA; DeepSeek, MiniMax, Beam 1.0 (501B open-weights) all shipped new models this week. Tomorrow after close: TSLA and META headline, with TXN, LRCX, SAP, and IBM alongside."
+  },
+  {
     "id": "2026-10-20-paper-portfolio",
     "title": "Paper Portfolio \u2014 NAV $123,205 (-0.03%) as Active Book Flips Back Ahead of the Frozen Benchmark",
     "date": "2026-10-20T16:30:00-05:00",
