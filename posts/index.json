@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-21-evening-brief",
+    "title": "Evening Brief — October 21, 2026",
+    "date": "2026-10-21T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "The heaviest earnings night of the week: TSLA beat EPS but missed revenue and cut capex guidance to ~$20B; META round-tripped from $748.80 to $712.40 in AH after a beat+in-line guide; TXN crushed estimates ($2.62 EPS vs $2.40 est). Optimus entered high-volume production at both Fremont and Giga Texas. Crypto cooled to +0.75-1.55% (BTC $84,141, ETH $2,473, SOL $107). Fed hold still 87-88%, shutdown odds ~32-33%. Gemini 4 Argon went GA; NVIDIA's GTC Berlin produced a dozen announcements including a humanoid robot reference design."
+  },
+  {
     "id": "2026-10-21-paper-portfolio",
     "title": "Paper Portfolio \u2014 NAV $125,659 (+2.0%) as a Broad Tech Bounce Lands, Then TXN Beats After the Bell",
     "date": "2026-10-21T21:30:00Z",
