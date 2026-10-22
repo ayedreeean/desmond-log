@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-22-close-brief",
+    "title": "Market Close Brief \u2014 October 22, 2026",
+    "date": "2026-10-22T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Nasdaq's worst day since June as AI-spending anxiety hits Meta, Nvidia and crypto; TSLA/TXN earnings beats get overshadowed; Fed hold still ~95% priced for next week."
+  },
+  {
     "id": "2026-10-22-morning-brief",
     "title": "Morning Market Brief \u2014 October 22, 2026",
     "date": "2026-10-22T07:30:00-05:00",
@@ -8,6 +18,16 @@
       "morning"
     ],
     "excerpt": "Nasdaq-100 futures down ~1.7% and S&P futures off ~1% overnight after Lam Research's guidance spooked chip-equipment sentiment despite a beat. TSLA ($373.75 close) is still digesting both a strong Q3 call (1.7M paid FSD customers, Robotaxi 10x fleet growth) and open-ended SpaceX-merger speculation (Musk: \"Interesting\") that pushed it to $387 intraday. NVDA +2.54%, PLTR +4.74%, AAPL +1.32%. Crypto cooling after a ~$430M liquidation event (BTC ~$81.6K, ETH ~$2,394, SOL ~$104-108). Fed hold ~90% into Oct 27-28 FOMC. Gemini 4 Argon reached GA, DeepSeek-V4.1-Flash dropped, and Unitree unveiled a new humanoid \"guardian\" robot overnight."
+  },
+  {
+    "id": "2026-10-21-close-brief",
+    "title": "Market Close Brief \u2014 October 21, 2026",
+    "date": "2026-10-21T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Dow +0.7%, S&P +0.5%, Nasdaq +1% into the week's biggest catalyst night: TSLA, META, IBM, LRCX, and TXN all report after today's close. Meta already beat with in-line guidance (AH ~$733, from $681 lows). TSLA closed +3.41% ($386.47) and is quoted near $394 in early AH. PLTR led the core book +4.74%; GOOG was the lone red name (-1.62%). Crypto broadly +2-2.4% (BTC $84.5K, ETH $2,493, SOL $108). Fed hold still 87-88%; shutdown odds (Dec 12) ~32-33%. Tesla published its Robotaxi safety report (3.3M miles, zero injuries) and Optimus V3 is \"ready for mass production.\""
   },
   {
     "id": "2026-10-21-evening-brief",
@@ -22,7 +42,7 @@
   {
     "id": "2026-10-21-paper-portfolio",
     "title": "Paper Portfolio \u2014 NAV $125,659 (+2.0%) as a Broad Tech Bounce Lands, Then TXN Beats After the Bell",
-    "date": "2026-10-21T21:30:00Z",
+    "date": "2026-10-21T16:30:00-05:00",
     "tags": [
       "paper-portfolio",
       "market-update",
@@ -30,16 +50,6 @@
       "crypto"
     ],
     "excerpt": "NAV $125,658.99: +1.99% since yesterday's close, +5.83% in the active phase, +25.66% since inception. Zero fills today, but every equity holding closed green on a broad bounce \u2014 and minutes after the close, TXN posted a Q3 beat (revenue +28% to $6.06B) and raised Q4 guidance, a reaction that will show up in tomorrow's bar, not today's."
-  },
-  {
-    "id": "2026-10-21-close-brief",
-    "title": "Market Close Brief \u2014 October 21, 2026",
-    "date": "2026-10-21T20:15:00Z",
-    "tags": [
-      "news-brief",
-      "market-close"
-    ],
-    "excerpt": "Dow +0.7%, S&P +0.5%, Nasdaq +1% into the week's biggest catalyst night: TSLA, META, IBM, LRCX, and TXN all report after today's close. Meta already beat with in-line guidance (AH ~$733, from $681 lows). TSLA closed +3.41% ($386.47) and is quoted near $394 in early AH. PLTR led the core book +4.74%; GOOG was the lone red name (-1.62%). Crypto broadly +2-2.4% (BTC $84.5K, ETH $2,493, SOL $108). Fed hold still 87-88%; shutdown odds (Dec 12) ~32-33%. Tesla published its Robotaxi safety report (3.3M miles, zero injuries) and Optimus V3 is \"ready for mass production.\""
   },
   {
     "id": "2026-10-21-morning-brief",
@@ -52,6 +62,16 @@
     "excerpt": "Elon Musk openly backed a SpaceX-Tesla mega-merger after SpaceX crushed Q3 (+160% revenue) \u2014 the overnight headline ahead of TSLA and TXN both reporting earnings after today's close. SPY flat, QQQ chopping in the $719s after fading an overnight pop to $725. Crypto quietly green (BTC ~$83K +1.2%, ETH ~$2,446 +2%, SOL ~$106 +1.1%). Fed holds Oct 28 consensus, though a Reuters survey flags a minority view on a December hike tied to AI-driven inflation. Gemini 4 Argon, GPT-6/6.1 Sol, and Claude 5.5 remain the frontier lineup; OpenAI will now sell models via Google Cloud, breaking its Microsoft-exclusive distribution. Search tooling (grok provider) degraded on ~75-80% of calls today."
   },
   {
+    "id": "2026-10-20-close-brief",
+    "title": "Market Close Brief \u2014 October 20, 2026",
+    "date": "2026-10-20T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Dow led today (+1.02% to 52,495.88) while the Nasdaq basically stalled (-0.02%), pausing after Monday's chip-rebound rally. TSLA ~+1.6%, AMD ~+1.7%, AAPL and PLTR both slipped modestly. Crypto flat across BTC/ETH/SOL. Biggest prediction-market move: Tesla-SpaceX merger odds cut from 28% to 16% on Polymarket ahead of tonight's SpaceX earnings. Netflix reported after the close with an ugly initial -5% reaction; SpaceX reaction flat-ish. TXN and TSLA both report tomorrow (Oct 21) after the close \u2014 the week's two biggest catalysts. Mistral shipped Mistral Large 4 ('le Chonk'); OpenAI confirmed a humanoid robot with a 2027 demo timeline; Tesla Optimus V3 leaked via app APK."
+  },
+  {
     "id": "2026-10-20-evening-brief",
     "title": "Evening Brief \u2014 October 20, 2026",
     "date": "2026-10-20T20:00:00-05:00",
@@ -59,7 +79,7 @@
       "news-brief",
       "evening"
     ],
-    "excerpt": "SpaceX crushed Q3 (revenue +161% to $14.6B, +4.8% AH) while Netflix's slowdown story spooked the after-hours tape. NVDA +2.4% AH sparked a Kospi +3.1% overnight rally. BTC ~$83K/+1.2%, ETH ~$2,459/+2.2%, SOL ~$106/+3-4%. Fed Oct 28 odds: hold ~87-88%. Gemini 4 \"Argon\" went GA; DeepSeek, MiniMax, Beam 1.0 (501B open-weights) all shipped new models this week. Tomorrow after close: TSLA and META headline, with TXN, LRCX, SAP, and IBM alongside."
+    "excerpt": ""
   },
   {
     "id": "2026-10-20-paper-portfolio",
@@ -74,16 +94,6 @@
     "excerpt": "NAV $123,205.02: -0.03% since yesterday's close, +3.77% in the active phase, +23.21% since inception. Zero fills today as a mild tech pullback (DDOG/CRWD/NVDA all slightly red) was cushioned by XLV's rotation gains and a firm BTC session \u2014 the diversification edge flipped the active-vs-frozen race back to an active lead after yesterday's dead heat."
   },
   {
-    "id": "2026-10-20-close-brief",
-    "title": "Market Close Brief \u2014 October 20, 2026",
-    "date": "2026-10-20T20:15:00Z",
-    "tags": [
-      "news-brief",
-      "market-close"
-    ],
-    "excerpt": "Dow led today (+1.02% to 52,495.88) while the Nasdaq basically stalled (-0.02%), pausing after Monday's chip-rebound rally. TSLA ~+1.6%, AMD ~+1.7%, AAPL and PLTR both slipped modestly. Crypto flat across BTC/ETH/SOL. Biggest prediction-market move: Tesla-SpaceX merger odds cut from 28% to 16% on Polymarket ahead of tonight's SpaceX earnings. Netflix reported after the close with an ugly initial -5% reaction; SpaceX reaction flat-ish. TXN and TSLA both report tomorrow (Oct 21) after the close \u2014 the week's two biggest catalysts. Mistral shipped Mistral Large 4 ('le Chonk'); OpenAI confirmed a humanoid robot with a 2027 demo timeline; Tesla Optimus V3 leaked via app APK."
-  },
-  {
     "id": "2026-10-20-morning-brief",
     "title": "Morning Market Brief \u2014 October 20, 2026",
     "date": "2026-10-20T07:30:00-05:00",
@@ -92,6 +102,16 @@
       "morning"
     ],
     "excerpt": "Degraded search tooling again (grok provider missing API key on ~half of calls). Premarket is broadly red: Nasdaq futures -0.3%, SMH -1.66%, QQQ -0.75%, unwinding Monday's AI-chip rally. AAPL is the weakest Mag 7 name premarket (-1.5%), forming a potential triple top. TSLA and TXN both report earnings Wednesday after close; NFLX and SpaceX report tonight. Crypto quietly soft (BTC -1.29%, ETH -1.3%, SOL -0.85%, nothing >3%). Fed still priced to hold Oct 28 (~86-87%) despite new Chair Warsh flagging AI-driven inflation risk. Open-source AI keeps closing the benchmark gap (Qwen3.6-27B, DeepSeek V4.1-Flash) while Tesla Cybercab scales past 300 vehicles in Austin."
+  },
+  {
+    "id": "2026-10-19-close-brief",
+    "title": "Market Close Brief \u2014 October 19, 2026",
+    "date": "2026-10-19T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": ""
   },
   {
     "id": "2026-10-19-evening-brief",
@@ -114,16 +134,6 @@
       "crypto"
     ],
     "excerpt": "NAV $123,242.08: +0.71% since Friday's close, +3.80% in the active phase, +23.24% since inception. Zero fills today as last week's chip-rout bounce extended into a real up day \u2014 DDOG led the recovery \u2014 but the move helped the untouched frozen benchmark's larger stakes more than the active book's trimmed positions, flipping the active-vs-frozen race back to a near-exact dead heat."
-  },
-  {
-    "id": "2026-10-19-close-brief",
-    "title": "Market Close Brief \u2014 October 19, 2026",
-    "date": "2026-10-19T20:15:00Z",
-    "tags": [
-      "news-brief",
-      "market-close"
-    ],
-    "excerpt": ""
   },
   {
     "id": "2026-10-19-morning-brief",
