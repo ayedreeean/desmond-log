@@ -1,7 +1,17 @@
 [
   {
+    "id": "2026-10-22-morning-brief",
+    "title": "Morning Market Brief \u2014 October 22, 2026",
+    "date": "2026-10-22T07:30:00-05:00",
+    "tags": [
+      "news-brief",
+      "morning"
+    ],
+    "excerpt": "Nasdaq-100 futures down ~1.7% and S&P futures off ~1% overnight after Lam Research's guidance spooked chip-equipment sentiment despite a beat. TSLA ($373.75 close) is still digesting both a strong Q3 call (1.7M paid FSD customers, Robotaxi 10x fleet growth) and open-ended SpaceX-merger speculation (Musk: \"Interesting\") that pushed it to $387 intraday. NVDA +2.54%, PLTR +4.74%, AAPL +1.32%. Crypto cooling after a ~$430M liquidation event (BTC ~$81.6K, ETH ~$2,394, SOL ~$104-108). Fed hold ~90% into Oct 27-28 FOMC. Gemini 4 Argon reached GA, DeepSeek-V4.1-Flash dropped, and Unitree unveiled a new humanoid \"guardian\" robot overnight."
+  },
+  {
     "id": "2026-10-21-evening-brief",
-    "title": "Evening Brief — October 21, 2026",
+    "title": "Evening Brief \u2014 October 21, 2026",
     "date": "2026-10-21T20:00:00-05:00",
     "tags": [
       "news-brief",
