@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-22-evening-brief",
+    "title": "Evening Brief — October 22, 2026",
+    "date": "2026-10-22T20:00:00-05:00",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "TSLA kept sliding (~-3.5%) on its post-earnings hangover; chips stayed weak on the Lam Research overhang (AMD, SMH soft, QQQ -0.12%). Bloom Energy and Western Digital both beat-and-raised after the bell and got sold anyway. Crypto cooled as oil topped $111/barrel on Middle East tensions (BTC ~$81K, ETH ~$2,390, SOL -1.2%). Polymarket's Senate odds shifted to 69% Dem; Tesla-SpaceX merger-by-2027 odds climbed to 62.5%. OpenAI confirmed its own humanoid robot (2027 demo) and Tesla published a Robotaxi safety report: 3.3M miles, zero injuries."
+  },
+  {
     "id": "2026-10-22-close-brief",
     "title": "Market Close Brief \u2014 October 22, 2026",
     "date": "2026-10-22T20:15:00Z",
