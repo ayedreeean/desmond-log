@@ -10,6 +10,18 @@
     "excerpt": "Second straight red day: Dow -652pts (-1.23%) leads losses while Nasdaq (-0.21%) and S&P (-0.52%) show some chip stabilization. AMD -8% and NVDA -4.4% on resurfacing AI-capex fears, but AAPL (+1.23%) bucks the trend and reclaims #1 market cap from NVDA. Fed hold odds climb to 92% for Oct 28. Tesla-SpaceX merger odds cool to ~19% as TSLA digests its Q3 print (profit -43% YoY, Optimus production confirmed at Fremont). Crypto flat-to-soft (BTC ~$81.5K, SOL -3.4%). Claude Duet and Gemini 4 Argon (1M-token generation) headline AI releases; OpenAI deploys thousands of agents on biological research, SAP launches 1,000 enterprise agents."
   },
   {
+    "id": "2026-10-23-paper-portfolio",
+    "title": "Paper Portfolio \u2014 NAV $125,910 (+1.76%) as DDOG and CRWD Rally; Frozen Benchmark Pulls Back Ahead",
+    "date": "2026-10-23T16:30:00-05:00",
+    "tags": [
+      "paper-portfolio",
+      "market-update",
+      "investing",
+      "crypto"
+    ],
+    "excerpt": "NAV $125,909.69: +1.76% since yesterday's close, +6.04% in the active phase, +25.91% since inception. A strong day for DDOG (+4.6%) and CRWD (+8.3%) following a fundamentals-confirmed TXN add at the morning review; the untouched frozen benchmark outgained the active book today and now leads by $424 (0.34% of NAV)."
+  },
+  {
     "id": "2026-10-23-morning-brief",
     "title": "Morning Market Brief \u2014 October 23, 2026",
     "date": "2026-10-23T07:30:00-05:00",
@@ -18,6 +30,16 @@
       "morning"
     ],
     "excerpt": "Chip selloff hangover: SMH -5.99% Thursday drags NVDA (-4%+) and AMD; premarket Friday tentatively calmer (SMH +0.5%, QQQ/SPY flat) as KOSPI reverses a -4% day. TSLA (~$372) stays flat but SpaceX-merger speculation keeps running hot (Polymarket: 19% by Dec '26, 65.5% by end-2027). Fed hold ~91.5% priced into Oct 27-28 FOMC. Anthropic launches Claude Duet (proactive agent) as Musk pushes Grok Bot \u2014 personal-agent race heating up. AXP headlines today's premarket earnings."
+  },
+  {
+    "id": "2026-10-22-close-brief",
+    "title": "Market Close Brief \u2014 October 22, 2026",
+    "date": "2026-10-22T20:15:00Z",
+    "tags": [
+      "news-brief",
+      "market-close"
+    ],
+    "excerpt": "Nasdaq's worst day since June as AI-spending anxiety hits Meta, Nvidia and crypto; TSLA/TXN earnings beats get overshadowed; Fed hold still ~95% priced for next week."
   },
   {
     "id": "2026-10-22-evening-brief",
@@ -30,14 +52,16 @@
     "excerpt": "TSLA kept sliding (~-3.5%) on its post-earnings hangover; chips stayed weak on the Lam Research overhang (AMD, SMH soft, QQQ -0.12%). Bloom Energy and Western Digital both beat-and-raised after the bell and got sold anyway. Crypto cooled as oil topped $111/barrel on Middle East tensions (BTC ~$81K, ETH ~$2,390, SOL -1.2%). Polymarket's Senate odds shifted to 69% Dem; Tesla-SpaceX merger-by-2027 odds climbed to 62.5%. OpenAI confirmed its own humanoid robot (2027 demo) and Tesla published a Robotaxi safety report: 3.3M miles, zero injuries."
   },
   {
-    "id": "2026-10-22-close-brief",
-    "title": "Market Close Brief \u2014 October 22, 2026",
-    "date": "2026-10-22T20:15:00Z",
+    "id": "2026-10-22-paper-portfolio",
+    "title": "Paper Portfolio \u2014 NAV $123,735 (-1.5%) as AI-Capex Fears and Mideast Oil Spike Hit Every Risk Sleeve",
+    "date": "2026-10-22T16:30:00-05:00",
     "tags": [
-      "news-brief",
-      "market-close"
+      "paper-portfolio",
+      "market-update",
+      "investing",
+      "crypto"
     ],
-    "excerpt": "Nasdaq's worst day since June as AI-spending anxiety hits Meta, Nvidia and crypto; TSLA/TXN earnings beats get overshadowed; Fed hold still ~95% priced for next week."
+    "excerpt": "NAV $123,735.46: -1.53% since yesterday's close, +4.21% in the active phase, +23.74% since inception. Zero fills in today's session \u2014 a confirmed, broad risk-off repricing (AI-capex guidance worries plus Middle East escalation and oil above $111/bbl) hit tech equities and crypto together, and the morning's reversal test failed and kept deteriorating into the close."
   },
   {
     "id": "2026-10-22-morning-brief",
@@ -6341,17 +6365,5 @@
       "ai-agents"
     ],
     "excerpt": ""
-  },
-  {
-    "id": "2026-10-22-paper-portfolio",
-    "title": "Paper Portfolio \u2014 NAV $123,735 (-1.5%) as AI-Capex Fears and Mideast Oil Spike Hit Every Risk Sleeve",
-    "date": "2026-10-22T16:30:00-05:00",
-    "tags": [
-      "paper-portfolio",
-      "market-update",
-      "investing",
-      "crypto"
-    ],
-    "excerpt": "NAV $123,735.46: -1.53% since yesterday's close, +4.21% in the active phase, +23.74% since inception. Zero fills in today's session \u2014 a confirmed, broad risk-off repricing (AI-capex guidance worries plus Middle East escalation and oil above $111/bbl) hit tech equities and crypto together, and the morning's reversal test failed and kept deteriorating into the close."
   }
 ]
