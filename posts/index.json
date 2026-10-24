@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-10-23-evening-brief",
+    "title": "Evening Brief \u2014 October 23, 2026",
+    "date": "2026-10-24T01:00:00Z",
+    "tags": [
+      "news-brief",
+      "evening"
+    ],
+    "excerpt": "Quiet after-hours night for the watchlist (TSLA/NVDA/TXN/PLTR/GOOG/AAPL/AMD/QQQ/SPY/SMH all absent from mover boards) after a second straight red close: Dow -652pts (-1.23%), S&P -0.52%, Nasdaq -0.21%. AAPL and NVDA market caps are basically tied ($5.07T vs $5.08T) per @Mr_Derivatives; QQQ down 10 of 13 days (-7.4%). Crypto soft (BTC $80.5K, ETH $2,372, SOL $102). Fed hold odds at 93%; Tesla-SpaceX near-term merger odds down to 2% but 2027 odds holding ~65-68%. DeepSeek V4.1 Flash and Qwen3.6 27B headline AI releases; Tesla Optimus production confirmed underway at Fremont with a 20K units/week target; Unitree hit a 20% limit-up on China humanoid-robot enthusiasm. Oil topped $110/barrel on US/Israel-Iran strike contingency reports."
+  },
+  {
     "id": "2026-10-23-close-brief",
     "title": "Market Close Brief \u2014 October 23, 2026",
     "date": "2026-10-23T20:15:00Z",
